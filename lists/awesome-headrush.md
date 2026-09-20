@@ -47,6 +47,9 @@
 - [guitar-modeler-mcp](https://github.com/d-led/guitar-modeler-mcp) — MCP server for designing patches with AI, searching models, and generating rigs; documented support is primarily for Gigboard.
 - [HeadRush Gigboard MCP](https://github.com/d-led/guitar-modeler-mcp/tree/main/headrush-gigboard-mcp) — Specialized module for reading, writing, and generating `.rig` files for Gigboard.
 - [HeadRush AI rig builder discussion](https://www.facebook.com/groups/1006556079722543/permalink/2911068939271238/) — Community discussion about an AI builder that turns a tone description into a HeadRush rig.
+- **HeadRush Core Toolkit** — Open Claude Skill and general reference for controlling a HeadRush Core/Prime unit over its local REST API, with a database mapping all 375 official models to the real amp/cab/pedal/mic they're inspired by.
+  - [Site](https://headrush-core-toolkit.vercel.app/) — Live model reference and gallery of rigs built with the skill.
+  - [Code](https://github.com/venyavekk-dev/headrush-core-toolkit) — Source repository with the Claude Skill, model reference data, example rigs, and site code.
 
 ## Preset Packs and IRs
 
