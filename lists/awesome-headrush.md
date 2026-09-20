@@ -29,9 +29,9 @@
 
 ## Unofficial Editors
 
-- [RushLink](https://rush-link.github.io/) — Unofficial desktop companion for Prime, Core, and Flex Prime, with rig management, TonePilot, StageHand, and change history.
-- [RushLink GitHub](https://github.com/Rush-Link/rush-link.github.io) — RushLink project repository containing source code, documentation, and development materials.
-- [RushLink Releases](https://github.com/rush-link/rush-link.github.io/releases) — Downloads for desktop versions and experimental RushLink builds.
+- **RushLink** — Unofficial desktop companion for Prime, Core, and Flex Prime, with rig management, TonePilot, StageHand, and change history.
+  - [Site](https://rush-link.github.io/) — Project page for the RushLink desktop companion.
+  - [Code](https://github.com/Rush-Link/rush-link.github.io) — Source repository, documentation, and development materials, including [Releases](https://github.com/rush-link/rush-link.github.io/releases) with downloads for desktop versions and experimental builds.
 - [headrushfx-editor](https://github.com/bloodysummers/headrushfx-editor) — Open-source editor for viewing and editing HeadRush rigs and setlists; also useful for studying the file format.
 - [headrushfx-editor README](https://github.com/bloodysummers/headrushfx-editor/blob/main/README.md) — Initial documentation, limitations, usage instructions, and project status for headrushfx-editor.
 - [headrushfx-editor Releases](https://github.com/bloodysummers/headrushfx-editor/releases) — Compiled versions and downloadable packages for the open-source editor.
@@ -65,6 +65,7 @@
 - [Reddit Bass History pack](https://www.reddit.com/r/HeadRush/comments/1myv1k/new_preset_pack_the_history_of_bass_100_tones/) — Collection of 100 bass-oriented presets for Flex Prime.
 - [HeadRush subreddit](https://www.reddit.com/r/HeadRush/) — Reddit community for presets, firmware, MIDI, troubleshooting, and everyday-use discussions.
 - [HeadRush Songs](https://github.com/sud0n1m/headrush-songs) — Repository with starting points for recreating song and artist tones on Flex Prime.
+- [Headrush-MX5](https://github.com/leandro-cotti/Headrush-MX5) — Personal collection of rigs and sounds for HeadRush MX5, shared as a repository.
 
 ## NAM and TONE3000
 
@@ -72,6 +73,7 @@
 - [TONE3000 HeadRush integration](https://www.tone3000.com/blog/headrush-nam-tone3000) — Describes direct TONE3000 integration with Prime, Core, and Flex Prime.
 - [HeadRush 5.1 coverage](https://www.gearnews.com/headrush-5-1-neural-amp-modeler-and-tone3000-added-to-prime/) — Coverage of firmware 5.1, including NAM and direct access to TONE3000 tones from the device.
 - [Firmware 5.0 coverage](https://musicplayers.com/2025/12/headrush-releases-significant-5-0-firmware-update-for-prime-core-and-flex-prime/) — Overview of firmware 5.0 features, including a drum machine, TIDAL, and new models.
+- [headrush-nam-studio](https://github.com/tiagojsoares/headrush-nam-studio) — Open-source desktop suite and sound librarian for the HeadRush NAM mod (MX5, Prime, Core, Gigboard, Pedalboard): visual slot manager, integrated TONE3000 catalog search, one-click model install, and IR/backup management.
 
 ## Community and Documentation
 
