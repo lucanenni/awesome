@@ -37,6 +37,7 @@
 - [headrushfx-editor Releases](https://github.com/bloodysummers/headrushfx-editor/releases) — Compiled versions and downloadable packages for the open-source editor.
 - [headrushfx-editor Issues](https://github.com/bloodysummers/headrushfx-editor/issues) — Bug reports, feature requests, and technical discussions about the editor.
 - [HeadRush editor discussion](https://www.reddit.com/r/HeadRush/comments/1393xu3/wip_rig_and_setlist_editor_app_open_source/) — Reddit thread about developing an editor for rigs and setlists, with examples of available features.
+- [HackRush](https://www.bitropix.eu/hackrush/) — Unofficial add-on software for Prime and Core: ten browser-based apps (gig recorder/re-amp, sampler, backing tracks, MIDI foot controller, screen mirror, spectrum analyser, pitch-to-MIDI, synth) installed beside the stock firmware, reversible from the pedal's own menu.
 
 ## Preset Generators and AI
 
