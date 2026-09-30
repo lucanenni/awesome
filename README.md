@@ -15,9 +15,10 @@ Each device has its own list with official downloads/manuals, unofficial editors
 - [MOOER Prime M2](lists/awesome-mooer-prime-m2.md)
 - [Valeton GP-150](lists/awesome-valeton-gp-150.md)
 
-### Synthesizers
+### Synthesizers & MIDI Controllers
 
 - [M-VAVE FM-1](lists/awesome-mvave-fm-1.md) — Pocket FM synthesizer
+- [M-VAVE SMK-37 Elite](lists/awesome-mvave-smk-37-elite.md) — MIDI keyboard controller with built-in DX7-style FM synth engine
 
 ## Contributing
 
