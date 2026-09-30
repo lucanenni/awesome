@@ -1,17 +1,23 @@
-# Awesome Multi-Effects & Amp Modelers
+# Awesome Music Gear
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
-> A collection of curated lists ("awesome lists") of official and community resources for guitar multi-effects processors and amp modelers.
+> A collection of curated lists ("awesome lists") of official and community resources for guitar multi-effects processors, amp modelers, and synthesizers.
 
-Each device has its own list with official downloads/manuals, unofficial editors and software, preset packs and IRs, and community documentation. See the [Contributing](#contributing) section if you'd like to add a resource or a new device list.
+Each device has its own list with official downloads/manuals, unofficial editors and software, preset packs, and community documentation. See the [Contributing](#contributing) section if you'd like to add a resource or a new device list.
 
 ## Contents
+
+### Multi-Effects & Amp Modelers
 
 - [HeadRush](lists/awesome-headrush.md) — Prime, Core, and Flex Prime
 - [LIVTRA NANOCORE](lists/awesome-livtra-nanocore.md)
 - [MOOER Prime M2](lists/awesome-mooer-prime-m2.md)
 - [Valeton GP-150](lists/awesome-valeton-gp-150.md)
+
+### Synthesizers
+
+- [M-VAVE FM-1](lists/awesome-mvave-fm-1.md) — Pocket FM synthesizer
 
 ## Contributing
 
