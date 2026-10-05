@@ -19,6 +19,12 @@
 
 ## Custom Firmware
 
+- [Groove OS](https://www.groove-os.com/) — Commercial ($29) custom firmware that turns the FM-1 into an 8-track groovebox: FM plus a new virtual-analog engine, 64-step sequencer with per-step sound changes (p-locks), independent track lengths, up to 20 voices, and a stage view for live play. Installs from Chrome/Edge over USB in about 2 minutes and the original firmware can be restored at any time.
+  - [Manual](https://www.groove-os.com/manual) — Official Groove OS manual.
+  - [Learn](https://www.groove-os.com/learn) — Nine-chapter guide to building a beat from scratch.
+  - [Synth Anatomy coverage](https://synthanatomy.com/2026/10/groove-os-turns-the-m-vave-fm-1-into-an-8-track-groovebox.html) — News article on the release.
+- [Felucca](https://github.com/hugelton/Felucca) — Hügelton Instruments' custom firmware that turns the FM-1 into a multi-engine synth: nine engines, four tracks with three synth parts each, a 64-step sequencer per track, and a web editor for every parameter, step grid, mixer, and preset library. ([Synth Anatomy coverage](https://synthanatomy.com/2026/10/hugelton-instruments-felucca-custom-m-vave-fm-1-firmware-turns-it-into-a-multi-engine-synth.html), [MATRIXSYNTH](https://www.matrixsynth.com/2026/10/fm-1-custom-firmware-felucca.html))
+- [SLOOP](https://synthanatomy.com/2026/10/3dsam-sloop-custom-firmware-turns-m-vave-fm-1-into-a-4-track-groovebox.html) — 3dSam's free, open-source custom firmware that turns the FM-1 into a 4-track groovebox (Synth Anatomy coverage).
 - [FM-1+VA](https://baudgirl.com/work/FM-1+VA) — Custom firmware focused on live performance and quality-of-life features, adding a Virtual Analog engine (BLEP oscillators, Super/Drift, ZDF filter), an editable sequencer with step move/copy, and corrected DX7 patch playback (fixed operator detune, LFO speed, algorithm 4/6 feedback, and velocity-0 note-on handling). Open-source firmware, a preset/pattern manager, and a browser FM/VA editor are listed as coming soon.
 
 ## Unofficial Editors and Librarians
@@ -48,6 +54,7 @@
 
 - [Synth Anatomy review](https://synthanatomy.com/2026/07/m-vave-fm-1-review-low-budget-pocket-fm-ynthesizer-with-iconic-sounds.html) — Hands-on review of the budget pocket FM synth.
 - [Synth Anatomy: V15 update](https://synthanatomy.com/2026/07/m-vave-fm-1-a-budget-friendly-dx-7-style-desktop-fm-polysynth.html) — Coverage of the V15 firmware update and new features.
+- [Synth Anatomy: FM-1+VA](https://synthanatomy.com/2026/09/baud-girl-fm-1-va-custom-m-vave-fm-1-firmware.html) — Coverage of the Baud Girl FM-1+VA custom firmware.
 - [Synth Anatomy: patch librarian](https://synthanatomy.com/2026/07/m-vave-fm-1-patch-librarian.html) — Coverage of the browser-based patch librarian simplifying DX7 sound transfer.
 - [Synthtopia announcement](https://www.synthtopia.com/content/2026/07/13/m-vave-introduces-fm-1-fm-pocket-synthesizer/) — Introduction of the FM-1 pocket synthesizer.
 - [MATRIXSYNTH announcement](https://www.matrixsynth.com/2026/06/new-mvave-fm1-mini-fm-synthesizr.html) — Initial coverage of the FM-1.
@@ -63,7 +70,7 @@
 ## Notes
 
 - Always back up your 128 factory presets before installing custom firmware or bulk-importing SysEx banks.
-- Custom firmware (e.g. FM-1+VA) and reverse-engineered tools are unofficial and not supported by M-VAVE; read the relevant project's disclaimers before flashing.
+- Custom firmware (e.g. Groove OS, Felucca, SLOOP, FM-1+VA) and reverse-engineered tools are unofficial and not supported by M-VAVE; read the relevant project's disclaimers before flashing.
 - The FM-1's sound engine is Dexed-based, so most DX7 SysEx patches and editors work with minor caveats — check each tool's notes on send/receive support.
 
 ## Contributing

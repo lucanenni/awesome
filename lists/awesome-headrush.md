@@ -76,6 +76,12 @@
 - [Neural Amp Modeler on HeadRush](https://www.neuralampmodeler.com/post/headrush-runs-nam) — Announcement and explanation of native NAM support introduced on HeadRush devices.
 - [TONE3000 HeadRush integration](https://www.tone3000.com/blog/headrush-nam-tone3000) — Describes direct TONE3000 integration with Prime, Core, and Flex Prime.
 - [HeadRush 5.1 coverage](https://www.gearnews.com/headrush-5-1-neural-amp-modeler-and-tone3000-added-to-prime/) — Coverage of firmware 5.1, including NAM and direct access to TONE3000 tones from the device.
+- [HeadRush 5.1 update (The Noise Room)](https://www.noiseroom.com/2026/08/04/headrush-nam-tone3000-firmware/) — News on firmware 5.1 (August 2026) with NAM A2 captures from TONE3000.
+- [HeadRush 5.1 announcement (Music Instrument News)](https://www.musicinstrumentnews.co.uk/2026/08/17/headrush-announce-significant-firmware-update/) — Trade-press coverage of the 5.1 firmware update.
+- [Prime 5.1.0 update instructions (PDF)](https://cdn.inmusicbrands.com/Software/SGEE/51/READ%20ME%20-%20HeadRush%20Prime%20Firmware%20Update%20Instructions%20v5.1.0.pdf) — Official firmware 5.1.0 update instructions for Prime.
+- [Flex Prime 5.1.0 update instructions (PDF)](https://cdn.inmusicbrands.com/Software/SGEE/51/READ%20ME%20-%20HeadRush%20Flex%20Prime%20Firmware%20Update%20Instructions%20v5.1.0.pdf) — Official firmware 5.1.0 update instructions for Flex Prime.
+- [Firmware update guide (SweetCare)](https://www.sweetwater.com/sweetcare/articles/headrush-firmware-update-instructions/) — Step-by-step firmware update walkthrough for Prime, Core, and Flex Prime.
+- [Firmware 5.0 coverage (Sound On Sound)](https://www.soundonsound.com/news/headrush-introduce-major-50-firmware-update) — Overview of the 5.0 firmware update.
 - [Firmware 5.0 coverage](https://musicplayers.com/2025/12/headrush-releases-significant-5-0-firmware-update-for-prime-core-and-flex-prime/) — Overview of firmware 5.0 features, including a drum machine, TIDAL, and new models.
 - [headrush-nam-studio](https://github.com/tiagojsoares/headrush-nam-studio) — Open-source desktop suite and sound librarian for the HeadRush NAM mod (MX5, Prime, Core, Gigboard, Pedalboard): visual slot manager, integrated TONE3000 catalog search, one-click model install, and IR/backup management.
 

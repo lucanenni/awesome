@@ -24,6 +24,7 @@
 ## Documentation and Reverse Engineering
 
 - [smk-37-pro-docs](https://github.com/jonathaslacerda/smk-37-pro-docs) — Community technical documentation covering firmware (`.fwsc` format, JieLi SoC extraction), hardware (DAC, battery charger, SoC datasheets), and SysEx implementation; explicitly notes the SMK-37 Elite, MKE-P37, and Donner Starrykey 37 Play as variants sharing the same platform with differing firmware binaries.
+- [smk37-firmware-custom-mod](https://github.com/amalahama/smk37-firmware-custom-mod) — Custom firmware mods for the SMK-37 Pro platform (Woovebox 3.0 BLE-MIDI and low-latency DAW fixes), with flasher tools and a dedicated ASIO driver; written for the Pro, so check compatibility with the Elite before flashing. See also the [v022 release](https://github.com/amalahama/smk37-firmware-custom-mod/releases/tag/v022).
 - [SMK-37 Pro notes (Gist)](https://gist.github.com/probonopd/18b3ed65a69d0229eb630c47d7e316dc) — Independent technical notes on the device.
 - [JieLi new firmware format](https://kagaimiq.github.io/jielie/datafmt/newfw.html) — Background documentation on the JieLi `.fwsc` firmware format referenced by the SMK-37 reverse-engineering docs.
 

@@ -13,6 +13,7 @@
 
 - [RK5 v2 product page (archive)](https://www.tech21nyc.com/archive/rk5-2/) — Official Tech 21 product page for the RK5 v2, covering the boost/compression, OMG Overdrive with fuzz switch, SansAmp section, reverb, delay, roto (rotary speaker), tuner, headphone output, and XLR DI, plus dimensions, weight, and included power supply.
 - [RK5 v2 Owner's Manual (PDF)](https://www.tech21nyc.com/t21manuals/RK5_v2_OM.pdf) — Official owner's manual covering power requirements, signal flow, level-control/unity-gain setup, and detailed operation of the Boost & Comp, OMG Overdrive, SansAmp, and Reverb/Delay/Roto sections.
+- [RK5 v3 product page](https://www.tech21nyc.com/products/flyrig/rk5v3/) — Successor to the v2 (announced December 2024): adds a switchable pre/post boost, an effects loop, and phantom power for the RK Killer Wail wah ([Premier Guitar coverage](https://www.premierguitar.com/tech-21-richie-kotzen-rk5)).
 - [Tech 21 Videos](https://www.tech21nyc.com/tech-21-videos/) — Official video hub listing Tech 21's own RK5 v2 demos, including versions by Brett Kingman and Vince Genella, and appearances with Richie Kotzen at the Iridium (NYC) and NAMM 2020.
 
 ## Manuals and Documentation

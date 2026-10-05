@@ -7,6 +7,8 @@
 - [LIVTRA downloads](#livtra-downloads)
 - [LIVTRA NANOCORE product page](#livtra-nanocore-product-page)
 - [LIVTRA Music](#livtra-music)
+- [LIVTRA news](#livtra-news)
+- [NanoCore Editor](#nanocore-editor)
 - [ToneCommand for Android](#tonecommand-for-android)
 - [NANOCORE user manual](#nanocore-user-manual)
 - [Free NANOCORE tones video](#free-nanocore-tones-video)
@@ -31,6 +33,18 @@ Official product information covering effects, RESONA-ready captures, imports, s
 [https://livtramusic.com/](https://livtramusic.com/)
 
 Official LIVTRA site with product information for NANOCORE, MOSAIC, VELRIX, and related devices.
+
+### LIVTRA news
+
+[https://livtramusic.com/news](https://livtramusic.com/news)
+
+Official news: the VELRIX firmware and LIVTRA desktop apps added NAM A2 support (June 2026), and ToneCommand Upgrader 1.2.6 added editing for the new NANOCORE/MOSAIC firmware 1.10 effects and parameters.
+
+### NanoCore Editor
+
+[https://github.com/lucanenni/livtra-nanocore-editor](https://github.com/lucanenni/livtra-nanocore-editor)
+
+Unofficial online editor for NANOCORE, verified against real hardware with firmware 1.04 and later.
 
 ### ToneCommand for Android
 

@@ -4,6 +4,7 @@
 
 ## Contents
 
+- [MOOER Prime M2 product page](#mooer-prime-m2-product-page)
 - [MOOER Prime downloads](#mooer-prime-downloads)
 - [MOOER app downloads](#mooer-app-downloads)
 - [Prime M2 official product video](#prime-m2-official-product-video)
@@ -14,6 +15,12 @@
 - [MOOER Prime M2 manual alternative](#mooer-prime-m2-manual-alternative)
 
 ## Resources
+
+### MOOER Prime M2 product page
+
+[https://www.mooeraudio.com/products/221.html](https://www.mooeraudio.com/products/221.html)
+
+Official product page. Firmware 1.5.0 (September 2026) adds NAM A2 model loading and MOOER AI support; MOOER Studio 1.5.0 is available for Windows and Mac.
 
 ### MOOER Prime downloads
 
