@@ -14,6 +14,7 @@
 - [MOOER Prime downloads](https://www.mooeraudio.com/Downloads_xq/2.html) — Official download page for MOOER Studio, Prime firmware, and supported Prime-series devices including M2.
 - [MOOER app downloads](https://www.mooeraudio.com/companyfile/App-Downloads-155.html) — Official mobile-app download page; the Prime app supports MOOER Prime models including M2.
 - [Prime M2 news page](https://www.mooeraudio.com/news/13.html) — Official MOOER news page featuring Prime M2 information and related downloads.
+- [NAM A2 Available Now](https://www.mooeraudio.com/news/29.html) — Official MOOER announcement of NAM A2 support across its devices, with the Prime P2/M2 rollout (A2 Lite).
 
 ## Manuals
 
