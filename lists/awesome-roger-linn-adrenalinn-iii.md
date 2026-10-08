@@ -25,6 +25,9 @@
 
 ## Editor Software and MIDI Tools
 
+- **AdrenaLinn III Web Editor** — Free, MIT-licensed web editor and librarian over Web MIDI SysEx: presets, drumbeats, library, and system parameters, with nothing to install (Chrome or Edge, USB-MIDI) and offline use once loaded.
+  - [Site](https://lucanenni.github.io/adrenalinn-iii-editor/) — Hosted editor.
+  - [Code](https://github.com/lucanenni/adrenalinn-iii-editor) — Source repository.
 - [SoundTower AdrenaLinn III Editor](https://www.soundtower.com/adrenalinn3/index.html) — Official third-party editor/librarian ($39.95, Win/Mac) for preset and drum-beat editing, bank management, and single-preset load/save over MIDI; linked directly from the AdrenaLinn III product page and required for installing firmware updates.
 - [SoundTower ADIII SE v1.0–current User Guide](https://www.soundtower.com/adrenalinn/help/SoundTower_ADIIIvX_help.pdf) — PDF user guide for the SoundTower editor covering its full feature set, including drag-and-drop `.syx` file support.
 - [EurekaPROM A3 configuration](https://www.eurekasound.com/eurekaprom/a3) — $35 custom firmware/configuration for the Behringer FCB1010 pedalboard that maps five control modes to the AdrenaLinn III (effects toggling, preset/drumbeat selection, favorites, drum triggering, and expression pedals for wah/volume).
