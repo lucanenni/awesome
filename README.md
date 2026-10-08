@@ -22,6 +22,7 @@ Each device has its own list with official downloads/manuals, unofficial editors
 
 - [M-VAVE FM-1](lists/awesome-mvave-fm-1.md) — Pocket FM synthesizer
 - [M-VAVE SMK-37 Elite](lists/awesome-mvave-smk-37-elite.md) — MIDI keyboard controller with built-in DX7-style FM synth engine
+- [M-VAVE Chocolate](lists/awesome-mvave-chocolate.md) — Chocolate and Chocolate Plus wireless MIDI foot controllers
 
 ### Acoustic Pedals & DI Boxes
 
