@@ -26,9 +26,9 @@
 
 ## Unofficial Editors and Tools
 
-- **Valeton GP Explorer** — Browser-based preset editor and librarian over WebMIDI, with no vendor SDK or backend; originally built for the GP-50/GP-5, with GP-150 support (read, edit, back up, and write presets over USB) in a fork tested on real hardware.
-  - [Site](https://valeton-gp50-woad.vercel.app) — Hosted web app (original GP-50/GP-5 deployment).
-  - [Code](https://github.com/jctux/valeton-gp50) — Fork adding GP-150 support; the [original project](https://github.com/drewmerc302/valeton-gp50) targets the GP-50/GP-5.
+- **Valeton GP-150 Editor** — Browser-based preset editor and librarian over WebMIDI (Chrome/Edge, pedal on USB), with no vendor SDK or backend: reads every preset, edits blocks, models, and parameters live, renames and reorders presets and blocks, and browses SnapTone captures and IRs. A fork of the GP-5/GP-50 editor that adds GP-150 support (beta: read first and back up your presets before writing).
+  - [Site](https://lucanenni.github.io/valeton-gp150-editor/) — Hosted editor, zero setup.
+  - [Code](https://github.com/lucanenni/valeton-gp150-editor) — Source repository (MIT), forked from the [original GP-5/GP-50 project](https://github.com/drewmerc302/valeton-gp50), whose own hosted build is [valeton-gp50-woad.vercel.app](https://valeton-gp50-woad.vercel.app).
 - [Valeton GP preset sorter](https://github.com/ciyi/Valeton-GP-Preset-Sorter) — Open-source utility for reordering GP preset files before importing them with Valeton software.
 - [Custom firmware for GP-150 and GP-180](https://thegearforum.com/threads/custom-firmware-for-gp-150-and-gp-180.12050/) — Community discussion about unofficial custom firmware; unofficial and unsupported, so back up first.
 
