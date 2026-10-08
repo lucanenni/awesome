@@ -47,6 +47,7 @@
   - [Code](https://github.com/shaw-core/Sloop_ALG02) — Source repository.
 - [FM-1 B-Boy Edition](https://github.com/friendsmakenoise-prog/fm1-pocket-sampler) — Experimental sampler/groovebox firmware treating the FM-1 as a late-90s chop sampler: three sampler tracks with up to 24 chops each, linked-chop break slicing, and per-track mono/poly playback; beta, with the six-operator voice verified on hardware.
 - [SLICE64-FM](https://jeymadcat-ops.github.io/SLICE64-FM-web/) — 4-track SID / FM / sampler tracker firmware (see its web editor in [Unofficial Editors and Librarians](#unofficial-editors-and-librarians)); the editor requires firmware s1.3 or later.
+- [hardware-supersynth](https://github.com/OwenKirby/hardware-supersynth) — Custom FM-1 firmware based on the author's "supersynth" architecture. Unverified: the repository has no README or description yet, so features and installation status are unknown.
 - [FM-1+VA](https://baudgirl.com/work/FM-1+VA) — Custom firmware focused on live performance and quality-of-life features, adding a Virtual Analog engine (BLEP oscillators, Super/Drift, ZDF filter), an editable sequencer with step move/copy, and corrected DX7 patch playback (fixed operator detune, LFO speed, algorithm 4/6 feedback, and velocity-0 note-on handling). Open-source firmware, a preset/pattern manager, and a browser FM/VA editor are listed as coming soon.
 
 ## Unofficial Editors and Librarians
