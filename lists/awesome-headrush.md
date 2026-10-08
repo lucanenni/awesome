@@ -101,6 +101,7 @@
 ## Reverse Engineering and MIDI
 
 - [MPC-LiveXplore HeadRush discussion](https://github.com/TheKikGen/MPC-LiveXplore/issues/61) — Technical discussion about files, MIDI assignments, and customizing HeadRush devices.
+- [pencilresearch/midi: HeadRush](https://github.com/pencilresearch/midi/tree/main/HeadRush) — Community-maintained MIDI CC/PC definition files for HeadRush units, including Prime (`Prime.csv`, added October 2026), MX5, Gigboard, and Pedalboard.
 - [HeadRush Flex Prime FAQ / MIDI](https://support.headrushfx.com/en/support/solutions/articles/69000862403-headrush-flex-prime-frequently-asked-questions) — Detailed Flex Prime port specifications, including the mini-jack MIDI connection.
 
 ## Notes

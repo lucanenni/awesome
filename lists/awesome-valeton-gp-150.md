@@ -7,6 +7,7 @@
 - [Official](#official)
 - [Manuals](#manuals)
 - [Unofficial Editors and Tools](#unofficial-editors-and-tools)
+- [NAM and TONE3000](#nam-and-tone3000)
 - [Preset Packs](#preset-packs)
 - [Reverse Engineering](#reverse-engineering)
 - [Mirrors](#mirrors)
@@ -30,6 +31,11 @@
   - [Code](https://github.com/jctux/valeton-gp50) — Fork adding GP-150 support; the [original project](https://github.com/drewmerc302/valeton-gp50) targets the GP-50/GP-5.
 - [Valeton GP preset sorter](https://github.com/ciyi/Valeton-GP-Preset-Sorter) — Open-source utility for reordering GP preset files before importing them with Valeton software.
 - [Custom firmware for GP-150 and GP-180](https://thegearforum.com/threads/custom-firmware-for-gp-150-and-gp-180.12050/) — Community discussion about unofficial custom firmware; unofficial and unsupported, so back up first.
+
+## NAM and TONE3000
+
+- [Use TONE3000 NAM Captures on Valeton GP Pedals](https://www.tone3000.com/blog/tone3000-valeton-nam-guide) — TONE3000 guide to converting and loading NAM captures on Valeton GP pedals via SnapTone and the companion software.
+- [Valeton GP-150 and GP-180 put NAM support under $200 (Fader & Knob)](https://faderandknob.com/news/valeton-gp-150-gp-180-nam-support) — News coverage of the GP-150/GP-180 launch and their NAM support.
 
 ## Preset Packs
 
