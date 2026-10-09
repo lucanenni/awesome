@@ -47,7 +47,7 @@
 - [Headrush Help](https://headrush-help.vercel.app/) — Community guide and database of HeadRush amplifiers, cabinets, microphones, IRs, and effects.
 - [Headrush Help AI Rig Builder](https://headrush-help.vercel.app/rig-builder) — Experimental AI generator that creates `.rig` files from an artist, song, or tone description.
 - [Headrush Companion Rig Generator](https://headrush.zybler.se/rig.html) — AI generator that suggests a signal chain, models, and settings based on the requested sound.
-- [HeadRush Rig Builder](https://rigbuilder.schmalz.rocks/) — Community project for describing a tone, generating a rig, and, when supported, sending it to the device.
+- [HeadRush Rig Builder](https://rigbuilder.schmalz.rocks/) — Community project for describing a tone, generating a rig, and, when supported, sending it to the device. Installers and release notes are published in the [rigbuilder-releases](https://github.com/bschmalz81401/rigbuilder-releases) repository.
 - [guitar-modeler-mcp](https://github.com/d-led/guitar-modeler-mcp) — MCP server for designing patches with AI, searching models, and generating rigs; documented support is primarily for Gigboard.
 - [HeadRush Gigboard MCP](https://github.com/d-led/guitar-modeler-mcp/tree/main/headrush-gigboard-mcp) — Specialized module for reading, writing, and generating `.rig` files for Gigboard.
 - [HeadRush AI rig builder discussion](https://www.facebook.com/groups/1006556079722543/permalink/2911068939271238/) — Community discussion about an AI builder that turns a tone description into a HeadRush rig.
@@ -79,10 +79,13 @@
 - [Neural Amp Modeler on HeadRush](https://www.neuralampmodeler.com/post/headrush-runs-nam) — Announcement and explanation of native NAM support introduced on HeadRush devices.
 - [TONE3000 HeadRush integration](https://www.tone3000.com/blog/headrush-nam-tone3000) — Describes direct TONE3000 integration with Prime, Core, and Flex Prime.
 - [HeadRush 5.1 coverage](https://www.gearnews.com/headrush-5-1-neural-amp-modeler-and-tone3000-added-to-prime/) — Coverage of firmware 5.1, including NAM and direct access to TONE3000 tones from the device.
+- [Mixdown Magazine: new HeadRush firmware](https://mixdownmag.com.au/news/new-firmware-update-from-headrush/) — Coverage of the 5.2 update, reported to add two NAM blocks per rig, stereo and switch doubling for NAM captures, TONE3000 browsing fixes, and DSP improvements (the site blocks automated checks, so this summary comes from search results).
+- [Guitar.com: HeadRush firmware update and NAM/TONE3000](https://guitar.com/news/gear-news/headrush-firmware-update-nam-tone3000/) — News coverage of native NAM support and open-source tone captures from TONE3000.
 - [HeadRush 5.1 update (The Noise Room)](https://www.noiseroom.com/2026/08/04/headrush-nam-tone3000-firmware/) — News on firmware 5.1 (August 2026) with NAM A2 captures from TONE3000.
 - [HeadRush 5.1 announcement (Music Instrument News)](https://www.musicinstrumentnews.co.uk/2026/08/17/headrush-announce-significant-firmware-update/) — Trade-press coverage of the 5.1 firmware update.
 - [Prime 5.1.0 update instructions (PDF)](https://cdn.inmusicbrands.com/Software/SGEE/51/READ%20ME%20-%20HeadRush%20Prime%20Firmware%20Update%20Instructions%20v5.1.0.pdf) — Official firmware 5.1.0 update instructions for Prime.
 - [Flex Prime 5.1.0 update instructions (PDF)](https://cdn.inmusicbrands.com/Software/SGEE/51/READ%20ME%20-%20HeadRush%20Flex%20Prime%20Firmware%20Update%20Instructions%20v5.1.0.pdf) — Official firmware 5.1.0 update instructions for Flex Prime.
+- [Prime 5.2.0 update instructions (PDF)](https://cdn.inmusicbrands.com/Software/SGEE/52/READ%20ME%20-%20HeadRush%20Prime%20Firmware%20Update%20Instructions%20v5.2.0.pdf) — Official firmware 5.2.0 (October 2026) backup and update instructions for Prime; Core and Flex Prime updaters are on the [downloads page](https://www.headrushfx.com/downloads.html).
 - [Firmware update guide (SweetCare)](https://www.sweetwater.com/sweetcare/articles/headrush-firmware-update-instructions/) — Step-by-step firmware update walkthrough for Prime, Core, and Flex Prime.
 - [Firmware 5.0 coverage (Sound On Sound)](https://www.soundonsound.com/news/headrush-introduce-major-50-firmware-update) — Overview of the 5.0 firmware update.
 - [Firmware 5.0 coverage](https://musicplayers.com/2025/12/headrush-releases-significant-5-0-firmware-update-for-prime-core-and-flex-prime/) — Overview of firmware 5.0 features, including a drum machine, TIDAL, and new models.

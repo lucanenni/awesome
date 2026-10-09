@@ -48,6 +48,20 @@
   - [Site](https://shaw-core.github.io/Sloop_ALG02/) — Web installer and editor.
   - [Code](https://github.com/shaw-core/Sloop_ALG02) — Source repository.
 - [FM-1 B-Boy Edition](https://github.com/friendsmakenoise-prog/fm1-pocket-sampler) — Experimental sampler/groovebox firmware treating the FM-1 as a late-90s chop sampler: three sampler tracks with up to 24 chops each, linked-chop break slicing, and per-track mono/poly playback; beta, with the six-operator voice verified on hardware.
+- **Bubba Box** — GPL-3.0 groovebox firmware for live play, with a web editor, manual, and a Spanish-language sampler guide.
+  - [Site](https://erbubar23.github.io/bubba-box/) — Project page with installer, web editor, and manual.
+  - [Code](https://github.com/Erbubar23/bubba-box) — Source repository.
+- **FuMi-1** — Shigin-conductor firmware inspired by the Suiko ST-50 (a Felucca fork): the sixteen white keys play the ST-50's lower row, the black keys its upper row or koto ornaments, with adjustable key (本数), equal or just tuning, a koto plus twelve more 6-operator FM sounds, ring time, vibrato, trill, and a looper.
+  - [Site](https://cartesive.github.io/fumi-1/) — Project page.
+  - [Code](https://github.com/cartesive/fumi-1) — Source repository.
+- [fm1-chord](https://github.com/math0ne/fm1-chord) — Clean-room chord-machine firmware built on Felucca: the left white keys are the scale degrees (I to vii) and play chords, and the right white keys are an Omnichord-style strum plate for the last chord played.
+- **AMBII** — Development-preview firmware built on Melodee's synthesis and sequencing core, with a redesigned recording and editing interface. Not ready for device installation: there is no qualified release image yet.
+  - [Site](https://milkboyg.github.io/Ambii/) — Project page and documentation.
+  - [Code](https://github.com/MilkBoyG/Ambii) — Source repository.
+- [Optimist](https://github.com/w0ts/optimist) — GPL-3.0 modular firmware platform derived from SLOOP (with parts of Felucca, Melodee, and X0X) for building your own FM-1 firmware; work in progress, running on a single real unit since 2026-10-09, so use at your own risk.
+- **Dinghy** — The smallest FM-1 firmware to build your own on: a four-voice sine on the keys, with the update path, USB rescue, USB-MIDI, USB audio, controls, screen, and settings storage already done and documented.
+  - [Site](https://fm1.designburgapps.com) — Project site.
+  - [Code](https://github.com/zvenson/dinghy) — Source repository.
 - [SLICE64-FM](https://jeymadcat-ops.github.io/SLICE64-FM-web/) — 4-track SID / FM / sampler tracker firmware (see its web editor in [Unofficial Editors and Librarians](#unofficial-editors-and-librarians)); the editor requires firmware s1.3 or later.
 - [hardware-supersynth](https://github.com/OwenKirby/hardware-supersynth) — Custom FM-1 firmware based on the author's "supersynth" architecture. Unverified and currently unreachable: it had no README or description when first listed, and the repository now returns 404 (removed, private, or renamed).
 - [FM-1+VA](https://baudgirl.com/work/FM-1+VA) — Custom firmware focused on live performance and quality-of-life features, adding a Virtual Analog engine (BLEP oscillators, Super/Drift, ZDF filter), an editable sequencer with step move/copy, and corrected DX7 patch playback (fixed operator detune, LFO speed, algorithm 4/6 feedback, and velocity-0 note-on handling). Open-source firmware, a preset/pattern manager, and a browser FM/VA editor are listed as coming soon.
@@ -73,6 +87,10 @@
 - [fm1-bank-sender](https://github.com/leomaimoni/fm1-bank-sender) — Android APK that sends `.syx` sound banks to the FM-1 from a phone.
 - [fm1_soundbank_app](https://github.com/pfkellogg/fm1-bonus-box/tree/main/fm1_soundbank_app) — Command-line tool to list, reorder, and send a 128-preset soundbank over USB MIDI.
 - [Sloop Go](https://github.com/jahlib/sloop-fm1-go) — Native Android app (Kotlin, USB-MIDI) for editing the FM-1 while it runs the SLOOP firmware, based on SLOOP's web editor.
+- [SloopStudio (sloop-ios-8trk)](https://github.com/smhulme/sloop-ios-8trk) — Native iOS/iPadOS 8-track workstation (Swift, CoreMIDI) that pairs with an FM-1 running SLOOP: tracks 1–4 are hardware, synchronized over CoreMIDI.
+- **FM-1 Easy Guide** — Plain-words beginner's guide to the FM-1 written because the official manual is hard to read and predates the V15 sequencer changes: one-page lessons on every button, first sounds, loops, and beats, plus an interactive follow-along demo.
+  - [Site](https://pingywon.github.io/fm1-easy-guide/) — Project page with the 31-page PDF guide and [interactive demo](https://fm1-demo.pingywon.workers.dev).
+  - [Code](https://github.com/pingywon/fm1-easy-guide) — Source repository.
 - [fm1-emulator](https://github.com/simonjohansson/fm1-emulator) — Rust desktop emulator that runs FM-1 firmware images (`.fwsc`, `.elf`, `.bin`) without a real device.
 - [fm1-firmware-patcher](https://github.com/czietz/fm1-firmware-patcher) — Binary patches for the stock V15 firmware (e.g. Dexed-accurate detune); unofficial, so back up first.
 - **fm-static** — Web page that installs a `.fwsc` firmware on an FM-1 whose MIDI port has a different name on your computer, where the usual updaters cannot find it.
@@ -127,6 +145,8 @@
 - [Piano & Synth: custom firmware collection](https://pianoandsynth.com/m-vave-fm-1-custom-firmware-collection/) — Comparison table of the FM-1 custom firmwares.
 - [Time To House: FM-1 article](https://timetohouse.com/en/articles/m-vave-fm-1-budget-dx7-fm-synth) — Launch article on the budget DX7-style synth.
 - [Noizefield: SLOOP](https://www.noizefield.com/news/sloop-custom-firmware-turns-m-vave-fm-1-into-4-track-groovebox) — News coverage of the SLOOP groovebox firmware.
+- [Synthtopia: alt firmware options](https://www.synthtopia.com/content/2026/10/04/alt-firmware-options-for-the-m-wave-fm-1-pocket-synthesizer/) — Roundup of the first alternative firmwares (Felucca, Baud Girl, Groove OS) with demo videos.
+- [Drey Andersson: 7 custom firmwares ranked](https://dreyandersson.com/blog/m-vave-fm-1-custom-firmware/) — Comparison and ranking of the FM-1 custom firmwares, noting the scene's pace (dozens of forks within days).
 - [Plugg Supply forum thread](https://plugg-supply.net/forum/gear-plugins/m-vave-fm-1-patch-librarian-free-browser-tool-for-dx-7-sound-transfer) — Discussion of the free browser patch librarian for DX7 sound transfer.
 - [GitHub topic: m-vave](https://github.com/topics/m-vave) — Repositories tagged with the M-VAVE brand.
 - [Synthtopia announcement](https://www.synthtopia.com/content/2026/07/13/m-vave-introduces-fm-1-fm-pocket-synthesizer/) — Introduction of the FM-1 pocket synthesizer.
