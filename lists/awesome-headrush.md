@@ -38,6 +38,9 @@
 - [headrushfx-editor Issues](https://github.com/bloodysummers/headrushfx-editor/issues) — Bug reports, feature requests, and technical discussions about the editor.
 - [HeadRush editor discussion](https://www.reddit.com/r/HeadRush/comments/1393xu3/wip_rig_and_setlist_editor_app_open_source/) — Reddit thread about developing an editor for rigs and setlists, with examples of available features.
 - [HackRush](https://www.bitropix.eu/hackrush/) — Unofficial add-on software for Prime and Core: ten browser-based apps (gig recorder/re-amp, sampler, backing tracks, MIDI foot controller, screen mirror, spectrum analyser, pitch-to-MIDI, synth) installed beside the stock firmware, reversible from the pedal's own menu.
+- [HRBlockRenamer](https://github.com/ilparola/HRBlockRenamer) — Bash (Linux/macOS) and PowerShell (Windows) scripts that rename cryptic HeadRush amp and cabinet `.block` files to readable real-world equipment names using predefined mappings.
+- [headrush-controller](https://github.com/kepello/headrush-controller) — Embedded multi-device controller for the HeadRush Prime built on an ESP32-S3 round display (CrowPanel 1.28). Unverified: the repository has no README yet.
+- [Headrush-Flex-Prime-Midi-Captain-STD](https://github.com/Duboox/Headrush-Flex-Prime-Midi-Captain-STD) — Configuration for using a MIDI Captain footswitch controller with the Flex Prime. Unverified: the repository has no README or description.
 
 ## Preset Generators and AI
 
@@ -84,6 +87,7 @@
 - [Firmware 5.0 coverage (Sound On Sound)](https://www.soundonsound.com/news/headrush-introduce-major-50-firmware-update) — Overview of the 5.0 firmware update.
 - [Firmware 5.0 coverage](https://musicplayers.com/2025/12/headrush-releases-significant-5-0-firmware-update-for-prime-core-and-flex-prime/) — Overview of firmware 5.0 features, including a drum machine, TIDAL, and new models.
 - [headrush-nam-studio](https://github.com/tiagojsoares/headrush-nam-studio) — Open-source desktop suite and sound librarian for the HeadRush NAM mod (MX5, Prime, Core, Gigboard, Pedalboard): visual slot manager, integrated TONE3000 catalog search, one-click model install, and IR/backup management.
+- [headrush-nam-mod](https://github.com/lolgab/headrush-nam-mod) — Reverse-engineered firmware mod adding Neural Amp Modeler inference to the older HeadRush Pedalboard, MX5, and Gigboard (via a hijacked pedal slot, confirmed on hardware); not for Prime, Core, or Flex Prime, which have native NAM support.
 
 ## Community and Documentation
 

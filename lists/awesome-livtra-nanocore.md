@@ -22,6 +22,8 @@
 - **NanoCore Editor** — Unofficial online editor for NANOCORE, verified against real hardware with firmware 1.04 and later.
   - [Site](https://lucanenni.github.io/livtra-nanocore-editor/) — Hosted online editor.
   - [Code](https://github.com/lucanenni/livtra-nanocore-editor) — Source repository.
+- [nanocore-controller](https://github.com/dvilelaf/nanocore-controller) — Unofficial local control for the NANOCORE: a command-line tool, Python library, and web editor over Bluetooth or USB MIDI, with lossless backup/restore and an audit log of every write; firmware updates are not implemented and the protocol was reverse-engineered from the official ToneCommand app. Writes to the pedal's flash, so keep a backup.
+- [LivtraNanocore (Arduino MIDI controller)](https://github.com/Xander-Electronics/LivtraNanocore) — Arduino MIDI controller project for the NANOCORE. Unverified: the repository has no README yet.
 
 ## Manuals
 

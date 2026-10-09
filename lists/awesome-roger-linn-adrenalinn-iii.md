@@ -32,6 +32,7 @@
 - [SoundTower ADIII SE v1.0–current User Guide](https://www.soundtower.com/adrenalinn/help/SoundTower_ADIIIvX_help.pdf) — PDF user guide for the SoundTower editor covering its full feature set, including drag-and-drop `.syx` file support.
 - [EurekaPROM A3 configuration](https://www.eurekasound.com/eurekaprom/a3) — $35 custom firmware/configuration for the Behringer FCB1010 pedalboard that maps five control modes to the AdrenaLinn III (effects toggling, preset/drumbeat selection, favorites, drum triggering, and expression pedals for wah/volume).
 - [AdrenaLinn III Pedal Control Project](http://jeffhendricks.net/adrenalinn-iii-pedal-control-project/) — DIY project using Mididings to intercept MIDI program-change messages and auto-insert the CC command needed to switch the A3 between effects mode and drum mode, working around its single combined mode switch.
+- [A3midi](https://github.com/tilotilo/A3midi) — Teensy-based USB-MIDI interface with an onboard DAC, used to sync the AdrenaLinn III (which reads MIDI clock) from a DAW; works with any MIDI device.
 
 ## Community and Reviews
 
