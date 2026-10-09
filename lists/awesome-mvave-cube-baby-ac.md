@@ -21,6 +21,7 @@
 - **CubeControl** — Unofficial open desktop editor (Windows, Linux AppImage, Android APK) for the M-VAVE/Cuvave CUBE Baby with live A/B/C switching, setlists, and Cabinet 8 IR upload tools; the USB writer is experimental, so export a bank before risky operations. Targets the base CUBE Baby platform, so confirm Cube Baby AC compatibility before writing.
   - [Site](https://mrgarizack.github.io/cubecontrol-app/) — Project page and downloads.
   - [Code](https://github.com/MrGariZack/cubecontrol-app) — Application source; the hardware protocol lives in the companion [cubecontrol](https://github.com/MrGariZack/cubecontrol) core repository.
+- [CubeSuite (Android)](https://github.com/wkonda/CubeSuite) — Unofficial, as-is Android utility (USB OTG) for real-time configuration and preset management of the Cube Baby pedals; unrelated to M-VAVE's own CubeSuite app despite the name. Targets the base Cube Baby, so confirm Cube Baby AC compatibility.
 
 ## Reverse Engineering
 
