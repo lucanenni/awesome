@@ -88,6 +88,10 @@
 - [fm1_soundbank_app](https://github.com/pfkellogg/fm1-bonus-box/tree/main/fm1_soundbank_app) — Command-line tool to list, reorder, and send a 128-preset soundbank over USB MIDI.
 - [Sloop Go](https://github.com/jahlib/sloop-fm1-go) — Native Android app (Kotlin, USB-MIDI) for editing the FM-1 while it runs the SLOOP firmware, based on SLOOP's web editor.
 - [SloopStudio (sloop-ios-8trk)](https://github.com/smhulme/sloop-ios-8trk) — Native iOS/iPadOS 8-track workstation (Swift, CoreMIDI) that pairs with an FM-1 running SLOOP: tracks 1–4 are hardware, synchronized over CoreMIDI.
+- **SLOOP 8-Track Web Workstation** — Web companion that adds a hybrid 8-track groovebox to an FM-1 running SLOOP: the hardware's four tracks plus four extra tracks in the browser, avoiding the voice dropouts of running eight tracks on the device's DSP.
+  - [Site](https://sloop.smhulme.click/) — Hosted web app.
+  - [Code](https://github.com/smhulme/sloop-web-8trk) — Source repository.
+- [Mac USB MIDI Bridge](https://github.com/pfkellogg/mac-usb-midi-bridge) — Mac app that forwards a USB-only MIDI keyboard to the FM-1 over its USB port or through a MIDI interface's 5-pin output (the FM-1 appears as "USB Composite Device"); it has an Android twin, [android-usb-midi-bridge](https://github.com/pfkellogg/android-usb-midi-bridge).
 - **FM-1 Easy Guide** — Plain-words beginner's guide to the FM-1 written because the official manual is hard to read and predates the V15 sequencer changes: one-page lessons on every button, first sounds, loops, and beats, plus an interactive follow-along demo.
   - [Site](https://pingywon.github.io/fm1-easy-guide/) — Project page with the 31-page PDF guide and [interactive demo](https://fm1-demo.pingywon.workers.dev).
   - [Code](https://github.com/pingywon/fm1-easy-guide) — Source repository.
