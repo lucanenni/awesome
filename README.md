@@ -29,6 +29,10 @@ Each device has its own list with official downloads/manuals, unofficial editors
 - [M-VAVE Cube Baby AC](lists/awesome-mvave-cube-baby-ac.md) — Acoustic guitar multi-effects pedal with IR cabinet sims
 - [Zoom AC-2](lists/awesome-zoom-ac-2.md) — Acoustic Creator DI/preamp pedal
 
+### Practice Amps & Speakers
+
+- [JBL BandBox](lists/awesome-jbl-bandbox.md) — BandBox Solo and Trio portable guitar amps with Stem AI
+
 ### Mixers & Audio Interfaces
 
 - [Joyo Momix Pro](lists/awesome-joyo-momix-pro.md) — Portable 2-channel USB audio mixer/interface
