@@ -29,6 +29,11 @@
 - [JieLi new firmware format](https://kagaimiq.github.io/jielie/datafmt/newfw.html) — Background documentation on the JieLi `.fwsc` firmware format referenced by the SMK-37 reverse-engineering docs.
 - [smk-37-asio-drivers](https://github.com/amalahama/smk-37-asio-drivers) — Dedicated low-latency ASIO driver and control panel for the SMK-37 Pro on Windows 10/11, offered as an alternative to ASIO4ALL (written for the Pro, so check Elite compatibility).
 - [smk37pro-acidsound-mod](https://github.com/acidsound/smk37pro-acidsound-mod) — Personal firmware-mod research project that loads arbitrary DX7 drum voices into the internal Ch10 drum synth; it analyzes the official USB OTA path, carries a brick risk, and was verified on a Pro (its GitHub Pages site was not yet live when checked).
+- **Snoop37** — Alternative firmware for the SMK-37 Pro that turns it into a standalone four-track groovebox (three synth tracks and a drum machine): a port of SLOOP 2.5, itself based on Felucca. Written for the Pro, so check Elite compatibility before flashing.
+  - [Site](https://genkigenki.github.io/smk37/) — SMK-37 Pro firmwares installable from the browser.
+  - [Code](https://github.com/genkigenki/Snoop37) — Source repository.
+- [fm1-to-smk37](https://github.com/genkigenki/fm1-to-smk37) — Guide to porting FM-1 custom firmware to the SMK-37 Pro: the keyboard shares the FM-1's JieLi AC791N chip, bootloader, update loader, and chip key, so only the board layer (key matrix, analog inputs, display, pad LEDs, flash map) differs.
+- [zp12-smk37](https://github.com/djStrombo/zp12-smk37) — SMK-37 port of the ZP12 12-bit sampling drum firmware (see the [FM-1 list](awesome-mvave-fm-1.md)).
 - [smk37_pro_midi_sysex](https://github.com/hartaberunfairer-web/smk37_pro_midi_sysex) — HTML page for monitoring the SMK-37 Pro's BLE MIDI and SysEx traffic. Unverified: the repository has no README yet.
 
 ## Community and Reviews
