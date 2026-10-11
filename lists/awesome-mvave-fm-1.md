@@ -61,13 +61,12 @@
 - **SLOOP ALG-05** — Independent experimental fork of SLOOP 2.2 (Chinese-language documentation) with 16 synth engines including a 6-operator DX7, VA, plucked-string and additive engines, 93 factory voices, 37 drum kits, a live waveform on the edit pages, and a web installer and voice editor. Not released by SLOOP's author.
   - [Site](https://shaw-core.github.io/Sloop_ALG02/) — Web installer and editor.
   - [Code](https://github.com/shaw-core/Sloop_ALG02) — Source repository.
-- [FM-1 B-Boy Edition](https://github.com/friendsmakenoise-prog/fm1-pocket-sampler) — Experimental sampler/groovebox firmware treating the FM-1 as a late-90s chop sampler: three sampler tracks with up to 24 chops each, linked-chop break slicing, and per-track mono/poly playback; beta, with the six-operator voice verified on hardware.
-- **Bubba Box** — GPL-3.0 groovebox firmware for live play, with a web editor, manual, and a Spanish-language sampler guide.
-  - [Site](https://erbubar23.github.io/bubba-box/) — Project page with installer, web editor, and manual.
-  - [Code](https://github.com/Erbubar23/bubba-box) — Source repository.
-- **Bubba Machine** — Spanish-language GPL-3.0 groovebox firmware written from scratch in C99: six tracks with a TR-style drum kit, a sampler, a bass, and three synths, from the Bubba Box author.
+- **Bubba Machine** — Spanish-language GPL-3.0 groovebox firmware written from scratch in C99: six tracks with a TR-style drum kit, a sampler, a bass, and three synths; it succeeds the author's earlier Bubba Box, whose repository and site are gone.
   - [Site](https://erbubar23.github.io/bubba-machine/) — Project page with browser demo, manual, and changelog.
   - [Code](https://github.com/Erbubar23/bubba-machine) — Source repository.
+- **ZP12** — Free 12-bit sampling drum machine firmware: 32 pads at 26.04 kHz, pitched without interpolation so the aliasing is part of the sound, with a browser sample editor (sample from a microphone, interface, or line-in and drop it onto a pad), backup tool, and printable cheat sheet.
+  - [Site](https://zp12.designburgapps.com/) — Project page with installer, sample editor, backup, and video.
+  - [Code](https://github.com/zvenson/zp12) — Source repository ("attempt to SP-12 on FM-1"); an [SMK-37 port](https://github.com/djStrombo/zp12-smk37) also exists.
 - **FuMi-1** — Shigin-conductor firmware inspired by the Suiko ST-50 (a Felucca fork): the sixteen white keys play the ST-50's lower row, the black keys its upper row or koto ornaments, with adjustable key (本数), equal or just tuning, a koto plus twelve more 6-operator FM sounds, ring time, vibrato, trill, and a looper.
   - [Site](https://cartesive.github.io/fumi-1/) — Project page.
   - [Code](https://github.com/cartesive/fumi-1) — Source repository.
