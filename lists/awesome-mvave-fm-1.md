@@ -56,6 +56,36 @@
 - **FM80S** — GPL-3.0 synthwave synth-looper firmware by Floydus (French documentation), a fork of SLOOP 2.5; version 0.1 is still identical to SLOOP, with a browser FM-1, eight tracks, and a synthwave theme planned.
   - [Site](https://y6zkcqnf5r-hue.github.io/fm1-fm80s/) — Project page.
   - [Code](https://github.com/y6zkcqnf5r-hue/fm1-fm80s) — Source repository.
+- **GHOULBOX** — Felucca fork for dungeon synth, dark ambient, and fantasy music: a cathedral-sized hall reverb, a worn-cassette tape effect, a hurdy-gurdy engine with tunable drones, and 59 sounds behind an old-RPG screen.
+  - [Site](https://jasonpersinger.github.io/ghoulbox-fm1-dungeon-synth/) — Project page.
+  - [Code](https://github.com/jasonpersinger/ghoulbox-fm1-dungeon-synth) — Source repository.
+- **ChoralRoot** — Beta chord instrument inspired by Telepathic Instruments' Orchid, built on Felucca's engines: one hand plays roots while the other shapes chords, with voicings, key and performance modes, a bass line, and a looper.
+  - [Site](https://quixotic7.github.io/ChoralRootFM1/) — Project page with installer and emulator.
+  - [Code](https://github.com/Quixotic7/ChoralRootFM1) — Source repository.
+- **PurpleMonkey FM-1** — First instrument for a small child by ChoralRoot's author: any key makes something nice, on a five-note scale or a drum over a backing beat, with animal friends on screen and no menus.
+  - [Site](https://quixotic7.github.io/PurpleMonkeyFM1/emu/) — Browser version.
+  - [Code](https://github.com/Quixotic7/PurpleMonkeyFM1) — Source repository.
+- **Rainbow mode** — Felucca-based music toy for small children: every key shows its note in its own colour, and 40 friends each bring a picture, a sound, and a beat, with a volume limit for small ears.
+  - [Site](https://joshbartlettband-web.github.io/felucca-rainbow/) — Project page.
+  - [Code](https://github.com/joshbartlettband-web/felucca-rainbow) — Source repository.
+- **ORBIT** — Groovebox built on SLOOP with OP-1-inspired screens (synth, drum, mixer, and an event tape for copying what the four tracks play), engines of its own, and a six-operator FM; installed from a terminal script rather than a browser page.
+  - [Site](https://dspaudio.github.io/orbit-web-emu/) — Browser emulator.
+  - [Code](https://github.com/dspaudio/orbit) — Source repository and releases.
+- **April OS** — Simple Felucca fork for sampling: 32 three-second sample slots, an eight-track sequencer, a sample and loop editor, and recording through a computer or iPhone microphone via its own page. Beta; the repository holds the page, not the firmware source.
+  - [Site](https://beashoko.github.io/april-os/) — Project page and installer.
+  - [Code](https://github.com/beashoko/april-os) — Page repository.
+- **WaveLoop FM-1** — Felucca played from an Arturia MiniLab 3: four track faders, knobs that follow the track, preset and engine browsing, a master DJ filter, and momentary effect pads.
+  - [Site](https://eli7vh.github.io/Felucca/) — Project page and installer.
+  - [Code](https://github.com/ELI7VH/Felucca) — Source repository.
+- **Felucca [Salt]** — Felucca fork with a hardware-inspired Studio in the browser that plays without an FM-1 or edits a connected one (beta).
+  - [Site](https://chancethemaker.github.io/Felucca/webapp/editor/) — Web editor.
+  - [Code](https://github.com/ChanceTheMaker/Felucca) — Source repository.
+- [sloopDX](https://github.com/zvenson/dxsloop) — SLOOP variant by Dinghy's author with DX7 voice support (beta).
+- [SLOOP DX7 Banks](https://github.com/majnikool/sloop-fm1) and [SLOOP Floyd FM](https://github.com/renebohne/sloop-fm1) — SLOOP test builds: up to twelve named DX7 voice banks in its editor, and a four-operator FM engine with a live envelope oscilloscope; both are installed from the FM-1 Firmware Hub, and the first is a test build, so back up first.
+- **FM1 Quest** — SLOOP as a pixel-art RPG (the four tracks are four heroes, recording a loop is a boss fight); not yet tried on a real FM-1.
+  - [Site](http://fm1.quest/) — Project page.
+  - [Code](https://github.com/hericdk/fm1-quest) — Source repository.
+- [NoteSorcery](https://github.com/catacombius/NoteSorcery) — Firmware project listed on the FM-1 Firmware Hub watch list; not yet verified.
 - [fm1-rocket-os](https://github.com/cmlarsen/fm1-rocket-os) — Work-in-progress GPL-3.0 clip-launching performance firmware forked from X0X.
 - [fm1-doom](https://github.com/seanohollaren/fm1-doom) — Experimental port running the first Doom level (E1M1, with sound and music) as FM-1 firmware, with a browser installer; it replaces the synth firmware and was tried on a single unit. (Not to be confused with Keitark's fm1-doom, listed under development resources.)
 - **SLOOP ALG-05** — Independent experimental fork of SLOOP 2.2 (Chinese-language documentation) with 16 synth engines including a 6-operator DX7, VA, plucked-string and additive engines, 93 factory voices, 37 drum kits, a live waveform on the edit pages, and a web installer and voice editor. Not released by SLOOP's author.
@@ -166,6 +196,7 @@
 - [Noizefield: SLOOP](https://www.noizefield.com/news/sloop-custom-firmware-turns-m-vave-fm-1-into-4-track-groovebox) — News coverage of the SLOOP groovebox firmware.
 - [Synthtopia: alt firmware options](https://www.synthtopia.com/content/2026/10/04/alt-firmware-options-for-the-m-wave-fm-1-pocket-synthesizer/) — Roundup of the first alternative firmwares (Felucca, Baud Girl, Groove OS) with demo videos.
 - [Drey Andersson: 7 custom firmwares ranked](https://dreyandersson.com/blog/m-vave-fm-1-custom-firmware/) — Comparison and ranking of the FM-1 custom firmwares, noting the scene's pace (dozens of forks within days).
+- [FM-1 Firmware Hub (fm1-editor.com)](https://fm1-editor.com/firmware/) — Maintained catalog of every firmware known to run on the FM-1, with makers, status, versions, stars, and links to each project (updated 10 October 2026); a good place to track new releases.
 - [Plugg Supply forum thread](https://plugg-supply.net/forum/gear-plugins/m-vave-fm-1-patch-librarian-free-browser-tool-for-dx-7-sound-transfer) — Discussion of the free browser patch librarian for DX7 sound transfer.
 - [GitHub topic: m-vave](https://github.com/topics/m-vave) — Repositories tagged with the M-VAVE brand.
 - [Synthtopia announcement](https://www.synthtopia.com/content/2026/07/13/m-vave-introduces-fm-1-fm-pocket-synthesizer/) — Introduction of the FM-1 pocket synthesizer.
