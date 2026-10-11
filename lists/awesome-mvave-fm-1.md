@@ -72,9 +72,7 @@
   - [Site](https://cartesive.github.io/fumi-1/) — Project page.
   - [Code](https://github.com/cartesive/fumi-1) — Source repository.
 - [fm1-chord](https://github.com/math0ne/fm1-chord) — Clean-room chord-machine firmware built on Felucca: the left white keys are the scale degrees (I to vii) and play chords, and the right white keys are an Omnichord-style strum plate for the last chord played.
-- **AMBII** — Development-preview firmware built on Melodee's synthesis and sequencing core, with a redesigned recording and editing interface. Not ready for device installation: there is no qualified release image yet.
-  - [Site](https://milkboyg.github.io/Ambii/) — Project page and documentation.
-  - [Code](https://github.com/MilkBoyG/Ambii) — Source repository (also mirrored at [JalopyMusic/fm1-milkboyg-ambii](https://github.com/JalopyMusic/fm1-milkboyg-ambii)).
+- [AMBII](https://github.com/JalopyMusic/fm1-milkboyg-ambii) — Development-preview firmware built on Melodee's synthesis and sequencing core, with a redesigned recording and editing interface. Not ready for device installation: there is no qualified release image yet. The original repository and project page (MilkBoyG/Ambii) now return 404, so this link is a mirror.
 - [Optimist](https://github.com/w0ts/optimist) — GPL-3.0 modular firmware platform derived from SLOOP (with parts of Felucca, Melodee, and X0X) for building your own FM-1 firmware; work in progress, running on a single real unit since 2026-10-09, so use at your own risk.
 - **Dinghy** — The smallest FM-1 firmware to build your own on: a four-voice sine on the keys, with the update path, USB rescue, USB-MIDI, USB audio, controls, screen, and settings storage already done and documented.
   - [Site](https://fm1.designburgapps.com) — Project site.
