@@ -44,6 +44,20 @@
 - **FiMba-1** — Physically modelled kalimba (thumb piano) firmware grown from FoMni: the 16 white keys are tines laid out like a real kalimba, the black keys play thumb-roll chords or performance moves. Playable in the browser (the firmware's own C code compiled to WebAssembly) without an FM-1.
   - [Site](https://jadamsowers.github.io/fm1-fimba/) — Browser version and project page.
   - [Code](https://github.com/jadamsowers/fm1-fimba) — Source repository.
+- **CTL-1** — Charles Vestal's firmware that turns the FM-1 into a MIDI controller: keys in any scale with chords under the black keys, four banks of knob controllers, an arpeggiator, and a four-track Euclidean drum sequencer, with the FM-1's own General MIDI sounds so it also works standalone. Try it in the browser without hardware.
+  - [Site](https://charlesvestal.github.io/fm1-ctl/) — Project page and emulator.
+  - [Code](https://github.com/charlesvestal/fm1-ctl) — Source repository.
+- **AMB-1** — Charles Vestal's generative ambient machine inspired by Brian Eno's *Music for Airports*: breathing voices, bells on tape loops of unequal length, a gliding bass, and quiet Euclidean percussion through tape echo and plate reverb; you pick a piece and scale and tend it as it plays itself.
+  - [Site](https://charlesvestal.github.io/fm1-amb/) — Project page.
+  - [Code](https://github.com/charlesvestal/fm1-amb) — Source repository.
+- **Mocky** — Custom firmware plus web app that shows pictures on the FM-1's 240 × 240 screen, sent over USB from the browser, for checking screen mockups on real hardware.
+  - [Site](https://charlesvestal.github.io/fm1-mocky/) — Web app and installer.
+  - [Code](https://github.com/charlesvestal/fm1-mocky) — Source repository.
+- **FM80S** — GPL-3.0 synthwave synth-looper firmware by Floydus (French documentation), a fork of SLOOP 2.5; version 0.1 is still identical to SLOOP, with a browser FM-1, eight tracks, and a synthwave theme planned.
+  - [Site](https://y6zkcqnf5r-hue.github.io/fm1-fm80s/) — Project page.
+  - [Code](https://github.com/y6zkcqnf5r-hue/fm1-fm80s) — Source repository.
+- [fm1-rocket-os](https://github.com/cmlarsen/fm1-rocket-os) — Work-in-progress GPL-3.0 clip-launching performance firmware forked from X0X.
+- [fm1-doom](https://github.com/seanohollaren/fm1-doom) — Experimental port running the first Doom level (E1M1, with sound and music) as FM-1 firmware, with a browser installer; it replaces the synth firmware and was tried on a single unit. (Not to be confused with Keitark's fm1-doom, listed under development resources.)
 - **SLOOP ALG-05** — Independent experimental fork of SLOOP 2.2 (Chinese-language documentation) with 16 synth engines including a 6-operator DX7, VA, plucked-string and additive engines, 93 factory voices, 37 drum kits, a live waveform on the edit pages, and a web installer and voice editor. Not released by SLOOP's author.
   - [Site](https://shaw-core.github.io/Sloop_ALG02/) — Web installer and editor.
   - [Code](https://github.com/shaw-core/Sloop_ALG02) — Source repository.
@@ -51,13 +65,16 @@
 - **Bubba Box** — GPL-3.0 groovebox firmware for live play, with a web editor, manual, and a Spanish-language sampler guide.
   - [Site](https://erbubar23.github.io/bubba-box/) — Project page with installer, web editor, and manual.
   - [Code](https://github.com/Erbubar23/bubba-box) — Source repository.
+- **Bubba Machine** — Spanish-language GPL-3.0 groovebox firmware written from scratch in C99: six tracks with a TR-style drum kit, a sampler, a bass, and three synths, from the Bubba Box author.
+  - [Site](https://erbubar23.github.io/bubba-machine/) — Project page with browser demo, manual, and changelog.
+  - [Code](https://github.com/Erbubar23/bubba-machine) — Source repository.
 - **FuMi-1** — Shigin-conductor firmware inspired by the Suiko ST-50 (a Felucca fork): the sixteen white keys play the ST-50's lower row, the black keys its upper row or koto ornaments, with adjustable key (本数), equal or just tuning, a koto plus twelve more 6-operator FM sounds, ring time, vibrato, trill, and a looper.
   - [Site](https://cartesive.github.io/fumi-1/) — Project page.
   - [Code](https://github.com/cartesive/fumi-1) — Source repository.
 - [fm1-chord](https://github.com/math0ne/fm1-chord) — Clean-room chord-machine firmware built on Felucca: the left white keys are the scale degrees (I to vii) and play chords, and the right white keys are an Omnichord-style strum plate for the last chord played.
 - **AMBII** — Development-preview firmware built on Melodee's synthesis and sequencing core, with a redesigned recording and editing interface. Not ready for device installation: there is no qualified release image yet.
   - [Site](https://milkboyg.github.io/Ambii/) — Project page and documentation.
-  - [Code](https://github.com/MilkBoyG/Ambii) — Source repository.
+  - [Code](https://github.com/MilkBoyG/Ambii) — Source repository (also mirrored at [JalopyMusic/fm1-milkboyg-ambii](https://github.com/JalopyMusic/fm1-milkboyg-ambii)).
 - [Optimist](https://github.com/w0ts/optimist) — GPL-3.0 modular firmware platform derived from SLOOP (with parts of Felucca, Melodee, and X0X) for building your own FM-1 firmware; work in progress, running on a single real unit since 2026-10-09, so use at your own risk.
 - **Dinghy** — The smallest FM-1 firmware to build your own on: a four-voice sine on the keys, with the update path, USB rescue, USB-MIDI, USB audio, controls, screen, and settings storage already done and documented.
   - [Site](https://fm1.designburgapps.com) — Project site.
@@ -105,6 +122,7 @@
 - [Dexed](https://asb2m10.github.io/dexed/) — The open-source DX7 emulator and editor; the FM-1 accepts its single-parameter SysEx, so you can edit voices live.
 - [FM-1 Bonus Box](https://github.com/pfkellogg/fm1-bonus-box) — ESP32-S3 companion box adding a sustain pedal, a rotary preset browser with a round TFT, a WiFi soundbank manager, and USB MIDI; its [fm1-sustain-footswitch](https://github.com/pfkellogg/fm1-sustain-footswitch) sibling is a simple Arduino board turning a TRS sustain pedal into MIDI CC64.
 - [Virtual FM-1](https://github.com/jbschooley/Virtual-FM-1) — GPL-3.0 software FM-1: a standalone app and VST3/AU plugin (macOS, Windows, Linux) that plays the FM-1's FM engine, edits every sound setting, and runs its sequencer and arpeggiator, with two-way preset and pattern sync (single preset or the whole 128-preset library) over USB with the [FM-1+VA firmware](https://baudgirl.com/work/FM-1+VA). Instances can target stock, FM-1+VA, Felucca, or SLOOP (the last two run from their own source); it works as a standalone synth without the hardware.
+- [Falua](https://github.com/ehn96/Falua) — Unofficial Portuguese-documented plugin (VST3, AU, standalone, v0.1) that runs the sound engines of the JIANT firmware (a Felucca fork) unmodified on a computer, with DAW MIDI input, automatable parameters, and presets.
 
 ## Preset Packs
 
