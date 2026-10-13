@@ -62,6 +62,9 @@
 - **DUELL** — Free, open-source bitimbral synth firmware by OSCILL/R: two complete parts, three ways to play them together, and a morph that glides between two versions of every sound. Public beta (0.1): the browser emulator is available, the firmware has run on one real FM-1, and the way back to the official firmware is untested, so no firmware download is offered yet.
   - [Site](https://oscillr.github.io/DUELL/) — Browser emulator and project page.
   - [Code](https://github.com/oscillr/DUELL) — Source repository.
+- **FM-106** — Six-voice polyphonic Roland Juno-106 synthesizer firmware: ports the ultramaster_kr106 emulation engine (PolyBLEP DCO, IR3109-style ladder filter, BBD stereo chorus, 128 factory Juno-106 presets) with dual-core DSP acceleration adapted from Melodee and an 80s-style UI.
+  - [Site](https://patttf.github.io/fm-106/) — Project page.
+  - [Code](https://github.com/PatttF/fm-106) — Source repository.
 - **Skiff** — Six-track groovebox firmware with fourteen synth and drum engines, a 64-step sequencer (chords, ratchets, trig conditions, parameter locks), shared patterns played through per-track lists and scenes, a live-performance layer, on-screen help for every control (hold HOME), and a browser editor.
   - [Site](https://illuminus5.github.io/skiff/) — Project page.
   - [Code](https://github.com/illuminus5/skiff) — Source repository.
