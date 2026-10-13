@@ -39,9 +39,12 @@
 - [HeadRush editor discussion](https://www.reddit.com/r/HeadRush/comments/1393xu3/wip_rig_and_setlist_editor_app_open_source/) — Reddit thread about developing an editor for rigs and setlists, with examples of available features.
 - [HackRush](https://www.bitropix.eu/hackrush/) — Unofficial add-on software for Prime and Core: ten browser-based apps (gig recorder/re-amp, sampler, backing tracks, MIDI foot controller, screen mirror, spectrum analyser, pitch-to-MIDI, synth) installed beside the stock firmware, reversible from the pedal's own menu.
 - [HRBlockRenamer](https://github.com/ilparola/HRBlockRenamer) — Bash (Linux/macOS) and PowerShell (Windows) scripts that rename cryptic HeadRush amp and cabinet `.block` files to readable real-world equipment names using predefined mappings.
-- [headrush-controller](https://github.com/kepello/headrush-controller) — Embedded multi-device controller for the HeadRush Prime built on an ESP32-S3 round display (CrowPanel 1.28). Unverified: the repository has no README yet.
+- [headrush-controller](https://github.com/kepello/headrush-controller) — Embedded multi-device controller for the HeadRush Prime built on an ESP32-S3 round display (CrowPanel 1.28). Unverified: the repository has no README yet (its companion [headrush-knob-firmware](https://github.com/kepello/headrush-knob-firmware) holds built images for ESP32-S3 rotary-knob satellites of a stand-mounted Prime controller).
 - [Headrush-Flex-Prime-Midi-Captain-STD](https://github.com/Duboox/Headrush-Flex-Prime-Midi-Captain-STD) — Configuration for using a MIDI Captain footswitch controller with the Flex Prime. Unverified: the repository has no README or description.
-
+- **MX5 Bridge + MX-Edit** — Unofficial add-on to the stock MX5 firmware 2.7 that exposes the device's parameter tree, rig database, and files over USB-MIDI SysEx, plus a Windows desktop editor that edits live (every change is heard right away and device changes show up in the editor), with NAM-mod support. For the older MX5 only; installing modified firmware is at your own risk.
+  - [Code](https://github.com/TicT4x/MX-Edit) — MX-Edit and the bridge.
+  - [Testing repo](https://github.com/TicT4x/MX-Edit-Testing) — Testing the bridge on Pedalboard and Gigboard.
+- [PedalCues](https://thankost.github.io/pedal-cues/) — VST3/AU/LV2/standalone plugin ([source](https://github.com/thankost/pedal-cues)) with drag-and-drop named MIDI cues for many modelers, including HeadRush, to program pedal scene and preset changes from a DAW.
 ## Preset Generators and AI
 
 - [Headrush Help](https://headrush-help.vercel.app/) — Community guide and database of HeadRush amplifiers, cabinets, microphones, IRs, and effects.

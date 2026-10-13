@@ -5,6 +5,7 @@
 ## Contents
 
 - [Official](#official)
+- [Unofficial Tools and Captures](#unofficial-tools-and-captures)
 - [Manuals](#manuals)
 - [Videos](#videos)
 
@@ -15,6 +16,10 @@
 - [MOOER app downloads](https://www.mooeraudio.com/companyfile/App-Downloads-155.html) — Official mobile-app download page; the Prime app supports MOOER Prime models including M2.
 - [Prime M2 news page](https://www.mooeraudio.com/news/13.html) — Official MOOER news page featuring Prime M2 information and related downloads.
 - [NAM A2 Available Now](https://www.mooeraudio.com/news/29.html) — Official MOOER announcement of NAM A2 support across its devices, with the Prime P2/M2 rollout (A2 Lite).
+
+## Unofficial Tools and Captures
+
+- [MOOER MNRS Finder](https://mooer-mnrs-finder.vercel.app) — Searchable static catalog (snapshot of 1 September 2026) of 7,191 MOOER Studio amp (`.gnr`) and cabinet (`.gir`) captures with downloads of the original files; check Prime M2 compatibility before loading.
 
 ## Manuals
 
