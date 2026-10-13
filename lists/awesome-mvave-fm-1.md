@@ -62,6 +62,20 @@
 - **DUELL** — Free, open-source bitimbral synth firmware by OSCILL/R: two complete parts, three ways to play them together, and a morph that glides between two versions of every sound. Public beta (0.1): the browser emulator is available, the firmware has run on one real FM-1, and the way back to the official firmware is untested, so no firmware download is offered yet.
   - [Site](https://oscillr.github.io/DUELL/) — Browser emulator and project page.
   - [Code](https://github.com/oscillr/DUELL) — Source repository.
+- **Skiff** — Six-track groovebox firmware with fourteen synth and drum engines, a 64-step sequencer (chords, ratchets, trig conditions, parameter locks), shared patterns played through per-track lists and scenes, a live-performance layer, on-screen help for every control (hold HOME), and a browser editor.
+  - [Site](https://illuminus5.github.io/skiff/) — Project page.
+  - [Code](https://github.com/illuminus5/skiff) — Source repository.
+- [TERKINSTEIN](https://github.com/TerkWerX/FM1-TERKINSTEIN-Firmware) — Open-source dark performance synth and four-track groovebox: 64 curated sounds, six-operator FM, metallic distortion, synthesized drum kits, and four 64-step tracks. Development preview (0.22.0-dev) installed on one FM-1 so far; back up first, since the updater cannot read the installed firmware back.
+- **Glitchbox** — Broken, dirty performance firmware in the spirit of Year Zero: self-chopping resonant synths, bit-crushed leads and basses, crushed drums, and live stutter and crush effects, all synthesized with no samples.
+  - [Site](https://erikdevos.github.io/glitchbox/) — Project page.
+  - [Code](https://github.com/erikdevos/glitchbox) — Source repository.
+- [Trumpagotchi](https://github.com/adamcharleswilsonmusic-code/Trumpagotchi) — Unofficial parody virtual-pet firmware with burgers, praise, news, and bongos; novelty, installed from the release `.fwsc` with a Python script.
+- **Doom FM-1 / SMK** — Doom-engine port for the FM-1 and SMK-37 Pro / Elite with nine original maps and three weapons, a browser firmware builder, and installer (see also the other Doom ports under [development resources](#reverse-engineering)).
+  - [Site](https://chancethemaker.github.io/doom-fm1-smk/) — Builder and installer.
+  - [Code](https://github.com/ChanceTheMaker/doom-fm1-smk) — Source repository.
+- **GameDude** — Game Boy emulator, ROM-to-firmware tools, and browser simulator for the FM-1 and SMK-37: play cartridges in the browser, then prepare and flash an FM-1 with your own ROM (no commercial games or boot ROMs included).
+  - [Site](https://chancethemaker.github.io/gamedude-fm1-smk/) — Browser player and firmware preparation.
+  - [Code](https://github.com/ChanceTheMaker/gamedude-fm1-smk) — Source repository.
 - [Fart Machine One](https://github.com/adamcharleswilsonmusic-code/Fart-Machine-One) — Novelty firmware with eleven "artisanal farts", reverb, delay, and a 16-step sequencer; no build needed, install steps are in the README.
 - **GHOULBOX** — Felucca fork for dungeon synth, dark ambient, and fantasy music: a cathedral-sized hall reverb, a worn-cassette tape effect, a hurdy-gurdy engine with tunable drones, and 59 sounds behind an old-RPG screen.
   - [Site](https://jasonpersinger.github.io/ghoulbox-fm1-dungeon-synth/) — Project page.
@@ -132,6 +146,9 @@
 - **FM-1 Pulses** — Generative browser MIDI sequencer (clock, gate probability, sample-and-hold, LFO, quantizer, Deja Vu loop) that broadcasts MIDI live; on the FM-1+VA firmware it can also freeze 64-step phrases into the FM-1's patterns.
   - [Site](https://mene311.github.io/fm1-pulses/) — Hosted PWA.
   - [Code](https://github.com/mene311/fm1-pulses) — Source repository.
+- **FM-1 Pulses · Felucca** — Felucca-native fork of FM-1 Pulses whose generator targets Felucca's sequencer over its editor protocol, with no Baud Girl bank needed.
+  - [Site](https://mene311.github.io/fm1-pulses-felucca/) — Hosted app.
+  - [Code](https://github.com/mene311/fm1-pulses-felucca) — Source repository.
 - [FM-1 Workbench](https://github.com/thegiantsnail/fm1-workbench-public) — Web workbench ([live](https://fm1-workbench.web.app)), Android app, MCP server, and VST3/CLAP controller plugin: DX7 voice library and editor with randomize/mutate/morph, a drum sequencer, a MIDI file player, and a built-in software FM-1 so every tab works without the hardware.
 - [FM-1 Utility](https://fm1-utility.pages.dev/) — Dependency-light Web MIDI editor for the FM-1.
 - [fm1-read-voice](https://github.com/czietz/fm1-read-voice) — Reads the current voice back from the FM-1 over USB MIDI, which the stock firmware does not otherwise offer.
@@ -147,6 +164,9 @@
   - [Site](https://pingywon.github.io/fm1-easy-guide/) — Project page with the 31-page PDF guide and [interactive demo](https://fm1-demo.pingywon.workers.dev).
   - [Code](https://github.com/pingywon/fm1-easy-guide) — Source repository.
 - [fm1-emulator](https://github.com/simonjohansson/fm1-emulator) — Rust desktop emulator that runs FM-1 firmware images (`.fwsc`, `.elf`, `.bin`) without a real device.
+- **fm1-emu** — Emulator of the FM-1's CPU, screen, keys, knobs, and audio that runs community firmwares unchanged in the browser or natively, to try a firmware before installing it or to write one without the hardware.
+  - [Site](https://joakimeriksson.github.io/fm1-emu/) — Browser emulator.
+  - [Code](https://github.com/joakimeriksson/fm1-emu) — Source repository.
 - [fm1-firmware-patcher](https://github.com/czietz/fm1-firmware-patcher) — Binary patches for the stock V15 firmware (e.g. Dexed-accurate detune); unofficial, so back up first.
 - **fm-static** — Web page that installs a `.fwsc` firmware on an FM-1 whose MIDI port has a different name on your computer, where the usual updaters cannot find it.
   - [Site](https://seajaysec.github.io/fm-static/) — Hosted installer.
