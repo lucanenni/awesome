@@ -11,7 +11,7 @@ Each device has its own list with official downloads/manuals, unofficial editors
 ### Multi-Effects & Amp Modelers
 
 - [HeadRush](lists/awesome-headrush.md) — Prime, Core, and Flex Prime
-- [LIVTRA NANOCORE](lists/awesome-livtra-nanocore.md)
+- [LIVTRA NANOCORE](lists/awesome-livtra-nanocore.md) — Also covers the MOSAIC
 - [MOOER Prime M2](lists/awesome-mooer-prime-m2.md)
 - [Roger Linn AdrenaLinn III](lists/awesome-roger-linn-adrenalinn-iii.md) — Beat-synced guitar effects processor with amp modeling and a built-in drum machine
 - [Sonicake Pocket Master](lists/awesome-sonicake-pocket-master.md) — Pocket-size amp/effects modeler with NAM and IR support

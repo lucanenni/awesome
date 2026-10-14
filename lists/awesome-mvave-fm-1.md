@@ -68,6 +68,23 @@
 - **Skiff** — Six-track groovebox firmware with fourteen synth and drum engines, a 64-step sequencer (chords, ratchets, trig conditions, parameter locks), shared patterns played through per-track lists and scenes, a live-performance layer, on-screen help for every control (hold HOME), and a browser editor.
   - [Site](https://illuminus5.github.io/skiff/) — Project page.
   - [Code](https://github.com/illuminus5/skiff) — Source repository.
+- **MCFM-1** — Original 1990s-style groovebox firmware: three melodic parts, each with an LA-inspired or 303-inspired engine, plus a 16-lane synthesized drum part, four patterns, step editing, recording, accent, and slide. Experimental 0.1 that passes host tests but has not been verified booting on a real FM-1.
+  - [Code](https://github.com/dspaudio/mcfm-1) — Source repository (not affiliated with Roland or M-VAVE).
+- **winampFM Synth** — Winamp 2.x-style firmware based on SLOOP 2.6 (GPL-3.0): sounds as a playlist, four-track loop recording, effects on sliders, and a line-only visualizer, with a 3D in-browser simulator and installer.
+  - [Site](https://hericdk.github.io/winampFM/) — Site, installer, and simulator.
+  - [Code](https://github.com/hericdk/winampFM) — Source repository.
+- **PIGEON** — Free, open-source performance sampler firmware built on Felucca 1.5.1 for chopping samples, playing drums, and sequencing beats live, in the spirit of the SP-404 and PO-33 KO.
+  - [Site](https://theshrimpblimp.com/pigeon/) — Project page.
+  - [Code](https://github.com/TheShrimpBlimp/pigeon) — Source repository.
+- **FM1-MOVE** — Eight-track groovebox firmware with a "Groove Engine" and a 240 × 240 performance interface; try it in the browser, then install from the manual and installer pages.
+  - [Site](https://nicodesy06.github.io/FM1-MOVE/) — Browser demo, installer, and manual.
+  - [Code](https://github.com/Nicodesy06/FM1-MOVE) — Source repository.
+- **JIANT FM** — "Bio-synthetic operating system" alternative firmware for playing live and building whole songs (synthesis, sequencing, mutation, performance); it is the firmware whose engines the Falua plugin runs.
+  - [Site](https://juanjiant-bit.github.io/JIANT/) — Project page.
+  - [Code](https://github.com/juanjiant-bit/JIANT) — Source repository.
+- **ETCH** — "Draw. Morph. Modulate." firmware with a boot-time USB MIDI keyboard mode (hold SEQ at power-on). Read the OTA/stock-restore notice (V1.38) before flashing: earlier versions rejected the original V15 on restore.
+  - [Site](https://etch.sikkenworks.com) — Project page.
+  - [Code](https://github.com/SikkenWorks/ETCH) — Source repository.
 - [TERKINSTEIN](https://github.com/TerkWerX/FM1-TERKINSTEIN-Firmware) — Open-source dark performance synth and four-track groovebox: 64 curated sounds, six-operator FM, metallic distortion, synthesized drum kits, and four 64-step tracks. Development preview (0.22.0-dev) installed on one FM-1 so far; back up first, since the updater cannot read the installed firmware back.
 - **Glitchbox** — Broken, dirty performance firmware in the spirit of Year Zero: self-chopping resonant synths, bit-crushed leads and basses, crushed drums, and live stutter and crush effects, all synthesized with no samples.
   - [Site](https://erikdevos.github.io/glitchbox/) — Project page.
@@ -175,6 +192,7 @@
   - [Site](https://seajaysec.github.io/fm-static/) — Hosted installer.
   - [Code](https://github.com/seajaysec/fm-static) — Source repository.
 - [fm1-linux-update](https://github.com/fuleo/fm1-linux-update) — Updates the stock firmware from V14 to V15 from Linux over USB-MIDI SysEx, with verification (M-VAVE only ships Windows and macOS updaters); see also the [fm1-guide](https://fuleo.github.io/fm1-guide/) notes.
+- [M-Flasher](https://github.com/jvitkauskas/m-flasher) — Unofficial tool to back up, restore, and reinstall firmware on the FM-1 and SMK-37 Pro / Elite over plain USB using the chip's built-in download mode (so it works even when the installed firmware is broken), and to install the [open bootloader](https://github.com/jvitkauskas/fm1-bootloader); it saves a backup before every write.
 - AI-agent skills (Chinese-language, MIT): [Felucca Editor Skill](https://github.com/hunterxiong2026/fm1-felucca-editor-2026) and [SLOOP Editor Skill](https://github.com/hunterxiong2026/fm1-sloop-editor-2026) let an AI agent drive the FM-1 over direct SysEx (Windows) for multi-track arrangement and song playback.
 - [Dexed](https://asb2m10.github.io/dexed/) — The open-source DX7 emulator and editor; the FM-1 accepts its single-parameter SysEx, so you can edit voices live.
 - [FM-1 Bonus Box](https://github.com/pfkellogg/fm1-bonus-box) — ESP32-S3 companion box adding a sustain pedal, a rotary preset browser with a round TFT, a WiFi soundbank manager, and USB MIDI; its [fm1-sustain-footswitch](https://github.com/pfkellogg/fm1-sustain-footswitch) sibling is a simple Arduino board turning a TRS sustain pedal into MIDI CC64.
