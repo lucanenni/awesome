@@ -45,6 +45,7 @@
   - [Code](https://github.com/TicT4x/MX-Edit) — MX-Edit and the bridge.
   - [Testing repo](https://github.com/TicT4x/MX-Edit-Testing) — Testing the bridge on Pedalboard and Gigboard.
 - [PedalCues](https://thankost.github.io/pedal-cues/) — VST3/AU/LV2/standalone plugin ([source](https://github.com/thankost/pedal-cues)) with drag-and-drop named MIDI cues for many modelers, including HeadRush, to program pedal scene and preset changes from a DAW.
+- [Headrush Dark](https://github.com/lordbagel42/headrush-dark) — Unofficial dark theme and small usability improvements for the HeadRush web interface, installed as a Violentmonkey userscript.
 ## Preset Generators and AI
 
 - [Headrush Help](https://headrush-help.vercel.app/) — Community guide and database of HeadRush amplifiers, cabinets, microphones, IRs, and effects.

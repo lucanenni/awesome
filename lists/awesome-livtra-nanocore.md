@@ -1,6 +1,6 @@
 # Awesome LIVTRA NANOCORE
 
-> A curated list of official and community resources for LIVTRA NANOCORE.
+> A curated list of official and community resources for LIVTRA NANOCORE and the closely related LIVTRA MOSAIC (same ToneCommand software and firmware line).
 
 ## Contents
 
@@ -16,7 +16,7 @@
 - [LIVTRA Music](https://livtramusic.com/) — Official LIVTRA site with product information for NANOCORE, MOSAIC, VELRIX, and related devices.
 - [LIVTRA news](https://livtramusic.com/news) — Official news: the VELRIX firmware and LIVTRA desktop apps added NAM A2 support (June 2026), and ToneCommand Upgrader 1.2.6 added editing for the new NANOCORE/MOSAIC firmware 1.10 effects and parameters.
 - [ToneCommand for Android](https://play.google.com/store/apps/details?id=com.livtra.nanocore) — Android companion app for connecting to NANOCORE, editing presets, managing blocks, and importing/exporting bundles.
-
+- [LIVTRA MOSAIC product page](https://livtramusic.com/products/mosaic/content-en.html) — Official page for the MOSAIC mobile multi-effects processor (three metal footswitches, NAM A2 and IR loader), the larger sibling of the NANOCORE that shares its editing software and firmware 1.10 updates.
 ## Unofficial Editors
 
 - **NanoCore Editor** — Unofficial online editor for NANOCORE, verified against real hardware with firmware 1.04 and later.
@@ -24,7 +24,7 @@
   - [Code](https://github.com/lucanenni/livtra-nanocore-editor) — Source repository.
 - [nanocore-controller](https://github.com/dvilelaf/nanocore-controller) — Unofficial local control for the NANOCORE: a command-line tool, Python library, and web editor over Bluetooth or USB MIDI, with lossless backup/restore and an audit log of every write; firmware updates are not implemented and the protocol was reverse-engineered from the official ToneCommand app. Writes to the pedal's flash, so keep a backup.
 - [LivtraNanocore (Arduino MIDI controller)](https://github.com/Xander-Electronics/LivtraNanocore) — Arduino MIDI controller project for the NANOCORE. Unverified: the repository has no README yet.
-
+- [JimCommanD](https://github.com/3rud1te/JimCommanD) — Independent, experimental (0.3.1) Intel-Mac controller for the **MOSAIC**: native CoreMIDI app with a simulator and local libraries, built because the inspected ToneCommand builds shipped only Apple Silicon binaries; NAM/IR uploads and firmware updates are unfinished. Its protocol research may also help with the NANOCORE.
 ## Manuals
 
 - [NANOCORE user manual](https://ae-pic-a1.aliexpress-media.com/kf/Sf935a7af6cb64376869faa22e0bdc334i.pdf) — User manual mirror covering editing, saving tones, connections, and USB-C recording.
@@ -33,7 +33,10 @@
 
 - [Free NANOCORE tones video](https://www.youtube.com/watch?v=f8z6Z2T2w28) — Video offering four free NANOCORE tones—clean, chorus, crunch, and solo—with download links in the description.
 - [NANOCORE review and ToneCommand walkthrough](https://www.youtube.com/watch?v=hIfY65IPULc) — Portuguese review covering ToneCommand, EQ, audio separation, drum loops, capture downloads, themes, and firmware updates.
-
+- [Pocket review Livtra Mosaic (Caverna Guitars)](https://www.youtube.com/watch?v=cVF9JxpcvfQ) — Hands-on pocket review of the MOSAIC.
+- [A $60 Quad Cortex? Livtra Mosaic (Vito Astone Music)](https://www.youtube.com/watch?v=pR2kzWjjq5g) — Review and demo of the MOSAIC.
+- [MOSAIC working-musician review (note.com)](https://note.com/arai_shoma/n/ne97b8dded8a4) — Written review of the MOSAIC finding its Stomp Mode smooth and usable live, with some reservations about the tuner.
+- [Mosaic by Livtra (rockboard PedalPedia)](https://www.rockboard.de/en/pedalPedia/Livtra/Mosaic/8632704377/) — Spec sheet: three metal footswitches, color TFT display, wireless mobile and desktop editing.
 ## Notes
 
 - Always back up presets before updating firmware or importing third-party files.
