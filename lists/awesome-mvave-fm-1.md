@@ -73,6 +73,19 @@
 - [TRIPDECK](https://github.com/anonymousacademe/FM-1-TripDeck) — Psychedelic synth firmware where every screen is a full-screen animation and the four knobs change sound and picture together: sitar and tamboura, pads, Leslie organ, FM bells, a freezable reverb, a vowel filter, scale lock, and a self-wandering TRIP mode. Version 0.2, tested on the device.
 - [MYCELIUM](https://github.com/megagott/mycelium-fm1) — Free open-source Forest, Psytrance, Goa, and Hitech firmware built on Felucca and SLOOP, with original drum assets and four factory songs; version 1.0 is a test release (installable `.fwsc` in the releases, with a published SHA-256).
 - [Velo](https://github.com/charlesvestal/fm1-velocity) — Experimental firmware that reads velocity and aftertouch from the FM-1's rubber-dome keys with no hardware mods, by sampling two key rows with the chip's ADC and exploiting the falling resistance of the carbon pills.
+- **TRIBE** — Ten-track groovebox firmware where any engine plays on any track: kicks, 909 and 808 voices, and a 303, sixteen clips per track, scatter effects, two master effects, and four assignable master knobs.
+  - [Site](https://apiel.github.io/fm1-tribe/) — Project page.
+  - [Code](https://github.com/apiel/fm1-tribe) — Source repository.
+- **Polly** — Pocket arranger inspired by the Yamaha QY70: a style plays a band of eight instruments steered by the chords you play, with songs made of sections, two melodies, and General MIDI sounds from Sonivox EAS (MIDI in works too, so it doubles as a General MIDI sound module); built on Felucca's platform layer.
+  - [Site](https://charlesvestal.github.io/fm1-polly/) — Project page.
+  - [Code](https://github.com/charlesvestal/fm1-polly) — Source repository.
+- **MAKU** — Always-on ambience machine: power it on and a new random in-key world is already playing, four parts with verb-like buttons (sink, cascade, swell, wobble, lift, scramble, drift), and the more you mark likes with REC the more future boots follow your taste.
+  - [Site](https://okumurari2.github.io/maku/) — Project page.
+  - [Code](https://github.com/okumurari2/maku) — Source repository.
+- [OberVave](https://github.com/zvenson/obervave) — Single deep 8-voice analog-style polysynth in the spirit of late-70s/early-80s American poly synths: two oscillators per voice with hard sync and cross-modulation, a 12/24 dB filter with an SEM-style lowpass-to-highpass morph, arpeggiator, two-track step sequencer, 32 programs, chorus, delay, and plate reverb.
+- **Felucca (per-track sequencer fork)** — Felucca 1.5.1 fork exploring eight patterns and a sequencer per track.
+  - [Site](https://echoe.github.io/Felucca_seq_per_track/) — Installer page.
+  - [Code](https://github.com/echoe/Felucca_8_patterns) — Source repository.
 - **winampFM Synth** — Winamp 2.x-style firmware based on SLOOP 2.6 (GPL-3.0): sounds as a playlist, four-track loop recording, effects on sliders, and a line-only visualizer, with a 3D in-browser simulator and installer.
   - [Site](https://hericdk.github.io/winampFM/) — Site, installer, and simulator.
   - [Code](https://github.com/hericdk/winampFM) — Source repository.
