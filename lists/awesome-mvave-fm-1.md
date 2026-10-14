@@ -68,8 +68,11 @@
 - **Skiff** — Six-track groovebox firmware with fourteen synth and drum engines, a 64-step sequencer (chords, ratchets, trig conditions, parameter locks), shared patterns played through per-track lists and scenes, a live-performance layer, on-screen help for every control (hold HOME), and a browser editor.
   - [Site](https://illuminus5.github.io/skiff/) — Project page.
   - [Code](https://github.com/illuminus5/skiff) — Source repository.
-- **MCFM-1** — Original 1990s-style groovebox firmware: three melodic parts, each with an LA-inspired or 303-inspired engine, plus a 16-lane synthesized drum part, four patterns, step editing, recording, accent, and slide. Experimental 0.1 that passes host tests but has not been verified booting on a real FM-1.
-  - [Code](https://github.com/dspaudio/mcfm-1) — Source repository (not affiliated with Roland or M-VAVE).
+- **MC-1** (formerly MCFM-1) — Original 1990s-style groovebox firmware: three melodic parts, each with an LA-inspired or 303-inspired engine (128 presets), plus a 16-lane synthesized drum part with eight kits, four patterns, step editing, recording, accent, and slide. Experimental 0.1.3 that passes host tests but has not been verified booting on a real FM-1.
+  - [Code](https://github.com/dspaudio/mc-1) — Source repository (not affiliated with Roland or M-VAVE).
+- [TRIPDECK](https://github.com/anonymousacademe/FM-1-TripDeck) — Psychedelic synth firmware where every screen is a full-screen animation and the four knobs change sound and picture together: sitar and tamboura, pads, Leslie organ, FM bells, a freezable reverb, a vowel filter, scale lock, and a self-wandering TRIP mode. Version 0.2, tested on the device.
+- [MYCELIUM](https://github.com/megagott/mycelium-fm1) — Free open-source Forest, Psytrance, Goa, and Hitech firmware built on Felucca and SLOOP, with original drum assets and four factory songs; version 1.0 is a test release (installable `.fwsc` in the releases, with a published SHA-256).
+- [Velo](https://github.com/charlesvestal/fm1-velocity) — Experimental firmware that reads velocity and aftertouch from the FM-1's rubber-dome keys with no hardware mods, by sampling two key rows with the chip's ADC and exploiting the falling resistance of the carbon pills.
 - **winampFM Synth** — Winamp 2.x-style firmware based on SLOOP 2.6 (GPL-3.0): sounds as a playlist, four-track loop recording, effects on sliders, and a line-only visualizer, with a 3D in-browser simulator and installer.
   - [Site](https://hericdk.github.io/winampFM/) — Site, installer, and simulator.
   - [Code](https://github.com/hericdk/winampFM) — Source repository.
