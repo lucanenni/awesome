@@ -227,6 +227,7 @@
 - **fm1-emu** — Emulator of the FM-1's CPU, screen, keys, knobs, and audio that runs community firmwares unchanged in the browser or natively, to try a firmware before installing it or to write one without the hardware.
   - [Site](https://joakimeriksson.github.io/fm1-emu/) — Browser emulator.
   - [Code](https://github.com/joakimeriksson/fm1-emu) — Source repository.
+  - [Technical report (PDF)](https://joakimeriksson.github.io/fm1-emu/fm1-emu-report.pdf) — 8-page report by Joakim Eriksson (13 October 2026) on recovering the undocumented pi32v2 CPU of the JieLi AC791N from firmware images and building the emulator in five days, before validation on hardware.
 - [fm1-firmware-patcher](https://github.com/czietz/fm1-firmware-patcher) — Binary patches for the stock V15 firmware (e.g. Dexed-accurate detune); unofficial, so back up first.
 - **fm-static** — Web page that installs a `.fwsc` firmware on an FM-1 whose MIDI port has a different name on your computer, where the usual updaters cannot find it.
   - [Site](https://seajaysec.github.io/fm-static/) — Hosted installer.
