@@ -76,6 +76,21 @@
 - **TRIBE** — Ten-track groovebox firmware where any engine plays on any track: kicks, 909 and 808 voices, and a 303, sixteen clips per track, scatter effects, two master effects, and four assignable master knobs.
   - [Site](https://apiel.github.io/fm1-tribe/) — Project page.
   - [Code](https://github.com/apiel/fm1-tribe) — Source repository.
+- **CoralFlower** — Chord-instrument firmware after ChoralRoot and Felucca (GPL-3.0), inspired by the Telepathic Instruments Orchid: hold a chord key and every note becomes a chord with a bass underneath, while a pixel flower grows from what you play.
+  - [Site](https://ficusficusov.github.io/CoralFlower/) — Project page.
+  - [Code](https://github.com/FicusFicusov/CoralFlower) — Source repository.
+- **Niagara Drift** — Open-source drone synth with two always-on drifting virtual-analog drones you tune, shape, and move rather than play, inspired by the Stylophone CPM DS-2, Moog Subharmonicon, and Soma Lyra-8.
+  - [Site](https://evanyerburgh.github.io/niagara-drift/) — Project page.
+  - [Code](https://github.com/evanyerburgh/niagara-drift) — Source repository.
+- **BEETLE** — Open-source six-lane tracker (five synth tracks sharing eight voices plus a two-note-per-step drum track, 48 patterns, 12 project slots) by SikkenWorks, the author of ETCH.
+  - [Site](https://sikkenworks.github.io/BEETLE/) — Project page.
+  - [Code](https://github.com/SikkenWorks/BEETLE) — Source repository.
+- [SIDOU](https://github.com/dsablic/sidou) — C64 SID tracker-synth firmware with faithful SID emulation, a step sequencer with a tracker underneath, a live-play mode, `.sid` playback, and importers for GoatTracker and SID-Wizard songs.
+- **DriftSeq** — 16-track polymetric master MIDI sequencer: SQ-64-style step workflow with 16 polyphonic tracks, per-track loop lengths that run simultaneously, phase drift shown on screen, and built-in General MIDI monitoring.
+  - [Site](https://johnskiller.github.io/driftseq/) — Project page.
+  - [Code](https://github.com/johnskiller/driftseq) — Source repository.
+- [1971](https://github.com/synthi/fm1-1971) — Generative ambient firmware forked from Melodee 1.3.5.
+- [S1-FM](https://github.com/Qubestar/S1-FM) — Experimental MIDI controller and hardware sequencer firmware, used as a development playground for Saibertin S1.
 - **Polly** — Pocket arranger inspired by the Yamaha QY70: a style plays a band of eight instruments steered by the chords you play, with songs made of sections, two melodies, and General MIDI sounds from Sonivox EAS (MIDI in works too, so it doubles as a General MIDI sound module); built on Felucca's platform layer.
   - [Site](https://charlesvestal.github.io/fm1-polly/) — Project page.
   - [Code](https://github.com/charlesvestal/fm1-polly) — Source repository.
