@@ -33,6 +33,7 @@
 - [Custom firmware for GP-150 and GP-180](https://thegearforum.com/threads/custom-firmware-for-gp-150-and-gp-180.12050/) — Community discussion about unofficial custom firmware; unofficial and unsupported, so back up first.
 - [Windows 11 firmware fix for Valeton / Hotone / Sonicake](https://cesardamien.github.io/hotone-family-firmware-fix/) — One-click fix for pedals not detected by Valeton Suite or firmware updates stuck at 0% on Windows 11 ([source](https://github.com/cesardamien/hotone-family-firmware-fix)).
 - [Valeton Suite English Patch](https://github.com/flameshikari/valeton-suite-en) — Four-byte patch that stops the Android Valeton Suite (V2.0.4 and V2.1.0) from forcing its UI into Chinese when it connects to a Chinese-region pedal; unofficial, so use at your own risk.
+
 ## NAM and TONE3000
 
 - [Use TONE3000 NAM Captures on Valeton GP Pedals](https://www.tone3000.com/blog/tone3000-valeton-nam-guide) — TONE3000 guide to converting and loading NAM captures on Valeton GP pedals via SnapTone and the companion software.

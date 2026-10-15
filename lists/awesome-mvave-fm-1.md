@@ -76,6 +76,15 @@
 - **TRIBE** — Ten-track groovebox firmware where any engine plays on any track: kicks, 909 and 808 voices, and a 303, sixteen clips per track, scatter effects, two master effects, and four assignable master knobs.
   - [Site](https://apiel.github.io/fm1-tribe/) — Project page.
   - [Code](https://github.com/apiel/fm1-tribe) — Source repository.
+- **Tonitor** — Acousmatic firmware for electroacoustic experimentation, live ambient music, and sound exploration, with a browser installer, manual, and changelog.
+  - [Site](https://nzimas.github.io/tonitor/) — Project page, installer, and manual.
+  - [Code](https://github.com/nzimas/tonitor) — Source repository.
+- **HYP-1** — Hypnotic techno and acid machine that plays from power-on (a breathing pad, a deep drone, a generative 303 line, and grain over drums you sequence), with pattern flips on the bar, breakdowns, and recording of the whole performance into a DAW.
+  - [Site](https://rustypawz.github.io/fm1-HYP1/) — Project page.
+  - [Code](https://github.com/RustyPawz/fm1-HYP1) — Source repository.
+- **Araminta** — Opinionated Felucca 1.5.1 fork adding JIANT's DRUM-X and punch-ins, Sloop's free take, a mixer solo, Felucca 0.9's flat look, and an effects list you chain or send.
+  - [Site](https://wulgaren.github.io/Araminta/) — Project page.
+  - [Code](https://github.com/Wulgaren/Araminta) — Source repository.
 - **CoralFlower** — Chord-instrument firmware after ChoralRoot and Felucca (GPL-3.0), inspired by the Telepathic Instruments Orchid: hold a chord key and every note becomes a chord with a bass underneath, while a pixel flower grows from what you play.
   - [Site](https://ficusficusov.github.io/CoralFlower/) — Project page.
   - [Code](https://github.com/FicusFicusov/CoralFlower) — Source repository.
@@ -90,7 +99,7 @@
   - [Site](https://johnskiller.github.io/driftseq/) — Project page.
   - [Code](https://github.com/johnskiller/driftseq) — Source repository.
 - [1971](https://github.com/synthi/fm1-1971) — Generative ambient firmware forked from Melodee 1.3.5.
-- [S1-FM](https://github.com/Qubestar/S1-FM) — Experimental MIDI controller and hardware sequencer firmware, used as a development playground for Saibertin S1.
+- [S1-FM](https://github.com/Qubestar/Saibertin-S-FM) — Experimental MIDI controller and hardware sequencer firmware, used as a development playground for Saibertin S1.
 - **Polly** — Pocket arranger inspired by the Yamaha QY70: a style plays a band of eight instruments steered by the chords you play, with songs made of sections, two melodies, and General MIDI sounds from Sonivox EAS (MIDI in works too, so it doubles as a General MIDI sound module); built on Felucca's platform layer.
   - [Site](https://charlesvestal.github.io/fm1-polly/) — Project page.
   - [Code](https://github.com/charlesvestal/fm1-polly) — Source repository.
