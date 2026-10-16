@@ -85,6 +85,23 @@
 - **Araminta** — Opinionated Felucca 1.5.1 fork adding JIANT's DRUM-X and punch-ins, Sloop's free take, a mixer solo, Felucca 0.9's flat look, and an effects list you chain or send.
   - [Site](https://wulgaren.github.io/Araminta/) — Project page.
   - [Code](https://github.com/Wulgaren/Araminta) — Source repository.
+- **MONK-1** — Twelve-singer firmware that turns the FM-1 into MonkSynth, Jonathan Taylor's formant vocal synthesizer (an homage to the Delay Lama plug-in), with velocity and pressure from the FM-1's keys.
+  - [Site](https://charlesvestal.github.io/fm1-monk/) — Project page.
+  - [Code](https://github.com/charlesvestal/fm1-monk) — Source repository.
+- **CS-1** — CS-80-style synthesizer firmware used as a sound module for a dawless rig over MIDI (TRS or USB): eight voices of two channels each, with a VCO, resonant high-pass and low-pass filters in series, and the CS-80's sine added after the filter.
+  - [Site](https://twochannels.github.io/CS-1/) — Project page.
+  - [Code](https://github.com/twochannels/CS-1) — Source repository.
+- **MIN-1** — Minimalist ensemble that plays itself from power-on (repeating figures, slow chord cycles, audible processes) and that you can take over, inspired by FM1-AMB and Philip Glass.
+  - [Site](https://reytian.github.io/fm1-min1/) — Project page.
+  - [Code](https://github.com/Reytian/fm1-min1) — Source repository.
+- **REGGAE-OS** — Experimental reggae instrument firmware based on Felucca 1.6.1, with Roots Organ, Rocksteady, and Deep Roots sounds; the browser version is an emulator of the same C code.
+  - [Site](https://kemsthesage.github.io/reggae-os/) — Project page and emulator.
+  - [Code](https://github.com/KemstheSage/reggae-os) — Source repository.
+- **Pocket GammaWave (GW-1)** — Dual-core firmware and Web Studio companion to the commercial GammaWave instrument: Solar Hearth, a live FFT spectrogram filter, a voice-mode ribbon, a four-track analog tape, and a 49-genre song generator. The firmware and studio are open source; the main GammaWave product is separate.
+  - [Site](https://fvalente.github.io/GammaWave-FM1/) — Project page and web studio.
+  - [Code](https://github.com/fvalente/GammaWave-FM1) — Source repository.
+- [FM-1 Felucca-Tutor](https://github.com/wochende/FM-1-Felucca-Tutor) — Interactive step-by-step tutorial firmware built on Felucca that teaches synthesis, sequencing, groove design, and pattern chaining with real-time audio feedback.
+- [fm1-radio](https://github.com/charlesvestal/fm1-radio) — Proof-of-concept internet radio: the FM-1 joins a 2.4 GHz WiFi network and plays stations from Radio Garden's map, with punch-in effects on the keys; rough edges are listed in the README.
 - **CoralFlower** — Chord-instrument firmware after ChoralRoot and Felucca (GPL-3.0), inspired by the Telepathic Instruments Orchid: hold a chord key and every note becomes a chord with a bass underneath, while a pixel flower grows from what you play.
   - [Site](https://ficusficusov.github.io/CoralFlower/) — Project page.
   - [Code](https://github.com/FicusFicusov/CoralFlower) — Source repository.
@@ -130,6 +147,9 @@
   - [Site](https://erikdevos.github.io/glitchbox/) — Project page.
   - [Code](https://github.com/erikdevos/glitchbox) — Source repository.
 - [Trumpagotchi](https://github.com/adamcharleswilsonmusic-code/Trumpagotchi) — Unofficial parody virtual-pet firmware with burgers, praise, news, and bongos; novelty, installed from the release `.fwsc` with a Python script.
+- **NESynth** — NES homebrew player for the FM-1 and SMK-37 (shared InfoNES core, several mappers supported, one controller): a browser player that builds cartridge firmware locally and installs or restores firmware.
+  - [Site](https://chancethemaker.github.io/NESynth-FM1-SMK/) — Browser player and installer.
+  - [Code](https://github.com/ChanceTheMaker/NESynth-FM1-SMK) — Source repository.
 - **Doom FM-1 / SMK** — Doom-engine port for the FM-1 and SMK-37 Pro / Elite with nine original maps and three weapons, a browser firmware builder, and installer (see also the other Doom ports under [development resources](#reverse-engineering)).
   - [Site](https://chancethemaker.github.io/doom-fm1-smk/) — Builder and installer.
   - [Code](https://github.com/ChanceTheMaker/doom-fm1-smk) — Source repository.
@@ -228,6 +248,7 @@
   - [Site](https://joakimeriksson.github.io/fm1-emu/) — Browser emulator.
   - [Code](https://github.com/joakimeriksson/fm1-emu) — Source repository.
   - [Technical report (PDF)](https://joakimeriksson.github.io/fm1-emu/fm1-emu-report.pdf) — 8-page report by Joakim Eriksson (13 October 2026) on recovering the undocumented pi32v2 CPU of the JieLi AC791N from firmware images and building the emulator in five days, before validation on hardware.
+- [FM-1 Screen Reader](https://charlesvestal.github.io/fm1-reader/) — Page that speaks what the FM-1's screen says (pages, knobs as they turn, messages, help, lists, steps) with its own voice or through VoiceOver, NVDA, JAWS, or TalkBack; the supporting firmwares send their screen words over USB ([source](https://github.com/charlesvestal/fm1-reader)).
 - [fm1-firmware-patcher](https://github.com/czietz/fm1-firmware-patcher) — Binary patches for the stock V15 firmware (e.g. Dexed-accurate detune); unofficial, so back up first.
 - **fm-static** — Web page that installs a `.fwsc` firmware on an FM-1 whose MIDI port has a different name on your computer, where the usual updaters cannot find it.
   - [Site](https://seajaysec.github.io/fm-static/) — Hosted installer.
