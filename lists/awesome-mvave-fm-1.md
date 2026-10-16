@@ -16,6 +16,10 @@
 - [M-VAVE](https://www.m-vave.com/) — Official manufacturer site and product ecosystem.
 - [M-VAVE FM-1 product page](https://www.m-vave.com/product?id=fm-1) — Official specifications: six-operator FM engine, 32 algorithms, 128 presets, arpeggiator, 16-step sequencer, triple MIDI.
 - [M-VAVE Downloads](https://www.m-vave.com/download) — Official firmware (M-UPGRADE installer), PC/mobile software, and documentation.
+- **FM1 Open (V12)** — M-VAVE's own open firmware hub: an eight-track, six-engine groovebox firmware with 16 factory projects, a browser Workbench (LCD parameter editor, project save to device, firmware update, sample bank, MIDI/Bluetooth/clock), a ten-chapter user manual, and a downloadable offline HTML copy.
+  - [Site](https://open.m-vave.com/fm1-workbench) — Workbench, manual, and firmware updater (Chrome or Edge for device transfer).
+  - [Source + SDK](https://open.m-vave.com/releases/V12/1b17bf93c34b37b6fe895491620fcaefe5093cb2c653ff8f8bd83923a6f537f3/FM1-Open-V12-Development-Kit.zip) — V12 development kit for building your own firmware.
+  - [Official forum](https://forum.m-vave.com/) — M-VAVE's forum for sound design and composition.
 - [Official firmware V15 image](https://yms-file-store.oss-cn-hongkong.aliyuncs.com/software/firmware/FM-1.fwsc) and [release notes](https://yms-file-store.oss-cn-hongkong.aliyuncs.com/software/releaseNote/firmware/FM-1.txt) — Direct links to the current official `.fwsc` and the changelog for every firmware version (custom firmwares expect you to be on V15 first).
 - [FM-1 MIDI control reference (EN)](https://yms-file-store.oss-cn-hongkong.aliyuncs.com/software/releaseNote/firmware/FM-1%20MIDI%20EN.docx) — Official MIDI CC map, with the effects on their own MIDI channel.
 - [FM-1 user manual (PDF)](https://m.media-amazon.com/images/I/A1WOydif9HL.pdf) — Multi-language printed manual (also mirrored on [Manuals+](https://manuals.plus/ae/1005012499001058)).
