@@ -88,6 +88,22 @@
 - **MONK-1** — Twelve-singer firmware that turns the FM-1 into MonkSynth, Jonathan Taylor's formant vocal synthesizer (an homage to the Delay Lama plug-in), with velocity and pressure from the FM-1's keys.
   - [Site](https://charlesvestal.github.io/fm1-monk/) — Project page.
   - [Code](https://github.com/charlesvestal/fm1-monk) — Source repository.
+- **SEQ-4** — Four MIDI sequencers for the instruments around the FM-1, each on its own channel and USB port (64 channels in total) and in one of six modes (melody, chords, eight-track drums, or generative): a 16-step by 8-row pad grid with patterns, songs, LFOs, mod lanes, and Euclidean rhythms.
+  - [Site](https://devrvega.github.io/SEQ-4/) — Project page.
+  - [Code](https://github.com/devrvega/SEQ-4) — Source repository.
+- **CRT-4** — Four-track groovebox that plays the sound chips of nine game consoles and home computers, each with its own drums, sixteen sounds, echo or reverb, and a screen dressed as that console.
+  - [Site](https://devrvega.github.io/CRT-4/) — Project page.
+  - [Code](https://github.com/devrvega/CRT-4) — Source repository.
+- **LCD-4** — Four-track pocket groovebox after the little synths in calculators: a drum machine and three synths in chainable 16-step patterns with sixteen punch-in effects, and a small LCD game on screen for each sound.
+  - [Site](https://devrvega.github.io/LCD-4/) — Project page.
+  - [Code](https://github.com/devrvega/LCD-4) — Source repository.
+- **FOMAJAM** — Nine-track groovebox made with the foma toolkit: modeled 808, 909, SDS-V, and CR-78 drum machines, drums from recordings of other classic machines' ROMs, or your own samples.
+  - [Site](http://konsumer.js.org/fomajam/) — Project page.
+  - [Code](https://github.com/konsumer/fomajam) — Source repository.
+- **Fantasma** — Ghostly ambient firmware, a Felucca fork with drones, bells, rain, and Omnichord chords in a neon skin, with a browser demo and installer.
+  - [Site](https://gadlele.github.io/Fantasma/) — Project page, demo, and installer.
+  - [Code](https://github.com/Gadlele/Fantasma) — Source repository.
+- [Patricktronics](https://github.com/gaumondp/patricktronics) — Generative sound-bed firmware, a thin layer on Felucca that turns a small fixed set of notes and one FM timbre into an endless, self-evolving ambient loop.
 - **CS-1** — CS-80-style synthesizer firmware used as a sound module for a dawless rig over MIDI (TRS or USB): eight voices of two channels each, with a VCO, resonant high-pass and low-pass filters in series, and the CS-80's sine added after the filter.
   - [Site](https://twochannels.github.io/CS-1/) — Project page.
   - [Code](https://github.com/twochannels/CS-1) — Source repository.
@@ -255,6 +271,7 @@
   - [Code](https://github.com/seajaysec/fm-static) — Source repository.
 - [fm1-linux-update](https://github.com/fuleo/fm1-linux-update) — Updates the stock firmware from V14 to V15 from Linux over USB-MIDI SysEx, with verification (M-VAVE only ships Windows and macOS updaters); see also the [fm1-guide](https://fuleo.github.io/fm1-guide/) notes.
 - [M-Flasher](https://github.com/jvitkauskas/m-flasher) — Unofficial tool to back up, restore, and reinstall firmware on the FM-1 and SMK-37 Pro / Elite over plain USB using the chip's built-in download mode (so it works even when the installed firmware is broken), and to install the [open bootloader](https://github.com/jvitkauskas/fm1-bootloader); it saves a backup before every write.
+- [FM1Kit](https://github.com/ocean/FM1Kit) — Swift package for installing `.fwsc` firmware on the FM-1 over USB-MIDI from iOS and macOS: it finds the device, answers its read requests while it writes, verifies the result, and can finish an interrupted update or one started from USB recovery mode.
 - AI-agent skills (Chinese-language, MIT): [Felucca Editor Skill](https://github.com/hunterxiong2026/fm1-felucca-editor-2026) and [SLOOP Editor Skill](https://github.com/hunterxiong2026/fm1-sloop-editor-2026) let an AI agent drive the FM-1 over direct SysEx (Windows) for multi-track arrangement and song playback.
 - [Dexed](https://asb2m10.github.io/dexed/) — The open-source DX7 emulator and editor; the FM-1 accepts its single-parameter SysEx, so you can edit voices live.
 - [FM-1 Bonus Box](https://github.com/pfkellogg/fm1-bonus-box) — ESP32-S3 companion box adding a sustain pedal, a rotary preset browser with a round TFT, a WiFi soundbank manager, and USB MIDI; its [fm1-sustain-footswitch](https://github.com/pfkellogg/fm1-sustain-footswitch) sibling is a simple Arduino board turning a TRS sustain pedal into MIDI CC64.
