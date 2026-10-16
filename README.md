@@ -24,6 +24,10 @@ Each device has its own list with official downloads/manuals, unofficial editors
 - [M-VAVE SMK-37 Elite](lists/awesome-mvave-smk-37-elite.md) — MIDI keyboard controller with built-in DX7-style FM synth engine
 - [M-VAVE Chocolate](lists/awesome-mvave-chocolate.md) — Chocolate and Chocolate Plus wireless MIDI foot controllers
 
+### Guitars
+
+- [Line 6 Variax 500](lists/awesome-line6-variax-500.md) — First-generation modeling guitar and its legacy Workbench software
+
 ### Acoustic Pedals & DI Boxes
 
 - [M-VAVE Cube Baby AC](lists/awesome-mvave-cube-baby-ac.md) — Acoustic guitar multi-effects pedal with IR cabinet sims
