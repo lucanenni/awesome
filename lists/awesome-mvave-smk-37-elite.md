@@ -37,6 +37,7 @@
   - [Site](https://sunyux.github.io/biosphere37/) — Hosted app.
   - [Code](https://github.com/sunyux/biosphere37) — Source repository.
 - [Vector37](https://github.com/genkigenki/Vector37) — Unofficial firmware for the SMK-37 Pro: an orbiting overtone synth where a sun and moon moving along a path blend four corners of overtone generators and filters, with pads and knobs as the planets. Written for the Pro, so check Elite compatibility.
+- [NESynth](https://chancethemaker.github.io/NESynth-FM1-SMK/) — NES homebrew player and cartridge-firmware builder that targets both the FM-1 and the SMK-37 Pro / Elite (see the [FM-1 list](awesome-mvave-fm-1.md)).
 - [melodee-smk37](https://github.com/djStrombo/melodee-smk37) — Port of the Melodee dual-core multi-engine synthesizer firmware to the SMK-37 Pro and Elite.
 - [Doom FM-1 / SMK](https://chancethemaker.github.io/doom-fm1-smk/) and [GameDude](https://chancethemaker.github.io/gamedude-fm1-smk/) — Doom-engine port and Game Boy emulator tooling that target both the FM-1 and the SMK-37 Pro / Elite (see the [FM-1 list](awesome-mvave-fm-1.md)).
 - [fm1-to-smk37](https://github.com/genkigenki/fm1-to-smk37) — Guide to porting FM-1 custom firmware to the SMK-37 Pro: the keyboard shares the FM-1's JieLi AC791N chip, bootloader, update loader, and chip key, so only the board layer (key matrix, analog inputs, display, pad LEDs, flash map) differs.
