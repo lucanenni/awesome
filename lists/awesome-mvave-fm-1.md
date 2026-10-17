@@ -18,6 +18,7 @@
 - [M-VAVE Downloads](https://www.m-vave.com/download) — Official firmware (M-UPGRADE installer), PC/mobile software, and documentation.
 - **FM1 Open (V12)** — M-VAVE's own open firmware hub: an eight-track, six-engine groovebox firmware with 16 factory projects, a browser Workbench (LCD parameter editor, project save to device, firmware update, sample bank, MIDI/Bluetooth/clock), a ten-chapter user manual, and a downloadable offline HTML copy.
   - [Site](https://open.m-vave.com/fm1-workbench) — Workbench, manual, and firmware updater (Chrome or Edge for device transfer).
+  - [Code](https://github.com/m-vave/fm1_open) — M-VAVE's official `m-vave/fm1_open` repository (Apache-2.0): FM1 Open V12 with 8 tracks, 8 sample slots, 16 FX demos, and the SDK.
   - [Source + SDK](https://open.m-vave.com/releases/V12/1b17bf93c34b37b6fe895491620fcaefe5093cb2c653ff8f8bd83923a6f537f3/FM1-Open-V12-Development-Kit.zip) — V12 development kit for building your own firmware.
   - [Official forum](https://forum.m-vave.com/) — M-VAVE's forum for sound design and composition.
 - [Official firmware V15 image](https://yms-file-store.oss-cn-hongkong.aliyuncs.com/software/firmware/FM-1.fwsc) and [release notes](https://yms-file-store.oss-cn-hongkong.aliyuncs.com/software/releaseNote/firmware/FM-1.txt) — Direct links to the current official `.fwsc` and the changelog for every firmware version (custom firmwares expect you to be on V15 first).
@@ -92,6 +93,17 @@
 - **MONK-1** — Twelve-singer firmware that turns the FM-1 into MonkSynth, Jonathan Taylor's formant vocal synthesizer (an homage to the Delay Lama plug-in), with velocity and pressure from the FM-1's keys.
   - [Site](https://charlesvestal.github.io/fm1-monk/) — Project page.
   - [Code](https://github.com/charlesvestal/fm1-monk) — Source repository.
+- **No Man Sky FM** — Space-adventure firmware based on SLOOP 2.7.1 (GPL-3.0): one hand flies the ship with two knobs while the other plays music, with planets, mining, robots, and warps, plus a 3D in-browser simulator and installer.
+  - [Site](https://hericdk.github.io/nomanskyFM/) — Project page, installer, and simulator.
+  - [Code](https://github.com/hericdk/nomanskyFM) — Source repository.
+- **MONO2K** — Monomachine-style firmware: six mono machines, a 64-step sequencer with parameter locks, trig conditions, and ratchets, and a lofi bus, behind a 1-bit dithered "Swiss grid" screen. Prototype (v0.1) that runs in the browser and on a computer.
+  - [Site](https://inigohernandez.github.io/mono2k/) — Project page.
+  - [Code](https://github.com/InigoHernandez/mono2k) — Source repository.
+- **X0X-RMX** — Independent fork of Charles Vestal's X0X (909, 808, two 303s, breakbeat player, song mode) with a Cream & Lilac exterior and added features.
+  - [Site](https://mr-roboto.github.io/fm1-x0x-rmx/) — Project page.
+  - [Code](https://github.com/Mr-Roboto/fm1-x0x-rmx) — Source repository.
+- [MD-One](https://github.com/d0pe1/md-one) — Mutable-derived drone machine: four Braids oscillators, tuned combs, and a modulation system, delivering into a DAW over USB audio.
+- [bunker-evolved](https://github.com/kidbee85-beep/bunker-evolved) — Free generative ambient firmware based on Felucca: four editable layers, 64 sounds, 24 worlds, a GROW control, scale-based variation, and an English installer and guide; the same author's [AMB-1 Evolved](https://github.com/kidbee85-beep/AMB-1-Evolved) (German) adds 64 presets, 32 themes, and 20 scales to AMB-1's controls. Both are tested only on the author's unit.
 - **SEQ-4** — Four MIDI sequencers for the instruments around the FM-1, each on its own channel and USB port (64 channels in total) and in one of six modes (melody, chords, eight-track drums, or generative): a 16-step by 8-row pad grid with patterns, songs, LFOs, mod lanes, and Euclidean rhythms.
   - [Site](https://devrvega.github.io/SEQ-4/) — Project page.
   - [Code](https://github.com/devrvega/SEQ-4) — Source repository.
@@ -176,6 +188,9 @@
 - **GameDude** — Game Boy emulator, ROM-to-firmware tools, and browser simulator for the FM-1 and SMK-37: play cartridges in the browser, then prepare and flash an FM-1 with your own ROM (no commercial games or boot ROMs included).
   - [Site](https://chancethemaker.github.io/gamedude-fm1-smk/) — Browser player and firmware preparation.
   - [Code](https://github.com/ChanceTheMaker/gamedude-fm1-smk) — Source repository.
+- **GameDude Color** — Separate project based on GameDude v2.0 that adds Game Boy Color support on the FM-1 and SMK-37 with Bluetooth and USB multi-game storage; the browser page plays a included puzzle or your own `.gb`, `.gbc`, `.zip`, or `.7z` cartridges.
+  - [Site](https://chancethemaker.github.io/gamedude-rgb/) — Play and install.
+  - [Code](https://github.com/ChanceTheMaker/gamedude-rgb) — Source repository.
 - [Fart Machine One](https://github.com/adamcharleswilsonmusic-code/Fart-Machine-One) — Novelty firmware with eleven "artisanal farts", reverb, delay, and a 16-step sequencer; no build needed, install steps are in the README.
 - **GHOULBOX** — Felucca fork for dungeon synth, dark ambient, and fantasy music: a cathedral-sized hall reverb, a worn-cassette tape effect, a hurdy-gurdy engine with tunable drones, and 59 sounds behind an old-RPG screen.
   - [Site](https://jasonpersinger.github.io/ghoulbox-fm1-dungeon-synth/) — Project page.
@@ -275,6 +290,8 @@
   - [Code](https://github.com/seajaysec/fm-static) — Source repository.
 - [fm1-linux-update](https://github.com/fuleo/fm1-linux-update) — Updates the stock firmware from V14 to V15 from Linux over USB-MIDI SysEx, with verification (M-VAVE only ships Windows and macOS updaters); see also the [fm1-guide](https://fuleo.github.io/fm1-guide/) notes.
 - [M-Flasher](https://github.com/jvitkauskas/m-flasher) — Unofficial tool to back up, restore, and reinstall firmware on the FM-1 and SMK-37 Pro / Elite over plain USB using the chip's built-in download mode (so it works even when the installed firmware is broken), and to install the [open bootloader](https://github.com/jvitkauskas/fm1-bootloader); it saves a backup before every write.
+- [m-bootloader](https://github.com/jvitkauskas/m-bootloader) — MIT clean-room open bootloader for the FM-1 and SMK-37 Pro / Elite (JieLi AC791N), plus the small flash loader that M-Flasher runs on the chip to read and write its flash.
+- [FM-SWITCH](https://github.com/ocean/FM-SWITCH) — iOS app for swapping FM-1 firmwares from a phone over USB-C: it merges the firmware hub's catalogue with fm1-editor.com's list, keeps firmwares on the phone for offline flashing, and bundles M-VAVE's official V15 so you can always go back.
 - [FM1Kit](https://github.com/ocean/FM1Kit) — Swift package for installing `.fwsc` firmware on the FM-1 over USB-MIDI from iOS and macOS: it finds the device, answers its read requests while it writes, verifies the result, and can finish an interrupted update or one started from USB recovery mode.
 - AI-agent skills (Chinese-language, MIT): [Felucca Editor Skill](https://github.com/hunterxiong2026/fm1-felucca-editor-2026) and [SLOOP Editor Skill](https://github.com/hunterxiong2026/fm1-sloop-editor-2026) let an AI agent drive the FM-1 over direct SysEx (Windows) for multi-track arrangement and song playback.
 - [Dexed](https://asb2m10.github.io/dexed/) — The open-source DX7 emulator and editor; the FM-1 accepts its single-parameter SysEx, so you can edit voices live.

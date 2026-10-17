@@ -38,6 +38,10 @@
   - [Code](https://github.com/sunyux/biosphere37) — Source repository.
 - [Vector37](https://github.com/genkigenki/Vector37) — Unofficial firmware for the SMK-37 family (installable from the [same hub](https://genkigenki.github.io/smk37/), which lists the Elite as supported): an orbiting overtone synth where a sun and moon moving along a path blend four corners of overtone generators and filters, with pads and knobs as the planets.
 - [NESynth](https://chancethemaker.github.io/NESynth-FM1-SMK/) — NES homebrew player and cartridge-firmware builder that targets both the FM-1 and the SMK-37 Pro / Elite (see the [FM-1 list](awesome-mvave-fm-1.md)).
+- **SMK Lab** — ChanceTheMaker's parent site for independent SMK-37 Pro / Elite firmware, browser studios, and simulators (including NESynth, Doom, and GameDude Color).
+  - [Site](https://chancethemaker.github.io/smklab/) — Projects hub.
+  - [Code](https://github.com/ChanceTheMaker/smklab) — Source repository.
+- [m-bootloader](https://github.com/jvitkauskas/m-bootloader) — Open-source clean-room bootloader for the SMK-37 Pro / Elite and FM-1, used by M-Flasher.
 - [melodee-smk37](https://github.com/djStrombo/melodee-smk37) — Port of the Melodee dual-core multi-engine synthesizer firmware to the SMK-37 Pro and Elite.
 - [Doom FM-1 / SMK](https://chancethemaker.github.io/doom-fm1-smk/) and [GameDude](https://chancethemaker.github.io/gamedude-fm1-smk/) — Doom-engine port and Game Boy emulator tooling that target both the FM-1 and the SMK-37 Pro / Elite (see the [FM-1 list](awesome-mvave-fm-1.md)).
 - [fm1-to-smk37](https://github.com/genkigenki/fm1-to-smk37) — Guide to porting FM-1 custom firmware to the SMK-37 Pro: the keyboard shares the FM-1's JieLi AC791N chip, bootloader, update loader, and chip key, so only the board layer (key matrix, analog inputs, display, pad LEDs, flash map) differs.
