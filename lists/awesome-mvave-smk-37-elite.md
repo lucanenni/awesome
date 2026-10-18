@@ -47,6 +47,10 @@
   - [Code](https://github.com/ChanceTheMaker/smklab) — Source repository.
 - [m-bootloader](https://github.com/jvitkauskas/m-bootloader) — Open-source clean-room bootloader for the SMK-37 Pro / Elite and FM-1, used by M-Flasher.
 - [melodee-smk37](https://github.com/djStrombo/melodee-smk37) — Port of the Melodee dual-core multi-engine synthesizer firmware to the SMK-37 Pro and Elite.
+- **Melodee SMK** — ChanceTheMaker's Melodee for the SMK-37 Pro and Elite: dual-core beta with a browser Studio, simulator, and public installer.
+  - [Site](https://chancethemaker.github.io/melodee-smk/) — Installer, Studio, and simulator.
+  - [Code](https://github.com/ChanceTheMaker/melodee-smk) — Source repository.
+- [Jellybean-37](https://github.com/edco/jellybean-37) — Open dual-target firmware and hardware simulator for the SMK-37 Pro, described by its author as a rough testbed for the MCUno-32 engine and optimizations.
 - [Doom FM-1 / SMK](https://chancethemaker.github.io/doom-fm1-smk/) and [GameDude](https://chancethemaker.github.io/gamedude-fm1-smk/) — Doom-engine port and Game Boy emulator tooling that target both the FM-1 and the SMK-37 Pro / Elite (see the [FM-1 list](awesome-mvave-fm-1.md)).
 - [fm1-to-smk37](https://github.com/genkigenki/fm1-to-smk37) — Guide to porting FM-1 custom firmware to the SMK-37 Pro: the keyboard shares the FM-1's JieLi AC791N chip, bootloader, update loader, and chip key, so only the board layer (key matrix, analog inputs, display, pad LEDs, flash map) differs.
 - [zp12-smk37](https://github.com/djStrombo/zp12-smk37) — SMK-37 port of the ZP12 12-bit sampling drum firmware (see the [FM-1 list](awesome-mvave-fm-1.md)).
