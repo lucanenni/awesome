@@ -99,6 +99,30 @@
 - **FMini-1** — Minimoog-inspired three-oscillator monosynth firmware with a 24 dB/octave ladder filter, two contours, 100 factory patches, an arpeggiator, a sequencer, and MIDI.
   - [Site](https://ruppert.github.io/fmini-1/) — Project page with video.
   - [Code](https://github.com/ruppert/fmini-1) — Source repository.
+- **FM Lab** — Learning-focused firmware: a six-operator FM synthesizer with the real DX7 engine behind it, no drums, pattern chaining, or song mode, and every parameter under a knob, built to learn FM on.
+  - [Code](https://github.com/jsmith13/fm_lab) — Source repository.
+- **OKTOWAVE** — Felucca 1.6.1 (four tracks, 13 engines, sequencer, arpeggiator, effects, USB audio and MIDI) plus the WAVELET engine from the Wavelet Synthesizer.
+  - [Site](https://pierrearnaudguyot.github.io/FM1-Oktowave-Firmware/) — Project page.
+  - [Code](https://github.com/PierreArnaudGUYOT/FM1-Oktowave-Firmware) — Source repository.
+- **more-chords** — Custom firmware with more chords, with a web installer and an in-browser try-out.
+  - [Site](https://rosen-wav.github.io/more-chords-M-VAVE-FM-1-Custom-Firmware/site/) — Web installer and demo.
+  - [Code](https://github.com/rosen-wav/more-chords-M-VAVE-FM-1-Custom-Firmware) — Source repository.
+- [Loom FM-1](https://github.com/Co-oscillator/Loom-FM-1) — Five-track polyphonic synthesizer, sampler, and groovebox firmware with a five-track mixer, sample-tape scrub, and a granular cloud.
+- **FRASIL** — Ambient drone and texture firmware ("drone textures frozen in motion"), documented in English and French.
+  - [Site](https://styvesgoupil.github.io/frasil/) — Project page.
+  - [Code](https://github.com/styvesgoupil/frasil) — Source repository.
+- **Haave** — Simple dreamy ambient firmware for live meditation, a sibling of Drift (a Felucca fork).
+  - [Site](https://thebrodi.github.io/fm1-haave/) — Project page.
+  - [Code](https://github.com/thebrodi/fm1-haave) — Source repository.
+- **386DX** — Singing karaoke robot with a band, an homage to the artist Alexei Shulgin's 386 DX project.
+  - [Site](https://386dx.linecross.ing/) — Project page.
+  - [Code](https://github.com/seajaysec/386-DX-FM1-KaraokeBot) — Source repository.
+- **Betis Mode** — Betis-themed firmware and browser emulator built from the official FM1 Open V13 source and SDK.
+  - [Site](https://cotrino.github.io/fm1-betis-mode/) — Project page and emulator.
+  - [Code](https://github.com/cotrino/fm1-betis-mode) — Source repository.
+- [Mutable Dreams](https://github.com/kidbee85-beep/mutable-dreams) — Generative firmware by Kid Bunka with six freely assignable voices, 65 biomes, and granular textures, built on Mutable Instruments code (GPL-3.0-only); firmware in the v1.0 release. Its web editor is hosted on a `chatgpt.site` domain, so only the repository is linked here.
+- [Cut-A-Dor](https://github.com/kidbee85-beep/cut-a-dor-release) — "Dirty little beat dojo" rhythm firmware by the same author, with dusty drums and eight recordable punches; repository only, same hosting caveat.
+- [Cat Piano](https://github.com/thefriendlyhedgehog/FM-Cat1) — Novelty firmware where each of the 27 keys plays a real cat meow tuned to its note, with four banks, a pitch-bend knob, a four-track sequencer, an arpeggiator, reverb, and delay.
 - **GATOR** — Macro-oscillator firmware inspired by Mutable Instruments Plaits, with a web installer and manual.
   - [Site](https://npi3pak.github.io/fm1-gator/) — Project page, installer, and manual.
   - [Code](https://github.com/npi3pak/fm1-gator) — Source repository.
