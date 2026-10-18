@@ -36,6 +36,10 @@
 - **Biosphere37** — Browser app (connect the keyboard over Web MIDI) that turns the SMK-37 into controls for a blacklight galaxy: the 37 keys play a synth and draw a neon route, the 16 pads fly to six sound worlds and switch effects, and the faders control drive, delay, and reverb. It runs on a computer, not on the keyboard.
   - [Site](https://sunyux.github.io/biosphere37/) — Hosted app.
   - [Code](https://github.com/sunyux/biosphere37) — Source repository.
+- **SMK-37 Repair** — Small firmware for the SMK-37 Pro, Elite, and MKE-P37 that repairs M-VAVE's key mapping while keeping the keyboard's calibration, wheel values, and Bluetooth pairings; for the case where, back on M-VAVE's firmware, every key reads "C" and the synth is silent.
+  - [Help](https://genkigenki.github.io/smk37/help.html) — Hub help page.
+  - [Code](https://github.com/genkigenki/smk37-repair) — Source repository.
+- [Erik37](https://github.com/genkigenki/erik37) — Sampled concert-grand piano firmware (velocity layers, dampers, pedals, sympathetic resonance, four rooms) for the SMK-37 and FM-1, from the same hub.
 - [Vector37](https://github.com/genkigenki/Vector37) — Unofficial firmware for the SMK-37 family (installable from the [same hub](https://genkigenki.github.io/smk37/), which lists the Elite as supported): an orbiting overtone synth where a sun and moon moving along a path blend four corners of overtone generators and filters, with pads and knobs as the planets.
 - [NESynth](https://chancethemaker.github.io/NESynth-FM1-SMK/) — NES homebrew player and cartridge-firmware builder that targets both the FM-1 and the SMK-37 Pro / Elite (see the [FM-1 list](awesome-mvave-fm-1.md)).
 - **SMK Lab** — ChanceTheMaker's parent site for independent SMK-37 Pro / Elite firmware, browser studios, and simulators (including NESynth, Doom, and GameDude Color).

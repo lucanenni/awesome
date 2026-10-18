@@ -96,6 +96,35 @@
 - **No Man Sky FM** — Space-adventure firmware based on SLOOP 2.7.1 (GPL-3.0): one hand flies the ship with two knobs while the other plays music, with planets, mining, robots, and warps, plus a 3D in-browser simulator and installer.
   - [Site](https://hericdk.github.io/nomanskyFM/) — Project page, installer, and simulator.
   - [Code](https://github.com/hericdk/nomanskyFM) — Source repository.
+- **FMini-1** — Minimoog-inspired three-oscillator monosynth firmware with a 24 dB/octave ladder filter, two contours, 100 factory patches, an arpeggiator, a sequencer, and MIDI.
+  - [Site](https://ruppert.github.io/fmini-1/) — Project page with video.
+  - [Code](https://github.com/ruppert/fmini-1) — Source repository.
+- **GATOR** — Macro-oscillator firmware inspired by Mutable Instruments Plaits, with a web installer and manual.
+  - [Site](https://npi3pak.github.io/fm1-gator/) — Project page, installer, and manual.
+  - [Code](https://github.com/npi3pak/fm1-gator) — Source repository.
+- **ROM-1** — Sixteen-part sound module in the manner of nineties rack modules: one part per MIDI channel with a filter, envelopes, reverb, and chorus, playing `.sf2` SoundFont files that the browser converts to fit the FM-1.
+  - [Site](https://devrvega.github.io/ROM-1/) — Project page and converter.
+  - [Code](https://github.com/devrvega/ROM-1) — Source repository.
+- **UNIBOX** — Groovebox firmware that starts from FOMAJAM and adds synths, a step-pattern arranger, free recording, and a USB sampler.
+  - [Site](https://chinotto1.github.io/unibox/) — Project page.
+  - [Code](https://github.com/chinotto1/unibox) — Source repository.
+- **DUB-1** — Generative dub techno machine that plays itself from power-on: chord stabs through a resonant low-pass into a tape echo, FM pings on loops of unequal length, and a sub bass on one of five grooves.
+  - [Site](https://sbegueria.github.io/fm1-dub/) — Project page.
+  - [Code](https://github.com/sbegueria/fm1-dub) — Source repository.
+- **GR!MM** — Dark ambient, dungeon synth, and deathdream firmware with four tracks and seven sound sources; the browser runs the real firmware, and a web editor edits sounds live, loads samples, and backs up your FM-1.
+  - [Site](https://grimmbient.github.io/grimm/) — Browser demo and [editor](https://grimmbient.github.io/grimm/editor.html).
+  - [Code](https://github.com/GRiMMBIENT/grimm) — Source repository.
+- **ZEN-1 (禅)** — Ambient "living window" firmware where every on-screen movement (cherry blossoms on a river, koi, fireflies under a moon) is a note you hear.
+  - [Site](https://aceyprime.github.io/zen-1/) — Project page.
+  - [Code](https://github.com/aceyprime/zen-1) — Source repository.
+- **AmbWave** — Ambient instrument built on Felucca: hold a chord, add atmosphere and scattered notes, and shape the scene with four knobs.
+  - [Site](https://mentalcells.github.io/ambwave/) — Project page.
+  - [Code](https://github.com/mentalcells/ambwave) — Source repository.
+- **Drift** — Simple dreamy ambient Felucca fork: press PLAY for a gentle chord progression, add layers with the white keys, jump chords with the black keys, and shape it with four knobs.
+  - [Site](https://thebrodi.github.io/fm1-drift/) — Project page.
+  - [Code](https://github.com/thebrodi/fm1-drift) — Source repository.
+- [Mini-Tone](https://github.com/eldontyrellcorp/Mini-Tone) — Stephane Schmitz's GPL-3.0 firmware based on Felucca 1.5; see the README for what it changes.
+- [RAMBEAVER](https://github.com/adamcharleswilsonmusic-code/RAMBEAVER) — Side-scrolling action game (defend the dam, ride through robot city, fly to the data center, defeat Mother) shipped as firmware with a quick-start guide; novelty.
 - **MONO2K** — Monomachine-style firmware: six mono machines, a 64-step sequencer with parameter locks, trig conditions, and ratchets, and a lofi bus, behind a 1-bit dithered "Swiss grid" screen. Prototype (v0.1) that runs in the browser and on a computer.
   - [Site](https://inigohernandez.github.io/mono2k/) — Project page.
   - [Code](https://github.com/InigoHernandez/mono2k) — Source repository.
@@ -158,7 +187,7 @@
 - [OberVave](https://github.com/zvenson/obervave) — Single deep 8-voice analog-style polysynth in the spirit of late-70s/early-80s American poly synths: two oscillators per voice with hard sync and cross-modulation, a 12/24 dB filter with an SEM-style lowpass-to-highpass morph, arpeggiator, two-track step sequencer, 32 programs, chorus, delay, and plate reverb.
 - **Felucca (per-track sequencer fork)** — Felucca 1.5.1 fork exploring eight patterns and a sequencer per track.
   - [Site](https://echoe.github.io/Felucca_seq_per_track/) — Installer page.
-  - [Code](https://github.com/echoe/Felucca_8_patterns) — Source repository.
+  - [Code](https://github.com/echoe/Felucca_seq_per_track) — Source repository.
 - **winampFM Synth** — Winamp 2.x-style firmware based on SLOOP 2.6 (GPL-3.0): sounds as a playlist, four-track loop recording, effects on sliders, and a line-only visualizer, with a 3D in-browser simulator and installer.
   - [Site](https://hericdk.github.io/winampFM/) — Site, installer, and simulator.
   - [Code](https://github.com/hericdk/winampFM) — Source repository.
@@ -182,6 +211,7 @@
 - **NESynth** — NES homebrew player for the FM-1 and SMK-37 (shared InfoNES core, several mappers supported, one controller): a browser player that builds cartridge firmware locally and installs or restores firmware.
   - [Site](https://chancethemaker.github.io/NESynth-FM1-SMK/) — Browser player and installer.
   - [Code](https://github.com/ChanceTheMaker/NESynth-FM1-SMK) — Source repository.
+- **Erik37** — Grand-piano firmware for the SMK-37 and the FM-1: a sampled concert grand with velocity layers, key-by-key decay, dampers and their noise, three pedals, sympathetic string resonance, and four rooms, built on fm1-base and felucca-bsp ([source](https://github.com/genkigenki/erik37), [hub entry](https://genkigenki.github.io/smk37/#fw-erik37)).
 - **Doom FM-1 / SMK** — Doom-engine port for the FM-1 and SMK-37 Pro / Elite with nine original maps and three weapons, a browser firmware builder, and installer (see also the other Doom ports under [development resources](#reverse-engineering)).
   - [Site](https://chancethemaker.github.io/doom-fm1-smk/) — Builder and installer.
   - [Code](https://github.com/ChanceTheMaker/doom-fm1-smk) — Source repository.
