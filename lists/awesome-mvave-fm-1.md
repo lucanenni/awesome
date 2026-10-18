@@ -108,9 +108,7 @@
   - [Site](https://rosen-wav.github.io/more-chords-M-VAVE-FM-1-Custom-Firmware/site/) — Web installer and demo.
   - [Code](https://github.com/rosen-wav/more-chords-M-VAVE-FM-1-Custom-Firmware) — Source repository.
 - [Loom FM-1](https://github.com/Co-oscillator/Loom-FM-1) — Five-track polyphonic synthesizer, sampler, and groovebox firmware with a five-track mixer, sample-tape scrub, and a granular cloud.
-- **FRASIL** — Ambient drone and texture firmware ("drone textures frozen in motion"), documented in English and French.
-  - [Site](https://styvesgoupil.github.io/frasil/) — Project page.
-  - [Code](https://github.com/styvesgoupil/frasil) — Source repository.
+- [FRASIL](https://github.com/styvesgoupil/frasil) — Ambient drone and texture firmware ("drone textures frozen in motion"), documented in English and French; its listed project page returned 404 when checked.
 - **Haave** — Simple dreamy ambient firmware for live meditation, a sibling of Drift (a Felucca fork).
   - [Site](https://thebrodi.github.io/fm1-haave/) — Project page.
   - [Code](https://github.com/thebrodi/fm1-haave) — Source repository.
