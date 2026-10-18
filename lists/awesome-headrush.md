@@ -61,6 +61,7 @@
 - **HeadRush Core Toolkit** — Open Claude Skill and general reference for controlling a HeadRush Core/Prime unit over its local REST API, with a database mapping all 375 official models to the real amp/cab/pedal/mic they're inspired by.
   - [Site](https://headrush-core-toolkit.vercel.app/) — Live model reference and gallery of rigs built with the skill.
   - [Code](https://github.com/venyavekk-dev/headrush-core-toolkit) — Source repository with the Claude Skill, model reference data, example rigs, and site code.
+- [headrush-cli](https://github.com/kungbi/headrush-cli) — Unofficial local-first, schema-aware command-line tool for inspecting a rig, planning a tone, and applying changes, designed for players, automation, and AI agents.
 
 ## Preset Packs and IRs
 
