@@ -104,6 +104,16 @@
 - **Clipper** — Deep synthesizer firmware by SLOOP's author (GPL-3.0, based on Felucca), with browser installer and editor, a quick-start guide in English and French, and editor-protocol docs. Version 1.0 is experimental: it passes its test suite on a computer but has run very little on a real FM-1.
   - [Site](https://isod89.github.io/clipper-fm1/) — Project page and installer.
   - [Code](https://github.com/isod89/clipper-fm1) — Source repository.
+- **LOOM-8** — Pocket groovebox by Charles Vestal: eight coloured instrument tracks on eight synth engines plus a sample player, break slicer, and drum kit, a 64-step sequencer with parameter locks, arp/strum/hold players, "weave" crossing of two patterns, momentary throws, and a conductor track that moves the song through a progression.
+  - [Site](https://charlesvestal.github.io/fm1-loom/) — Project page.
+  - [Code](https://github.com/charlesvestal/fm1-loom) — Source repository.
+- **Prysm** — Four-voice wavetable FM synthesizer: two oscillators per voice, each a chain of three wavetable operators modulating each other by FM, ring, or mix, with a resonant filter with drive, an LFO, a loopable mod envelope, stereo chorus, and delay.
+  - [Site](https://nicholaspratt.github.io/Prysm/) — Project page.
+  - [Code](https://github.com/NicholasPratt/Prysm) — Source repository.
+- **FM1-GM** — General MIDI sound module and 16-track sequencer: the full 128-program GM1 set and a GM drum kit, 16 tracks each on any MIDI channel, and 64 power-safe song slots sharing the device's free flash.
+  - [Site](https://jartificer.github.io/fm1-gm/) — Project page.
+  - [Code](https://github.com/jartificer/fm1-gm) — Source repository.
+- [Ravel](https://github.com/De-Pattern/Ravel-FM1) — Eight-track sound-design groovebox whose tracks synthesize, catch what they play onto a shared tape, and cut it up and rebuild it, with six engines (VA, PD, FM, PHYS, and more). Playable in the emulator; the firmware builds but has not been run on a real FM-1 yet.
 - **BOP-1** — Music toy for children that is also a real synthesizer: music plays when it is switched on, nothing a child presses sounds wrong, and every knob changes a "friend" on screen; it grows from pressing things (age 3) to beats and loops (6–8) to a subtractive synth with its real names (9–12 and up).
   - [Site](https://devrvega.github.io/BOP-1/) — Project page.
   - [Code](https://github.com/devrvega/BOP-1) — Source repository.
