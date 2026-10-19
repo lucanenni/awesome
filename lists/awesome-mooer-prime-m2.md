@@ -22,6 +22,7 @@
 
 ## Unofficial Tools and Captures
 
+- [SignalMatch](https://romanyamal.github.io/signalmatch/) — Single-file web tool ([source](https://github.com/romanyamal/signalmatch)) that converts a Tonebridge (Ultimate Guitar) pedal chain into a matching chain for the MOOER Prime **P1**, matching amps, cabs, and pedals to real hardware; built for the P1, so check M2 compatibility.
 - [MOOER MNRS Finder](https://mooer-mnrs-finder.vercel.app) — Searchable static catalog (snapshot of 1 September 2026) of 7,191 MOOER Studio amp (`.gnr`) and cabinet (`.gir`) captures with downloads of the original files; check Prime M2 compatibility before loading.
 
 ## Manuals
@@ -44,6 +45,9 @@
 - [Guitar Pedal X: Prime Minimax M2](https://www.guitarpedalx.com/news/gpx-blog/mooers-prime-minimax-m2-intelligent-pedal-is-a-cool-bluetooth-app-controlled-multi-fx-with-194-effects-onboard) — Blog post on the Bluetooth app-controlled multi-FX with 194 effects.
 - [W-Distribution: Prime series AI and NAM update](https://www.w-distribution.de/en/news/2026-09-17/MOOER-Prime-Series-AI-and-NAM-Update) — Distributor news on the September 2026 firmware adding MOOER AI and NAM A2 loading.
 - [TONE3000: NAM A2 complete guide](https://www.tone3000.com/guides/nam-a2-the-complete-guide) — Guide to the NAM A2 format, including the A2 Lite variant designed for embedded hardware like this pedal.
+- [The Gear Forum: MOOER Prime M2](https://thegearforum.com/threads/mooer-prime-m2.8350/) — Owner discussion of the M2.
+- [VGuitar Forums: Mooer PRIME P2](https://www.vguitarforums.com/smf/index.php?topic=36333.0) — Thread on the sibling P2 (same Prime software), including opinions on Mooer Studio as mostly a firmware updater without an editing panel and on MNRS file support.
+- [Rig-Talk: thread on the Prime P1](https://www.rig-talk.com/forum/threads/just-when-i-thought-i-was-over-digital-modeling.295193/) — Impressions of the P1, noting similar software to the P2.
 - [TalkBass: NPD Mooer Prime M2](https://www.talkbass.com/threads/npd-mooer-prime-m2.1676358/) — Owner thread with practical impressions, including that it sounds better after an analog pedal chain and a report that the IR loader is limited to 512 samples (one user's report, unverified).
 
 ## Notes
