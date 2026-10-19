@@ -8,6 +8,7 @@
 - [Unofficial Tools and Captures](#unofficial-tools-and-captures)
 - [Manuals](#manuals)
 - [Videos](#videos)
+- [Community and Reviews](#community-and-reviews)
 
 ## Official
 
@@ -16,6 +17,8 @@
 - [MOOER app downloads](https://www.mooeraudio.com/companyfile/App-Downloads-155.html) — Official mobile-app download page; the Prime app supports MOOER Prime models including M2.
 - [Prime M2 news page](https://www.mooeraudio.com/news/13.html) — Official MOOER news page featuring Prime M2 information and related downloads.
 - [NAM A2 Available Now](https://www.mooeraudio.com/news/29.html) — Official MOOER announcement of NAM A2 support across its devices, with the Prime P2/M2 rollout (A2 Lite).
+- [MOOER AI Preset Tutorial](https://www.mooeraudio.com/news/25.html) and [MOOER AI StemLab Tutorial](https://www.mooeraudio.com/news/27.html) — Official tutorials for the AI preset generator and stem separation tools (a [second StemLab tutorial](https://www.mooeraudio.com/news/26.html) is also published).
+- [MOOER Audio YouTube channel](https://www.youtube.com/@MooerAudioOfficial) and [official Videos page](https://www.mooeraudio.com/Videos.html) — Official video library, including product tutorials.
 
 ## Unofficial Tools and Captures
 
@@ -31,6 +34,17 @@
 ## Videos
 
 - [Prime M2 tutorial video](https://www.youtube.com/watch?v=OqU2Wimi7KA) — Video overview of M2 editing, cloud presets, MNRS/GIR files, IR management, and mobile-app workflows.
+
+## Community and Reviews
+
+- [MusicRadar: Prime Minimax M2 review](https://www.musicradar.com/guitars/guitar-pedals/mooer-prime-minimax-m2-intelligent-pedal-review) — Review rating build 4/5 and sound 3.5/5; notes that all tone tweaking (volume, gain, EQ) happens on a phone or tablet, with 194 effect models and 80 presets.
+- [MusicRadar: Prime M2 announcement](https://www.musicradar.com/guitars/mooer-audio-prime-m2-intelligent-pedal) — Launch coverage of the touchscreen pedal.
+- [gearnews: Prime M2, the ultimate jam and busking pedal?](https://www.gearnews.com/mooer-prime-m2-guitar/) — Overview and impressions of the pocket-sized pedal.
+- [Premier Guitar: Prime Minimax M2](https://www.premierguitar.com/news/mooer-prime-minimax-m2) — News coverage of the launch.
+- [Guitar Pedal X: Prime Minimax M2](https://www.guitarpedalx.com/news/gpx-blog/mooers-prime-minimax-m2-intelligent-pedal-is-a-cool-bluetooth-app-controlled-multi-fx-with-194-effects-onboard) — Blog post on the Bluetooth app-controlled multi-FX with 194 effects.
+- [W-Distribution: Prime series AI and NAM update](https://www.w-distribution.de/en/news/2026-09-17/MOOER-Prime-Series-AI-and-NAM-Update) — Distributor news on the September 2026 firmware adding MOOER AI and NAM A2 loading.
+- [TONE3000: NAM A2 complete guide](https://www.tone3000.com/guides/nam-a2-the-complete-guide) — Guide to the NAM A2 format, including the A2 Lite variant designed for embedded hardware like this pedal.
+- [TalkBass: NPD Mooer Prime M2](https://www.talkbass.com/threads/npd-mooer-prime-m2.1676358/) — Owner thread with practical impressions, including that it sounds better after an analog pedal chain and a report that the IR loader is limited to 512 samples (one user's report, unverified).
 
 ## Notes
 
