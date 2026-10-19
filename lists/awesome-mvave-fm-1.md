@@ -101,6 +101,13 @@
   - [Code](https://github.com/ruppert/fmini-1) — Source repository.
 - **FM Lab** — Learning-focused firmware: a six-operator FM synthesizer with the real DX7 engine behind it, no drums, pattern chaining, or song mode, and every parameter under a knob, built to learn FM on.
   - [Code](https://github.com/jsmith13/fm_lab) — Source repository.
+- **Clipper** — Deep synthesizer firmware by SLOOP's author (GPL-3.0, based on Felucca), with browser installer and editor, a quick-start guide in English and French, and editor-protocol docs. Version 1.0 is experimental: it passes its test suite on a computer but has run very little on a real FM-1.
+  - [Site](https://isod89.github.io/clipper-fm1/) — Project page and installer.
+  - [Code](https://github.com/isod89/clipper-fm1) — Source repository.
+- **BOP-1** — Music toy for children that is also a real synthesizer: music plays when it is switched on, nothing a child presses sounds wrong, and every knob changes a "friend" on screen; it grows from pressing things (age 3) to beats and loops (6–8) to a subtractive synth with its real names (9–12 and up).
+  - [Site](https://devrvega.github.io/BOP-1/) — Project page.
+  - [Code](https://github.com/devrvega/BOP-1) — Source repository.
+- [KIDBOY](https://github.com/WillCMcC/kidboy-firmware) — Toddler-toy firmware (0.1, GPL-3.0, built on Felucca): four cards on the presets wheel, including nursery songs on the 27 keys and giant letters A–Z that are shown, said, and played; every press makes a sound and nothing can break.
 - **OKTOWAVE** — Felucca 1.6.1 (four tracks, 13 engines, sequencer, arpeggiator, effects, USB audio and MIDI) plus the WAVELET engine from the Wavelet Synthesizer.
   - [Site](https://pierrearnaudguyot.github.io/FM1-Oktowave-Firmware/) — Project page.
   - [Code](https://github.com/PierreArnaudGUYOT/FM1-Oktowave-Firmware) — Source repository.
@@ -353,6 +360,8 @@
 - [FM-1 Bonus Box](https://github.com/pfkellogg/fm1-bonus-box) — ESP32-S3 companion box adding a sustain pedal, a rotary preset browser with a round TFT, a WiFi soundbank manager, and USB MIDI; its [fm1-sustain-footswitch](https://github.com/pfkellogg/fm1-sustain-footswitch) sibling is a simple Arduino board turning a TRS sustain pedal into MIDI CC64.
 - [Virtual FM-1](https://github.com/jbschooley/Virtual-FM-1) — GPL-3.0 software FM-1: a standalone app and VST3/AU plugin (macOS, Windows, Linux) that plays the FM-1's FM engine, edits every sound setting, and runs its sequencer and arpeggiator, with two-way preset and pattern sync (single preset or the whole 128-preset library) over USB with the [FM-1+VA firmware](https://baudgirl.com/work/FM-1+VA). Instances can target stock, FM-1+VA, Felucca, or SLOOP (the last two run from their own source); it works as a standalone synth without the hardware.
 - [Falua](https://github.com/ehn96/Falua) — Unofficial Portuguese-documented plugin (VST3, AU, standalone, v0.1) that runs the sound engines of the JIANT firmware (a Felucca fork) unmodified on a computer, with DAW MIDI input, automatable parameters, and presets.
+- [Ghoulbox VST3](https://github.com/LexLongcoding/ghoulbox-vst3) — Unofficial JUCE VST3 instrument (GPL-3.0) that runs the real GHOULBOX firmware with its 240 × 240 screen and panel drawn in the plugin window; built and tested only in Cubase on Windows 11 x64.
+- [Consort](https://github.com/zisonzishen0415-stack/sloop-consort) — Phone companion (English and Simplified Chinese documentation) for an FM-1 running SLOOP 2.7 that handles the awkward jobs — sampler, FX, songs, and skins over USB — and leaves the instrument itself alone.
 - **FM-1 Macropad Patch** — Unofficial patch for the official V15 firmware that makes every button, key, and knob send a USB-MIDI note, so an app on the computer can turn the FM-1 into a macro pad; the repository contains no M-VAVE firmware (you patch your own V15 file).
   - [Site](https://smememe.github.io/fm1-macropad-patch/) — Project page and patcher.
   - [Code](https://github.com/smememe/fm1-macropad-patch) — Source repository.
