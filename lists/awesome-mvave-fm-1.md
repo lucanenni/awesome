@@ -118,6 +118,51 @@
 - **Frodhes** — Physically modelled Fender Rhodes, vibraphone, and marimba with no samples: every note is computed live from the instrument's mechanics (hammer, tine, tonebar, and pickup on the Rhodes; mallet and bar on the vibraphone).
   - [Site](https://leonardomirabal.github.io/frodhes/) — Project page.
   - [Code](https://github.com/leonardoMirabal/frodhes) — Source repository.
+- **Pelucco** — Custom Felucca fork with an extensive README.
+  - [Site](https://gadlele.github.io/Pelucco/) — Project page.
+  - [Code](https://github.com/Gadlele/Pelucco) — Source repository.
+- **Golana** — One analog-style synth laid out like the classic microKORG, with a screen that draws the sound, by the author of Fantasma.
+  - [Site](https://gadlele.github.io/Golana/) — Project page.
+  - [Code](https://github.com/Gadlele/Golana) — Source repository.
+- **MORPHEUS** — Eight-track ReBirth-style acid techno groovebox (808, 909, dual 303s, Amen breaks, FM lead, sub synth) with a Reason Matrix-style pattern sequencer.
+  - [Site](https://benbadio.github.io/morpheus-fm1/) — Project page.
+  - [Code](https://github.com/benbadio/morpheus-fm1) — Source repository.
+- **Finton** — Six-track trance firmware with a Web MIDI flasher.
+  - [Site](https://justynroberts.github.io/fm1-finton/) — Project page and flasher.
+  - [Code](https://github.com/justynroberts/fm1-finton) — Source repository.
+- **Ketch** — Tracker firmware in the LSDJ / picoTracker / M8 line, with song, chain, and phrase screens, instruments, effects, and a mixer; try it in the browser or install it.
+  - [Site](https://risseraka.github.io/fm1-tracker-ketch/) — Browser version and installer.
+  - [Code](https://github.com/risseraka/fm1-tracker-ketch) — Source repository.
+- **KAWA** — Free pocket tracker for chiptune and IDM (4-bit waves, pulse, noise, FM, sliced breakbeats, ratchets, stutter and glitch), documented in English, French, and Spanish.
+  - [Site](https://guizmoh.github.io/Kawa-Tracker-Fm1/) — Project page.
+  - [Code](https://github.com/Guizmoh/Kawa-Tracker-Fm1) — Source repository.
+- **Chipbox** — Chiptune "grovebox" with NES, Game Boy, and Master System sound in three main views.
+  - [Site](http://ihavenocluewhatimdoing.com/chipbox/) — Project page.
+  - [Code](https://github.com/pbarilla/chipbox) — Source repository.
+- [OPN-1](https://github.com/putchdev/opn-1) and [SID-1](https://github.com/putchdev/sid-1) — Open-source firmware running accurate recreations of the Mega Drive / Genesis sound chips (with instruments from Sonic the Hedgehog) and of two Commodore 64 SID chips (six voices, 6581 or 8580), each with a web app.
+- **Tuna** and **Flyfish** — Generative firmware that composes as it plays using Marbles-style randomness shaped by music theory (Tuna), and its one-piece sibling that plays, teaches, and lets you reshape Chopin's Étude Op. 10 No. 1 on a sampled Steinway D (Flyfish), both built on Felucca.
+  - [Tuna site](https://delirioux.github.io/tuna/) / [code](https://github.com/delirioux/tuna) — Generative composer.
+  - [Flyfish site](https://delirioux.github.io/flyfish/) / [code](https://github.com/delirioux/flyfish) — Étude player.
+- **UnholyUnion** — Generative ambient and drone firmware with "Immaculate Permutation", built on Felucca and Jangada.
+  - [Site](https://actuallysparky.github.io/FM-1-Unholy-Union-generative-drone-firmware/) — Project page.
+  - [Code](https://github.com/actuallysparky/FM-1-Unholy-Union-generative-drone-firmware) — Source repository.
+- **fmel-1** — Mellotron-style firmware: tape sounds coloured with effects and lo-fi tape treatment, based on Dinghy.
+  - [Site](https://antonioaltea.github.io/fmel-1/) — Project page.
+  - [Code](https://github.com/AntonioAltea/fmel-1) — Source repository.
+- [Shine On](https://github.com/zvenson/shineon) — Seventies string-machine firmware by Dinghy's author: a three-line ensemble with a phaser, delay, and plate reverb, where each key has its own keyer.
+- [MNM-1](https://github.com/sirpearson/fm-1-monomachine) — Italian-documented six-track monophonic groovebox inspired by the Elektron Monomachine, with a 64-step sequencer and three LFOs per machine.
+- [CRATE](https://github.com/zisonzishen/crate-fm1) — Slice and performance sampler firmware (GPL-3.0) built on the Felucca HAL.
+- [miniBRUTE](https://github.com/dzwerg/miniBRUTE) — Analog-inspired synthesizer firmware.
+- [RIFT](https://github.com/Vaayaa/rift-fw) — Chinese-documented bass and sequencer firmware (GPL-3.0) with five engines (ACID, RUMBLE, REESE, GROWL, SCREAM), DNA-generated sequences, and 8-track stem audio over USB.
+- [NOIZ DEMONS](https://github.com/SPIKE-the-Percussionist/noiz_demons) — Felucca mod where each randomization summons one of the 30 demons of the Ars Goetia, whose rank decides how far the sound mutates.
+- [Evander's Music Box](https://github.com/MikeTsak/Evanders-Music-Box--FM-1-LARP-firmware) — Medieval high-fantasy bard synthesizer firmware designed for live-action role-play.
+- [Speak37](https://github.com/genkigenki/Speak37) — Talking synth firmware for the SMK-37 and the FM-1, with "MOPE", a gloomy robot who judges your chords.
+- [FM-1 Studio Tess](https://github.com/jamesusmusic/fm1-studio-tess) — Development snapshot combining Melodee sound design with Tess generative sequencing; the author notes the full hardware acceptance matrix and an intermittent FM6 Bells fault remain unresolved.
+- [Gnomad Synth](https://gnomad.cc) — Easy, kid-friendly firmware with sound pictures instead of menus, installed with one Python script ([source](https://github.com/kpalaniuk/gnomad-firmware)).
+- [Modular One](https://github.com/bunglesociety/modular-one) — Film-music firmware by Alexis Arakis (Bungle Society) built on a soft FM engine from the Modular Town plugin, with delay, plate reverb, and a MIDI player.
+- [Organvave-1](https://github.com/ruppert/organvave-1) — Hammond B3 organ and Leslie speaker emulation by the author of FMini-1; the repository has no README yet.
+- **FM-1 Controller firmware** — [fm1-ctrl](https://johnskiller.github.io/fm1-ctrl/) turns the FM-1 into a hardware controller for web emulators (thin firmware plus a generic WebMIDI shim and JSON map convention; [source](https://github.com/johnskiller/fm1-ctrl)), and [trireme_fm1](https://github.com/ignis32/trireme_fm1) is a VIAL-compatible macro-keyboard firmware.
+- [Deal or No Deal](https://github.com/Kiwi3p/fm1-deal-or-no-deal) — Parody game firmware; novelty.
 - **Bigorna** — Firmware for rhythmic noise, power noise, industrial, and IDM that takes the Elektron Digitone II as its model: six tracks, four machines (4-OP, DRUM, WAVY, HIVE), Digitone-style pages, and a 16-step sequencer with parameter locks.
   - [Site](https://nzimas.github.io/bigorna/) — Project page.
   - [Code](https://github.com/nzimas/bigorna) — Source repository.
@@ -444,6 +489,7 @@
 - [Synthtopia: alt firmware options](https://www.synthtopia.com/content/2026/10/04/alt-firmware-options-for-the-m-wave-fm-1-pocket-synthesizer/) — Roundup of the first alternative firmwares (Felucca, Baud Girl, Groove OS) with demo videos.
 - [Drey Andersson: 7 custom firmwares ranked](https://dreyandersson.com/blog/m-vave-fm-1-custom-firmware/) — Comparison and ranking of the FM-1 custom firmwares, noting the scene's pace (dozens of forks within days).
 - [FM-1 Firmware Hub (fm1-editor.com)](https://fm1-editor.com/firmware/) — Maintained catalog of every firmware known to run on the FM-1, with makers, status, versions, stars, and links to each project (updated 10 October 2026); a good place to track new releases.
+- [fm1-firmware-collection](https://github.com/2bbb/fm1-firmware-collection) — Every community FM-1 firmware found on GitHub (about 150 at last count) as git submodules pinned to each project's default branch, with a [catalog](https://github.com/2bbb/fm1-firmware-collection/blob/main/CATALOG.md) (also as JSON) and CI-built packages with SHA-256 sums in the releases for projects that publish none; handy for discovery, but check each project's own page and license before flashing.
 - [Plugg Supply forum thread](https://plugg-supply.net/forum/gear-plugins/m-vave-fm-1-patch-librarian-free-browser-tool-for-dx-7-sound-transfer) — Discussion of the free browser patch librarian for DX7 sound transfer.
 - [GitHub topic: m-vave](https://github.com/topics/m-vave) — Repositories tagged with the M-VAVE brand.
 - [Synthtopia announcement](https://www.synthtopia.com/content/2026/07/13/m-vave-introduces-fm-1-fm-pocket-synthesizer/) — Introduction of the FM-1 pocket synthesizer.
