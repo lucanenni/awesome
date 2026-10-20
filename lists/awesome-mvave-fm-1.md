@@ -115,6 +115,15 @@
   - [Code](https://github.com/NicholasPratt/Prysm) — Source repository.
 - **ESTAMPIE** — Lively mediæval groovebox firmware (a GHOULBOX / Felucca fork) for tavern and court dances: plucked lutes and citoles, buzzing hurdy-gurdies, shawms and bagpipes over drones and frame drums.
   - [Code](https://github.com/ocean/estampie) — Source repository.
+- **Frodhes** — Physically modelled Fender Rhodes, vibraphone, and marimba with no samples: every note is computed live from the instrument's mechanics (hammer, tine, tonebar, and pickup on the Rhodes; mallet and bar on the vibraphone).
+  - [Site](https://leonardomirabal.github.io/frodhes/) — Project page.
+  - [Code](https://github.com/leonardoMirabal/frodhes) — Source repository.
+- **Bigorna** — Firmware for rhythmic noise, power noise, industrial, and IDM that takes the Elektron Digitone II as its model: six tracks, four machines (4-OP, DRUM, WAVY, HIVE), Digitone-style pages, and a 16-step sequencer with parameter locks.
+  - [Site](https://nzimas.github.io/bigorna/) — Project page.
+  - [Code](https://github.com/nzimas/bigorna) — Source repository.
+- **FN ACID (Function Acid)** — Test builds of a firmware where every track is a function y(s, φ) drawn on one pair of axes and played as drawn, after AA's "trying to turn math into acid": 16 hand-written 303-style steps or the AA formula, a ping-pong delay, and punch-in effects that act on the curve itself.
+  - [Site](https://fn-acid.netlify.app) — Project page.
+  - [Code](https://github.com/Electro-Dig/function-acid-fw) — Source repository.
 - **ODeath WAVE-1** — Community wavetable modification of Felucca: a 20-waveform, 4-voice wavetable synthesizer, with a web installer.
   - [Site](https://gybe808-dotcom.github.io/FeluccaWavetableOdeathMod/) — Project page and installer.
   - [Code](https://github.com/gybe808-dotcom/FeluccaWavetableOdeathMod) — Source repository.
