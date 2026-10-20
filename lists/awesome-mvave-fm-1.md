@@ -107,13 +107,25 @@
 - **LOOM-8** — Pocket groovebox by Charles Vestal: eight coloured instrument tracks on eight synth engines plus a sample player, break slicer, and drum kit, a 64-step sequencer with parameter locks, arp/strum/hold players, "weave" crossing of two patterns, momentary throws, and a conductor track that moves the song through a progression.
   - [Site](https://charlesvestal.github.io/fm1-loom/) — Project page.
   - [Code](https://github.com/charlesvestal/fm1-loom) — Source repository.
+- **Ravel** — Eight-track sound-design groovebox whose tracks synthesize, catch what they play onto a shared tape, and cut it up and rebuild it, with six engines (VA, PD, FM, PHYS, and more). Its project page offers a browser emulator, manual (with PDF), and a downloadable `.fwsc`; the author's earlier notes said it had not yet been run on a real FM-1, so treat it as experimental.
+  - [Site](https://de-pattern.github.io/Ravel_FM1/) — Emulator, manual, and firmware download.
+  - [Code](https://github.com/De-Pattern/Ravel_FM1) — Source repository (the previous `Ravel-FM1` repository has been superseded).
 - **Prysm** — Four-voice wavetable FM synthesizer: two oscillators per voice, each a chain of three wavetable operators modulating each other by FM, ring, or mix, with a resonant filter with drive, an LFO, a loopable mod envelope, stereo chorus, and delay.
   - [Site](https://nicholaspratt.github.io/Prysm/) — Project page.
   - [Code](https://github.com/NicholasPratt/Prysm) — Source repository.
+- **ESTAMPIE** — Lively mediæval groovebox firmware (a GHOULBOX / Felucca fork) for tavern and court dances: plucked lutes and citoles, buzzing hurdy-gurdies, shawms and bagpipes over drones and frame drums.
+  - [Code](https://github.com/ocean/estampie) — Source repository.
+- **ODeath WAVE-1** — Community wavetable modification of Felucca: a 20-waveform, 4-voice wavetable synthesizer, with a web installer.
+  - [Site](https://gybe808-dotcom.github.io/FeluccaWavetableOdeathMod/) — Project page and installer.
+  - [Code](https://github.com/gybe808-dotcom/FeluccaWavetableOdeathMod) — Source repository.
+- **FM-PLAITS** — Generative Plaits voice by @narti_live, with a browser version, installer, and manual.
+  - [Site](https://netroxic.github.io/fm1-fm-plaits/) — Project page and installer.
+  - [Code](https://github.com/netroxic/fm1-fm-plaits) — Source repository.
+- [Bytemania](https://github.com/llozd/bytemania) — Bytebeat synth built on Dinghy: formulas of `t` produce 8-bit samples, and the note you play sets how fast `t` counts.
+- [FM1-REDACTED](https://github.com/immersiveworldshandbook-source/FM1-REDACTED) — Experimental four-track groovebox on Felucca with glitch drums, Buchla-inspired FM, noise and granular textures, and per-track randomness and mutation.
 - **FM1-GM** — General MIDI sound module and 16-track sequencer: the full 128-program GM1 set and a GM drum kit, 16 tracks each on any MIDI channel, and 64 power-safe song slots sharing the device's free flash.
   - [Site](https://jartificer.github.io/fm1-gm/) — Project page.
   - [Code](https://github.com/jartificer/fm1-gm) — Source repository.
-- [Ravel](https://github.com/De-Pattern/Ravel-FM1) — Eight-track sound-design groovebox whose tracks synthesize, catch what they play onto a shared tape, and cut it up and rebuild it, with six engines (VA, PD, FM, PHYS, and more). Playable in the emulator; the firmware builds but has not been run on a real FM-1 yet.
 - [RED MASS VAMPIRE OS](https://github.com/karlalex732-dotcom/RED-MASS-VAMPIRE-OS-FOR-M-VAVE-FM1) — Modified Felucca-family firmware (GPL-3.0, v0.5.1-alpha, identity FM-1_906) by "Karsei": six tracks (five instruments plus drums) sharing eight voices, 256 built-in presets (including sampled pianos) with 32 user slots, a 32-row Song Mode, trap drum kits, and an English guide. The repository now holds the full firmware sources, tests, tools, banks, and build instructions (`BUILDING.md`), but no prebuilt `.fwsc` or Windows EXE is published and the v0.5.1-alpha release has no attached files, so it must be built from source; physical FM-1 testing is still pending by the author's own account.
 - **BOP-1** — Music toy for children that is also a real synthesizer: music plays when it is switched on, nothing a child presses sounds wrong, and every knob changes a "friend" on screen; it grows from pressing things (age 3) to beats and loops (6–8) to a subtractive synth with its real names (9–12 and up).
   - [Site](https://devrvega.github.io/BOP-1/) — Project page.
