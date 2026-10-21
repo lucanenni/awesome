@@ -169,6 +169,24 @@
 - **Synthesthetic** — Audio-visual firmware in the spirit of the Critter & Guitari EYESY: the FM-1 keeps its synth engines, sequencer, and drum machine, draws 31 audio-reactive visuals on its own screen, and appears to a computer as a USB webcam (UVC, MJPEG 320×180 at 30 fps) beside its USB-MIDI and USB-audio ports, so the visuals can go straight into OBS, Zoom, or a projector app.
   - [Site](https://michaeljsmalley.github.io/synthesthetic/) — Project page.
   - [Code](https://github.com/michaeljsmalley/synthesthetic) — Source repository.
+- **HERA** — J-6-style chord groovebox: the workflow of the Roland AIRA Compact J-6 rebuilt for the FM-1, with a real screen to show it (independent project, not endorsed by Roland).
+  - [Site](https://benbadio.github.io/hera-fm1/) — Project page.
+  - [Code](https://github.com/benbadio/hera-fm1) — Source repository.
+- **FMER** — Six-operator FM plus Virtual Analog synthesis and four-track performance, with an offline Companion app; packages are in the releases.
+  - [Releases](https://github.com/Nacsez/FMER/releases) — Downloads.
+  - [Code](https://github.com/Nacsez/FMER) — Source repository.
+- **haunted-fm1** — Five generative firmwares for "haunted ambient" in the vein of Burial: pitched-down ghost vocals, vinyl crackle, and rain, each built around one idea with meaningful controls.
+  - [Site](https://davidpryan.github.io/haunted-fm1/) — Project page.
+  - [Code](https://github.com/davidpryan/haunted-fm1) — Source repository.
+- **B1 Drawbar Organ** — Drawbar organ with classic tonewheels, nine drawbars, rotary speaker, percussion, and an experimental sawtooth engine, by the author of ETCH and BEETLE.
+  - [Site](https://sikkenworks.github.io/B1-Drawbar-Organ/) — Project page.
+  - [Code](https://github.com/SikkenWorks/B1-Drawbar-Organ) — Source repository.
+- **Spiral FM1** — Free open-source (GPL-3.0) live groovebox for Forest, Goa, Psytrance, Hitech, and TeKK sounds.
+  - [Site](https://spiralfractalplugins.github.io/spiralfm1/) — Project page.
+  - [Code](https://github.com/Spiralfractalplugins/spiralfm1) — Source repository.
+- [OberVave 4x](https://github.com/rusbayzvuk-maker/OberVave-4x) — Fork of OberVave that builds its 8-voice analog-style synth into a four-track groovebox.
+- [TheReFmB1rth](https://github.com/AlexanderSeel/TheReFmB1rth) — Experimental four-machine acid groovebox (two 303-inspired mono synths plus drum machines) in the two-bassline / two-drum-machine workflow.
+- [OpenIFW for FM-1](https://rcell233.github.io/OpenIFW-fm1/) — Chinese-documented monosynth port of OpenIFW ([source](https://github.com/rcell233/OpenIFW-fm1)); the author reports mostly correct sounds on hardware at 0.4.6-rc1 with remaining distortion and a stalled waveform display, addressed in rc2.
 - **FN ACID (Function Acid)** — Test builds of a firmware where every track is a function y(s, φ) drawn on one pair of axes and played as drawn, after AA's "trying to turn math into acid": 16 hand-written 303-style steps or the AA formula, a ping-pong delay, and punch-in effects that act on the curve itself.
   - [Site](https://fn-acid.netlify.app) — Project page.
   - [Code](https://github.com/Electro-Dig/function-acid-fw) — Source repository.
@@ -434,6 +452,12 @@
   - [Site](https://charlesvestal.github.io/fm1-base/) — Project page.
   - [Code](https://github.com/charlesvestal/fm1-base) — Source repository.
 - [FM-SWITCH](https://github.com/ocean/FM-SWITCH) — iOS app for swapping FM-1 firmwares from a phone over USB-C: it merges the firmware hub's catalogue with fm1-editor.com's list, keeps firmwares on the phone for offline flashing, and bundles M-VAVE's official V15 so you can always go back.
+- **Slipway** — Windows and Mac app that lists the community's FM-1 firmware (who made it, what it does, when it was released), checks the file, installs it in a click, always keeps a way back to stock V15, and guides recovery even from a black screen.
+  - [Site](https://discodave-glitch.github.io/slipway/) — Project page.
+  - [Code](https://github.com/Discodave-Glitch/slipway) — Source repository.
+- **Octo-Vave** — Collector and configurator for the FM-1 community's firmware projects, by Artificial Music.
+  - [Site](https://amacias.github.io/octo-vave/) — Web app.
+  - [Code](https://github.com/amacias/octo-vave) — Source repository.
 - [FM1Kit](https://github.com/ocean/FM1Kit) — Swift package for installing `.fwsc` firmware on the FM-1 over USB-MIDI from iOS and macOS: it finds the device, answers its read requests while it writes, verifies the result, and can finish an interrupted update or one started from USB recovery mode.
 - AI-agent skills (Chinese-language, MIT): [Felucca Editor Skill](https://github.com/hunterxiong2026/fm1-felucca-editor-2026) and [SLOOP Editor Skill](https://github.com/hunterxiong2026/fm1-sloop-editor-2026) let an AI agent drive the FM-1 over direct SysEx (Windows) for multi-track arrangement and song playback.
 - [Dexed](https://asb2m10.github.io/dexed/) — The open-source DX7 emulator and editor; the FM-1 accepts its single-parameter SysEx, so you can edit voices live.
