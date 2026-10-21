@@ -166,6 +166,9 @@
 - **Bigorna** — Firmware for rhythmic noise, power noise, industrial, and IDM that takes the Elektron Digitone II as its model: six tracks, four machines (4-OP, DRUM, WAVY, HIVE), Digitone-style pages, and a 16-step sequencer with parameter locks.
   - [Site](https://nzimas.github.io/bigorna/) — Project page.
   - [Code](https://github.com/nzimas/bigorna) — Source repository.
+- **Synthesthetic** — Audio-visual firmware in the spirit of the Critter & Guitari EYESY: the FM-1 keeps its synth engines, sequencer, and drum machine, draws 31 audio-reactive visuals on its own screen, and appears to a computer as a USB webcam (UVC, MJPEG 320×180 at 30 fps) beside its USB-MIDI and USB-audio ports, so the visuals can go straight into OBS, Zoom, or a projector app.
+  - [Site](https://michaeljsmalley.github.io/synthesthetic/) — Project page.
+  - [Code](https://github.com/michaeljsmalley/synthesthetic) — Source repository.
 - **FN ACID (Function Acid)** — Test builds of a firmware where every track is a function y(s, φ) drawn on one pair of axes and played as drawn, after AA's "trying to turn math into acid": 16 hand-written 303-style steps or the AA formula, a ping-pong delay, and punch-in effects that act on the curve itself.
   - [Site](https://fn-acid.netlify.app) — Project page.
   - [Code](https://github.com/Electro-Dig/function-acid-fw) — Source repository.
