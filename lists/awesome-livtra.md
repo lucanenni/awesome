@@ -1,12 +1,13 @@
-# Awesome LIVTRA NANOCORE
+# Awesome LIVTRA (NANOCORE & MOSAIC)
 
-> A curated list of official and community resources for LIVTRA NANOCORE and the closely related LIVTRA MOSAIC (same ToneCommand software and firmware line).
+> A curated list of official and community resources for the LIVTRA NANOCORE and LIVTRA MOSAIC pocket multi-effects pedals, which share the ToneCommand and RESONA software and the same firmware line (the VELRIX is also mentioned where it overlaps).
 
 ## Contents
 
 - [Official](#official)
 - [Unofficial Editors](#unofficial-editors)
 - [Manuals](#manuals)
+- [Community and Reviews](#community-and-reviews)
 - [Videos](#videos)
 
 ## Official
@@ -17,6 +18,7 @@
 - [LIVTRA news](https://livtramusic.com/news) — Official news: the VELRIX firmware and LIVTRA desktop apps added NAM A2 support (June 2026), and ToneCommand Upgrader 1.2.6 added editing for the new NANOCORE/MOSAIC firmware 1.10 effects and parameters.
 - [ToneCommand for Android](https://play.google.com/store/apps/details?id=com.livtra.nanocore) — Android companion app for connecting to NANOCORE, editing presets, managing blocks, and importing/exporting bundles.
 - [LIVTRA MOSAIC product page](https://livtramusic.com/products/mosaic/content-en.html) — Official page for the MOSAIC mobile multi-effects processor (three metal footswitches, NAM A2 and IR loader), the larger sibling of the NANOCORE that shares its editing software and firmware 1.10 updates.
+- [RESONA](https://livtramusic.com/resona) — Official tone-capture technology and desktop app that turns NAM A2 captures into LIVTRA's `.ead`/`.eadl` format for the MOSAIC and NANOCORE; LIVTRA says full RESONA is more accurate than the quick "Flash" import done by dragging an A2 file into ToneCommand (vendor claim).
 
 ## Unofficial Editors
 
@@ -31,6 +33,12 @@
 
 - [NANOCORE user manual](https://ae-pic-a1.aliexpress-media.com/kf/Sf935a7af6cb64376869faa22e0bdc334i.pdf) — User manual mirror covering editing, saving tones, connections, and USB-C recording.
 
+## Community and Reviews
+
+- [LIVTRA MOSAIC (VGuitar Forums)](https://www.vguitarforums.com/smf/index.php?topic=40257.0) — Community thread with the firmware 1.10 release notes (new Gate release, Auto Gate sensitivity and release, Motion Wah on FX2, new MOD effects, click fixes) and notes on converting NAM A2 files through RESONA or ToneCommand; it also lists a 1.11 section that could not be confirmed on the official downloads page.
+- [Livtra Velrix – new NAM / IR pedal (VGuitar Forums)](https://www.vguitarforums.com/smf/index.php?topic=39838.0) — Thread on the sibling VELRIX pedal that shares the software ecosystem.
+- [Livtra Mosaic specs (Stompbox Garden)](https://www.stompboxgarden.com/gear/pedal/17848/livtra-mosaic) — Spec sheet: headphone output, Bluetooth audio and MIDI, mobile and desktop editing, built-in battery.
+
 ## Videos
 
 - [Free NANOCORE tones video](https://www.youtube.com/watch?v=f8z6Z2T2w28) — Video offering four free NANOCORE tones—clean, chorus, crunch, and solo—with download links in the description.
@@ -39,6 +47,8 @@
 - [A $60 Quad Cortex? Livtra Mosaic (Vito Astone Music)](https://www.youtube.com/watch?v=pR2kzWjjq5g) — Review and demo of the MOSAIC.
 - [MOSAIC working-musician review (note.com)](https://note.com/arai_shoma/n/ne97b8dded8a4) — Written review of the MOSAIC finding its Stomp Mode smooth and usable live, with some reservations about the tuner.
 - [Mosaic by Livtra (rockboard PedalPedia)](https://www.rockboard.de/en/pedalPedia/Livtra/Mosaic/8632704377/) — Spec sheet: three metal footswitches, color TFT display, wireless mobile and desktop editing.
+- [Livtra Mosaic – Revisión y Test (Daniel Carreto)](https://www.youtube.com/watch?v=jcgCXHJnyzM) — Spanish-language review and test of the MOSAIC.
+- [Livtra Mosaic – Tutorial de actualización de firmware (Daniel Carreto)](https://www.youtube.com/watch?v=IAzHk2ILXdU) — Spanish-language walkthrough of updating the MOSAIC firmware.
 
 ## Notes
 

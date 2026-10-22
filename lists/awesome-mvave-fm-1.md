@@ -180,6 +180,10 @@
 - **FMDj** — LSDj (tracker) and DMGo! (drum machine) running in a Game Boy emulator inside the FM-1's firmware, using the FM-1's screen, keys, knobs, and sound; you bring your own ROMs.
   - [Site](https://deadactive.github.io/FMDj/) — Project page.
   - [Code](https://github.com/DeadActive/FMDj) — Source repository.
+- **LSDj on FM-1** — Web installer ([site](https://dreamsofbacon.github.io/lsdj-fm1-installer/)) that puts your own copy of Little Sound Dj on the FM-1 using a GameDude-based firmware ([source](https://github.com/dreamsofbacon/gamedude-fm1-lsdj), GPL-3.0, no ROMs included), now with Bluetooth and multi-game storage; a sibling of FMDj.
+- [Switch Blade](https://github.com/OllieNicklinUK/switchblade) — Free four-synth firmware (OB-Z, WAVE, NANO, JUNO), one machine per track with eight voices shared and no drums on purpose, built as a synth expansion for gear such as an Elektron Syntakt.
+- [VNL-1](https://github.com/pianomansam/fm1-vnl) — Lo-fi hip hop firmware built as an app on fm1-base.
+- [LUOGU](https://github.com/Reytian/fm1-luogu) — fm1-base firmware that plays Peking opera percussion patterns (锣鼓经) and 京胡 interludes of the sung modes.
 - **Matryoshka** — Transparent modular synth and nested assembly editor, a fork of a fork of Felucca.
   - [Site](https://glvno.github.io/matryoshka/) — Project page and editor.
   - [Code](https://github.com/glvno/matryoshka) — Source repository.
@@ -476,6 +480,10 @@
 - **FM-1 Swap** — Android app that installs firmware on the FM-1 over USB MIDI, shipping a firmware list captured from the firmware hub, fm1-editor.com, and RedtailWorks.
   - [Site](https://hyruleanhero1988.github.io/FM-1-Swap/) — Project page.
   - [Code](https://github.com/HyruleanHero1988/FM-1-Swap) — Source repository.
+- **Eight Bells** — Beats and melodies for the FM-1 and its custom firmwares from 28 engines (Euclidean, world cycles, cellular automata, fractals, number patterns, mirror, weighted, drift): pick a genre and get a pattern.
+  - [Site](https://discodave-glitch.github.io/eight-bells/) — Project page.
+  - [Code](https://github.com/Discodave-Glitch/eight-bells) — Source repository.
+- [M1n1Le55](https://github.com/ZzpsS/M1n1Le55) — Firmware manager and extended control console for the FM-1 on the M5Stack Tab5 touchscreen (Chinese and English documentation).
 - [Harbor](https://github.com/markterm/harbor) — Android app (13 stars) that plays FM-1 firmwares unchanged on phones and tablets using the fm1-emu emulator, via USB and Bluetooth MIDI or from other apps and a computer.
 - [MvaveFM1Unbricker](https://github.com/Quixotic7/MvaveFM1Unbricker) — Script that restores a soft-bricked FM-1 over a plain USB cable with no extra hardware: it uses jl-uboot-tool, takes a verified backup of the whole flash, writes the firmware region at `0x4000`, and checks every byte (procedure confirmed by the r/MVaveFM1 community; read its safety rules first, unofficial).
 - [FM-1 recovery guide with a Raspberry Pi Pico (Spanish)](https://github.com/codeine4563-netizen/fm1-pico-recovery-guia-en-espa-ol-para-uso-de-raspberry-pi-pico-rp2040-) — Unofficial Windows/PowerShell guide (with a PDF) to recover a bricked FM-1 that will not power on using a Raspberry Pi Pico; the author tested it on a single unit.
