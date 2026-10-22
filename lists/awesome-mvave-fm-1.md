@@ -172,6 +172,9 @@
 - **HERA** — J-6-style chord groovebox: the workflow of the Roland AIRA Compact J-6 rebuilt for the FM-1, with a real screen to show it (independent project, not endorsed by Roland).
   - [Site](https://benbadio.github.io/hera-fm1/) — Project page.
   - [Code](https://github.com/benbadio/hera-fm1) — Source repository.
+- [fm1-amy](https://github.com/dpwe/fm1-amy) — Six-voice Juno-60-style synth built on the AMY synthesizer library (and on X0X and Felucca), playing AMY's emulations of the 128 factory Juno-60 patches with filter, envelope, oscillator mix, and LFO on the four knobs.
+- [WitchBox](https://github.com/davidpryan/witchbox) — Six-track groovebox for Burial-style 2-step and melodic dubstep: ghost vocals, a sliding sub, dusty chords, off-grid drums, and rain through dust, tape, echo, and plate, with pattern generators you can edit.
+- [IVee](https://github.com/awolace/IVee) — Generative community firmware with shared harmony, evolving patterns, live keys, and a browser emulator.
 - **FMER** — Six-operator FM plus Virtual Analog synthesis and four-track performance, with an offline Companion app; packages are in the releases.
   - [Releases](https://github.com/Nacsez/FMER/releases) — Downloads.
   - [Code](https://github.com/Nacsez/FMER) — Source repository.
@@ -452,6 +455,8 @@
   - [Site](https://charlesvestal.github.io/fm1-base/) — Project page.
   - [Code](https://github.com/charlesvestal/fm1-base) — Source repository.
 - [FM-SWITCH](https://github.com/ocean/FM-SWITCH) — iOS app for swapping FM-1 firmwares from a phone over USB-C: it merges the firmware hub's catalogue with fm1-editor.com's list, keeps firmwares on the phone for offline flashing, and bundles M-VAVE's official V15 so you can always go back.
+- [Harbor](https://github.com/markterm/harbor) — Android app (13 stars) that plays FM-1 firmwares unchanged on phones and tablets using the fm1-emu emulator, via USB and Bluetooth MIDI or from other apps and a computer.
+- [FM-1 recovery guide with a Raspberry Pi Pico (Spanish)](https://github.com/codeine4563-netizen/fm1-pico-recovery-guia-en-espa-ol-para-uso-de-raspberry-pi-pico-rp2040-) — Unofficial Windows/PowerShell guide (with a PDF) to recover a bricked FM-1 that will not power on using a Raspberry Pi Pico; the author tested it on a single unit.
 - **Slipway** — Windows and Mac app that lists the community's FM-1 firmware (who made it, what it does, when it was released), checks the file, installs it in a click, always keeps a way back to stock V15, and guides recovery even from a black screen.
   - [Site](https://discodave-glitch.github.io/slipway/) — Project page.
   - [Code](https://github.com/Discodave-Glitch/slipway) — Source repository.
