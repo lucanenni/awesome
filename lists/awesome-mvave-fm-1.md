@@ -174,6 +174,24 @@
   - [Code](https://github.com/benbadio/hera-fm1) — Source repository.
 - [fm1-amy](https://github.com/dpwe/fm1-amy) — Six-voice Juno-60-style synth built on the AMY synthesizer library (and on X0X and Felucca), playing AMY's emulations of the 128 factory Juno-60 patches with filter, envelope, oscillator mix, and LFO on the four knobs.
 - [WitchBox](https://github.com/davidpryan/witchbox) — Six-track groovebox for Burial-style 2-step and melodic dubstep: ghost vocals, a sliding sub, dusty chords, off-grid drums, and rain through dust, tape, echo, and plate, with pattern generators you can edit.
+- **analogBEAST** — Firmware with two DSP routings, a Steiner-Parker filter, 128 patterns, and SONG and ALBUM modes for building complete songs and albums (English and German documentation).
+  - [Site](https://dzwerg.github.io/analogBEAST/) — Project page.
+  - [Code](https://github.com/dzwerg/analogBEAST) — Source repository.
+- **FMDj** — LSDj (tracker) and DMGo! (drum machine) running in a Game Boy emulator inside the FM-1's firmware, using the FM-1's screen, keys, knobs, and sound; you bring your own ROMs.
+  - [Site](https://deadactive.github.io/FMDj/) — Project page.
+  - [Code](https://github.com/DeadActive/FMDj) — Source repository.
+- **Matryoshka** — Transparent modular synth and nested assembly editor, a fork of a fork of Felucca.
+  - [Site](https://glvno.github.io/matryoshka/) — Project page and editor.
+  - [Code](https://github.com/glvno/matryoshka) — Source repository.
+- **NIGHTFALL** — Independent cyberpunk-inspired performance firmware and browser studio with synthesizer, sequencer, FX, and a web simulator.
+  - [Site](https://sylarpu-x.github.io/nightfall-fm1/) — Project page and studio.
+  - [Code](https://github.com/SylarPu-X/nightfall-fm1) — Source repository.
+- **DRIFT** — Omnichord-style ambient drone firmware where a drone follows your chords and four Euclidean rhythm lanes make it breathe.
+  - [Site](https://i-am-maxpower.github.io/drift-fm1/) — Project page.
+  - [Code](https://github.com/I-am-MaxPower/drift-fm1) — Source repository.
+- [LAUNCHPARTY](https://github.com/megagott/launchparty-fm1) — Experimental firmware combining playable synth sounds with interactive Novation Launchpad Pro MK3 lightshows, a sibling of MYCELIUM.
+- [AEther](https://github.com/twaroshinto/AEther) — Polish-documented spectral synthesizer in the manner of PaulStretch: long windows, preserved spectral amplitudes, and random phases.
+- [BRUTAL FM](https://github.com/hiroikezawa/brutal-fm) — Experimental Felucca-based FM firmware with aggressive FM and a complex arpeggiator that turns the held keys into a fixed loop (Japanese documentation).
 - [IVee](https://github.com/awolace/IVee) — Generative community firmware with shared harmony, evolving patterns, live keys, and a browser emulator.
 - **FMER** — Six-operator FM plus Virtual Analog synthesis and four-track performance, with an offline Companion app; packages are in the releases.
   - [Releases](https://github.com/Nacsez/FMER/releases) — Downloads.
@@ -197,8 +215,8 @@
   - [Site](https://gybe808-dotcom.github.io/FeluccaWavetableOdeathMod/) — Project page and installer.
   - [Code](https://github.com/gybe808-dotcom/FeluccaWavetableOdeathMod) — Source repository.
 - **FM-PLAITS** — Generative Plaits voice by @narti_live, with a browser version, installer, and manual.
-  - [Site](https://netroxic.github.io/fm1-fm-plaits/) — Project page and installer.
-  - [Code](https://github.com/netroxic/fm1-fm-plaits) — Source repository.
+  - [Site](https://narti-live.github.io/fm1-fm-plaits/) — Project page and installer.
+  - [Code](https://github.com/Narti-Live/fm1-fm-plaits) — Source repository.
 - [Bytemania](https://github.com/llozd/bytemania) — Bytebeat synth built on Dinghy: formulas of `t` produce 8-bit samples, and the note you play sets how fast `t` counts.
 - [FM1-REDACTED](https://github.com/immersiveworldshandbook-source/FM1-REDACTED) — Experimental four-track groovebox on Felucca with glitch drums, Buchla-inspired FM, noise and granular textures, and per-track randomness and mutation.
 - **FM1-GM** — General MIDI sound module and 16-track sequencer: the full 128-program GM1 set and a GM drum kit, 16 tracks each on any MIDI channel, and 64 power-safe song slots sharing the device's free flash.
@@ -455,6 +473,9 @@
   - [Site](https://charlesvestal.github.io/fm1-base/) — Project page.
   - [Code](https://github.com/charlesvestal/fm1-base) — Source repository.
 - [FM-SWITCH](https://github.com/ocean/FM-SWITCH) — iOS app for swapping FM-1 firmwares from a phone over USB-C: it merges the firmware hub's catalogue with fm1-editor.com's list, keeps firmwares on the phone for offline flashing, and bundles M-VAVE's official V15 so you can always go back.
+- **FM-1 Swap** — Android app that installs firmware on the FM-1 over USB MIDI, shipping a firmware list captured from the firmware hub, fm1-editor.com, and RedtailWorks.
+  - [Site](https://hyruleanhero1988.github.io/FM-1-Swap/) — Project page.
+  - [Code](https://github.com/HyruleanHero1988/FM-1-Swap) — Source repository.
 - [Harbor](https://github.com/markterm/harbor) — Android app (13 stars) that plays FM-1 firmwares unchanged on phones and tablets using the fm1-emu emulator, via USB and Bluetooth MIDI or from other apps and a computer.
 - [MvaveFM1Unbricker](https://github.com/Quixotic7/MvaveFM1Unbricker) — Script that restores a soft-bricked FM-1 over a plain USB cable with no extra hardware: it uses jl-uboot-tool, takes a verified backup of the whole flash, writes the firmware region at `0x4000`, and checks every byte (procedure confirmed by the r/MVaveFM1 community; read its safety rules first, unofficial).
 - [FM-1 recovery guide with a Raspberry Pi Pico (Spanish)](https://github.com/codeine4563-netizen/fm1-pico-recovery-guia-en-espa-ol-para-uso-de-raspberry-pi-pico-rp2040-) — Unofficial Windows/PowerShell guide (with a PDF) to recover a bricked FM-1 that will not power on using a Raspberry Pi Pico; the author tested it on a single unit.
