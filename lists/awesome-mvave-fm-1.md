@@ -34,9 +34,9 @@
 - [Felucca](https://github.com/hugelton/Felucca) — Hügelton Instruments' GPL-3.0 multi-engine synth firmware (v1.0, in field testing): thirteen engines, four tracks, a 64-step sequencer per track with chords/ties/slide/chance, song chaining, chord keys, arpeggiator, modulation matrix, effects, class-compliant USB MIDI plus a USB audio input. Installs from Chrome/Edge over USB via the [web installer](https://hugelton.github.io/Felucca/) (no extra hardware; "Return to official V15" restores the stock firmware) and comes with a [web editor](https://hugelton.github.io/Felucca/webapp/editor/). ([Synth Anatomy coverage](https://synthanatomy.com/2026/10/hugelton-instruments-felucca-custom-m-vave-fm-1-firmware-turns-it-into-a-multi-engine-synth.html), [MATRIXSYNTH](https://www.matrixsynth.com/2026/10/fm-1-custom-firmware-felucca.html))
 - [SLOOP](https://github.com/isod89/sloop-fm1) — 3dSam's free, open-source (GPL-3.0) live groovebox firmware based on Felucca (v2.2, beta): four tracks (three synths plus a drum machine), nine synthesis engines, 68 sounds, 37 drum kits, three user sample slots, punch-in FX, ratchets, note repeat, one-key chords, live song sections A–D, and a web editor. Install from Chrome/Edge with the [web installer](https://isod89.github.io/sloop-fm1/) or the `.fwsc` files in the [releases](https://github.com/isod89/sloop-fm1/releases); recovery from a failed install needs [FM-1-transporter](https://github.com/kurogedelic/FM-1-transporter). ([Synth Anatomy coverage](https://synthanatomy.com/2026/10/3dsam-sloop-custom-firmware-turns-m-vave-fm-1-into-a-4-track-groovebox.html))
 - [Melodee](https://github.com/keremimo/melodee) — GPL-3.0 fork of Felucca 1.0 (v0.10) with a DX7-accurate FM6 engine (Dexed-compatible, up to 16 voices, on-device operator pages, DX7 SysEx import), a TR-808 drum kit, USB audio in/out, eight pattern banks per track, improved step editing, and MIDI/panel refinements. Installs from Chrome/Edge via its [web installer](https://keremimo.github.io/melodee/) (with a [web editor](https://keremimo.github.io/melodee/webapp/editor/)); the original firmware can be restored. Projects saved by earlier Melodee versions are not imported.
-- **Melodee (Tess)** — Experimental GPL-3.0 generative-sequencing fork of Melodee, with a web installer and web editor.
-  - [Site](https://rastapopolix.github.io/melodee-tess/) — Project page, installer, and editor.
-  - [Code](https://github.com/Rastapopolix/melodee-tess) — Source repository.
+- **Melodee (Tess)** — Experimental GPL-3.0 generative-sequencing fork of Melodee (the repository is now named Tessera, the testbed for a standalone generative firmware), with a web installer, web editor, and browser simulator.
+  - [Site](https://rastapopolix.github.io/tessera/) — Project page, installer, and editor.
+  - [Code](https://github.com/Rastapopolix/tessera) — Source repository.
 - [X0X](https://github.com/charlesvestal/fm1-x0x) — Beta groovebox firmware (fork of Felucca) with a TR-909, a TR-808, two TB-303s with TB-3PO acid generators, and a breakbeat generator, plus 16 patterns, song mode, recorded knob moves, shared reverb/tape delay, and a master compressor. Try it in the [browser emulator](https://charlesvestal.github.io/fm1-x0x/emu/), read the [manual](https://charlesvestal.github.io/fm1-x0x/manual/), and install from Chrome/Edge via the [web installer](https://charlesvestal.github.io/fm1-x0x/install/); heavy patterns can still hit the CPU limit. ([Synth Anatomy coverage](https://synthanatomy.com/2026/10/charles-vestal-x0x-custom-firmware-turns-the-m-vave-fm-1-into-a-rebirth-like-groovebox.html))
 - **OMNI (FoMni)** — Charles Vestal's GPL-3.0 chord-harp firmware inspired by the Omnichord: the 16 white keys strum, the 11 black keys pick chords (hold ENV for minor, LFO for 7th), with an organ-style bass, ten OM-84 rhythms with auto bass sync, Home/SEQ/FX pages, and MIDI out. Try it in the [browser emulator](https://charlesvestal.github.io/fm1-fomni/emu/) and install from Chrome/Edge via the [web installer](https://charlesvestal.github.io/fm1-fomni/install/); the stock firmware can be restored. ([Synth Anatomy coverage](https://synthanatomy.com/2026/10/charles-vestal-fomni-1-an-omnichord-custom-firmware-for-the-m-vave-fm-1.html))
   - [Site](https://charlesvestal.github.io/fm1-fomni/) — Project page.
@@ -209,6 +209,11 @@
 - **Spiral FM1** — Free open-source (GPL-3.0) live groovebox for Forest, Goa, Psytrance, Hitech, and TeKK sounds.
   - [Site](https://spiralfractalplugins.github.io/spiralfm1/) — Project page.
   - [Code](https://github.com/Spiralfractalplugins/spiralfm1) — Source repository.
+- **OPLBOX** — Turns the FM-1 into an AdLib: OPL2 emulation that plays the SoundFX Macs Opera songs (the DOS soundtracks of LINEL's games and Eclipse's Stone Age) as FXDRIVER drove a Sound Blaster, now with a tracker editor.
+  - [Code](https://github.com/LXXero/oplbox) — Source repository.
+- **MOPE-1** — "A sad wavetable synth and drum machine" with no menus: a glossy pixel jelly in a rainy room is the sound, and the part you are editing opens as a schematic of its envelope, LFO, and filter.
+  - [Site](https://slothpallas.github.io/mope-1/) — Project page.
+  - [Code](https://github.com/slothpallas/mope-1) — Source repository.
 - [OberVave 4x](https://github.com/rusbayzvuk-maker/OberVave-4x) — Fork of OberVave that builds its 8-voice analog-style synth into a four-track groovebox.
 - [TheReFmB1rth](https://github.com/AlexanderSeel/TheReFmB1rth) — Experimental four-machine acid groovebox (two 303-inspired mono synths plus drum machines) in the two-bassline / two-drum-machine workflow.
 - [OpenIFW for FM-1](https://rcell233.github.io/OpenIFW-fm1/) — Chinese-documented monosynth port of OpenIFW ([source](https://github.com/rcell233/OpenIFW-fm1)); the author reports mostly correct sounds on hardware at 0.4.6-rc1 with remaining distortion and a stalled waveform display, addressed in rc2.
@@ -477,6 +482,31 @@
   - [Site](https://charlesvestal.github.io/fm1-base/) — Project page.
   - [Code](https://github.com/charlesvestal/fm1-base) — Source repository.
 - [FM-SWITCH](https://github.com/ocean/FM-SWITCH) — iOS app for swapping FM-1 firmwares from a phone over USB-C: it merges the firmware hub's catalogue with fm1-editor.com's list, keeps firmwares on the phone for offline flashing, and bundles M-VAVE's official V15 so you can always go back.
+- **MvaveFM1 Designer** — Visual editor for FM-1 panel states: the LEDs under the 27 keys and 14 buttons, what the 8 knobs do, and a mock-up of the 240 × 240 screen, with JSON interchange.
+  - [Site](https://quixotic7.github.io/MvaveFM1-Designer/) — Web editor.
+  - [Code](https://github.com/Quixotic7/MvaveFM1-Designer) — Source repository.
+- **TransitFM1** — Tiny firmware to stop at between two custom firmwares, since moving from one custom firmware to another is where units get bricked.
+  - [Site](https://quixotic7.github.io/TransitFM1/) — Project page.
+  - [Code](https://github.com/Quixotic7/transitfm1) — Source repository.
+- **fm1buddy** — Cheap hardware (an ESP32-S3 touch-screen board) that switches the FM-1's firmware and lets you play it from USB and Bluetooth MIDI controllers with no computer.
+  - [Site](http://konsumer.js.org/fm1buddy/) — Project page.
+  - [Code](https://github.com/konsumer/fm1buddy) — Source repository.
+- [fm1-studio](https://github.com/thingsapart/fm1-studio) — Android app that runs SLOOP, FM1 MOVE, Felucca, sloopDX, Ghoulbox, and zp12 with native firmware displays, touch controls, a piano roll, and sound editors.
+- **fm1-mobile-emu** — The FM-1 on your phone: real firmwares (X0X, Felucca, SLOOP, FiMba-1, Melodee, AMB-1, and more) compiled to WebAssembly behind a touch panel.
+  - [Site](https://hb3p8.github.io/fm1-mobile-emu/) — Browser app.
+  - [Code](https://github.com/hb3p8/fm1-mobile-emu) — Source repository.
+- **FM-1 browser emulator (shcherbakov7)** — Russian-documented emulator that runs unmodified `.fwsc`, `.ufw`, `.bin`, and `.elf` firmwares in the browser.
+  - [Site](https://shcherbakov7.github.io/m-wave-fm1-browser-emulator/) — Browser emulator.
+  - [Code](https://github.com/shcherbakov7/m-wave-fm1-browser-emulator) — Source repository.
+- [felucca-try](https://github.com/spinkham/felucca-try) — Unofficial Felucca browser emulator with MIDI knob control (its hosted page returned 404 when checked).
+- [fm1-manager](https://github.com/bratta/fm1-manager) — Browser app (Web MIDI) to manage the 128 presets and restore the stock firmware.
+- [Soundspirate FM1 bank loader](https://klonecom.github.io/M-VAVE-FM1-LOADER---/) — Single-file browser utility for sending `.syx` bank files to the FM-1 over Web MIDI ([source](https://github.com/klonecom/m-vave-fm1-loader---)).
+- [yamahadx7_to_fm-1](https://github.com/s0fx2/yamahadx7_to_fm-1) — Splits a Yamaha DX7 32-voice `.syx` bank into single-voice files that third-party FM-1 firmwares can import (English and Chinese).
+- [Flipper FM-1 recovery](https://github.com/merthsoft/flipper-fm1-recovery) — Recovers an FM-1 after an interrupted update using a Flipper Zero, a USB data cable, and a Windows PC, with no extra wiring.
+- [fm1-build](https://github.com/zvenson/fm1-build) — Shared GitHub Actions workflow that builds an FM-1 (and SMK-37) firmware from its own repository and signs a build attestation for the packages.
+- [TamaMPE](https://tamabotmusic.github.io/TamaMPE/) — Expressive MPE synthesizer firmware with FM6 and Prophet synthesis and stereo spatial effects, built on Melodee ([source](https://github.com/tamabotmusic/tamampe)).
+- [FM1VST](https://github.com/Quixotic7/fm1vst) — Planned VST3/AU/standalone plugin that compiles the firmware's own C source (from ChoralRoot's emulator); its project page was not live when checked.
+- [altstrument](https://altstrument.org/devices/m-vave-fm-1) — Third-party directory of alternative firmware and tools for music hardware (about 900 firmwares across 200+ devices); its FM-1 page tracks versions and releases of most projects listed here, and it also has pages for the [SMK-37](https://altstrument.org/devices/m-vave-smk-37) and [Chocolate](https://altstrument.org/devices/m-vave-chocolate).
 - **FM-1 Swap** — Android app that installs firmware on the FM-1 over USB MIDI, shipping a firmware list captured from the firmware hub, fm1-editor.com, and RedtailWorks.
   - [Site](https://hyruleanhero1988.github.io/FM-1-Swap/) — Project page.
   - [Code](https://github.com/HyruleanHero1988/FM-1-Swap) — Source repository.
