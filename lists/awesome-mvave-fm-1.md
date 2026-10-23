@@ -124,6 +124,7 @@
 - **Golana** — One analog-style synth laid out like the classic microKORG, with a screen that draws the sound, by the author of Fantasma.
   - [Site](https://gadlele.github.io/Golana/) — Project page.
   - [Code](https://github.com/Gadlele/Golana) — Source repository.
+- [Golana DZ Edition](https://github.com/dzwerg/Golana-DZ) — Experimental fork of Golana adding a 64-step sequencer, song mode, and USB MIDI out.
 - **MORPHEUS** — Eight-track ReBirth-style acid techno groovebox (808, 909, dual 303s, Amen breaks, FM lead, sub synth) with a Reason Matrix-style pattern sequencer.
   - [Site](https://benbadio.github.io/morpheus-fm1/) — Project page.
   - [Code](https://github.com/benbadio/morpheus-fm1) — Source repository.
@@ -414,6 +415,9 @@
 - **Rainbow mode** — Felucca-based music toy for small children: every key shows its note in its own colour, and 40 friends each bring a picture, a sound, and a beat, with a volume limit for small ears.
   - [Site](https://joshbartlettband-web.github.io/felucca-rainbow/) — Project page.
   - [Code](https://github.com/joshbartlettband-web/felucca-rainbow) — Source repository.
+- **Double Rainbow** — Custom firmware designed for a young-adult audience, a sibling of Rainbow mode (Melodee-based installer).
+  - [Site](https://joshbartlettband-web.github.io/Double-Rainbow/) — Project page.
+  - [Code](https://github.com/joshbartlettband-web/double-rainbow) — Source repository.
 - **ORBIT** — Groovebox built on SLOOP with OP-1-inspired screens (synth, drum, mixer, and an event tape for copying what the four tracks play), engines of its own, and a six-operator FM; installed from a terminal script rather than a browser page.
   - [Site](https://dspaudio.github.io/orbit-web-emu/) — Browser emulator.
   - [Code](https://github.com/dspaudio/orbit) — Source repository and releases.
@@ -518,6 +522,12 @@
 - **fm1-mobile-emu** — The FM-1 on your phone: real firmwares (X0X, Felucca, SLOOP, FiMba-1, Melodee, AMB-1, and more) compiled to WebAssembly behind a touch panel.
   - [Site](https://hb3p8.github.io/fm1-mobile-emu/) — Browser app.
   - [Code](https://github.com/hb3p8/fm1-mobile-emu) — Source repository.
+- **SLOOP FM-1 simulator** — Self-contained SLOOP browser synthesizer by Chance Roth, based on SLOOP and Felucca.
+  - [Site](https://chancethemaker.github.io/sloop-fm1-sim/) — Browser simulator.
+  - [Code](https://github.com/ChanceTheMaker/sloop-fm1-sim) — Source repository.
+- **MusicCoach** — Unified practice app for piano, guitar, bass, saxophone, harmonica, singing, and drums, with a device simulator and USB installer for the FM-1 and SMK-37.
+  - [Site](https://chancethemaker.github.io/MusicCoach/) — Practice app and installer.
+  - [Code](https://github.com/ChanceTheMaker/MusicCoach) — Source repository.
 - **FM-1 browser emulator (shcherbakov7)** — Russian-documented emulator that runs unmodified `.fwsc`, `.ufw`, `.bin`, and `.elf` firmwares in the browser.
   - [Site](https://shcherbakov7.github.io/m-wave-fm1-browser-emulator/) — Browser emulator.
   - [Code](https://github.com/shcherbakov7/m-wave-fm1-browser-emulator) — Source repository.
