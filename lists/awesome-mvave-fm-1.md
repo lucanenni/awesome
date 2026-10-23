@@ -214,6 +214,29 @@
 - **MOPE-1** — "A sad wavetable synth and drum machine" with no menus: a glossy pixel jelly in a rainy room is the sound, and the part you are editing opens as a schematic of its envelope, LFO, and filter.
   - [Site](https://slothpallas.github.io/mope-1/) — Project page.
   - [Code](https://github.com/slothpallas/mope-1) — Source repository.
+- [Scintilla](https://github.com/joakimeriksson/scintilla-fm1) — The 1981 Elka Synthex reborn on the FM-1 as an integer C port of the synthex-web synthesizer, by the author of fm1-emu.
+- **fm1-vital** — Vital-style wavetable synth firmware made with the foma toolkit; try it in the browser and install from Chrome or Edge.
+  - [Site](https://causticcatastrophe.github.io/fm1-vital/) — Browser demo and installer.
+  - [Code](https://github.com/CausticCatastrophe/fm1-vital) — Source repository.
+- [MODELAR](https://github.com/hirakos999/MODELAR) — Semi-modular drone synth played like a Kaoss Pad: four oscillators always sound and modulate each other, and the keyboard moves a cursor on an XY pad instead of playing notes.
+- **Sardab** — Dungeon synth turned toward the desert, with maqam tuning and Arabic scales.
+  - [Site](https://jrdntnnr.github.io/sardab/) — Project page.
+  - [Code](https://github.com/jrdntnnr/sardab) — Source repository.
+- **Felucca-OPX** — Felucca 1.5.1 with one more engine, an operator-style FM engine in the manner of the Korg opsix.
+  - [Site](https://thomasgregorymarsden-code.github.io/Felucca-opx/) — Project page.
+  - [Code](https://github.com/thomasgregorymarsden-code/felucca-opx) — Source repository.
+- **fm-dub** — Dub reggae preamp-inspired fork of SLOOP (GPL-3.0).
+  - [Site](https://imijes.github.io/fm-dub/) — Project page.
+  - [Code](https://github.com/imijes/fm-dub) — Source repository.
+- **Modular-1** — Nord Modular-inspired modular firmware with a web app for patching.
+  - [Site](https://wiggismodular.github.io/Modular-1/) — Web app.
+  - [Code](https://github.com/wiggismodular/modular-1) — Source repository.
+- [FM2000](https://github.com/jukejutsu/fm2000) — Song maker after Music 2000 on the PlayStation: write short riffs, place them on a bar timeline, and build a whole track on the device, arrangement first.
+- [GROOVEDECK](https://github.com/anonymousacademe/fm-1-groovedeck) — Drum machine / groovebox built on Dinghy with 16 synthesized drums, a 16-step sequencer, 8 patterns, and 4 kits.
+- [shifl](https://github.com/schwartzworld/shifl) — Live groovebox firmware (GPL-3.0, based on Felucca) with advanced sequencing for composition and live play.
+- [Vintages](https://github.com/jazzfolderparla/vintages) — Streamlined "synth-only" firmware with four sound banks and no sequencer or arpeggiator, focused on sound design and live play.
+- [fel-tracker](https://github.com/tristanosuriani/fel-tracker) — Felucca-based firmware with a tracker interface.
+- [MC-1 web](https://dspaudio.github.io/mc-1-web/) — Browser emulator of the MC-1 groovebox with its rebuilt LA-PCM-style engine (112 LA sounds replaced); source in the [same repository](https://github.com/dspaudio/mc-1-web).
 - [OberVave 4x](https://github.com/rusbayzvuk-maker/OberVave-4x) — Fork of OberVave that builds its 8-voice analog-style synth into a four-track groovebox.
 - [TheReFmB1rth](https://github.com/AlexanderSeel/TheReFmB1rth) — Experimental four-machine acid groovebox (two 303-inspired mono synths plus drum machines) in the two-bassline / two-drum-machine workflow.
 - [OpenIFW for FM-1](https://rcell233.github.io/OpenIFW-fm1/) — Chinese-documented monosynth port of OpenIFW ([source](https://github.com/rcell233/OpenIFW-fm1)); the author reports mostly correct sounds on hardware at 0.4.6-rc1 with remaining distortion and a stalled waveform display, addressed in rc2.
@@ -503,6 +526,11 @@
 - [Soundspirate FM1 bank loader](https://klonecom.github.io/M-VAVE-FM1-LOADER---/) — Single-file browser utility for sending `.syx` bank files to the FM-1 over Web MIDI ([source](https://github.com/klonecom/m-vave-fm1-loader---)).
 - [yamahadx7_to_fm-1](https://github.com/s0fx2/yamahadx7_to_fm-1) — Splits a Yamaha DX7 32-voice `.syx` bank into single-voice files that third-party FM-1 firmwares can import (English and Chinese).
 - [Flipper FM-1 recovery](https://github.com/merthsoft/flipper-fm1-recovery) — Recovers an FM-1 after an interrupted update using a Flipper Zero, a USB data cable, and a Windows PC, with no extra wiring.
+- [fm1-flipper-recovery](https://github.com/highdrone/fm1-flipper-recovery) — Flipper Zero boot-key recovery for an FM-1 that no longer starts or appears as a USB MIDI device, with illustrated macOS and Windows restoration steps.
+- **FM-1 MIDI converter** — Single-page offline converter between standard MIDI files and FM-1 projects (English and Chinese).
+  - [Site](https://balancechiang.github.io/fm1-midi-converter/) — Web app.
+  - [Code](https://github.com/balancechiang/fm1-midi-converter) — Source repository.
+- [take-taker](https://github.com/groundstation1/take-taker) — Android multitrack recorder that takes the FM-1's four outputs (running the Melodee firmware) as four separate tracks over USB audio; built with agent assistance.
 - [fm1-build](https://github.com/zvenson/fm1-build) — Shared GitHub Actions workflow that builds an FM-1 (and SMK-37) firmware from its own repository and signs a build attestation for the packages.
 - [TamaMPE](https://tamabotmusic.github.io/TamaMPE/) — Expressive MPE synthesizer firmware with FM6 and Prophet synthesis and stereo spatial effects, built on Melodee ([source](https://github.com/tamabotmusic/tamampe)).
 - [FM1VST](https://github.com/Quixotic7/fm1vst) — Planned VST3/AU/standalone plugin that compiles the firmware's own C source (from ChoralRoot's emulator); its project page was not live when checked.
