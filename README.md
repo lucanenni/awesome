@@ -11,7 +11,7 @@ Each device has its own list with official downloads/manuals, unofficial editors
 ### Multi-Effects & Amp Modelers
 
 - [HeadRush](lists/awesome-headrush.md) — Prime, Core, and Flex Prime
-- [LIVTRA NANOCORE & MOSAIC](lists/awesome-livtra.md) — Pocket NAM/IR multi-effects pedals with ToneCommand and RESONA
+- [LIVTRA](lists/awesome-livtra.md) — NANOCORE and MOSAIC pocket NAM/IR pedals, NEXFOOT MIDI controller, SKYTUNER tuner
 - [MOOER Prime M2](lists/awesome-mooer-prime-m2.md)
 - [Roger Linn AdrenaLinn III](lists/awesome-roger-linn-adrenalinn-iii.md) — Beat-synced guitar effects processor with amp modeling and a built-in drum machine
 - [Sonicake Pocket Master](lists/awesome-sonicake-pocket-master.md) — Pocket-size amp/effects modeler with NAM and IR support
@@ -22,6 +22,7 @@ Each device has its own list with official downloads/manuals, unofficial editors
 
 - [M-VAVE FM-1](lists/awesome-mvave-fm-1.md) — Pocket FM synthesizer
 - [M-VAVE SMK-37 Elite](lists/awesome-mvave-smk-37-elite.md) — MIDI keyboard controller with built-in DX7-style FM synth engine
+- [Donner MEDO](lists/awesome-donner-medo.md) — Portable sampling groovebox and Bluetooth MIDI controller
 - [M-VAVE Chocolate](lists/awesome-mvave-chocolate.md) — Chocolate and Chocolate Plus wireless MIDI foot controllers
 
 ### Guitars
@@ -44,6 +45,7 @@ Each device has its own list with official downloads/manuals, unofficial editors
 ## Related Directories
 
 - [altstrument](https://altstrument.org/) — Third-party directory of alternative firmware and tools for music hardware (about 900 firmwares across 200+ devices); it has dedicated pages for the M-VAVE [FM-1](https://altstrument.org/devices/m-vave-fm-1), [SMK-37](https://altstrument.org/devices/m-vave-smk-37), and [Chocolate](https://altstrument.org/devices/m-vave-chocolate).
+- [awesome-music-gear-firmware](https://github.com/Lapin/awesome-music-gear-firmware) — Another curated, links-only list of custom firmware for music gear (M-VAVE FM-1 and SMK-37 ports, Zoom MultiStomp firmware, and more).
 
 ## Contributing
 

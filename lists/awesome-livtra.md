@@ -1,6 +1,6 @@
-# Awesome LIVTRA (NANOCORE & MOSAIC)
+# Awesome LIVTRA
 
-> A curated list of official and community resources for the LIVTRA NANOCORE and LIVTRA MOSAIC pocket multi-effects pedals, which share the ToneCommand and RESONA software and the same firmware line (the VELRIX is also mentioned where it overlaps).
+> A curated list of official and community resources for LIVTRA devices: the NANOCORE and MOSAIC pocket multi-effects pedals (which share the ToneCommand and RESONA software and the same firmware line), the NEXFOOT dual-mode MIDI controller, and the SKYTUNER polyphonic tuner pedal; the VELRIX is mentioned where it overlaps.
 
 ## Contents
 
@@ -18,6 +18,9 @@
 - [LIVTRA news](https://livtramusic.com/news) — Official news: the VELRIX firmware and LIVTRA desktop apps added NAM A2 support (June 2026), and ToneCommand Upgrader 1.2.6 added editing for the new NANOCORE/MOSAIC firmware 1.10 effects and parameters.
 - [ToneCommand for Android](https://play.google.com/store/apps/details?id=com.livtra.nanocore) — Android companion app for connecting to NANOCORE, editing presets, managing blocks, and importing/exporting bundles.
 - [LIVTRA MOSAIC product page](https://livtramusic.com/products/mosaic/content-en.html) — Official page for the MOSAIC mobile multi-effects processor (three metal footswitches, NAM A2 and IR loader), the larger sibling of the NANOCORE that shares its editing software and firmware 1.10 updates.
+- [LIVTRA NEXFOOT product page](https://livtramusic.com/products/nexfoot/content.html?embed=1&lang=en) — Official page for the dual-mode MIDI controller: four rotating footswitches (press to trigger, turn to adjust), MIDI and PEDAL (bank-based) modes, a color display, USB-C, Bluetooth, USB-A host and 3.5 mm TRS MIDI out, and an expression input; assignments can be edited on the unit or in ToneCommand.
+- [LIVTRA SKYTUNER product page](https://livtramusic.com/products/skytuner/content.html?embed=1&lang=en) — Official page for the guitar and bass tuner pedal: automatic single-note and polyphonic tuning, a 1.8-inch color display, MON continuous monitoring, true or buffered bypass, support for six- and seven-string guitars and four- and five-string basses (with Drop D, Drop A, and down tunings), and 9 V DC or USB power.
+- [LIVTRA products](https://livtramusic.com/products) — Official product index for the whole range.
 - [RESONA](https://livtramusic.com/resona) — Official tone-capture technology and desktop app that turns NAM A2 captures into LIVTRA's `.ead`/`.eadl` format for the MOSAIC and NANOCORE; LIVTRA says full RESONA is more accurate than the quick "Flash" import done by dragging an A2 file into ToneCommand (vendor claim).
 
 ## Unofficial Editors
@@ -37,6 +40,9 @@
 
 - [LIVTRA MOSAIC (VGuitar Forums)](https://www.vguitarforums.com/smf/index.php?topic=40257.0) — Community thread with the firmware 1.10 release notes (new Gate release, Auto Gate sensitivity and release, Motion Wah on FX2, new MOD effects, click fixes) and notes on converting NAM A2 files through RESONA or ToneCommand; it also lists a 1.11 section that could not be confirmed on the official downloads page.
 - [Livtra Velrix – new NAM / IR pedal (VGuitar Forums)](https://www.vguitarforums.com/smf/index.php?topic=39838.0) — Thread on the sibling VELRIX pedal that shares the software ecosystem.
+- [LIVTRA NEXFOOT MIDI Controller 2-in-1 Dual Mode Pedal (VGuitar Forums)](https://www.vguitarforums.com/smf/index.php?topic=40241.0) — Community thread on the NEXFOOT.
+- [LIVTRA SKYTUNER – Poly Tuner / Oscilloscope / Spectrum Analyser (VGuitar Forums)](https://www.vguitarforums.com/smf/index.php?topic=40242.0) — Community thread on the SKYTUNER; the poster reports that its manual describes spectrum analyzer and oscilloscope views (unverified, no review yet).
+- [NexFoot by Livtra (rockboard PedalPedia)](https://www.rockboard.de/en/pedalPedia/Livtra/NexFoot/8754633219/) — Spec sheet for the NEXFOOT.
 - [Livtra Mosaic specs (Stompbox Garden)](https://www.stompboxgarden.com/gear/pedal/17848/livtra-mosaic) — Spec sheet: headphone output, Bluetooth audio and MIDI, mobile and desktop editing, built-in battery.
 
 ## Videos
@@ -52,6 +58,7 @@
 
 ## Notes
 
+- Little independent material exists yet for the NEXFOOT and SKYTUNER: no editors, firmware projects, or independent reviews were found, so the entries above are the official pages and early forum threads.
 - Always back up presets before updating firmware or importing third-party files.
 - Verify exact model and firmware compatibility before using a preset or software package.
 - Unofficial mirrors and community resources should be checked against the manufacturer’s documentation.
