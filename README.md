@@ -41,6 +41,10 @@ Each device has its own list with official downloads/manuals, unofficial editors
 
 - [Joyo Momix Pro](lists/awesome-joyo-momix-pro.md) — Portable 2-channel USB audio mixer/interface
 
+## Related Directories
+
+- [altstrument](https://altstrument.org/) — Third-party directory of alternative firmware and tools for music hardware (about 900 firmwares across 200+ devices); it has dedicated pages for the M-VAVE [FM-1](https://altstrument.org/devices/m-vave-fm-1), [SMK-37](https://altstrument.org/devices/m-vave-smk-37), and [Chocolate](https://altstrument.org/devices/m-vave-chocolate).
+
 ## Contributing
 
 Contributions are welcome! Each list has its own `Contributing` section with guidance on what to include (tested device, firmware version, operating system, and a short description of the resource). To add a new device, create a new `lists/awesome-<device>.md` file following the structure of the existing lists and add it to the Contents above.
