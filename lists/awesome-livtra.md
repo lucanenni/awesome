@@ -29,6 +29,7 @@
   - [Site](https://lucanenni.github.io/livtra-nanocore-editor/) — Hosted online editor.
   - [Code](https://github.com/lucanenni/livtra-nanocore-editor) — Source repository.
 - [nanocore-controller](https://github.com/dvilelaf/nanocore-controller) — Unofficial local control for the NANOCORE: a command-line tool, Python library, and web editor over Bluetooth or USB MIDI, with lossless backup/restore and an audit log of every write; firmware updates are not implemented and the protocol was reverse-engineered from the official ToneCommand app. Writes to the pedal's flash, so keep a backup.
+- [skytuner-ui](https://github.com/LIVTRA-Audio/skytuner-ui) — SkyTuner UI Toolkit 1.00: a Python toolkit and desktop app for building your own **SKYTUNER** theme (backgrounds, note fonts, meters, header and footer rows, startup animation), with previews and upload over USB and several examples; Windows is the tested platform and it expects the latest SKYTUNER firmware from ToneCommand. The `LIVTRA-Audio` GitHub organization was created on 23 October 2026, is unverified, and is not linked from livtramusic.com at the time of writing, so confirm its provenance before uploading anything to your tuner.
 - [LivtraNanocore (Arduino MIDI controller)](https://github.com/Xander-Electronics/LivtraNanocore) — Arduino MIDI controller project for the NANOCORE. Unverified: the repository has no README yet.
 - [JimCommanD](https://github.com/3rud1te/JimCommanD) — Independent, experimental (0.3.1) Intel-Mac controller for the **MOSAIC**: native CoreMIDI app with a simulator and local libraries, built because the inspected ToneCommand builds shipped only Apple Silicon binaries; NAM/IR uploads and firmware updates are unfinished. Its protocol research may also help with the NANOCORE.
 
@@ -58,7 +59,7 @@
 
 ## Notes
 
-- Little independent material exists yet for the NEXFOOT and SKYTUNER: no editors, firmware projects, or independent reviews were found, so the entries above are the official pages and early forum threads.
+- Little independent material exists yet for the NEXFOOT and SKYTUNER: apart from the skytuner-ui theme toolkit, no editors, firmware projects, or independent reviews were found, so the entries above are mostly the official pages and early forum threads.
 - Always back up presets before updating firmware or importing third-party files.
 - Verify exact model and firmware compatibility before using a preset or software package.
 - Unofficial mirrors and community resources should be checked against the manufacturer’s documentation.
