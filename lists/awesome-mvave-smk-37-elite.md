@@ -23,6 +23,9 @@
 
 ## Documentation and Reverse Engineering
 
+- **SMK37 OPEN (official)** — M-VAVE's own open firmware and web workbench for the SMK-37 Pro and Elite, with the matching binary SDK: eight tracks (DX7 FM, 303, 808, PSG, plucked string, and sample engines), 16–64-step sequences, arpeggiators, chords, parameter locks, effects, 16 project slots, a 128-preset DX7 library with SysEx import/export, USB/BLE MIDI input and DIN/USB/BLE output, and pad pressure as aftertouch. The workbench handles firmware updates, browser playback, and project, sample, and DX7 voice management. Licensed "Other" (see its LICENSE file).
+  - [Workbench](https://open.m-vave.com/smk37-workbench) — Official browser workbench and development kit download.
+  - [Code](https://github.com/m-vave/smk37_open) — Official repository (also hosts the SDK).
 - [smk-37-pro-docs](https://github.com/jonathaslacerda/smk-37-pro-docs) — Community technical documentation covering firmware (`.fwsc` format, JieLi SoC extraction), hardware (DAC, battery charger, SoC datasheets), and SysEx implementation; explicitly notes the SMK-37 Elite, MKE-P37, and Donner Starrykey 37 Play as variants sharing the same platform with differing firmware binaries.
 - [smk37-firmware-custom-mod](https://github.com/amalahama/smk37-firmware-custom-mod) — MIT-licensed custom firmware for the SMK-37 Pro (JieLi AC791N): v022 fixes BLE-MIDI pairing and note dropouts with the Woovebox 3.0 and improves DAW stability, with a Windows flasher and a dedicated low-latency ASIO driver ([v022 release](https://github.com/amalahama/smk37-firmware-custom-mod/releases/tag/v022)). Written and tested for the Pro, so check compatibility with the Elite before flashing.
 - [SMK-37 Pro notes (Gist)](https://gist.github.com/probonopd/18b3ed65a69d0229eb630c47d7e316dc) — Independent technical notes on the device.
