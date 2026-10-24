@@ -181,7 +181,7 @@
 - **FMDj** — LSDj (tracker) and DMGo! (drum machine) running in a Game Boy emulator inside the FM-1's firmware, using the FM-1's screen, keys, knobs, and sound; you bring your own ROMs.
   - [Site](https://deadactive.github.io/FMDj/) — Project page.
   - [Code](https://github.com/DeadActive/FMDj) — Source repository.
-- **LSDj on FM-1** — Web installer ([site](https://dreamsofbacon.github.io/lsdj-fm1-installer/)) that puts your own copy of Little Sound Dj on the FM-1 using a GameDude-based firmware ([source](https://github.com/dreamsofbacon/gamedude-fm1-lsdj), GPL-3.0, no ROMs included), now with Bluetooth and multi-game storage; a sibling of FMDj.
+- **LSDJ Burrito** (formerly the LSDj FM-1 installer) — Installer that puts your own copy of Little Sound Dj on the FM-1 using a GameDude-based firmware, now with Bluetooth and multi-game storage; no ROMs included. Its old project page (`dreamsofbacon.github.io/lsdj-fm1-installer`) is gone, so only the repositories are linked: [LSDJ Burrito](https://github.com/dreamsofbacon/lsdj-burrito), its [source](https://github.com/dreamsofbacon/lsdj-burrito-src), and the earlier [GameDude fork](https://github.com/dreamsofbacon/gamedude-fm1-lsdj) (GPL-3.0). A sibling of FMDj.
 - [Switch Blade](https://github.com/OllieNicklinUK/switchblade) — Free four-synth firmware (OB-Z, WAVE, NANO, JUNO), one machine per track with eight voices shared and no drums on purpose, built as a synth expansion for gear such as an Elektron Syntakt.
 - [VNL-1](https://github.com/pianomansam/fm1-vnl) — Lo-fi hip hop firmware built as an app on fm1-base.
 - [LUOGU](https://github.com/Reytian/fm1-luogu) — fm1-base firmware that plays Peking opera percussion patterns (锣鼓经) and 京胡 interludes of the sung modes.
@@ -418,6 +418,21 @@
 - **Double Rainbow** — Custom firmware designed for a young-adult audience, a sibling of Rainbow mode (Melodee-based installer).
   - [Site](https://joshbartlettband-web.github.io/Double-Rainbow/) — Project page.
   - [Code](https://github.com/joshbartlettband-web/double-rainbow) — Source repository.
+- **Pin Head** — EMS Synthi AKS-inspired pin-matrix firmware.
+  - [Site](http://pinhead.trubittech.com/) — Project page.
+  - [Code](https://github.com/TruBitTech/pinhead) — Source repository.
+- **Strata** — Unofficial wavetable synth, 8-track looper, and drum machine firmware, a Felucca-based "complete pocket instrument".
+  - [Site](https://u4ia-dev.github.io/strata/) — Project page.
+  - [Code](https://github.com/u4ia-dev/strata) — Source repository.
+- **Saadet** — Single-part synthesizer fork of Melodee with Bluetooth MIDI and native 24-bit audio, by Melodee's author.
+  - [Site](https://keremimo.github.io/saadet/) — Project page and installer.
+  - [Code](https://github.com/keremimo/saadet) — Source repository.
+- **Demake Synth** — Ambient lofi machine (plan stage): three synths each with a piano roll and a layer from your own samples, eight switchable patterns, and a chord machine for melancholic progressions.
+  - [Site](https://inigohernandez.github.io/demake-synth/) — Project page.
+  - [Code](https://github.com/InigoHernandez/demake-synth) — Source repository.
+- [Bongo Cat's Tiny Studio](https://github.com/ImpossibleKnot/bongo-cat-studio) — Playable little band with four cats and thirteen synth engines, by Impossible Knot.
+- [Delrio](https://github.com/jsopdebeeck/fm1-delrio) — Rhythm box of hand percussion (djembe, cajon, udu, clapsticks, maracas, triangle) for accompanying songs in a circle.
+- [Shed](https://github.com/Luisnvb/fm1-shed) — Jazz ear-training mode built on FM1 Open (English, Spanish, Chinese), with a browser version at [Luisnvb/shed-web](https://github.com/Luisnvb/shed-web).
 - **ORBIT** — Groovebox built on SLOOP with OP-1-inspired screens (synth, drum, mixer, and an event tape for copying what the four tracks play), engines of its own, and a six-operator FM; installed from a terminal script rather than a browser page.
   - [Site](https://dspaudio.github.io/orbit-web-emu/) — Browser emulator.
   - [Code](https://github.com/dspaudio/orbit) — Source repository and releases.
@@ -522,6 +537,10 @@
 - **fm1-mobile-emu** — The FM-1 on your phone: real firmwares (X0X, Felucca, SLOOP, FiMba-1, Melodee, AMB-1, and more) compiled to WebAssembly behind a touch panel.
   - [Site](https://hb3p8.github.io/fm1-mobile-emu/) — Browser app.
   - [Code](https://github.com/hb3p8/fm1-mobile-emu) — Source repository.
+- **Pocket Six** — Free six-operator FM synth for the browser, inspired by the FM-1 and the DX7, that loads DX7 banks; it runs on a phone or computer without the hardware.
+  - [Site](https://nokill-pedal-co.github.io/pocket-six/) — Play it in the browser.
+  - [Code](https://github.com/nokill-pedal-co/pocket-six) — Source repository.
+- [fm1-cartridge](https://github.com/andrerezemini/fm1-cartridge) — Hardware add-on: an ESP32-S3 "cartridge" with its own LiPo that acts as USB host for an FM-1 running SLOOP, receives notes and clock over USB-MIDI, and renders one of three ported synthesizers.
 - **SLOOP FM-1 simulator** — Self-contained SLOOP browser synthesizer by Chance Roth, based on SLOOP and Felucca.
   - [Site](https://chancethemaker.github.io/sloop-fm1-sim/) — Browser simulator.
   - [Code](https://github.com/ChanceTheMaker/sloop-fm1-sim) — Source repository.
