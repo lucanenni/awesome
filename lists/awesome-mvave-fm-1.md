@@ -73,6 +73,16 @@
 - **Skiff** — Six-track groovebox firmware with fourteen synth and drum engines, a 64-step sequencer (chords, ratchets, trig conditions, parameter locks), shared patterns played through per-track lists and scenes, a live-performance layer, on-screen help for every control (hold HOME), and a browser editor.
   - [Site](https://illuminus5.github.io/skiff/) — Project page.
   - [Code](https://github.com/illuminus5/skiff) — Source repository.
+- **DRIFT** — Ambient instrument firmware by Fabian Freitag, based on Felucca: two oscillators with three user sample slots, ADSR and resonant filter, assignable LFO, classic/ping-pong/reverse delay, six reverbs, eight voices and a repeating Euclidean generative sequencer (bars, note count, probability, chaos), scale-aware keyboard, patch list with favourites, plus a browser player, USB-MIDI firmware installer and sample uploader. Version 0.9.1.
+  - [Site](https://www.fbnfrtg.de/tools/fm1/drift/) — Project page with browser player, installer and manual.
+  - [Code](https://github.com/FBNFRTG/drift-fm1) — Source repository and `.fwsc` releases.
+- **Ravel** — Pocket groovebox for sound design: eight tracks (four synth tracks with VA, Casio CZ and other engines, two strike/modal tracks, two tape tracks with MLR playheads, Beads grains and slicing), a shared capture tape, an 8×8 "influence" grid where any track can modulate or trigger another, and a step/graph sequencer with parameter locks and ratchets. Playable in the browser emulator; at the time of writing the author states the firmware builds but has not been run on a real FM-1.
+  - [Site](https://de-pattern.github.io/Ravel_FM1/) — Project page with browser emulator.
+  - [Code](https://github.com/Kenneth-Rakentine/Ravel-FM1) — Source, `.fwsc` release and PDF manual.
+- [Monohull](https://github.com/markterm/monohull) — Monosynth firmware with analogue-modelled oscillators and five filters (transistor ladder, diode ladder, OTA cascade, Sallen-Key, state-variable), unison, chorus, delay and reverb, with a scheduler that spends leftover CPU on extras; author reports it tested on a real FM-1 and in emulators; installs via Felucca's installer.
+- **FM-1 Neverhood** — Firmware with 22 presets, a four-track sequencer and a battery indicator, themed on the game The Neverhood (sprites and sounds are extracted at build time from the official ScummVM demo, not distributed); built on fm1-base.
+  - [Site](https://snpwball.github.io/fm1/neverhood/) — Project page, browser emulator and installer.
+  - [Code](https://github.com/snpwball/fm1-neverhood) — Source repository.
 - **MC-1** (formerly MCFM-1) — Original 1990s-style groovebox firmware: three melodic parts, each with an LA-inspired or 303-inspired engine (128 presets), plus a 16-lane synthesized drum part with eight kits, four patterns, step editing, recording, accent, and slide. Experimental 0.1.3 that passes host tests but has not been verified booting on a real FM-1.
   - [Code](https://github.com/dspaudio/mc-1) — Source repository (not affiliated with Roland or M-VAVE).
 - [TRIPDECK](https://github.com/anonymousacademe/FM-1-TripDeck) — Psychedelic synth firmware where every screen is a full-screen animation and the four knobs change sound and picture together: sitar and tamboura, pads, Leslie organ, FM bells, a freezable reverb, a vowel filter, scale lock, and a self-wandering TRIP mode. Version 0.2, tested on the device.
@@ -762,6 +772,7 @@
 - [fm1-mdx](https://github.com/Keitark/fm1-mdx) and [fm1-doom](https://github.com/Keitark/fm1-doom) — Experimental spin-offs of fm1-nes: an MDX/PDX karaoke player (host-tested, not yet accepted on the FM-1) and a Doom engine port in progress; neither has an installable firmware.
 - [fm1-polyseq](https://github.com/NOVALENTI/fm1-polyseq) — Polyphonic 16-step sequencer and hardware abstraction layer in strict C99, written from scratch for the FM-1's pi32v2 core.
 - [sloopy-sloop-32](https://github.com/smhgzll/sloopy-sloop-32) — GPL-3.0 proof of concept running SLOOP natively on an ESP32-S3 with a PCM5102A DAC, with a browser standing in for the front panel.
+- [mvave-fm1](https://github.com/maxfridbe/mvave-fm1) — Claude Code skills (plain Markdown, readable without an AI) plus a Podman build container covering how to back up, flash, restore and unbrick an FM-1 and how to write firmware (hardware API, memory map, chip rules, firmware catalog); written with AI assistance, so verify against the primary sources before flashing.
 - [Felucca BUILDING.md](https://github.com/hugelton/Felucca/blob/main/BUILDING.md) — How to build a Felucca-family firmware from source.
 - [MVAVE-M-UPGRADE-decompiled](https://github.com/entitymar/MVAVE-M-UPGRADE-decompiled) — Decompilation of the official updater application, for research.
 - [jielie](https://kagaimiq.github.io/jielie/) — Reference site for the JieLi SoC family the FM-1's AC791N belongs to.
