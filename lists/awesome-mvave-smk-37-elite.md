@@ -48,6 +48,26 @@
 - **Tonitor (SMK-37 Pro)** — Separate SMK-37 Pro build of the Tonitor acousmatic firmware for electroacoustic experimentation and live ambient music (see the [FM-1 list](awesome-mvave-fm-1.md)).
   - [Site](https://nzimas.github.io/tonitor-smk37/) — Project page.
   - [Code](https://github.com/nzimas/tonitor-smk37) — Source repository.
+- **SLOOP Pro** — isod89's SLOOP groovebox firmware on the SMK-37 (GPL-3.0).
+  - [Site](https://isod89.github.io/sloop-pro/) — Project page.
+  - [Code](https://github.com/isod89/sloop-pro) — Source repository.
+- **Clipper for the SMK-37 Pro** — Unofficial port of isod89's Clipper synth (23 engines, 407 factory sounds) to the SMK-37 Pro.
+  - [Site](https://davidozz0.github.io/clipper-smk/) — Project page.
+  - [Code](https://github.com/davidozz0/clipper-smk) — Source repository.
+- **SMK-dee** — Dual-core polyphonic synthesizer and dynamic MIDI controller ported to the SMK-37 Pro and Elite.
+  - [Site](https://djstrombo.github.io/SMK-dee/) — Project page.
+  - [Code](https://github.com/djStrombo/SMK-dee) — Source repository.
+- **SMK-zp12** — SMK-37 build of the ZP12 sampling drum firmware, with an installer.
+  - [Site](https://djstrombo.github.io/SMK-zp12/) — Project page.
+  - [Code](https://github.com/djStrombo/SMK-zp12) — Source repository.
+- **NOTE RUSH 37** — Note-reading game for the SMK-37 (Elite, Pro, and MKE-P37), a Vector37 fork, playable in the browser and installable from the same page.
+  - [Site](https://ueinegoms.github.io/noterush37/) — Browser version and installer.
+  - [Code](https://github.com/ueinegoms/noterush37) — Source repository.
+- **KeyLab** — Chinese-first, free, open-source, mobile-first music-theory and MIDI learning site (0.3.0 beta) with 64 lessons, real staff notation, and ear training; SMK-37 Pro and iPad/iPhone support is still being implemented.
+  - [Site](https://dsimpson-man.github.io/keylab/) — Learning site.
+  - [Code](https://github.com/Dsimpson-man/keylab) — Source repository.
+- [smk37-pro-fl-port](https://github.com/kritonpc/smk37-pro-fl-port) — Runs the SMK-37 Elite V016 application on an SMK-37 Pro using Pro-compatible update packaging and an FL Studio controller profile; experimental, demonstrated on one Pro.
+- [umetate](https://github.com/CeliaCasanovas/umetate) — Opinionated framework for designing, building, testing, and safely installing custom firmware for the FM-1 and SMK-37 (see the [FM-1 list](awesome-mvave-fm-1.md)).
 - [Erik37](https://github.com/genkigenki/erik37) — Sampled concert-grand piano firmware (velocity layers, dampers, pedals, sympathetic resonance, four rooms) for the SMK-37 and FM-1, from the same hub.
 - [Vector37](https://github.com/genkigenki/Vector37) — Unofficial firmware for the SMK-37 family (installable from the [same hub](https://genkigenki.github.io/smk37/), which lists the Elite as supported): an orbiting overtone synth where a sun and moon moving along a path blend four corners of overtone generators and filters, with pads and knobs as the planets.
 - [NESynth](https://chancethemaker.github.io/NESynth-FM1-SMK/) — NES homebrew player and cartridge-firmware builder that targets both the FM-1 and the SMK-37 Pro / Elite (see the [FM-1 list](awesome-mvave-fm-1.md)).

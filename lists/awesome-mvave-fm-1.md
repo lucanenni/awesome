@@ -384,7 +384,7 @@
 - **ETCH** — "Draw. Morph. Modulate." firmware with a boot-time USB MIDI keyboard mode (hold SEQ at power-on). Read the OTA/stock-restore notice (V1.38) before flashing: earlier versions rejected the original V15 on restore.
   - [Site](https://etch.sikkenworks.com) — Project page.
   - [Code](https://github.com/SikkenWorks/ETCH) — Source repository.
-- [TERKINSTEIN](https://github.com/TerkWerX/FM1-TERKINSTEIN-Firmware) — Open-source dark performance synth and four-track groovebox: 64 curated sounds, six-operator FM, metallic distortion, synthesized drum kits, and four 64-step tracks. Development preview (0.22.0-dev) installed on one FM-1 so far; back up first, since the updater cannot read the installed firmware back.
+- [TERKINSTEIN](https://github.com/TerkWerX/Crepuscular_Homunculus) — Open-source dark performance synth and four-track groovebox: 64 curated sounds, six-operator FM, metallic distortion, synthesized drum kits, and four 64-step tracks. Development preview (0.22.0-dev) installed on one FM-1 so far; back up first, since the updater cannot read the installed firmware back.
 - **Glitchbox** — Broken, dirty performance firmware in the spirit of Year Zero: self-chopping resonant synths, bit-crushed leads and basses, crushed drums, and live stutter and crush effects, all synthesized with no samples.
   - [Site](https://erikdevos.github.io/glitchbox/) — Project page.
   - [Code](https://github.com/erikdevos/glitchbox) — Source repository.
@@ -524,6 +524,27 @@
   - [Site](https://charlesvestal.github.io/fm1-base/) — Project page.
   - [Code](https://github.com/charlesvestal/fm1-base) — Source repository.
 - [FM-SWITCH](https://github.com/ocean/FM-SWITCH) — iOS app for swapping FM-1 firmwares from a phone over USB-C: it merges the firmware hub's catalogue with fm1-editor.com's list, keeps firmwares on the phone for offline flashing, and bundles M-VAVE's official V15 so you can always go back.
+- [pi32v2-isa](https://github.com/jvitkauskas/pi32v2-isa) — Open reference for JieLi's pi32v2 instruction set (AC791N, used in the FM-1 and SMK-37): a machine-readable instruction table with an assembler, disassembler, linker, and objdump built from it.
+- **FM-1 developer wiki** — Unofficial community reference for people writing custom FM-1 and SMK-37 firmware: the hardware, boot chain and package format, installing and recovering, and how to write firmware.
+  - [Site](https://sbegueria.github.io/fm1-dev-wiki/) — Wiki.
+  - [Code](https://github.com/sbegueria/fm1-dev-wiki) — Source repository.
+- [umetate](https://github.com/CeliaCasanovas/umetate) — Opinionated framework for designing, building, testing, and safely installing custom FM-1 and SMK-37 firmware.
+- **Atlas** — Map of every known FM-1 firmware: what each tries to be, its engines and sounds, MIDI behaviour, whether the project is still alive (from GitHub activity), and a six-step path for new owners.
+  - [Site](https://wero1414.github.io/atlas-fm-1/) — Browsable map.
+  - [Code](https://github.com/wero1414/atlas-fm-1) — Source repository.
+- **fm1-dock** — One firmware installed once, with synths as modules in flash slots: hold HOME, pick another synth, play, with no reinstall (based on Dinghy, GPL-3.0); [fm1-sid](https://github.com/joakimeriksson/fm1-sid) is a prototype C64 music module for it (cycle-exact 6510, reSID, GoatTracker songs).
+  - [Site](https://joakimeriksson.github.io/fm1-dock/) — Project page.
+  - [Code](https://github.com/joakimeriksson/fm1-dock) — Source repository.
+- [fm1-emulator (Rust)](https://github.com/w0ts/fm1-emulator) — Rust emulator for running FM-1 firmwares without flashing a real device.
+- [fm1-grid](https://github.com/jasonbot/fm1-grid) — Desktop app that runs four emulated FM-1s at once in a 2×2 grid, each with its own firmware and screen.
+- [fm1-playwright](https://github.com/dimmkirr/fm1-playwright) and [setup-fm1-emulator](https://github.com/dimmkirr/setup-fm1-emulator) — Playwright test harness for firmware UI testing on the fm1-emu emulator (encoders, buttons, notes, screenshots, GIFs) and a GitHub Action that sets the emulator up for CI.
+- [FM1 Editor](https://github.com/alexanderseel/fm1editor) — TypeScript web editor and librarian with separate persistent modes for the FM-1 and a stock Yamaha DX7.
+- [FM-1 Helper](https://grandsummoner.github.io/fm-1-helper/) — Web tool to curate and compile DX7-compatible SysEx banks by drag and drop and send them to the hardware ([source](https://github.com/grandsummoner/fm-1-helper)).
+- [midimonitor_fm1](https://github.com/ignis32/midimonitor_fm1) — MIDI monitor and pass-through firmware in a green-phosphor look: watches notes, CCs, and clock across TRS, USB, USB host, and BLE with filtering.
+- [FM-1 Loom Editor](https://moocowblue.github.io/fm1-loom-editor/) — Web editor, performance controller, and screen mirror for the FM-1 running Charles Vestal's Loom 8 firmware ([source](https://github.com/moocowblue/fm1-loom-editor)).
+- [Skiff Go](https://github.com/jahlib/skiff-go) — Native Android editor and performance companion for the FM-1 running Skiff.
+- [sloop-editor-desktop](https://github.com/catnip233/sloop-editor-desktop) — Offline Windows (Electron) editor for SLOOP with Web MIDI and SysEx.
+- [PIGEON tool](https://github.com/TheShrimpBlimp/pigeon-tool) — Local browser sample editor and USB MIDI bank manager for the PIGEON firmware.
 - **MvaveFM1 Designer** — Visual editor for FM-1 panel states: the LEDs under the 27 keys and 14 buttons, what the 8 knobs do, and a mock-up of the 240 × 240 screen, with JSON interchange.
   - [Site](https://quixotic7.github.io/MvaveFM1-Designer/) — Web editor.
   - [Code](https://github.com/Quixotic7/MvaveFM1-Designer) — Source repository.
@@ -570,6 +591,135 @@
 - **Eight Bells** — Beats and melodies for the FM-1 and its custom firmwares from 28 engines (Euclidean, world cycles, cellular automata, fractals, number patterns, mirror, weighted, drift): pick a genre and get a pattern.
   - [Site](https://discodave-glitch.github.io/eight-bells/) — Project page.
   - [Code](https://github.com/Discodave-Glitch/eight-bells) — Source repository.
+- **Carnac OS** — Polyphonic wavetable synthesizer firmware themed on Carnac's standing stones, by OrbVorgis (14 stars).
+  - [Site](https://owenkirby.github.io/carnac-os/) — Project page.
+  - [Code](https://github.com/OwenKirby/carnac-os) — Source repository.
+- **Caravel** — Multi-engine synthesizer firmware (v0.5.0), an independent Felucca fork (14 stars).
+  - [Site](https://bonszaimusic.github.io/caravel/) — Project page.
+  - [Code](https://github.com/bonszaimusic/caravel) — Source repository.
+- **TONIC** — Digitone-style FM groovebox with FM, VA, and drum engines, 12 voices, and a 64-step sequencer.
+  - [Site](https://rahelpuest.github.io/tonic-fm1/) — Project page.
+  - [Code](https://github.com/RahelPuest/tonic-fm1) — Source repository.
+- **Makohai** — Generative groovebox in the style of early-90s PC tracker music (formerly Espada).
+  - [Site](https://delirioux.github.io/makohai/) — Project page.
+  - [Code](https://github.com/delirioux/makohai) — Source repository.
+- **Elixir** — The Erica Synths LXR-02 drum machine's sound engine and sequencer ported to the FM-1: six voices on seven tracks and 32 patterns.
+  - [Site](https://dmajka.github.io/elixir/) — Project page.
+  - [Code](https://github.com/dmajka/elixir) — Source repository.
+- **PERF-1** — Live-performance firmware with ten genres of self-playing music you steer in real time (auto-DJ, drum sequencer, self-answering acid line, DX7-style FM voices, scenes).
+  - [Site](https://deamonslinky.github.io/PERF-1/) — Project page.
+  - [Code](https://github.com/deamonSLINKY/PERF-1) — Source repository.
+- **K-WASUB** — Modern bass synth for DnB, dub, dubstep, and techno: live wobble, reese, sub, 808, EQ, and a four-sound morph (English, French, Spanish).
+  - [Site](https://guizmoh.github.io/K-WASUB_Firmware_for_FM1/) — Project page.
+  - [Code](https://github.com/Guizmoh/K-WASUB_Firmware_for_FM1) — Source repository.
+- **Berlinan** — Generative Berlin School sequencer as a standalone USB MIDI sequencer firmware.
+  - [Site](https://jiripisa.github.io/fm1-berlinan/) — Project page.
+  - [Code](https://github.com/jiripisa/fm1-berlinan) — Source repository.
+- **Norilsk** — Firmware for ambient hellscapes, barren and grim atmospheres, and noise, by the author of Tonitor.
+  - [Site](https://nzimas.github.io/norilsk/) — Project page.
+  - [Code](https://github.com/nzimas/norilsk) — Source repository.
+- **Arctic Scream** — Dark ambient drones and feedback screams from the arctic tundra.
+  - [Site](https://polarpatch.github.io/Arctic-scream-FM-1/) — Project page.
+  - [Code](https://github.com/PolarPatch/Arctic-scream-FM-1) — Source repository.
+- **DIRGE** — Darksynth, noise, and drone firmware.
+  - [Site](https://sinscum.github.io/DIRGE/) — Project page.
+  - [Code](https://github.com/sinscum/dirge) — Source repository.
+- **Paleotone** — Dinosaur-themed firmware; early alpha that can leave the FM-1 unable to boot, so back up and keep a known-good firmware.
+  - [Site](https://fantasmoslam.github.io/Paleotone/) — Browser demo and project page.
+  - [Code](https://github.com/fantasmoslam/Paleotone) — Source repository.
+- **Insert Coin** — Eighties coin-op arcade games as firmware.
+  - [Site](https://darkhelmet67.github.io/fm1-insert-coin/) — Project page.
+  - [Code](https://github.com/DarkHelmet67/fm1-insert-coin) — Source repository.
+- **FIELD** — Independent field-recording radio powered by Radio Aporee: browse the world by country or region on a static globe UI.
+  - [Site](https://aveycole.github.io/FM1-Field/) — Project page.
+  - [Code](https://github.com/AveyCole/FM1-Field) — Source repository.
+- **NCC (Circuit Tracks companion)** — Turns the FM-1 into a two-part synth for the Novation Circuit Tracks (12 engines, 161 sounds, macro control).
+  - [Site](https://fenderberg.github.io/fm1-nc-companion/) — Project page.
+  - [Code](https://github.com/fenderberg/fm1-nc-companion) — Source repository.
+- **NOCT FM** — Atmospheric pixel MIDI controller firmware with FL Studio and Ableton Live profiles (Russian documentation).
+  - [Site](https://joolo09.github.io/noct-fm/) — Installer and DAW scripts.
+  - [Code](https://github.com/Joolo09/noct-fm) — Source repository.
+- **Zombie Core** — Groovebox with an Afterglow web editor and USB MIDI installer (Russian and English).
+  - [Site](https://joolo09.github.io/zombie-fm1-web/) — Editor and installer.
+  - [Code](https://github.com/Joolo09/zombie-fm1-web) — Source repository.
+- **TastyWaves** — 12-voice wavetable synthesizer with two oscillators per voice and a resonant filter.
+  - [Site](https://tastysynth.com/) — Project page.
+  - [Code](https://github.com/marksweiss/tastywaves) — Source repository.
+- **NU//METAL SKRATCHMASTER PRO** — Robot turntablist with a nu metal band: SAM, the 1982 Software Automatic Mouth, says 27 words onto a virtual record and you scratch it.
+  - [Site](https://mhellar.github.io/numetal-skratchmaster-pro-fm1/) — Project page.
+  - [Code](https://github.com/mhellar/numetal-skratchmaster-pro-fm1) — Source repository.
+- **fm1-reed** — Fixed-point Wurlitzer 200A physical model.
+  - [Site](https://ograndebe.github.io/fm1-reed/) — Project page.
+  - [Code](https://github.com/ograndebe/fm1-reed) — Source repository.
+- **fm1-wheel** — Tonewheel organ firmware after setBfree, also for the SMK-37; built with AI coding tools.
+  - [Site](https://ograndebe.github.io/fm1wheel/) — Project page (Portuguese and English).
+  - [Code](https://github.com/ograndebe/fm1wheel) — Source repository.
+- **SlowMorph** — Experimental instrument that slowly morphs between 2–8 samples over seconds to hours.
+  - [Site](https://r7819smith-oss.github.io/slowmorph/) — Project page.
+  - [Code](https://github.com/r7819smith-oss/slowmorph) — Source repository.
+- **fm1-time-signal-source** — A time signal source implemented on the FM-1, with a browser version and a firmware flasher built by CI.
+  - [Site](https://rfb.github.io/fm1-time-signal-source/) — Browser version and flasher.
+  - [Code](https://github.com/rfb/fm1-time-signal-source) — Source repository.
+- **MASIF** — Four-track sample tracker and rack sampler (GPL-3.0) with a web page for the sampler, sync, and guide.
+  - [Site](https://thecemeterygates.github.io/masif-fm1/) — Project page.
+  - [Code](https://github.com/thecemeterygates/masif-fm1) — Source repository.
+- **VirtuoX** — Piano-learning and DX7-compatible FM firmware with a MIDI piano coach, music theory, and scales.
+  - [Site](https://telespial.github.io/virtuox-mvave-fm1/) — Project page and browser demo.
+  - [Code](https://github.com/telespial/virtuox-mvave-fm1) — Source repository.
+- **Guitchordi** — Guitar strummer firmware; working beta installed from stock V15 and Felucca 1.6.1.
+  - [Site](https://stoogs.github.io/guitchordi/) — Project page.
+  - [Code](https://github.com/stoogs/guitchordi) — Source repository.
+- **ACID FM** — IDM / braindance firmware (a fork of JIANT FM) in development: virtual analog, FM, chopped breakbeats you load yourself, and a planned on-device song generator.
+  - [Site](https://norfolkhacker.github.io/acid-fm/) — Project page.
+  - [Code](https://github.com/norfolkhacker/acid-fm) — Source repository.
+- **BBL-JAM-BOX** — Live-jamming groovebox (beta) in the style of the Digitone and Model:Cycles, built on Felucca.
+  - [Site](https://unkleblairy.github.io/BBL-JAM-BOX/) — Project page.
+  - [Code](https://github.com/UnkleBlairy/BBL-JAM-BOX) — Source repository.
+- **Acultur8 X0X Extended Edition** — Experimental X0X variant with a development dashboard and browser emulator.
+  - [Site](https://keyboy250.github.io/fm1-x0x-acultur8/) — Project page.
+  - [Code](https://github.com/keyboy250/fm1-x0x-acultur8) — Source repository.
+- **MNM-1** — Six-track monophonic synth firmware with synth and FX machines, forked from Hortator (not to be confused with the Italian-documented MNM-1 above).
+  - [Site](https://galfaroth.github.io/mnm1/) — Project page.
+  - [Code](https://github.com/galfaroth/mnm1) — Source repository.
+- **AMARU OS / BUNKER ADVANCED** — Rough, rugged firmware for hard genres, fusing Bunker Evolved, JIANT tekno, and Carnac/Mycelium chains.
+  - [Site](https://marcocasanova00.github.io/amaru-os/) — Project page.
+  - [Code](https://github.com/MarcoCasanova00/amaru-os) — Source repository.
+- **Jambox FM-1** — FoMni fork for jamming.
+  - [Site](https://raydnoper.github.io/fm1-jambox/) — Project page.
+  - [Code](https://github.com/RayDNoper/fm1-jambox) — Source repository.
+- **Orange Cat** — Melodee 1.4.5-based custom firmware.
+  - [Site](https://seattleuser0.github.io/OrangeCat/) — Project page.
+  - [Code](https://github.com/seattleuser0/orangecat) — Source repository.
+- **maqam-dev** — Live groovebox fork aimed at maqam music.
+  - [Site](https://vikramrojo.github.io/maqam-dev/) — Project page.
+  - [Code](https://github.com/vikramrojo/maqam-dev) — Source repository.
+- **Yanfei** — Felucca-based custom firmware.
+  - [Site](https://izumoe.github.io/yanfei/) — Project page.
+  - [Code](https://github.com/izumoe/yanfei) — Source repository.
+- **FORGE-ONE** — Felucca with the FORGE generative sequencer tool.
+  - [Site](https://kkasemsa.github.io/FORGE-ONE/) — Project page.
+  - [Code](https://github.com/kkasemsa/forge-one) — Source repository.
+- **Cofrade** — Holy Week (Semana Santa) processional marches replacing the 16 factory projects, built on the official FM1 Open V14 SDK (Spanish).
+  - [Site](https://cotrino.github.io/fm1-cofrade/) — Project page.
+  - [Code](https://github.com/cotrino/fm1-cofrade) — Source repository.
+- **IND-1** — Firmware by the author of SEQ-4, CRT-4, and LCD-4.
+  - [Site](https://devrvega.github.io/IND-1/) — Project page.
+  - [Code](https://github.com/devrvega/IND-1) — Source repository.
+- [Quod](https://github.com/tulpasoftworks/quod) — Drone instrument (also a macOS Audio Unit): one root note summons a cluster of voices.
+- [FIZZ](https://quixotic7.github.io/FIZZ/) — Step sequencer for ChoralRoot's FM TONE voice: eight tracks sharing 16 voices, p-locks, and a pool of 128 sounds ([source](https://github.com/Quixotic7/FIZZ)).
+- [S1Vave](https://github.com/AndrewGG88/S1Vave) — Eight-voice virtual analog tweak synth (SH-101 / S-1 parity).
+- [Kitten Synths](https://github.com/BlackKittenDevices/Kitten-Synths) — SLOOP-based firmware with the MUUG engine (the Minimoog of FMini-1), a fourth "lite" synth part, and a web editor with MIDI IN.
+- [FM-1 Keyboard Academy](https://github.com/chmess/fm1-keyboard-academy) — Beginner-first learning firmware with guided lessons, illuminated keys, scoring, and 30 melodies.
+- [FM-1 J6](https://github.com/JackieAlacrity2373/fm1-j6) — JUNO-60-style six-voice synth built on fm1-base.
+- [DUB-200](https://github.com/Mystereon/FM1-DUB200) — DUB-1 development fork with a 200 BPM ceiling and ten bounded user PCM overlay slots.
+- [FMLarynx](https://github.com/ejtb76/FMLarynx) — Throaty talking formant synth with a 303-style pattern sequencer.
+- [OPQuencer](https://github.com/andrixb/opquencer) — Merge of two firmware lineages (v0.2.0).
+- [obervave-multi](https://github.com/heymoustache/obervave-multi) — Multitimbral OberVave.
+- [genAMB](https://github.com/Kayman18/genAMB) — Generative firmware based on AMB-1 with a piano mode and scale mode.
+- [Dock](https://github.com/stevensnasdell-cmd/dock) — 70s/80s backing-band firmware built on Melodee, with a browser emulator.
+- [FeluccaMPE](https://github.com/stanleygurvich/FeluccaMPE) — MPE support for Felucca (started 13 October 2026).
+- [Hungry Travis](https://github.com/adamcharleswilsonmusic-code/hungry-travis) — Spoon-feeding balance game with a grumpy 3D baby; novelty.
+- [ChoralRoot j-6](https://eremansim.github.io/ChoralRootj-6/) — Port of ChoralRoot with the Roland J-6 chord set; the repository states it was written entirely by an AI and has not been tested on real hardware (source: [EremanSim/ChoralRootj-6](https://github.com/EremanSim/ChoralRootj-6)).
 - [M1n1Le55](https://github.com/ZzpsS/M1n1Le55) — Firmware manager and extended control console for the FM-1 on the M5Stack Tab5 touchscreen (Chinese and English documentation).
 - [Harbor](https://github.com/markterm/harbor) — Android app (13 stars) that plays FM-1 firmwares unchanged on phones and tablets using the fm1-emu emulator, via USB and Bluetooth MIDI or from other apps and a computer.
 - [MvaveFM1Unbricker](https://github.com/Quixotic7/MvaveFM1Unbricker) — Script that restores a soft-bricked FM-1 over a plain USB cable with no extra hardware: it uses jl-uboot-tool, takes a verified backup of the whole flash, writes the firmware region at `0x4000`, and checks every byte (procedure confirmed by the r/MVaveFM1 community; read its safety rules first, unofficial).

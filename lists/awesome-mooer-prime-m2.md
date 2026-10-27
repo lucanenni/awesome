@@ -22,6 +22,8 @@
 
 ## Unofficial Tools and Captures
 
+- [mooer-prime-m2-empty-preset](https://github.com/andymann/mooer-prime-m2-empty-preset) — Python tool, built by reverse-engineering the `.preset` file format (tested on firmware 1.50), that inspects and generates Prime M2 presets, including a truly empty preset with no modules (the Mooer app always preloads effect modules you can only bypass); a ready-to-import `empty.preset` is included.
+- [mooer-prime-m2-custom-firmware](https://github.com/andymann/mooer-prime-m2-custom-firmware) — Experimental firmware patch that adds MIDI-clock BPM sync on the 3.5 mm TRS MIDI IN (every 24 clock ticks sets the BPM, range-checked to 30–300) by patching the firmware image with a Python script and uploading it. Tested only on the older firmware V100 (the current official firmware is 1.5.0, so the patch must be redone for newer versions); modifying and flashing firmware is unsupported and carries a brick risk.
 - [SignalMatch](https://romanyamal.github.io/signalmatch/) — Single-file web tool ([source](https://github.com/romanyamal/signalmatch)) that converts a Tonebridge (Ultimate Guitar) pedal chain into a matching chain for the MOOER Prime **P1**, matching amps, cabs, and pedals to real hardware; built for the P1, so check M2 compatibility.
 - [MOOER MNRS Finder](https://mooer-mnrs-finder.vercel.app) — Searchable static catalog (snapshot of 1 September 2026) of 7,191 MOOER Studio amp (`.gnr`) and cabinet (`.gir`) captures with downloads of the original files; check Prime M2 compatibility before loading.
 
