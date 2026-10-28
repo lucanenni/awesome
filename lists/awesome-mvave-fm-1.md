@@ -73,6 +73,17 @@
 - **Skiff** — Six-track groovebox firmware with fourteen synth and drum engines, a 64-step sequencer (chords, ratchets, trig conditions, parameter locks), shared patterns played through per-track lists and scenes, a live-performance layer, on-screen help for every control (hold HOME), and a browser editor.
   - [Site](https://illuminus5.github.io/skiff/) — Project page.
   - [Code](https://github.com/illuminus5/skiff) — Source repository.
+- **OPERATOR** — FM synth firmware inspired by Ableton Live's Operator; web installer, manual and `.fwsc` releases (0.5 at the time of writing).
+  - [Site](https://npi3pak.github.io/fm1-operator/) — Project page, web installer and manual.
+  - [Code](https://github.com/npi3pak/fm1-operator) — Source repository and releases.
+- **COSMOS** — Drone synthesizer firmware "played by the sky": two never-ending drones shaped by the sun's height, clouds, air pressure, geomagnetic activity (Kp index) and the moon's phase for your location, with the screen showing the real sky above you (stars, moon, planets).
+  - [Site](https://gadlele.github.io/COSMOS/) — Project page.
+  - [Code](https://github.com/Gadlele/COSMOS) — Source repository.
+- **duodrone** — Two-voice analogue-style drone synth firmware modelled on the Stylophone CPM DS-2 (two DRONE voices with X-WAVE oscillator, sub-oscillator and resonant 4-pole filter, hard sync and pitch link, two-output ULTRA LFO, dark delay, 8-algorithm reverb); built on foma (Felucca platform) with web installer, rescue mode and return to the stock firmware; independent of Dübreq and M-VAVE; documentation in French.
+  - [Site](https://pjac1810.github.io/duodrone/) — Project page and web installer.
+  - [Code](https://github.com/pjac1810/duodrone) — Source repository.
+- [GLIDER](https://github.com/ttreu/fm1-glider) — Drone instrument firmware (FM1 Open based): white keys latch tones, black keys glide them up or down the scale, with two-oscillator voices, a self-oscillating tape echo, ladder filter, delay, shimmer reverb and a quiet microsound drum track. Beta, tested on one unit by the author; documentation in English and Chinese.
+- [GLITCH](https://github.com/ttreu/fm1-glitch) — Microsound/glitch drum machine firmware (FM1 Open based): fully synthesized clicks, click trains, noise snaps and micro kicks, loops that mutate bar to bar, stutter/ratchet/reverse on the keys; `.fwsc` and HTML installer in the releases. Beta hobby project that runs on a real FM-1.
 - **DRIFT** — Ambient instrument firmware by Fabian Freitag, based on Felucca: two oscillators with three user sample slots, ADSR and resonant filter, assignable LFO, classic/ping-pong/reverse delay, six reverbs, eight voices and a repeating Euclidean generative sequencer (bars, note count, probability, chaos), scale-aware keyboard, patch list with favourites, plus a browser player, USB-MIDI firmware installer and sample uploader. Version 0.9.1.
   - [Site](https://www.fbnfrtg.de/tools/fm1/drift/) — Project page with browser player, installer and manual.
   - [Code](https://github.com/FBNFRTG/drift-fm1) — Source repository and `.fwsc` releases.
@@ -745,6 +756,9 @@
 - [Dexed](https://asb2m10.github.io/dexed/) — The open-source DX7 emulator and editor; the FM-1 accepts its single-parameter SysEx, so you can edit voices live.
 - [FM-1 Bonus Box](https://github.com/pfkellogg/fm1-bonus-box) — ESP32-S3 companion box adding a sustain pedal, a rotary preset browser with a round TFT, a WiFi soundbank manager, and USB MIDI; its [fm1-sustain-footswitch](https://github.com/pfkellogg/fm1-sustain-footswitch) sibling is a simple Arduino board turning a TRS sustain pedal into MIDI CC64.
 - [Virtual FM-1](https://github.com/jbschooley/Virtual-FM-1) — GPL-3.0 software FM-1: a standalone app and VST3/AU plugin (macOS, Windows, Linux) that plays the FM-1's FM engine, edits every sound setting, and runs its sequencer and arpeggiator, with two-way preset and pattern sync (single preset or the whole 128-preset library) over USB with the [FM-1+VA firmware](https://baudgirl.com/work/FM-1+VA). Instances can target stock, FM-1+VA, Felucca, or SLOOP (the last two run from their own source); it works as a standalone synth without the hardware.
+- **Fm1 (browser FM-1)** — Runs the FM-1+VA reimplementation or any of 114 open-source FM-1 firmwares in the browser (desktop, iPad and iPhone) from a searchable picker, keeping each firmware's presets and patterns separately; the interface is in French.
+  - [Site](https://ninjathune-human.github.io/Fm1/) — Live emulator.
+  - [Code](https://github.com/Ninjathune-Human/Fm1) — Source repository.
 - [Falua](https://github.com/ehn96/Falua) — Unofficial Portuguese-documented plugin (VST3, AU, standalone, v0.1) that runs the sound engines of the JIANT firmware (a Felucca fork) unmodified on a computer, with DAW MIDI input, automatable parameters, and presets.
 - [Ghoulbox VST3](https://github.com/LexLongcoding/ghoulbox-vst3) — Unofficial JUCE VST3 instrument (GPL-3.0) that runs the real GHOULBOX firmware with its 240 × 240 screen and panel drawn in the plugin window; built and tested only in Cubase on Windows 11 x64.
 - [Consort](https://github.com/zisonzishen0415-stack/sloop-consort) — Phone companion (English and Simplified Chinese documentation) for an FM-1 running SLOOP 2.7 that handles the awkward jobs — sampler, FX, songs, and skins over USB — and leaves the instrument itself alone.
