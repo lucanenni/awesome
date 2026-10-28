@@ -54,6 +54,9 @@
 - **Clipper for the SMK-37 Pro** — Unofficial port of isod89's Clipper synth (23 engines, 407 factory sounds) to the SMK-37 Pro.
   - [Site](https://davidozz0.github.io/clipper-smk/) — Project page.
   - [Code](https://github.com/davidozz0/clipper-smk) — Source repository.
+- **Clipper Pro** — isod89's own Clipper synth (23 engines, 407 sounds, four macros per sound, effects, arpeggiator, step sequencer, microtuning, MPE, USB audio and MIDI) on the SMK-37, with builds for Pro and Elite (and an MKE variant) and a browser editor; version 1.2, GPL-3.0, French quick-start guides included.
+  - [Site](https://isod89.github.io/clipper-pro/) — Project page, browser installer and editor.
+  - [Code](https://github.com/isod89/clipper-pro) — Source repository and `.fwsc` releases.
 - **SMK-dee** — Dual-core polyphonic synthesizer and dynamic MIDI controller ported to the SMK-37 Pro and Elite.
   - [Site](https://djstrombo.github.io/SMK-dee/) — Project page.
   - [Code](https://github.com/djStrombo/SMK-dee) — Source repository.
