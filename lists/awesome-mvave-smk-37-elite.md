@@ -57,6 +57,7 @@
 - **Clipper Pro** — isod89's own Clipper synth (23 engines, 407 sounds, four macros per sound, effects, arpeggiator, step sequencer, microtuning, MPE, USB audio and MIDI) on the SMK-37, with builds for Pro and Elite (and an MKE variant) and a browser editor; version 1.2, GPL-3.0, French quick-start guides included.
   - [Site](https://isod89.github.io/clipper-pro/) — Project page, browser installer and editor.
   - [Code](https://github.com/isod89/clipper-pro) — Source repository and `.fwsc` releases.
+- [Velvet EP90](https://github.com/THEGREATCJPark/smk37-velvet-ep90) — Eight original FM electric-piano sounds (90s R&B ballad bell attack) and a custom firmware for the SMK-37 Pro, with demo WAVs, SysEx files and full source; documentation in Korean. v0.1.0-alpha.1, not verified on real hardware by the author.
 - **SMK-dee** — Dual-core polyphonic synthesizer and dynamic MIDI controller ported to the SMK-37 Pro and Elite.
   - [Site](https://djstrombo.github.io/SMK-dee/) — Project page.
   - [Code](https://github.com/djStrombo/SMK-dee) — Source repository.
@@ -90,6 +91,7 @@
 - [fm1-to-smk37](https://github.com/genkigenki/fm1-to-smk37) — Guide to porting FM-1 custom firmware to the SMK-37 Pro: the keyboard shares the FM-1's JieLi AC791N chip, bootloader, update loader, and chip key, so only the board layer (key matrix, analog inputs, display, pad LEDs, flash map) differs.
 - [zp12-smk37](https://github.com/djStrombo/zp12-smk37) — SMK-37 port of the ZP12 12-bit sampling drum firmware (see the [FM-1 list](awesome-mvave-fm-1.md)).
 - [smk37_pro_midi_sysex](https://github.com/hartaberunfairer-web/smk37_pro_midi_sysex) — HTML page for monitoring the SMK-37 Pro's BLE MIDI and SysEx traffic. Unverified: the repository has no README yet.
+- [SMK37-Pro-Firmware-Recovery](https://github.com/fabioribeiroengbr-cmd/SMK37-Pro-Firmware-Recovery) — Community write-up (Portuguese) of an attempt to recover an SMK-37 Pro after an interrupted firmware update, with a start-here guide and case notes. Experimental: the author states that a working recovery has not been proven.
 
 ## Community and Reviews
 

@@ -73,6 +73,33 @@
 - **Skiff** — Six-track groovebox firmware with fourteen synth and drum engines, a 64-step sequencer (chords, ratchets, trig conditions, parameter locks), shared patterns played through per-track lists and scenes, a live-performance layer, on-screen help for every control (hold HOME), and a browser editor.
   - [Site](https://illuminus5.github.io/skiff/) — Project page.
   - [Code](https://github.com/illuminus5/skiff) — Source repository.
+- **NACHTFAHRT** — Generative 1970s Berlin School instrument by Cranky Man (after Tangerine Dream, Klaus Schulze, Ashra): long hypnotic pieces with repeating synthesizer sequences that you can leave playing for hours; browser installer, emulator and manual.
+  - [Site](https://fartypants.github.io/fm1-nachtfahrt/) — Project page, installer, browser emulator and manual.
+  - [Code](https://github.com/FartyPants/fm1-nachtfahrt) — Source repository.
+- **SiDJ** — C64 music deck: plays tunes from the High Voltage SID Collection on a cycle-exact emulated C64, with every voice remixable from the panel or a MIDI keyboard (transpose, mute/solo, waveforms, envelopes, filter, LFOs, tempo, vinyl fader).
+  - [Site](https://thomasj.github.io/fm1-sidj/) — Project page and installer.
+  - [Code](https://github.com/thomasj/fm1-sidj) — Source repository.
+- **PT/FM (Pocket Tracker / Fusion Machine)** — ProTracker-style tracker firmware whose tracks play synth engines and samples side by side; includes an emulator, manual, editor and a MIDI controller mode. The author says it runs on the FM-1 and is being slimmed down to allow more voices.
+  - [Site](https://hitosu.github.io/ptfm/) — Installer, emulator, manual and editor.
+  - [Code](https://github.com/hitosu/ptfm) — Source repository.
+- **Typhoon** — Turns the FM-1 into the sound engine for the re.corder breath MIDI controller (EWI-style): breath is loudness and tone, tilt is pitch bend, and up to three layered voices run through the FM-1's effects; built on fm1-base.
+  - [Site](https://ignis32.github.io/typhoon_fm1/) — Project page.
+  - [Code](https://github.com/ignis32/typhoon_fm1) — Source repository.
+- **Boardwalk** — Seaside arcade of music games (ring the changes on bells, name a note by ear, falling-tile songs, a gull flight, a melody roller coaster) with a ticket-and-prize counter; built on fm1-base, with a browser version that needs no FM-1.
+  - [Site](https://charlesvestal.github.io/fm1-boardwalk/) — Project page, browser play and installer.
+  - [Code](https://github.com/charlesvestal/fm1-boardwalk) — Source repository and `.fwsc` release.
+- **Daurade** — "Grooves in chrome": ten styles on two sides (CHROME and SESSION) with a filtered loop that opens over sixteen bars, a pumping mix, a robot voice singing the hook and four steering knobs; built on Tuna.
+  - [Site](https://delirioux.github.io/daurade/) — Project page.
+  - [Code](https://github.com/delirioux/daurade) — Source repository.
+- **SPELLBOX** — Talking spelling game modelled on the Texas Instruments Speak & Spell (1978) with LPC voice (English and French); built on foma, documentation in French.
+  - [Site](https://pjac1810.github.io/spellbox/) — Project page and installer.
+  - [Code](https://github.com/pjac1810/spellbox) — Source repository.
+- [BB1](https://github.com/TexasRADIO/bb1-firmware) — Two drum machines, a bass synth, tape echo and spring reverb (GPL-3.0); release includes the sound bank and the source archive.
+- [Beets](https://github.com/mattb/fm1-beets) — Sample slicer ported from Matt Biddulph's Norns app on fm1-base: each deck plays eight slices of a loop with repeat, skip, reverse, stutter and loop-switch probabilities; includes native and WebAssembly hosts, USB MIDI telemetry and a TouchOSC visualizer.
+- [fntsmg-1](https://github.com/fantasmogenesis/fntsmg-1) — Groovebox firmware on Felucca with 8 tracks, 18 own engines, a 32-step sequencer with locks, conditions, probability and ratchets, 16 live effects, 8-track USB audio and MIDI over USB and TRS; documentation in Spanish.
+- [Dungeon Tracker](https://github.com/BourbonWX/Dungeon-Tracker) — Felucca fork: old-school tracker-style FM groovebox with a dungeon crawl played by the song; `.fwsc` in the releases.
+- [SPAMPY](https://github.com/Spampy-Droid/SPAMPY-0.0-r949) — Felucca/SLOOP-based firmware with a synthwave interface, sound tools, scenes, drum processing, effects and games (Neon Pang, Neon Bubbles); `.fwsc` and source archive in the releases.
+- [fm1-waveloop-kits](https://github.com/lucian-labs/fm1-waveloop-kits) — Porting kits (not a ready firmware) to bring SHAYPE, persistent songs, WaveLoop's modified 808 drums and a kit-lane drum sequencer into FM-1 source firmware, with a checker script.
 - **OPERATOR** — FM synth firmware inspired by Ableton Live's Operator; web installer, manual and `.fwsc` releases (0.5 at the time of writing).
   - [Site](https://npi3pak.github.io/fm1-operator/) — Project page, web installer and manual.
   - [Code](https://github.com/npi3pak/fm1-operator) — Source repository and releases.
@@ -756,6 +783,7 @@
 - [Dexed](https://asb2m10.github.io/dexed/) — The open-source DX7 emulator and editor; the FM-1 accepts its single-parameter SysEx, so you can edit voices live.
 - [FM-1 Bonus Box](https://github.com/pfkellogg/fm1-bonus-box) — ESP32-S3 companion box adding a sustain pedal, a rotary preset browser with a round TFT, a WiFi soundbank manager, and USB MIDI; its [fm1-sustain-footswitch](https://github.com/pfkellogg/fm1-sustain-footswitch) sibling is a simple Arduino board turning a TRS sustain pedal into MIDI CC64.
 - [Virtual FM-1](https://github.com/jbschooley/Virtual-FM-1) — GPL-3.0 software FM-1: a standalone app and VST3/AU plugin (macOS, Windows, Linux) that plays the FM-1's FM engine, edits every sound setting, and runs its sequencer and arpeggiator, with two-way preset and pattern sync (single preset or the whole 128-preset library) over USB with the [FM-1+VA firmware](https://baudgirl.com/work/FM-1+VA). Instances can target stock, FM-1+VA, Felucca, or SLOOP (the last two run from their own source); it works as a standalone synth without the hardware.
+- [FM-1 Backup & Restore](https://github.com/workeffortwaste/fm1-backup-restore) — Android app (APK in the releases) that takes complete flash snapshots of an FM-1 (firmware, settings, projects, songs) and restores them byte for byte, so you can always return to a known state.
 - **Fm1 (browser FM-1)** — Runs the FM-1+VA reimplementation or any of 114 open-source FM-1 firmwares in the browser (desktop, iPad and iPhone) from a searchable picker, keeping each firmware's presets and patterns separately; the interface is in French.
   - [Site](https://ninjathune-human.github.io/Fm1/) — Live emulator.
   - [Code](https://github.com/Ninjathune-Human/Fm1) — Source repository.
