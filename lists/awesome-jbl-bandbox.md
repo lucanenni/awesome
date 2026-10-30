@@ -21,6 +21,8 @@
 ## Unofficial Tools and Protocol Research
 
 - [BandBox Studio](https://github.com/opethlike/bandbox-studio) — Unofficial local macOS control panel and MCP server for the **Trio**: browser GUI and 21 MCP tools to manage presets, 44 amp and effect models, mixer levels, drums, metronome, tuner, and the looper over Bluetooth, without JBL One or a phone. Experimental and tested with a single Trio; also indexed on [Glama](https://glama.ai/mcp/servers/opethlike/bandbox-studio).
+  - [Fork with Solo support](https://github.com/lucanenni/bandbox-studio) — Fork that adds JBL BandBox Solo support (preset select, full looper set, effects, guitar-channel volume, preset duplicate/rename/save, validated on one Solo, one Trio and one Mac), fixes anonymous-BLE-device trust and documents the tuner session protocol.
+- [bandbox-midi-bridge](https://github.com/lucanenni/bandbox-midi-bridge) — Hardware bridge (ESP32-S3, MIT) that lets an M-VAVE Chocolate Plus footswitch control a BandBox Solo or Trio with no change to the pedal's firmware: USB-MIDI in, BLE out; preset previous/next, looper (record/dub/stop, play/pause, undo/clear), tuner on screen and an expression pedal for the guitar-channel level. Tested with an M5Stack CoreS3 and a Solo; a Waveshare 3.49" front-end compiles but is untested, and Boost is not supported. Includes protocol notes in `docs/`.
 - [Bandbox Stagehand](https://github.com/glebb/bandbox-stagehand) — macOS and iPhone app that controls a BandBox Trio over Bluetooth LE without JBL One, putting four big tone buttons per guitar one press away for songs that need different sounds; the repository also holds the tools and notes used to reverse-engineer the speaker's control protocol. Largely written with an AI coding assistant and tested by hand, unaffiliated with JBL.
 - [OpenJBL](https://github.com/NiceDayZc/openjbl) — Safe Bluetooth protocol, EQ, CLI, TUI, and GUI toolkit for JBL portable speakers (37 catalogued models, BLE GATT and Bluetooth Classic SPP, read-back verification of every write). It is not BandBox-specific, but BandBox Studio cites its protocol notes as background.
 - [BandFOSS](https://github.com/vforvilela/bandfoss) — Open-source real-time stem separation and mixer for live system audio, in the style of BandBox's Stem AI; it does not control the hardware.
@@ -40,7 +42,7 @@
 ## Notes
 
 - The Trio has no MIDI interface and no footswitch input, and JBL publishes no control protocol: everything beyond the JBL One app is reverse-engineered and can break with app or firmware updates.
-- BandBox Studio targets the Trio on macOS only; there are no known third-party tools for the Solo.
+- The original BandBox Studio targets the Trio on macOS only; Solo support exists in the fork and in the bandbox-midi-bridge.
 - Download JBL One only from the official stores; unofficial mirrors of the app exist.
 
 ## Contributing
