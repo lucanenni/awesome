@@ -73,6 +73,8 @@
 - **Skiff** — Six-track groovebox firmware with fourteen synth and drum engines, a 64-step sequencer (chords, ratchets, trig conditions, parameter locks), shared patterns played through per-track lists and scenes, a live-performance layer, on-screen help for every control (hold HOME), and a browser editor.
   - [Site](https://illuminus5.github.io/skiff/) — Project page.
   - [Code](https://github.com/illuminus5/skiff) — Source repository.
+- [Penumbra](https://github.com/MadMooneyham/Penumbra) — Space-drone instrument by Lunar Eclipse Forge: five slowly beating voices on a pedal, a soft VOX voice in a long shimmer reverb, BLOOM swells, a key-following looper, holds with throws/bends/freeze and MORPH between scenes, aiming for a cinematic ELTA Solar 42 drone; version 1.0, GPL-3.0, with manual and `.fwsc` release.
+- [FM1 SynthDef](https://github.com/little-scale/fm1-synthdef) — Experimental embedded SuperCollider SynthDef runtime: write a patch in a local browser editor, compile it with SuperCollider on a Mac, send it over USB and play it on the FM-1 (two voices, eight synth slots, four master-effect presets, 154 supported UGens, USB audio and MIDI). Not the full SuperCollider language or server; 0.1.0 preview.
 - **NACHTFAHRT** — Generative 1970s Berlin School instrument by Cranky Man (after Tangerine Dream, Klaus Schulze, Ashra): long hypnotic pieces with repeating synthesizer sequences that you can leave playing for hours; browser installer, emulator and manual.
   - [Site](https://fartypants.github.io/fm1-nachtfahrt/) — Project page, installer, browser emulator and manual.
   - [Code](https://github.com/FartyPants/fm1-nachtfahrt) — Source repository.
