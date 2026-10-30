@@ -73,6 +73,28 @@
 - **Skiff** — Six-track groovebox firmware with fourteen synth and drum engines, a 64-step sequencer (chords, ratchets, trig conditions, parameter locks), shared patterns played through per-track lists and scenes, a live-performance layer, on-screen help for every control (hold HOME), and a browser editor.
   - [Site](https://illuminus5.github.io/skiff/) — Project page.
   - [Code](https://github.com/illuminus5/skiff) — Source repository.
+- **CHOPPAH** — Breakbeat chopper (fm1-base): a break cut into sixteen slices on the white keys, momentary effect pads on the black keys, a generator that rearranges the break as it plays, and ring modulator, hi-pass, flanger, degrader and DJ filter on the output; 0.10.
+  - [Site](https://profikid.github.io/fm1-break-choppah/) — Project page.
+  - [Code](https://github.com/profikid/fm1-break-choppah) — Source repository and `.fwsc` release.
+- **Sill** — Generative 90s eurodance (built on Daurade and Tuna): press PLAY and it writes a song with offbeat basses, piano and supersaw stabs, a hook, a choir and a final key change; ten styles on two sides (CLUB and RADIO).
+  - [Site](https://delirioux.github.io/sill/) — Project page.
+  - [Code](https://github.com/delirioux/sill) — Source repository.
+- **XMOD** — MOD/XM tracker: play, write and save FastTracker 2 and ProTracker songs on the FM-1 itself (up to 32 channels, ft2-clone replayer, Amiga panning and A500/LED filters), with a browser song manager that moves `.xm` and `.mod` files between the FM-1 and the computer.
+  - [Site](https://kotmorderca.github.io/XMOD/) — Project page and song manager.
+  - [Code](https://github.com/KotMorderca/XMOD) — Source repository.
+- **Tidepool** — Ambient loop instrument: each bank is a scene of sixteen loops (drones, textures, melodies, beats) that always fit in time and key, twelve synthesised scenes, autoplay and a Blank Canvas to record your own loops.
+  - [Site](https://pjh-133.github.io/tidepool-fm1/) — Project page.
+  - [Code](https://github.com/pjh-133/tidepool-fm1) — Source repository and `.fwsc` release.
+- **LUXR** — Drum machine in the style of the Sonic Potions LXR with eight sounds and a sample layer using the original LXR transient samples, on the Felucca platform; documentation in German.
+  - [Site](https://orbitator.github.io/LUXR/) — Project page and emulator.
+  - [Code](https://github.com/Orbitator/LUXR) — Source repository and releases.
+- **smileyface** — Acid workflow firmware: write a pattern (or roll the dice with the LFO button) and twist the knobs; 0.0.4 beta.
+  - [Site](https://ihavenocluewhatimdoing.com/smileyface/) — Project page and online player.
+  - [Code](https://github.com/pbarilla/smileyface) — Source repository and `.fwsc` release.
+- [VESPER](https://github.com/fatcatstudios-hub/vesper-fm1) — Ambient worship firmware by Fat Cat Studios: 16 scenes each stacking four voices around a major key you choose, play-and-record layers and a pad-oriented effects chain; GPL-3.0 with the FM1 SDK linking exception; browser updater and sample bank in the releases.
+- [Jam Playground](https://github.com/BunnyOrchard/jam-playground) — Generative music groovebox that starts playing on power-up and keeps creating tunes, changing sounds and mutating patterns, with an auto-song mode you can take over at any time.
+- [ARPHONY](https://github.com/ttreu/fm1-arphony) — Modal arpeggiator (FM1 Open based, beta): repeating single-note riffs over slowly moving modal chords with a bass note and up to two chord tones; browser installer and simulator in the releases.
+- [Wild](https://github.com/Saintpid/Wild) — Firmware with a 303-style acid line (diode ladder filter, 303 waves, a "Deviance" mode that plays cutoff, resonance, env mod and decay following the drums); no prebuilt release at the time of writing, build from source.
 - [Penumbra](https://github.com/MadMooneyham/Penumbra) — Space-drone instrument by Lunar Eclipse Forge: five slowly beating voices on a pedal, a soft VOX voice in a long shimmer reverb, BLOOM swells, a key-following looper, holds with throws/bends/freeze and MORPH between scenes, aiming for a cinematic ELTA Solar 42 drone; version 1.0, GPL-3.0, with manual and `.fwsc` release.
 - [FM1 SynthDef](https://github.com/little-scale/fm1-synthdef) — Experimental embedded SuperCollider SynthDef runtime: write a patch in a local browser editor, compile it with SuperCollider on a Mac, send it over USB and play it on the FM-1 (two voices, eight synth slots, four master-effect presets, 154 supported UGens, USB audio and MIDI). Not the full SuperCollider language or server; 0.1.0 preview.
 - **NACHTFAHRT** — Generative 1970s Berlin School instrument by Cranky Man (after Tangerine Dream, Klaus Schulze, Ashra): long hypnotic pieces with repeating synthesizer sequences that you can leave playing for hours; browser installer, emulator and manual.
@@ -786,6 +808,8 @@
 - [FM-1 Bonus Box](https://github.com/pfkellogg/fm1-bonus-box) — ESP32-S3 companion box adding a sustain pedal, a rotary preset browser with a round TFT, a WiFi soundbank manager, and USB MIDI; its [fm1-sustain-footswitch](https://github.com/pfkellogg/fm1-sustain-footswitch) sibling is a simple Arduino board turning a TRS sustain pedal into MIDI CC64.
 - [Virtual FM-1](https://github.com/jbschooley/Virtual-FM-1) — GPL-3.0 software FM-1: a standalone app and VST3/AU plugin (macOS, Windows, Linux) that plays the FM-1's FM engine, edits every sound setting, and runs its sequencer and arpeggiator, with two-way preset and pattern sync (single preset or the whole 128-preset library) over USB with the [FM-1+VA firmware](https://baudgirl.com/work/FM-1+VA). Instances can target stock, FM-1+VA, Felucca, or SLOOP (the last two run from their own source); it works as a standalone synth without the hardware.
 - [FM-1 Backup & Restore](https://github.com/workeffortwaste/fm1-backup-restore) — Android app (APK in the releases) that takes complete flash snapshots of an FM-1 (firmware, settings, projects, songs) and restores them byte for byte, so you can always return to a known state.
+- [FM-1 Recovery Tool](https://github.com/balancechiang/FM-1-Recovery-Tool) — Unofficial Windows x64 tool that restores the official V15 firmware offline, without the web updater; documentation in Chinese and English.
+- [fble](https://jmarianski.github.io/fble/) — Work in progress (nothing released yet): fwpatch, which would insert a plugin socket into a ready `.fwsc` without a rebuild, and fble2, a BLE MIDI plugin on Optimist's open stack ([source](https://github.com/jmarianski/fble)).
 - **Fm1 (browser FM-1)** — Runs the FM-1+VA reimplementation or any of 114 open-source FM-1 firmwares in the browser (desktop, iPad and iPhone) from a searchable picker, keeping each firmware's presets and patterns separately; the interface is in French.
   - [Site](https://ninjathune-human.github.io/Fm1/) — Live emulator.
   - [Code](https://github.com/Ninjathune-Human/Fm1) — Source repository.
