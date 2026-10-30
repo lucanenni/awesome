@@ -57,6 +57,9 @@
 - **Clipper Pro** — isod89's own Clipper synth (23 engines, 407 sounds, four macros per sound, effects, arpeggiator, step sequencer, microtuning, MPE, USB audio and MIDI) on the SMK-37, with builds for Pro and Elite (and an MKE variant) and a browser editor; version 1.2, GPL-3.0, French quick-start guides included.
   - [Site](https://isod89.github.io/clipper-pro/) — Project page, browser installer and editor.
   - [Code](https://github.com/isod89/clipper-pro) — Source repository and `.fwsc` releases.
+- **Impressionism** — Generative ambient firmware (Debussy/Ravel-style harmony) that also ships SMK-37, SMK-37 Elite and MKE builds; see the FM-1 list for details.
+  - [Site](https://darrenjaworski.github.io/fm-1-impressionism/) — Project page with browser emulator.
+  - [Code](https://github.com/darrenjaworski/fm-1-impressionism) — Source repository and `.fwsc` releases.
 - **Modular Compagnon** — Free Elite firmware by Bungle Society: sixteen Modular Town sounds, a DAW-following arpeggiator and a little on-screen companion (black cat, fox, robot or goldfish); one control, one role, no banks or submenus; documentation in French and English.
   - [Site](https://bunglesociety.github.io/modular-compagnon/) — Project page and installer.
   - [Code](https://github.com/bunglesociety/modular-compagnon) — Source repository and `.fwsc` release.

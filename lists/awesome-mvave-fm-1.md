@@ -73,6 +73,12 @@
 - **Skiff** — Six-track groovebox firmware with fourteen synth and drum engines, a 64-step sequencer (chords, ratchets, trig conditions, parameter locks), shared patterns played through per-track lists and scenes, a live-performance layer, on-screen help for every control (hold HOME), and a browser editor.
   - [Site](https://illuminus5.github.io/skiff/) — Project page.
   - [Code](https://github.com/illuminus5/skiff) — Source repository.
+- **Impressionism** — Generative ambient firmware built to drift rather than be played: voices free-run on slow semi-random timers inside a Debussy/Ravel-era harmonic world (whole-tone and pentatonic scales, extended and quartal chords, parallel planing over a pedal tone); 0.9.0, with builds for the FM-1 and for the SMK-37, SMK-37 Elite and MKE.
+  - [Site](https://darrenjaworski.github.io/fm-1-impressionism/) — Project page with browser emulator.
+  - [Code](https://github.com/darrenjaworski/fm-1-impressionism) — Source repository and `.fwsc` releases.
+- **Hawk Chua** — Modeling synth whose oscillator is Chua's circuit, the simplest chaotic electronic circuit: each voice is its own circuit and the screen draws the live attractor it traces; built on a stripped-down Felucca; documentation in Dutch.
+  - [Site](https://plieuw.github.io/hawk-chua/) — Project page.
+  - [Code](https://github.com/Plieuw/hawk-chua) — Source repository and `.fwsc` release.
 - **CHOPPAH** — Breakbeat chopper (fm1-base): a break cut into sixteen slices on the white keys, momentary effect pads on the black keys, a generator that rearranges the break as it plays, and ring modulator, hi-pass, flanger, degrader and DJ filter on the output; 0.10.
   - [Site](https://profikid.github.io/fm1-break-choppah/) — Project page.
   - [Code](https://github.com/profikid/fm1-break-choppah) — Source repository and `.fwsc` release.
