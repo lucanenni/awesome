@@ -73,6 +73,16 @@
 - **Skiff** — Six-track groovebox firmware with fourteen synth and drum engines, a 64-step sequencer (chords, ratchets, trig conditions, parameter locks), shared patterns played through per-track lists and scenes, a live-performance layer, on-screen help for every control (hold HOME), and a browser editor.
   - [Site](https://illuminus5.github.io/skiff/) — Project page.
   - [Code](https://github.com/illuminus5/skiff) — Source repository.
+- **AISLING** — Irish ambient drone firmware, a fork of NACHTFAHRT (GPL-3.0-only); browser installer, emulator, manual and cheat sheet.
+  - [Site](https://stephencummins.github.io/fm1-aisling/) — Project page, installer, browser emulator and manual.
+  - [Code](https://github.com/stephencummins/fm1-aisling) — Source repository and `.fwsc` release.
+- **Bass Something 2** — Bass Station II-style monosynth firmware on fm1-base with a manual, presets, SysEx and a randomiser; 0.3.
+  - [Site](https://imijes.github.io/bass-something-2/) — Project page.
+  - [Code](https://github.com/imijes/bass-something-2) — Source repository and `.fwsc` release.
+- **CLATTER Pocket** — CLATTER's generative drum synthesis (built on the Erica Synths LXR-02's open-source sound engine) as FM-1 firmware via M-VAVE's open SDK: 16-step sequencer on seven tracks, 16 kits and on-device kit generation. Experimental: the author states nothing has run on real hardware yet (only the emulator) and that the installer is tested only against a simulated device.
+  - [Site](http://clatter-pocket.allmyfriendsaresynths.com/) — Browser demo and installer.
+  - [Code](https://github.com/clickysteve/clatter-pocket) — Source repository.
+- [WT-2](https://github.com/DedrichVonDorn/wt2-fm1-firmware) — Wavetable synth firmware with 206 parameters (GPL-3.0), installed through M-UPGRADE via Felucca's update loader; the package is not yet published in the releases, so build from source for now.
 - **Impressionism** — Generative ambient firmware built to drift rather than be played: voices free-run on slow semi-random timers inside a Debussy/Ravel-era harmonic world (whole-tone and pentatonic scales, extended and quartal chords, parallel planing over a pedal tone); 0.9.0, with builds for the FM-1 and for the SMK-37, SMK-37 Elite and MKE.
   - [Site](https://darrenjaworski.github.io/fm-1-impressionism/) — Project page with browser emulator.
   - [Code](https://github.com/darrenjaworski/fm-1-impressionism) — Source repository and `.fwsc` releases.
@@ -192,6 +202,7 @@
   - [Site](https://nicholaspratt.github.io/Prysm/) — Project page.
   - [Code](https://github.com/NicholasPratt/Prysm) — Source repository.
 - **ESTAMPIE** — Lively mediæval groovebox firmware (a GHOULBOX / Felucca fork) for tavern and court dances: plucked lutes and citoles, buzzing hurdy-gurdies, shawms and bagpipes over drones and frame drums.
+  - [Site](https://fm-1.drewr.dev/estampie/) — Project page, firmware download and licences.
   - [Code](https://github.com/ocean/estampie) — Source repository.
 - **Frodhes** — Physically modelled Fender Rhodes, vibraphone, and marimba with no samples: every note is computed live from the instrument's mechanics (hammer, tine, tonebar, and pickup on the Rhodes; mallet and bar on the vibraphone).
   - [Site](https://leonardomirabal.github.io/frodhes/) — Project page.
@@ -814,6 +825,8 @@
 - [FM-1 Bonus Box](https://github.com/pfkellogg/fm1-bonus-box) — ESP32-S3 companion box adding a sustain pedal, a rotary preset browser with a round TFT, a WiFi soundbank manager, and USB MIDI; its [fm1-sustain-footswitch](https://github.com/pfkellogg/fm1-sustain-footswitch) sibling is a simple Arduino board turning a TRS sustain pedal into MIDI CC64.
 - [Virtual FM-1](https://github.com/jbschooley/Virtual-FM-1) — GPL-3.0 software FM-1: a standalone app and VST3/AU plugin (macOS, Windows, Linux) that plays the FM-1's FM engine, edits every sound setting, and runs its sequencer and arpeggiator, with two-way preset and pattern sync (single preset or the whole 128-preset library) over USB with the [FM-1+VA firmware](https://baudgirl.com/work/FM-1+VA). Instances can target stock, FM-1+VA, Felucca, or SLOOP (the last two run from their own source); it works as a standalone synth without the hardware.
 - [FM-1 Backup & Restore](https://github.com/workeffortwaste/fm1-backup-restore) — Android app (APK in the releases) that takes complete flash snapshots of an FM-1 (firmware, settings, projects, songs) and restores them byte for byte, so you can always return to a known state.
+- [FM-1_Flasher](https://github.com/jedgarpark/FM-1_Flasher) — Portable CircuitPython device with a touchscreen that stores alternative FM-1 firmwares on a microSD card and installs them over USB MIDI SysEx with no computer (about 70 s per install; tested with V15, SLOOP and ChoralRoot).
+- [FM-1 Bootloader check](https://fm-1.drewr.dev/bootloader-check/) — Drew Robinson's note for firmware developers: firmwares on Felucca's update code can trap users who changed their bootloader (m-bootloader, or Open V12/V14's); also the index of his ESTAMPIE, FM-SWITCH and FM1Kit pages ([site](https://fm-1.drewr.dev/)).
 - [FM-1 Recovery Tool](https://github.com/balancechiang/FM-1-Recovery-Tool) — Unofficial Windows x64 tool that restores the official V15 firmware offline, without the web updater; documentation in Chinese and English.
 - [fble](https://jmarianski.github.io/fble/) — Work in progress (nothing released yet): fwpatch, which would insert a plugin socket into a ready `.fwsc` without a rebuild, and fble2, a BLE MIDI plugin on Optimist's open stack ([source](https://github.com/jmarianski/fble)).
 - **Fm1 (browser FM-1)** — Runs the FM-1+VA reimplementation or any of 114 open-source FM-1 firmwares in the browser (desktop, iPad and iPhone) from a searchable picker, keeping each firmware's presets and patterns separately; the interface is in French.
