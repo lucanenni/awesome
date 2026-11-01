@@ -73,6 +73,13 @@
 - **Skiff** — Six-track groovebox firmware with fourteen synth and drum engines, a 64-step sequencer (chords, ratchets, trig conditions, parameter locks), shared patterns played through per-track lists and scenes, a live-performance layer, on-screen help for every control (hold HOME), and a browser editor.
   - [Site](https://illuminus5.github.io/skiff/) — Project page.
   - [Code](https://github.com/illuminus5/skiff) — Source repository.
+- **KARMA** — Free firmware with four tracks, a drum synth, a 64-step sequencer, generators that keep writing while you play and a cast of pixel characters; browser emulator, editor and installer, French quick-start guide.
+  - [Site](https://eatyourgreensstudio-dotcom.github.io/karma-fm1/) — Project page, browser emulator, editor and installer.
+  - [Code](https://github.com/eatyourgreensstudio-dotcom/karma-fm1) — Source repository and `.fwsc` release (3.0.3).
+- **MoonDAW** — "A tracker for you and your LLM": eight tracks, instruments you build yourself, three effects per step and songs stored as plain text files that an LLM can write; browser version and manual.
+  - [Site](https://moondaw.com/app/) — Browser app; the [manual](https://moondaw.com/manual.html) is online too.
+  - [Code](https://github.com/jaeggerr/moondaw-fm1) — Source repository.
+- [K-GLITCH](https://github.com/Guizmoh/K-Glitch) — Glitch machine and chaos generator forked from the KAWA tracker (six tracks, live FX page, 0.74 s stereo capture ring with loop/stutter/scratch/reverse/tape-stop gestures and an AUTO GLITCH toggle); source fork only, not built or validated on an FM-1 by the author.
 - **AISLING** — Irish ambient drone firmware, a fork of NACHTFAHRT (GPL-3.0-only); browser installer, emulator, manual and cheat sheet.
   - [Site](https://stephencummins.github.io/fm1-aisling/) — Project page, installer, browser emulator and manual.
   - [Code](https://github.com/stephencummins/fm1-aisling) — Source repository and `.fwsc` release.
@@ -824,6 +831,7 @@
 - [Dexed](https://asb2m10.github.io/dexed/) — The open-source DX7 emulator and editor; the FM-1 accepts its single-parameter SysEx, so you can edit voices live.
 - [FM-1 Bonus Box](https://github.com/pfkellogg/fm1-bonus-box) — ESP32-S3 companion box adding a sustain pedal, a rotary preset browser with a round TFT, a WiFi soundbank manager, and USB MIDI; its [fm1-sustain-footswitch](https://github.com/pfkellogg/fm1-sustain-footswitch) sibling is a simple Arduino board turning a TRS sustain pedal into MIDI CC64.
 - [Virtual FM-1](https://github.com/jbschooley/Virtual-FM-1) — GPL-3.0 software FM-1: a standalone app and VST3/AU plugin (macOS, Windows, Linux) that plays the FM-1's FM engine, edits every sound setting, and runs its sequencer and arpeggiator, with two-way preset and pattern sync (single preset or the whole 128-preset library) over USB with the [FM-1+VA firmware](https://baudgirl.com/work/FM-1+VA). Instances can target stock, FM-1+VA, Felucca, or SLOOP (the last two run from their own source); it works as a standalone synth without the hardware.
+- [FM-1 Emulator (desktop)](https://github.com/briksquared/fm1-emulator) — Unofficial offline desktop emulator (Windows portable build, macOS arm64/x64 and Linux .deb in the releases) that runs FM-1 firmware with no hardware, from the keyboard, mouse or a MIDI controller.
 - [FM-1 Backup & Restore](https://github.com/workeffortwaste/fm1-backup-restore) — Android app (APK in the releases) that takes complete flash snapshots of an FM-1 (firmware, settings, projects, songs) and restores them byte for byte, so you can always return to a known state.
 - [FM-1_Flasher](https://github.com/jedgarpark/FM-1_Flasher) — Portable CircuitPython device with a touchscreen that stores alternative FM-1 firmwares on a microSD card and installs them over USB MIDI SysEx with no computer (about 70 s per install; tested with V15, SLOOP and ChoralRoot).
 - [FM-1 Bootloader check](https://fm-1.drewr.dev/bootloader-check/) — Drew Robinson's note for firmware developers: firmwares on Felucca's update code can trap users who changed their bootloader (m-bootloader, or Open V12/V14's); also the index of his ESTAMPIE, FM-SWITCH and FM1Kit pages ([site](https://fm-1.drewr.dev/)).
@@ -860,6 +868,7 @@
 - [fm1-polyseq](https://github.com/NOVALENTI/fm1-polyseq) — Polyphonic 16-step sequencer and hardware abstraction layer in strict C99, written from scratch for the FM-1's pi32v2 core.
 - [sloopy-sloop-32](https://github.com/smhgzll/sloopy-sloop-32) — GPL-3.0 proof of concept running SLOOP natively on an ESP32-S3 with a PCM5102A DAC, with a browser standing in for the front panel.
 - [mvave-fm1](https://github.com/maxfridbe/mvave-fm1) — Claude Code skills (plain Markdown, readable without an AI) plus a Podman build container covering how to back up, flash, restore and unbrick an FM-1 and how to write firmware (hardware API, memory map, chip rules, firmware catalog); written with AI assistance, so verify against the primary sources before flashing.
+- [FM1 Unbricking For Dummies](https://github.com/GoodPerson42/FM1-Unbricking-For-Dummies) — Step-by-step guide (English and Russian) to reviving a hard-bricked FM-1 with an RP2040-Zero, using the cheapest method; no soldering required, Windows PC needed.
 - [Felucca BUILDING.md](https://github.com/hugelton/Felucca/blob/main/BUILDING.md) — How to build a Felucca-family firmware from source.
 - [MVAVE-M-UPGRADE-decompiled](https://github.com/entitymar/MVAVE-M-UPGRADE-decompiled) — Decompilation of the official updater application, for research.
 - [jielie](https://kagaimiq.github.io/jielie/) — Reference site for the JieLi SoC family the FM-1's AC791N belongs to.

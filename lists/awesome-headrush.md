@@ -47,6 +47,9 @@
 - [PedalCues](https://thankost.github.io/pedal-cues/) — VST3/AU/LV2/standalone plugin ([source](https://github.com/thankost/pedal-cues)) with drag-and-drop named MIDI cues for many modelers, including HeadRush, to program pedal scene and preset changes from a DAW.
 - [Headrush Dark](https://github.com/lordbagel42/headrush-dark) — Unofficial dark theme and small usability improvements for the HeadRush web interface, installed as a Violentmonkey userscript.
 - [Headrush Remote Buttons](https://thomasborgogno.github.io/headrush-remote-buttons/) — Browser touch remote ([source](https://github.com/thomasborgogno/headrush-remote-buttons)) for HeadRush units that switches scenes (with A/B states) and latch or momentary footswitch effects across both banks from a phone or tablet; nothing to install. Tested only on the Core (it uses the device's undocumented local web-editor API with Headrush Remote set to On); Flex Prime and Pedalboard are untested.
+- **Mantle-Lab Workbench** — Rig editor for HeadRush Prime, Core and Flex Prime over Wi-Fi (firmware 5.x): drag pedals and whole chains between rigs, combine a guitar path and a mic path into one rig, and edit footswitches, scenes and expression pedals. Windows 10/11 only for now (Mac and Linux planned); the installer is not code-signed yet, and it is pay-what-you-want.
+  - [Site](https://neilmantle.info/mantle_lab/workbench/) — Instructions and help.
+  - [Code](https://github.com/Mantle-Lab/workbench) — Releases with the Windows installer.
 - [HeadRush Cleaner](https://github.com/dfeltrin/HeadrushCleaner) — Experimental Node.js utility that finds IRs, amp clones, and NAM models not referenced by any rig or saved block; deleting unused resources needs per-category confirmation and is permanent with no automatic backup, so back up first.
 
 ## Preset Generators and AI
