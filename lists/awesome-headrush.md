@@ -64,6 +64,7 @@
 - **HeadRush Core Toolkit** — Open Claude Skill and general reference for controlling a HeadRush Core/Prime unit over its local REST API, with a database mapping all 375 official models to the real amp/cab/pedal/mic they're inspired by.
   - [Site](https://headrush-core-toolkit.vercel.app/) — Live model reference and gallery of rigs built with the skill.
   - [Code](https://github.com/venyavekk-dev/headrush-core-toolkit) — Source repository with the Claude Skill, model reference data, example rigs, and site code.
+- [rigsmith](https://github.com/Gavinboley/rigsmith) — Tone-matching tool for HeadRush Core and Prime over Wi-Fi (browser UI, CLI and MCP server): analyzes songs and stems, researches the original rig, then auditions amps, cabs and NAM captures through an audio-interface loop to minimize error-to-signal ratio and writes multi-scene rigs, with blind A/B trials. No firmware changes; writes require a backup snapshot first and a read-only mode exists. Source-available under PolyForm Noncommercial 1.0.0, not an open-source licence.
 - [headrush-cli](https://github.com/kungbi/headrush-cli) — Unofficial local-first, schema-aware command-line tool for inspecting a rig, planning a tone, and applying changes, designed for players, automation, and AI agents.
 
 ## Preset Packs and IRs

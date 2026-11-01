@@ -76,6 +76,9 @@
 - **KARMA** — Free firmware with four tracks, a drum synth, a 64-step sequencer, generators that keep writing while you play and a cast of pixel characters; browser emulator, editor and installer, French quick-start guide.
   - [Site](https://eatyourgreensstudio-dotcom.github.io/karma-fm1/) — Project page, browser emulator, editor and installer.
   - [Code](https://github.com/eatyourgreensstudio-dotcom/karma-fm1) — Source repository and `.fwsc` release (3.0.3).
+- **BoopBox** — GPL-3.0 renamed fork of SLOOP (versions restart at 1.0.0, continuing from SLOOP 2.8.3): an eight-track live groovebox with six synths and two drum machines by default, twelve synthesis engines, 153 sounds and 37 drum kits. Guides in English and French, web editor and browser installer on the site. It updates an FM-1 running SLOOP or Felucca, but SLOOP projects and songs do not open in BoopBox (back them up first); presets, samples and settings are kept, and you can go back to SLOOP.
+  - [Site](https://josh-mcfarlin.github.io/boopbox/) — Installer, guide, manual and web editor.
+  - [Code](https://github.com/Josh-McFarlin/boopbox) — Source repository.
 - **FM1-TRAX** — GPL-3.0 firmware (v0.9.0, in development, tested on a real FM-1) that turns the FM-1 into a Sega Mega Drive / Genesis music tracker: emulates the YM2612 (six FM channels) and the SN76489 PSG, with a Deflemask/Furnace-style pattern tracker played from the FM-1's keys and knobs; formerly FM1-DRIVE. The site has an emulator and an installer, plus a desktop editor that imports Mega Drive VGMs and exports VGM and WAV.
   - [Site](https://jartificer.github.io/fm1-trax/) — Emulator, installer and editor.
   - [Code](https://github.com/jartificer/fm1-trax) — Source repository.
