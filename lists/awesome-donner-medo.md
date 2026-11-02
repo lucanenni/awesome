@@ -25,6 +25,8 @@
 - [Donner MEDO on Kickstarter (Synth Anatomy)](https://synthanatomy.com/2024/08/donner-medo-new-portable-battery-powered-sampling-groovebox-now-on-kickstarter.html) — Coverage of the crowdfunding launch.
 - [Donner MEDO Review: A Budget-Friendly Sampler That Shines Outside the Studio (Magnetic Magazine)](https://magneticmag.com/2024/08/donner-medo-review/) — Review praising the hardware and noting weaker software: no custom drum sounds or sample upload at the time.
 - [Donner MEDO review: a well-thought out groovebox that has yet to unlock its full potential (Floyd Steinberg, YouTube)](https://www.youtube.com/watch?v=NHzXRHZu1DY) — Video review.
+- [MEDO: multi-function instrument from Donner (Sound On Sound)](https://www.soundonsound.com/news/medo-multi-function-instrument-donner) — News article on the synth, sampler, looper and MIDI controller.
+- [Donner MEDO review (MATRIXSYNTH)](https://www.matrixsynth.com/2024/08/donner-medo-review-well-thought-out.html) — Post of the Floyd Steinberg review.
 
 ## Notes
 

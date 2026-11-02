@@ -64,6 +64,9 @@
 - [Received my Sonicake Pocket Master today. VERY disappointed. — Squier-Talk](https://squier-talk.com/threads/received-my-sonicake-pocket-master-today-very-disappointed.211570/) — Critical user report describing harsh/metallic overdrive and distortion tones and excessive noise requiring a high noise-gate setting; a useful counterpoint to the more positive reviews below.
 - [Sonicake Pocket Master Review — backingtracksverse.com](https://backingtracksverse.com/sonicake-pocket-master-review) — Review praising the built-in battery, Bluetooth app editing, and NAM/IR support, while noting only 5 IR slots (versus 20-50 on some competitors) and no XLR outputs; rated 4.2/5.
 - [SONICAKE Pocket Master Review (2025) — Tone Authority](https://www.toneauthority.com/%F0%9F%8E%B8-sonicake-pocket-master-review-2025-tiny-pedal-huge-possibilities/) — Review focused on everyday usability: overdrive/distortion for classic rock and light metal, delay/reverb for ambient and indie tones, and headphone-based silent practice.
+- [The Complete SONICAKE Guide — Tons of Tones](https://tonsoftones.com/sonicake-guide/) — Guide to exporting and backing up presets with Sonicake Manager and SONICLINK, and loading IRs and clones.
+- [Steel Guitar Forum: Sonicake Pocket Master](https://bb.steelguitarforum.com/viewtopic.php?p=3260094) — Community discussion of the pedal.
+- [HAGIWO XOX groovebox CFW (note.com, Japanese)](https://note.com/solder_state/n/n8694082ca1a7) — Write-up of a proof-of-concept custom firmware by HAGIWO: a 16-step acid synth and a techno rhythm machine on the Pocket Master's three buttons and encoder. Not distributed (Sonicake's terms exclude damage from modifications), edits cannot be saved, and the original multi-effects `.bin` can be written back to restore the stock function.
 
 ## Demo and Tutorial Videos
 

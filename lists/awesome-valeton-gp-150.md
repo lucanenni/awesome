@@ -45,6 +45,7 @@
 - [Juca Nery free singing lead tone](https://jucaneryguitar.com/2026/07/27/free-singing-lead-tone-valeton-gp-150/) — Free GP-150 lead preset with a tutorial explaining the amp, delay, ambience, and sustain settings.
 - [Guitar Tones Valeton patches and IRs](https://sites.google.com/view/guitartones) — Community/commercial library of Valeton patches, IRs, NAM files, and custom resources; verify GP-150 compatibility for each pack.
 - [Andertons Valeton downloads](https://www.andertons.co.uk/andertons-valeton-downloads) — Free SnapTone downloads and patches created by Andertons performers; compatibility varies by Valeton model.
+- [The Complete Valeton Guide — Tons of Tones](https://tonsoftones.com/valeton-guide/) — Guide to exporting, importing and backing up presets with the Valeton Editor and `.prst` files, and how SnapTone works; written around the GP-200 and covering the GP range.
 
 ## Reverse Engineering
 

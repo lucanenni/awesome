@@ -108,6 +108,10 @@
 - [Elektronauts thread](https://www.elektronauts.com/t/m-vave-smk-37-pro-affordable-dx7-emulator/234750) — Discussion of the SMK-37 Pro/Elite as an affordable DX7 emulator, sound quality, and workflow tips.
 - [Heise: MIDI keyboard with DX7 emulation](https://www.heise.de/en/background/MIDI-keyboard-with-DX7-emulation-M-VAVE-SMK-37-Pro-tested-10503740.html) — In-depth hands-on test of the SMK-37 platform.
 - [Equipboard overview](https://equipboard.com/items/m-vave-smk-37-elite) — Specs summary and where-to-buy listing.
+- [The Firmware Hub: SMK-37 Pro](https://thefirmwarehub.com/smk37/) — Catalog page of community firmware for the SMK-37 Pro and Elite.
+- [Synth Anatomy: Baud Girl SMK-37+VA](https://synthanatomy.com/2026/10/baud-girl-smk-37va-custom-firmware-for-the-m-vave-smk-37-pro-elite-and-variants.html) — Article on the virtual-analog and 8-bit groovebox firmware (beta) for the SMK-37 Pro, Elite and variants.
+- [Synth Anatomy: Obervave](https://synthanatomy.com/2026/10/zvenson-obervave-your-m-vave-fm-1-and-smk-37-pro-elite-are-now-oberheim-like-polysynths.html) — Article on zvenson's Oberheim-style polysynth firmware (beta) for the FM-1 and SMK-37.
+- [M-VAVE forum: SMK37 OPEN](https://forum.m-vave.com/topic/34) — Official forum thread for the eight-track SMK37 OPEN firmware and developer kit.
 
 ## Notes
 

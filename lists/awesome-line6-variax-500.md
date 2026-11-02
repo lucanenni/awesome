@@ -48,6 +48,7 @@
 
 - [Variax (Wikipedia)](https://en.wikipedia.org/wiki/Variax) — Overview of the Variax line, including the fact that the 300–700 guitars connect to a computer only through a Line 6 USB interface or a POD Live / Vetta.
 - [Line 6 Variax 500 user reviews (Audiofanzine)](https://en.audiofanzine.com/electric-solidbody-guitar-with-modeling/line-6/variax-500-black/user_reviews/) — Owner reviews praising value and the breadth of built-in sounds.
+- [Crowd Creation 2.0: Line6 Variax Wireless VDI (CME)](https://www.cme-pro.com/crowd-creation-2-0-line6-variax-wireless-vdi-by-christian-graffe/) — Community build of a wireless Variax Digital Interface using CME's WIDI Bluetooth MIDI; discussion of the project continues in a Facebook group.
 
 ## Notes
 

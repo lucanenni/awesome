@@ -983,6 +983,11 @@
 - [Felucca 0.9 and new presets (AutoHot, Russian)](https://www.youtube.com/watch?v=UzgbDjsFEpY) — Russian-language walkthrough and sound demo of Felucca 0.9.
 - [Felucca first look (Stanley Gurvich)](https://www.youtube.com/watch?v=EzFknmhtKZk) — Multi-sequencer, nine engines, and scale mode.
 - [Felucca 0.9-beta jam session (2403R / Case Woo)](https://www.youtube.com/watch?v=XEK4VhsYwCE) — Live performance on Felucca.
+- [Synth Anatomy: FM-1 Open](https://synthanatomy.com/2026/10/m-vave-fm-1-open-the-green-light-for-custom-firmware-and-community-hacks.html) — Article on M-VAVE opening the FM-1 firmware to community developers.
+- [Synthtopia: M-VAVE opens FM-1 firmware](https://www.synthtopia.com/content/2026/10/20/m-vave-officially-opens-fm-1-firmware-to-developers-with-new-workbench-sdk/) — News on the official browser workbench and SDK.
+- [Synthtopia: fm1-dock](https://www.synthtopia.com/content/2026/10/26/latest-fm-1-firmware-lets-you-load-4-synth-engines-swap-them-on-the-fly/) — News on the firmware that loads four synth engines and swaps them on the fly.
+- [MATRIXSYNTH: new M-VAVE firmware](https://www.matrixsynth.com/2026/10/m-vave-just-released-new-firmware-for.html) — News post on the official V16 firmware.
+- [The Firmware Hub](https://thefirmwarehub.com/) — Separate catalog of community firmware for M-VAVE devices, with per-device pages including the [SMK-37 Pro](https://thefirmwarehub.com/smk37/).
 
 ## Notes
 
