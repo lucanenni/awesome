@@ -63,6 +63,9 @@
 - **Modular Compagnon** — Free Elite firmware by Bungle Society: sixteen Modular Town sounds, a DAW-following arpeggiator and a little on-screen companion (black cat, fox, robot or goldfish); one control, one role, no banks or submenus; documentation in French and English.
   - [Site](https://bunglesociety.github.io/modular-compagnon/) — Project page and installer.
   - [Code](https://github.com/bunglesociety/modular-compagnon) — Source repository and `.fwsc` release.
+- **RemoteFM1** — GPL-3.0 firmware that makes the device a remote panel for firmwares running on the computer (keys, encoders and the MASTER pot out as MIDI, LEDs and screen driven back). The SMK-37 and SMK-37 Elite builds in the releases are untested on a unit; the FM-1 build was tested on 2026-10-28.
+  - [Site](https://remotefm1.com/) — Project page.
+  - [Code](https://github.com/quixotic7/RemoteFM1) — Source repository and releases.
 - [Velvet EP90](https://github.com/THEGREATCJPark/smk37-velvet-ep90) — Eight original FM electric-piano sounds (90s R&B ballad bell attack) and a custom firmware for the SMK-37 Pro, with demo WAVs, SysEx files and full source; documentation in Korean. v0.1.0-alpha.1, not verified on real hardware by the author.
 - **SMK-dee** — Dual-core polyphonic synthesizer and dynamic MIDI controller ported to the SMK-37 Pro and Elite.
   - [Site](https://djstrombo.github.io/SMK-dee/) — Project page.

@@ -76,6 +76,26 @@
 - **KARMA** — Free firmware with four tracks, a drum synth, a 64-step sequencer, generators that keep writing while you play and a cast of pixel characters; browser emulator, editor and installer, French quick-start guide.
   - [Site](https://eatyourgreensstudio-dotcom.github.io/karma-fm1/) — Project page, browser emulator, editor and installer.
   - [Code](https://github.com/eatyourgreensstudio-dotcom/karma-fm1) — Source repository and `.fwsc` release (3.0.3).
+- **Ripple** — MPL-2.0 firmware (v0.4) that runs "droplets" (instruments written in Lua) playing "currents" (sounds written in Faust or C), inspired by monome's norns. In disk mode the FM-1 appears as a 276 KB USB drive called RIPPLE: copy a droplet or current onto it, eject, and it is available with no reflashing. Fifteen built-in droplets (arp, beat, euclid, life, rack, a MIDI controller and more) and extra currents (Plaits-based DX, speech and wavetable) in the releases.
+  - [Site](https://charlesvestal.github.io/fm1-ripple/) — Browser demo, installer and manual.
+  - [Code](https://github.com/charlesvestal/fm1-ripple) — Source repository and releases.
+- **CYMA-1** — MPL-2.0 original firmware that turns the FM-1 into a playable Chladni plate: strikes, a plate morphing from circle to star, three views and a handpan groove. v1.1.3 runs on a real FM-1; the README has a status and safety section.
+  - [Site](https://teg-lizard-man.github.io/cyma-1/) — Project page.
+  - [Code](https://github.com/teg-lizard-man/cyma-1) — Source repository and `.fwsc` release.
+- **GRANA** — GPL-3.0 granular sample player in the spirit of the MicroGranny 2 (v1.6.2, tested on a real FM-1): four sample layers played by a cloud of grains, lo-fi effects, arpeggiator, sequencer, 64 named presets and a browser editor that loads your own samples and installs the firmware (a Bluetooth build is also provided). The interface is in Italian; the README explains the names.
+  - [Code](https://github.com/mongio/grana-fm1) — Source repository, `.fwsc` releases and editor.
+- **ONDADREAM** — Synth firmware (Italian-language) with 43 presets, animated creatures on the screen, filter, envelope, LFO, arpeggio (with an AI mode), effects and global pages. Browser demo and installer on the site; two failed power-ons in a row drop the FM-1 into recovery mode. The licence is all rights reserved, not open source.
+  - [Site](https://teryox77.github.io/ondadream-fm1/) — Browser demo and installer.
+  - [Code](https://github.com/Teryox77/ondadream-fm1) — Source repository and `.fwsc` release.
+- **Selva1** — GPL-3.0 synth engine from DeAbrew (Portuguese-language) that runs in the browser, as an AU/VST3 plugin and as FM-1 firmware: the FM-1 build is SLOOP 2.7.1 with the SELVA1 engine, installed from a web installer or the `.fwsc` in the releases.
+  - [Site](https://deabrewmusic.com.br/selva1/) — Browser synth and FM-1 installer.
+  - [Code](https://github.com/deabrewcontato-code/selva1) — Source repository and releases.
+- **FM Stud1o** — GPL-3.0 eight-track groovebox firmware based on Felucca (piano roll, drum grid, song arranger, mixer, FX) with a browser emulator; no release yet, so it is built from source (`build.sh`, then `tools/fm1_install.py`). The README states it is installed at your own risk and describes the way back to the official firmware.
+  - [Code](https://github.com/mpasteau/fm-stud1o-fm-1-firmware) — Source repository.
+- [mvave-fm1-mpe](https://github.com/monch1962/mvave-fm1-mpe) — GPL-3.0 fork of Felucca 1.6.1 (`mpe` branch) adding MPE input: per-note pitch bend, pressure and timbre from a controller such as a LinnStrument, via MENU > MIDI > MIDI IN > MPE; no release, built from source.
+- **FM1 DnB (break174)** — Russian-language GPL-3.0 drum-and-bass groove firmware (0.2.0-alpha, 166 BPM, procedurally synthesized drums, no original break recordings). The author has not yet checked this version on a physical FM-1.
+  - [Site](https://eremansim.github.io/Fm1dnbchatgpt/) — Sound lab and project page.
+  - [Code](https://github.com/eremansim/Fm1dnbchatgpt) — Source repository and `.fwsc`.
 - **BoopBox** — GPL-3.0 renamed fork of SLOOP (versions restart at 1.0.0, continuing from SLOOP 2.8.3): an eight-track live groovebox with six synths and two drum machines by default, twelve synthesis engines, 153 sounds and 37 drum kits. Guides in English and French, web editor and browser installer on the site. It updates an FM-1 running SLOOP or Felucca, but SLOOP projects and songs do not open in BoopBox (back them up first); presets, samples and settings are kept, and you can go back to SLOOP.
   - [Site](https://josh-mcfarlin.github.io/boopbox/) — Installer, guide, manual and web editor.
   - [Code](https://github.com/Josh-McFarlin/boopbox) — Source repository.
@@ -843,6 +863,9 @@
 - [Virtual FM-1](https://github.com/jbschooley/Virtual-FM-1) — GPL-3.0 software FM-1: a standalone app and VST3/AU plugin (macOS, Windows, Linux) that plays the FM-1's FM engine, edits every sound setting, and runs its sequencer and arpeggiator, with two-way preset and pattern sync (single preset or the whole 128-preset library) over USB with the [FM-1+VA firmware](https://baudgirl.com/work/FM-1+VA). Instances can target stock, FM-1+VA, Felucca, or SLOOP (the last two run from their own source); it works as a standalone synth without the hardware.
 - **FM-1 Mirror** — Free GPL-3.0 desktop app (Mac, Windows, Linux; builds in the releases) that shows the FM-1's 1.54" screen enlarged and live on the computer, with high-contrast looks. It installs "Big Screen" firmware, M-VAVE's Open firmware with a screen-out addition (source in the `screen-out` branch of pfkellogg/fm1_open), so the FM-1 does run a modified firmware while you use it.
   - [Code](https://github.com/pfkellogg/fm1-mirror) — Source repository and downloads.
+- **RemoteFM1** — GPL-3.0 "firmware for your firmware": the FM-1 sends every key, button, encoder and the MASTER pot to the computer as plain MIDI and shows what the computer sends back on its LEDs and 240×240 screen, so other firmwares (`.fm1core`) run on the computer without installing them. Installer and docs on the site; v0.3.x tested on an FM-1 on 2026-10-28; SMK-37 builds are provided but untested on a unit.
+  - [Site](https://remotefm1.com/) — Project page.
+  - [Code](https://github.com/quixotic7/RemoteFM1) — Source repository and releases.
 - **FM-1 Companion** — GPL-3.0 Raspberry Pi hardware companion (Pocket on a Pi Zero W, Studio on a Pi 3 B+ with a 3.5" touchscreen) for an FM-1 running SLOOP: adds Bluetooth audio and MIDI, a mixer, a recorder that also keeps the MIDI, a sample editor, meters and a MIDI matrix, controllable from a phone. The README lists which parts are tested on real hardware and which are not.
   - [Site](https://xoxoaudiolabs.com) — XOXO Audio Labs, with a browser demo of the web app.
   - [Code](https://github.com/xoxoaudiolabs/FM-1-Companion) — Source repository.
