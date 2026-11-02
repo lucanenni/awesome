@@ -50,6 +50,7 @@
 - **Mantle-Lab Workbench** — Rig editor for HeadRush Prime, Core and Flex Prime over Wi-Fi (firmware 5.x): drag pedals and whole chains between rigs, combine a guitar path and a mic path into one rig, and edit footswitches, scenes and expression pedals. Windows 10/11 only for now (Mac and Linux planned); the installer is not code-signed yet, and it is pay-what-you-want.
   - [Site](https://neilmantle.info/mantle_lab/workbench/) — Instructions and help.
   - [Code](https://github.com/Mantle-Lab/workbench) — Releases with the Windows installer.
+- [headrush-cleaner](https://github.com/dfeltrin/headrush-cleaner) — Experimental Node.js utility that finds IRs, amp clones and NAM models not referenced by any rig or saved preset. Deleting unused resources asks for confirmation per category but is permanent with no automatic backup, and compatibility across devices and firmware versions is not guaranteed.
 - [HeadRush Cleaner](https://github.com/dfeltrin/HeadrushCleaner) — Experimental Node.js utility that finds IRs, amp clones, and NAM models not referenced by any rig or saved block; deleting unused resources needs per-category confirmation and is permanent with no automatic backup, so back up first.
 
 ## Preset Generators and AI
