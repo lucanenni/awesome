@@ -76,6 +76,33 @@
 - **KARMA** — Free firmware with four tracks, a drum synth, a 64-step sequencer, generators that keep writing while you play and a cast of pixel characters; browser emulator, editor and installer, French quick-start guide.
   - [Site](https://eatyourgreensstudio-dotcom.github.io/karma-fm1/) — Project page, browser emulator, editor and installer.
   - [Code](https://github.com/eatyourgreensstudio-dotcom/karma-fm1) — Source repository and `.fwsc` release (3.0.3).
+- **Kitten Rack** — GPL-3.0 modular synth inside the FM-1 (v1.3.0) from Black Kitten Devices: over 50 Eurorack-style modules patched with cables on the device, a sequencer that records what you play, visuals, MIDI LEARN and USB audio. It descends from Matryoshka and Modular-1; browser demo, installer and editor on the site (Portuguese-language installer).
+  - [Site](https://blackkittendevices.github.io/kitten-rack/) — Browser demo and installer.
+  - [Code](https://github.com/BlackKittenDevices/kitten-rack) — Source repository and releases.
+- **PULHRA** — GPL-3.0 minimal Elektron-style groovebox firmware on the MONOFM sound core: four tracks, patterns in banks A to E, parameter locks, trig states, chains and a per-track arpeggiator. The installer page is on the `firmware-builds` branch of the repository.
+  - [Site](https://646timur-cell.github.io/pulhra_main/) — Project page.
+  - [Code](https://github.com/646timur-cell/pulhra_main) — Source repository.
+- **Amenity** — Live jungle firmware (v1.0.0) by Presethead that plays the Amen break sliced into sixteen 8ths, with rolls, builds, echoes and stretches from the white keys, self-varying patterns and fills. GPL-3.0 with the FM1 SDK linking exception; browser installer.
+  - [Site](https://ejtb76.github.io/amenity/) — Project page and installer.
+  - [Code](https://github.com/ejtb76/amenity) — Source repository and `.fwsc`.
+- **GIO-1** — MPL-2.0 generative disco firmware after Giorgio Moroder's Munich sound: a self-playing Moog-style bass sequence, strings or choir through a phaser, a ten-voice lead that writes its own phrases, four-on-the-floor drums, and songs with intro, verse, chorus and break. Alpha (0.1): installed on only one FM-1 so far, where it works.
+  - [Site](https://guinanno1.github.io/fm1-gio/) — Project page.
+  - [Code](https://github.com/guinanno1/fm1-gio) — Source repository and `.fwsc`.
+- **OSR-1** — French-language GPL-3.0 firmware (v1.0.1, built on fm1-base) with one-finger playable chord grids, chord rhythms, kick with sidechain, glide and reverb. Prototype: the author states it was never tested on a real FM-1; it runs in the simulator and the browser.
+  - [Site](https://osr-experiment.github.io/OSR-1/) — Browser demo.
+  - [Code](https://github.com/osr-experiment/OSR-1) — Source repository and `.fwsc`.
+- **BEETLE BLUE** — GPL-3.0 drum-focused fork of BEETLE (v1.2): a six-lane drum tracker with two built-in ROM drum engines. Tested by its developer on two physical FM-1 units; the README advises backing up projects and confirming a recovery route before updating.
+  - [Site](https://sikkenworks.github.io/BEETLE-BLUE/) — Project page and installer.
+  - [Code](https://github.com/SikkenWorks/BEETLE-BLUE) — Source repository and `.fwsc`.
+- **RUPTURE** — GPL-3.0 monophonic bass synthesizer (v1.50) from SikkenWorks: a selectable Cycle Exchange Synthesis or band-limited saw oscillator, two sub-oscillators, modulation, a 24 dB/octave ladder filter and effects, with audio diagnostics on screen. Regularly tested on hardware by its author, who advises backing up projects first.
+  - [Site](https://sikkenworks.github.io/RUPTURE/) — Project page and installer.
+  - [Code](https://github.com/SikkenWorks/RUPTURE) — Source repository and `.fwsc`.
+- [DARK-1](https://github.com/sparky480v/Dark-1) — GPL-3.0 modification of PERF-1 (v1.0.2): sixteen dark genres (dark techno, industrial, EBM, dark drum and bass and others) with ten factory pieces each and a "Wander" mode that evolves the music by itself; the docs state what was and was not verified.
+- **LVM Wanderer** — GPL-3.0 experimental event-memory synthesizer from Low Vision Music (1.3 RC4, hardware-tested by the author), designed by a visually impaired musician with large high-contrast symbols, predictable controls and a light-theme zoom. Release candidates and a guide in the releases.
+  - [Site](https://www.lowvisionmusic.info) — Low Vision Music.
+  - [Code](https://github.com/spinnicholas/lvm-wanderer-fm1) — Source repository and releases.
+- **Arcturus S6** — GPL-3.0 experimental self-playing wavetable instrument (v1.7): four PPG-style wavetable oscillators animated by Serge-style modulators, with a green phosphor CRT screen after the Fairlight CMI. Tested on one FM-1; the README says it was written by Claude (Anthropic) with human guidance.
+  - [Code](https://github.com/zeptosecond-dsp/arcturus-s6) — Source repository and `.fwsc`.
 - **Ripple** — MPL-2.0 firmware (v0.4) that runs "droplets" (instruments written in Lua) playing "currents" (sounds written in Faust or C), inspired by monome's norns. In disk mode the FM-1 appears as a 276 KB USB drive called RIPPLE: copy a droplet or current onto it, eject, and it is available with no reflashing. Fifteen built-in droplets (arp, beat, euclid, life, rack, a MIDI controller and more) and extra currents (Plaits-based DX, speech and wavetable) in the releases.
   - [Site](https://charlesvestal.github.io/fm1-ripple/) — Browser demo, installer and manual.
   - [Code](https://github.com/charlesvestal/fm1-ripple) — Source repository and releases.
