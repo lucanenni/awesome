@@ -684,7 +684,7 @@
 - **FM-1 developer wiki** — Unofficial community reference for people writing custom FM-1 and SMK-37 firmware: the hardware, boot chain and package format, installing and recovering, and how to write firmware.
   - [Site](https://sbegueria.github.io/fm1-dev-wiki/) — Wiki.
   - [Code](https://github.com/sbegueria/fm1-dev-wiki) — Source repository.
-- [umetate](https://github.com/CeliaCasanovas/umetate) — Opinionated framework for designing, building, testing, and safely installing custom FM-1 and SMK-37 firmware.
+- [umetate](https://github.com/AkirakoSaintJust/umetate) — Opinionated framework for designing, building, testing, and safely installing custom FM-1 and SMK-37 firmware.
 - **Atlas** — Map of every known FM-1 firmware: what each tries to be, its engines and sounds, MIDI behaviour, whether the project is still alive (from GitHub activity), and a six-step path for new owners.
   - [Site](https://wero1414.github.io/atlas-fm-1/) — Browsable map.
   - [Code](https://github.com/wero1414/atlas-fm-1) — Source repository.
@@ -899,6 +899,7 @@
 - **FM-1 Companion** — GPL-3.0 Raspberry Pi hardware companion (Pocket on a Pi Zero W, Studio on a Pi 3 B+ with a 3.5" touchscreen) for an FM-1 running SLOOP: adds Bluetooth audio and MIDI, a mixer, a recorder that also keeps the MIDI, a sample editor, meters and a MIDI matrix, controllable from a phone. The README lists which parts are tested on real hardware and which are not.
   - [Site](https://xoxoaudiolabs.com) — XOXO Audio Labs, with a browser demo of the web app.
   - [Code](https://github.com/xoxoaudiolabs/FM-1-Companion) — Source repository.
+- [FM1-Sampler](https://github.com/ferluht/fm1-sampler) — Android sampler and 8-track audio looper with the FM-1 as hardware front end: the phone does the DSP (MELODIC, ONE-SHOT, LOOPED, KIT/SLICE, GRANULAR and Paulstretch modes, FX, arpeggiator, tape and sidechain), the FM-1 gives keys, encoders, the second screen (drawn via SysEx) and USB audio out. Releases ship the APK, a matching firmware flash page and a workbench; flash the firmware first. No licence declared; check before reuse.
 - [FM-1 Emulator (desktop)](https://github.com/briksquared/fm1-emulator) — Unofficial offline desktop emulator (Windows portable build, macOS arm64/x64 and Linux .deb in the releases) that runs FM-1 firmware with no hardware, from the keyboard, mouse or a MIDI controller.
 - [FM-1 Backup & Restore](https://github.com/workeffortwaste/fm1-backup-restore) — Android app (APK in the releases) that takes complete flash snapshots of an FM-1 (firmware, settings, projects, songs) and restores them byte for byte, so you can always return to a known state.
 - [FM-1_Flasher](https://github.com/jedgarpark/FM-1_Flasher) — Portable CircuitPython device with a touchscreen that stores alternative FM-1 firmwares on a microSD card and installs them over USB MIDI SysEx with no computer (about 70 s per install; tested with V15, SLOOP and ChoralRoot).

@@ -92,7 +92,7 @@
   - [Site](https://dsimpson-man.github.io/keylab/) — Learning site.
   - [Code](https://github.com/Dsimpson-man/keylab) — Source repository.
 - [smk37-pro-fl-port](https://github.com/kritonpc/smk37-pro-fl-port) — Runs the SMK-37 Elite V016 application on an SMK-37 Pro using Pro-compatible update packaging and an FL Studio controller profile; experimental, demonstrated on one Pro.
-- [umetate](https://github.com/CeliaCasanovas/umetate) — Opinionated framework for designing, building, testing, and safely installing custom firmware for the FM-1 and SMK-37 (see the [FM-1 list](awesome-mvave-fm-1.md)).
+- [umetate](https://github.com/AkirakoSaintJust/umetate) — Opinionated framework for designing, building, testing, and safely installing custom firmware for the FM-1 and SMK-37 (see the [FM-1 list](awesome-mvave-fm-1.md)).
 - [Erik37](https://github.com/genkigenki/erik37) — Sampled concert-grand piano firmware (velocity layers, dampers, pedals, sympathetic resonance, four rooms) for the SMK-37 and FM-1, from the same hub.
 - [Vector37](https://github.com/genkigenki/Vector37) — Unofficial firmware for the SMK-37 family (installable from the [same hub](https://genkigenki.github.io/smk37/), which lists the Elite as supported): an orbiting overtone synth where a sun and moon moving along a path blend four corners of overtone generators and filters, with pads and knobs as the planets.
 - [NESynth](https://chancethemaker.github.io/NESynth-FM1-SMK/) — NES homebrew player and cartridge-firmware builder that targets both the FM-1 and the SMK-37 Pro / Elite (see the [FM-1 list](awesome-mvave-fm-1.md)).
