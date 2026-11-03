@@ -70,7 +70,7 @@
 - **FM-106** — Six-voice polyphonic Roland Juno-106 synthesizer firmware: ports the ultramaster_kr106 emulation engine (PolyBLEP DCO, IR3109-style ladder filter, BBD stereo chorus, 128 factory Juno-106 presets) with dual-core DSP acceleration adapted from Melodee and an 80s-style UI.
   - [Site](https://patttf.github.io/fm-106/) — Project page.
   - [Code](https://github.com/PatttF/fm-106) — Source repository.
-- **Skiff** — Six-track groovebox firmware with fourteen synth and drum engines, a 64-step sequencer (chords, ratchets, trig conditions, parameter locks), shared patterns played through per-track lists and scenes, a live-performance layer, on-screen help for every control (hold HOME), and a browser editor.
+- **Skiff** — Six-track groovebox firmware with fourteen synth and drum engines, a 64-step sequencer (chords, ratchets, trig conditions, parameter locks), shared patterns played through per-track lists and scenes, a live-performance layer, on-screen help for every control (hold HOME), a browser editor, and a build for the SMK-37 Pro keyboard since 1.4.
   - [Site](https://illuminus5.github.io/skiff/) — Project page.
   - [Code](https://github.com/illuminus5/skiff) — Source repository.
 - **KARMA** — Free firmware with four tracks, a drum synth, a 64-step sequencer, generators that keep writing while you play and a cast of pixel characters; browser emulator, editor and installer, French quick-start guide.
@@ -992,6 +992,8 @@
 - [Synthtopia: M-VAVE opens FM-1 firmware](https://www.synthtopia.com/content/2026/10/20/m-vave-officially-opens-fm-1-firmware-to-developers-with-new-workbench-sdk/) — News on the official browser workbench and SDK.
 - [Synthtopia: fm1-dock](https://www.synthtopia.com/content/2026/10/26/latest-fm-1-firmware-lets-you-load-4-synth-engines-swap-them-on-the-fly/) — News on the firmware that loads four synth engines and swaps them on the fly.
 - [MATRIXSYNTH: new M-VAVE firmware](https://www.matrixsynth.com/2026/10/m-vave-just-released-new-firmware-for.html) — News post on the official V16 firmware.
+- [Sonic State at Music China 2026](https://www.matrixsynth.com/2026/10/m-vave-fm-1-and-more-music-china-2026.html) — Video interview with M-VAVE about the FM-1, its open firmware and the wider controller range (via MATRIXSYNTH).
+- [Hacker News: FM-1 firmware reverse engineering](https://news.ycombinator.com/item?id=49994065) — Discussion of the JieLi AC791N reverse-engineering write-up and why the update protocol is not a safe recovery path.
 - [The Firmware Hub](https://thefirmwarehub.com/) — Separate catalog of community firmware for M-VAVE devices, with per-device pages including the [SMK-37 Pro](https://thefirmwarehub.com/smk37/).
 
 ## Notes

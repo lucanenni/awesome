@@ -29,6 +29,9 @@
 - **SMKSYNTH** — GPL-3.0 performance firmware for the SMK-37 Pro (v1.0.0; Portuguese and English manuals): marries OberVave's synthesis with the DRUM-X engine from JIANT and adds pad-centred performance features (parts, scenes, layers and splits, sequence recording, favorite sounds with one touch). The author tested it on a SMK-37 Pro; the installer accepts only a Pro on official V016 and refuses the Elite, the MKE-P37, the FM-1 and other firmwares. Browser simulator and backup/restore page on the site.
   - [Site](https://4t59m4f784-creator.github.io/SMKSYNTH/) — Installer, simulator and backup page.
   - [Code](https://github.com/4t59m4f784-creator/SMKSYNTH) — Source repository and releases.
+- **Skiff** — Six-track groovebox firmware (fourteen synth and drum engines, 64-step sequencer, scenes, browser editor) with a dedicated SMK-37 Pro build since 1.4: the 16 pads become the step grid, the four faders a mixer, MIDI OUT with clock. Same installer picks the keyboard build; the Elite and MKE-P37 builds were reported as not yet tried on hardware.
+  - [Site](https://illuminus5.github.io/skiff/) — Project page.
+  - [Code](https://github.com/illuminus5/skiff) — Source repository, with SMK37.md install notes.
 - **SMKTRON** — GPL-3.0 lo-fi Mellotron firmware for the SMK-37 Pro, adapted from FMEL-1: flute, choir, cello and violins with layering, chord pads, a sequencer, grain, tape wear, vibrato, Leslie, echo and reverb. Site with simulator and installer in Portuguese and English; first installation requires official SMK-37 Pro V016, and other models and firmware origins are rejected.
   - [Site](https://4t59m4f784-creator.github.io/SMKTRON/) — Project page, simulator and installer.
   - [Code](https://github.com/4t59m4f784-creator/SMKTRON) — Source repository.
@@ -123,6 +126,8 @@
 - [The Firmware Hub: SMK-37 Pro](https://thefirmwarehub.com/smk37/) — Catalog page of community firmware for the SMK-37 Pro and Elite.
 - [Synth Anatomy: Baud Girl SMK-37+VA](https://synthanatomy.com/2026/10/baud-girl-smk-37va-custom-firmware-for-the-m-vave-smk-37-pro-elite-and-variants.html) — Article on the virtual-analog and 8-bit groovebox firmware (beta) for the SMK-37 Pro, Elite and variants.
 - [Synth Anatomy: Obervave](https://synthanatomy.com/2026/10/zvenson-obervave-your-m-vave-fm-1-and-smk-37-pro-elite-are-now-oberheim-like-polysynths.html) — Article on zvenson's Oberheim-style polysynth firmware (beta) for the FM-1 and SMK-37.
+- [MATRIXSYNTH: Skiff 1.4 on the SMK-37 Pro](https://www.matrixsynth.com/2026/10/skiff-14-now-on-m-vave-smk-37-pro-plus.html) — Video of Skiff running on the keyboard.
+- [Sonic State at Music China 2026](https://www.matrixsynth.com/2026/10/m-vave-fm-1-and-more-music-china-2026.html) — Video interview with M-VAVE about its open firmware and compact keyboards (via MATRIXSYNTH).
 - [M-VAVE forum: SMK37 OPEN](https://forum.m-vave.com/topic/34) — Official forum thread for the eight-track SMK37 OPEN firmware and developer kit.
 
 ## Notes
