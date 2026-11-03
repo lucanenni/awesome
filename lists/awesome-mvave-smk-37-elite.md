@@ -29,6 +29,12 @@
 - **SMKSYNTH** — GPL-3.0 performance firmware for the SMK-37 Pro (v1.0.0; Portuguese and English manuals): marries OberVave's synthesis with the DRUM-X engine from JIANT and adds pad-centred performance features (parts, scenes, layers and splits, sequence recording, favorite sounds with one touch). The author tested it on a SMK-37 Pro; the installer accepts only a Pro on official V016 and refuses the Elite, the MKE-P37, the FM-1 and other firmwares. Browser simulator and backup/restore page on the site.
   - [Site](https://4t59m4f784-creator.github.io/SMKSYNTH/) — Installer, simulator and backup page.
   - [Code](https://github.com/4t59m4f784-creator/SMKSYNTH) — Source repository and releases.
+- **SMKTRON** — GPL-3.0 lo-fi Mellotron firmware for the SMK-37 Pro, adapted from FMEL-1: flute, choir, cello and violins with layering, chord pads, a sequencer, grain, tape wear, vibrato, Leslie, echo and reverb. Site with simulator and installer in Portuguese and English; first installation requires official SMK-37 Pro V016, and other models and firmware origins are rejected.
+  - [Site](https://4t59m4f784-creator.github.io/SMKTRON/) — Project page, simulator and installer.
+  - [Code](https://github.com/4t59m4f784-creator/SMKTRON) — Source repository.
+- **WORSHIP (worship-smk37)** — GPL-3.0 Felucca fork with the SMK-37 layer for church music (Portuguese documentation): an ambient pad by key, a 16-song setlist and keys-plus-lead routing; the GLOBE button opens the full Felucca synth. The author states it has been tested only in simulation and has not yet run on a real SMK-37; back up first.
+  - [Site](https://jefersomusic-del.github.io/worship-smk37/) — Browser simulator.
+  - [Code](https://github.com/jefersomusic-del/worship-smk37) — Source repository and `.fwsc` release.
 - **Classic Tabby** — Performance-oriented fork of SMK37 OPEN for the SMK-37 Pro (Linux build), with a `.fwsc` and workbench HTML in its v01.0 release. The README is still M-VAVE's SMK37 OPEN text, so what differs from the official firmware is not documented; the licence file is not an SPDX-standard one.
   - [Site](https://seattleuser0.github.io/classic-tabby/) — Project page.
   - [Code](https://github.com/SeattleUser0/classic-tabby) — Source repository and release.

@@ -76,7 +76,8 @@
 - **KARMA** — Free firmware with four tracks, a drum synth, a 64-step sequencer, generators that keep writing while you play and a cast of pixel characters; browser emulator, editor and installer, French quick-start guide.
   - [Site](https://eatyourgreensstudio-dotcom.github.io/karma-fm1/) — Project page, browser emulator, editor and installer.
   - [Code](https://github.com/eatyourgreensstudio-dotcom/karma-fm1) — Source repository and `.fwsc` release (3.0.3).
-- **QUADRO** — GPL-3.0 four-section performance synth after the ARP Quadra (v1.0, built on fm1-base): bass, string ensemble, poly synth and a two-voice lead playing at once across a split keyboard through a phase shifter, reverb and delay, with one-finger chords, a sequencer that syncs to MIDI clock, pressure-sensitive keys and 68 programs. The README points to a browser installer, demo and manual on GitHub Pages, which was not online yet when checked.
+- **QUADRO** — GPL-3.0 four-section performance synth after the ARP Quadra (v1.0, built on fm1-base): bass, string ensemble, poly synth and a two-voice lead playing at once across a split keyboard through a phase shifter, reverb and delay, with one-finger chords, a sequencer that syncs to MIDI clock, pressure-sensitive keys and 68 programs. Browser installer, in-browser demo and manual on the site.
+  - [Site](https://matttallison.github.io/quadro-fm1/) — Installer, demo and manual.
   - [Code](https://github.com/matttallison/quadro-fm1) — Source repository.
 - **Kitten Rack** — GPL-3.0 modular synth inside the FM-1 (v1.3.0) from Black Kitten Devices: over 50 Eurorack-style modules patched with cables on the device, a sequencer that records what you play, visuals, MIDI LEARN and USB audio. It descends from Matryoshka and Modular-1; browser demo, installer and editor on the site (Portuguese-language installer).
   - [Site](https://blackkittendevices.github.io/kitten-rack/) — Browser demo and installer.
