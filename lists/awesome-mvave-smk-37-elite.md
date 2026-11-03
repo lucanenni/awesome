@@ -35,6 +35,7 @@
 - **SMKTRON** — GPL-3.0 lo-fi Mellotron firmware for the SMK-37 Pro, adapted from FMEL-1: flute, choir, cello and violins with layering, chord pads, a sequencer, grain, tape wear, vibrato, Leslie, echo and reverb. Site with simulator and installer in Portuguese and English; first installation requires official SMK-37 Pro V016, and other models and firmware origins are rejected.
   - [Site](https://4t59m4f784-creator.github.io/SMKTRON/) — Project page, simulator and installer.
   - [Code](https://github.com/4t59m4f784-creator/SMKTRON) — Source repository.
+- [smk37-base](https://github.com/fc79/smk37-base) — GPL-3.0 minimal SMK-37 firmware to build your own on: Dinghy for the SMK-37 only (Felucca/SLOOP platform and genkigenki's SMK-37 layer), with update path, USB rescue, USB MIDI/audio, keys, pads, encoders, faders, wheels, LEDs and screen each used once as an example. Installed and checked on one SMK-37 Pro only; Elite and MKE-P37 packages untried.
 - **WORSHIP (worship-smk37)** — GPL-3.0 Felucca fork with the SMK-37 layer for church music (Portuguese documentation): an ambient pad by key, a 16-song setlist and keys-plus-lead routing; the GLOBE button opens the full Felucca synth. The author states it has been tested only in simulation and has not yet run on a real SMK-37; back up first.
   - [Site](https://jefersomusic-del.github.io/worship-smk37/) — Browser simulator.
   - [Code](https://github.com/jefersomusic-del/worship-smk37) — Source repository and `.fwsc` release.
@@ -95,6 +96,7 @@
   - [Site](https://dsimpson-man.github.io/keylab/) — Learning site.
   - [Code](https://github.com/Dsimpson-man/keylab) — Source repository.
 - [smk37-pro-fl-port](https://github.com/kritonpc/smk37-pro-fl-port) — Runs the SMK-37 Elite V016 application on an SMK-37 Pro using Pro-compatible update packaging and an FL Studio controller profile; experimental, demonstrated on one Pro.
+- [smk37-ableton-session](https://github.com/shalafidragon/smk37-ableton-session) — Ableton Live 12 Remote Script (v1.7) for the SMK-37 Pro on stock firmware: Session View navigation, clip launch/record/delete, transport, selected-track faders and RGB pad feedback. Developed with Codex (AI-assisted) and tested on one macOS setup and one keyboard (stock V15); Windows, Elite and Bluetooth untested. No licence declared.
 - [umetate](https://github.com/AkirakoSaintJust/umetate) — Opinionated framework for designing, building, testing, and safely installing custom firmware for the FM-1 and SMK-37 (see the [FM-1 list](awesome-mvave-fm-1.md)).
 - [Erik37](https://github.com/genkigenki/erik37) — Sampled concert-grand piano firmware (velocity layers, dampers, pedals, sympathetic resonance, four rooms) for the SMK-37 and FM-1, from the same hub.
 - [Vector37](https://github.com/genkigenki/Vector37) — Unofficial firmware for the SMK-37 family (installable from the [same hub](https://genkigenki.github.io/smk37/), which lists the Elite as supported): an orbiting overtone synth where a sun and moon moving along a path blend four corners of overtone generators and filters, with pads and knobs as the planets.

@@ -106,6 +106,9 @@
   - [Code](https://github.com/spinnicholas/lvm-wanderer-fm1) — Source repository and releases.
 - **Arcturus S6** — GPL-3.0 experimental self-playing wavetable instrument (v1.7): four PPG-style wavetable oscillators animated by Serge-style modulators, with a green phosphor CRT screen after the Fairlight CMI. Tested on one FM-1; the README says it was written by Claude (Anthropic) with human guidance.
   - [Code](https://github.com/zeptosecond-dsp/arcturus-s6) — Source repository and `.fwsc`.
+- **FM-1 MIDI Processor** — Stand-alone MIDI processor firmware (v0.1.0): monitor, per-port channel and message filters, note/CC/program remaps, event triggers, knob CCs, live keys, clock monitor and 16 patches, all without a computer (TRS MIDI IN and USB to USB MIDI OUT). Built reproducibly by GitHub Actions. No licence declared; check before reuse.
+  - [Site](https://midihax.github.io/fm1-midi-processor/html/) — Help guide, with a browser flasher at `/flash.html` (desktop Chrome or Edge).
+  - [Code](https://github.com/MidiHax/fm1-midi-processor) — Source repository and releases.
 - **Ripple** — MPL-2.0 firmware (v0.4) that runs "droplets" (instruments written in Lua) playing "currents" (sounds written in Faust or C), inspired by monome's norns. In disk mode the FM-1 appears as a 276 KB USB drive called RIPPLE: copy a droplet or current onto it, eject, and it is available with no reflashing. Fifteen built-in droplets (arp, beat, euclid, life, rack, a MIDI controller and more) and extra currents (Plaits-based DX, speech and wavetable) in the releases.
   - [Site](https://charlesvestal.github.io/fm1-ripple/) — Browser demo, installer and manual.
   - [Code](https://github.com/charlesvestal/fm1-ripple) — Source repository and releases.
