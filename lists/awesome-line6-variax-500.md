@@ -44,6 +44,7 @@
 - [Variax 500 – Bad tone pot repair](https://www.vguitarforums.com/smf/index.php?topic=13474.0) — Fix for a tone pot that darkens after power-up by replacing one small capacitor (C106) on the DSP board.
 - [VGuitar Forums: Variax board](https://www.vguitarforums.com/smf/index.php?board=137.0) — Index of Variax threads covering tips, modifications, and firmware questions.
 - [Sweet Foot Pedals: Power Manager PLUS](https://sweetfootpedals-com.3dcartstores.com/Power-Manager-PLUS-for-Line6-Variax-Line6-XPS--Handmade-USA-_p_615.html) — Handmade-in-USA box that powers a Variax from a 9V pedalboard supply (2.1mm input, TRS out to the guitar, TS out to the amp) and adds a 1/4" input to switch to a regular guitar. Commercial product, about $63.67; shown out of stock on the page at the time of writing.
+- [VGuitar Forums: Variax XPS-AB Power Supply Pedal](https://www.vguitarforums.com/smf/index.php?topic=12177.0) — Thread on Line 6's XPS-AB pedal (power supply and splitter for the Variax), its smaller XPS Mini power-only version and where to find them.
 
 ## Community and Reviews
 
