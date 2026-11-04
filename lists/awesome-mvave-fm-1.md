@@ -112,6 +112,21 @@
 - **Type P.fm1** — Sound-design firmware by P1Onken: two-part, 4-operator phase-distortion synth (20 voices, feedback on every operator, OPL3/OPZ waveforms, two multimode filters, wavefolder), no sequencer. Built with the umetate framework as its test case; installs with umetate or any `.fwsc` flasher. Licence follows the umetate terms (GPL-3.0 project code); check LICENSING.md.
   - [Site](https://akirakosaintjust.github.io/type-p-fm1/) — Browser version of the DSP.
   - [Code](https://github.com/AkirakoSaintJust/type-p-fm1) — Source repository and `type-p-fm1.fwsc`.
+- **SynthMaven 4** — GPL-3.0 firmware for oriental live musicians: 46 maqam tunings (70 scales), four layers plus a drummer, 14 sound engines with 610 presets, eight-lane drum machine with Maksoom, Wahda, Baladi and Fox grooves, 64-step sequencer, song arranger, programs with scenes and setlist. Web installer, web editor and illustrated guide; releases also ship recovery tools (Linux, macOS, Windows) and an iPad app.
+  - [Site](https://kingxeryus.github.io/SynthMaven/) — Project page with web installer, editor and guide.
+  - [Code](https://github.com/KingXeryus/SynthMaven) — Source repository and `.fwsc` releases.
+- **OG Synth** — Synth firmware by Mike Johnson Beats: 16 engines, 28 effects, four tracks at once, no song mode. Only the MPL-2.0 part (application, panel, screen, saving, MIDI) is published in the repository; the sound engines, effects and sequencer are proprietary and not published, so it cannot be built from source.
+  - [Site](https://ogsynth.cc) — Project page with demos, installer and manual.
+  - [Code](https://github.com/mikejohnsonbeats/OG-Synth-source) — Source of the MPL-2.0 part only.
+- **PHREAK** — GPL-3.0 six-track groovebox (three synth, three drum tracks) built on SLOOP 2.8.4 and Felucca: drum kits from WAV files on a USB stick, with envelope, resonant filter, LFO, bit crush, drive and loop per sample, and eight song sections. Version 1.2, a personal fork tested on one FM-1; install at your own risk.
+  - [Code](https://github.com/dagnazty/phreak-fm1) — Source repository, build scripts and guides.
+- **RIFT (mykeln)** — GPL-3.0 experimental drone firmware on Felucca with nine modes (PAIR, FOLD, SINES, WAVES, CHORD, CLUSTER, PARTIAL, CROSS, CAVERN), inspired by the VHIKK-X. Not the same project as the other RIFT in this list.
+  - [Code](https://github.com/mykeln/fm1-rift) — Source repository and guide.
+- **RIDDIM ROOTS** — Generative reggae/dub band firmware (0.3.0) on the official FM1 Open SDK: six players, 11 styles from ska to deep dubstep, transitions and an "evolve" control, playable from the panel or an Alesis Vortex Wireless 2 over MIDI. README in Ukrainian; the `.fwsc` is in the repository. The LICENSE.md reuses M-VAVE's FM1 app licence text (GPL-3.0 with an SDK linking exception); check THIRD_PARTY.md before reuse.
+  - [Code](https://github.com/tskorbenko/riddim-roots-fm1) — Source repository and firmware package.
+- **FM-1 PIANO** — Hybrid physically modelled piano firmware (GPL-3.0, on Felucca, from NACHTFAHRT, DUB-1 and AMB-1). In development: the page offers internal test builds and asks not to install them on your FM-1.
+  - [Site](https://fartypants.github.io/fm1-piano/) — Test-build page.
+  - [Code](https://github.com/FartyPants/fm1-piano) — Source repository.
 - **Ripple** — MPL-2.0 firmware (v0.4) that runs "droplets" (instruments written in Lua) playing "currents" (sounds written in Faust or C), inspired by monome's norns. In disk mode the FM-1 appears as a 276 KB USB drive called RIPPLE: copy a droplet or current onto it, eject, and it is available with no reflashing. Fifteen built-in droplets (arp, beat, euclid, life, rack, a MIDI controller and more) and extra currents (Plaits-based DX, speech and wavetable) in the releases.
   - [Site](https://charlesvestal.github.io/fm1-ripple/) — Browser demo, installer and manual.
   - [Code](https://github.com/charlesvestal/fm1-ripple) — Source repository and releases.
@@ -686,6 +701,10 @@
   - [Site](https://charlesvestal.github.io/fm1-base/) — Project page.
   - [Code](https://github.com/charlesvestal/fm1-base) — Source repository.
 - [FM-SWITCH](https://github.com/ocean/FM-SWITCH) — iOS app for swapping FM-1 firmwares from a phone over USB-C: it merges the firmware hub's catalogue with fm1-editor.com's list, keeps firmwares on the phone for offline flashing, and bundles M-VAVE's official V15 so you can always go back.
+- [FM-1 Hub for iPhone](https://github.com/debreczi/fm1firmwarehost) — GPL-3.0 native iPhone app for The Firmware Hub catalogue: browse, install over USB, keep a history of installs, back up and restore the FM-1's state, and return to the official V15. Checks packages against the catalogue (size, SHA-256, identity) before writing.
+- **FM1-Lab** — Browser-based FM sound-design environment on Felucca's own WebAssembly firmware: instruments of four native FM6 patches, operator, envelope and algorithm editing, with a compatibility bench and test console. Early work; modulation, LFO and FX pages are still to come.
+  - [Site](https://albinoiguana.github.io/FM1-Lab/) — Application.
+  - [Code](https://github.com/albinoIguana/FM1-Lab) — Source repository.
 - [pi32v2-isa](https://github.com/jvitkauskas/pi32v2-isa) — Open reference for JieLi's pi32v2 instruction set (AC791N, used in the FM-1 and SMK-37): a machine-readable instruction table with an assembler, disassembler, linker, and objdump built from it.
 - **FM-1 developer wiki** — Unofficial community reference for people writing custom FM-1 and SMK-37 firmware: the hardware, boot chain and package format, installing and recovering, and how to write firmware.
   - [Site](https://sbegueria.github.io/fm1-dev-wiki/) — Wiki.
