@@ -118,6 +118,11 @@
 - **ECHOFIELD** — Granular sampler firmware: a few seconds of any sound become clouds, sparkles, tape loops and swells, rendered on both cores, with a companion app, browser emulator and flasher; follows MIDI clock since 0.2.9. Code is MIT with MPL-2.0 files from fm1-base and CC0 factory sounds (see LICENSING.md).
   - [Site](https://philip-bos.github.io/echofield-fm1/) — Project page with emulator, flasher and companion app.
   - [Code](https://github.com/Philip-Bos/echofield-fm1) — Source repository and releases.
+- **Veffbox** — GPL-3.0 resampling sound-design instrument (0.3.2): pick a source (OP4 FM, analog, drums, or a resample as sampler, granular or chop), modulate with 6 LFOs and 3 envelopes, stack up to 8 effects, then RESAMPLE; every resample keeps its recipe in a 64-sound bank with bit-exact rebuild. Not yet: four tracks at once, resamples longer than 1.67 s.
+  - [Site](https://galfaroth.github.io/veffbox/) — Project page.
+  - [Code](https://github.com/galfaroth/veffbox) — Source repository and releases.
+- **AQUORA** — Generative "sound sanctuary" firmware: generative instruments, Solfeggio tones, gentle drums, binaural beats and soundscapes. The repository is worked with AI agents (Codex-style session notes), has no licence, ships its packages as split parts, and states the owner verified playback of 0.2.0 only (about 74% CPU); the hosted installer was not verified by the author.
+  - [Code](https://github.com/CodingSlapfu/AQUORA) — Repository with release folders and checksums.
 - **Mighty Arp** — MPL-2.0 chance-arpeggiator firmware: 4-op FM and subtractive hybrid with 64 sounds, 32-step sequencer, chords with strum, swing, chorus, ping-pong delay, shimmer reverb and 16 user presets, MIDI and clock in and out.
   - [Site](https://nickculbertson.github.io/FM1-Mighty-Arp/) — Browser emulator, installer and manual.
   - [Code](https://github.com/NickCulbertson/FM1-Mighty-Arp) — Source repository and releases.
@@ -742,6 +747,10 @@
   - [Site](https://albinoiguana.github.io/FM1-Lab/) — Application.
   - [Code](https://github.com/albinoIguana/FM1-Lab) — Source repository.
 - [FM-1 for iPhone](https://github.com/pjac1810/fm1-ios) — Source of an iPhone/iPad app that emulates the FM-1's hardware and runs the unmodified official V15 firmware, with a multitouch front panel and `.fwsc` updates (official, FM1 Open, community). Build it yourself with Xcode, Rust and XcodeGen; documentation in French; no licence declared.
+- [FM-1 Relay](https://github.com/Philip-Bos/fm1-relay) — MIT MIDI clock master for up to four FM-1s on any open-source firmware, so they share one tempo and transport. Web app (installable) and native iPad app.
+  - [Web app](https://philip-bos.github.io/fm1-relay/) — Run it in the browser.
+- **FM-1 Companion Suite (bit-wmike)** — GPL-3.0 desktop suite for Felucca-family firmware (Melodee, Skiff, SLOOP) and the official one: backups, firmware switching, rescue levels, "is my FM-1 clean?" check and a Studio digital twin; built for Raspberry Pi 5, runs on Debian/Ubuntu, English and German. The author warns that firmware switching, rescue, clean-up and Studio write-back were only run against simulations, with one real update tested on one device. Not the same project as the XOXO Audio Labs Companion.
+  - [Code](https://github.com/bit-wmike/fm1-companion) — Source repository and releases.
 - [pi32v2-isa](https://github.com/jvitkauskas/pi32v2-isa) — Open reference for JieLi's pi32v2 instruction set (AC791N, used in the FM-1 and SMK-37): a machine-readable instruction table with an assembler, disassembler, linker, and objdump built from it.
 - **FM-1 developer wiki** — Unofficial community reference for people writing custom FM-1 and SMK-37 firmware: the hardware, boot chain and package format, installing and recovering, and how to write firmware.
   - [Site](https://sbegueria.github.io/fm1-dev-wiki/) — Wiki.
