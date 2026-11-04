@@ -115,6 +115,15 @@
 - **SynthMaven 4** — GPL-3.0 firmware for oriental live musicians: 46 maqam tunings (70 scales), four layers plus a drummer, 14 sound engines with 610 presets, eight-lane drum machine with Maksoom, Wahda, Baladi and Fox grooves, 64-step sequencer, song arranger, programs with scenes and setlist. Web installer, web editor and illustrated guide; releases also ship recovery tools (Linux, macOS, Windows) and an iPad app.
   - [Site](https://kingxeryus.github.io/SynthMaven/) — Project page with web installer, editor and guide.
   - [Code](https://github.com/KingXeryus/SynthMaven) — Source repository and `.fwsc` releases.
+- **ECHOFIELD** — Granular sampler firmware: a few seconds of any sound become clouds, sparkles, tape loops and swells, rendered on both cores, with a companion app, browser emulator and flasher; follows MIDI clock since 0.2.9. Code is MIT with MPL-2.0 files from fm1-base and CC0 factory sounds (see LICENSING.md).
+  - [Site](https://philip-bos.github.io/echofield-fm1/) — Project page with emulator, flasher and companion app.
+  - [Code](https://github.com/Philip-Bos/echofield-fm1) — Source repository and releases.
+- **Mighty Arp** — MPL-2.0 chance-arpeggiator firmware: 4-op FM and subtractive hybrid with 64 sounds, 32-step sequencer, chords with strum, swing, chorus, ping-pong delay, shimmer reverb and 16 user presets, MIDI and clock in and out.
+  - [Site](https://nickculbertson.github.io/FM1-Mighty-Arp/) — Browser emulator, installer and manual.
+  - [Code](https://github.com/NickCulbertson/FM1-Mighty-Arp) — Source repository and releases.
+- **Miku-FM** — GPL-3.0 singing songwriter firmware: a pixel singer sings in Japanese with a live formant voice (70 morae, five characters), four tracks with a song generator, piano roll and dance screen.
+  - [Site](https://michaelaperry.github.io/MIKU-FM1/) — Trailer, browser emulator and installer.
+  - [Code](https://github.com/MichaelAPerry/MIKU-FM1) — Source repository and releases.
 - **OG Synth** — Synth firmware by Mike Johnson Beats: 16 engines, 28 effects, four tracks at once, no song mode. Only the MPL-2.0 part (application, panel, screen, saving, MIDI) is published in the repository; the sound engines, effects and sequencer are proprietary and not published, so it cannot be built from source.
   - [Site](https://ogsynth.cc) — Project page with demos, installer and manual.
   - [Code](https://github.com/mikejohnsonbeats/OG-Synth-source) — Source of the MPL-2.0 part only.
@@ -237,6 +246,33 @@
 - **duodrone** — Two-voice analogue-style drone synth firmware modelled on the Stylophone CPM DS-2 (two DRONE voices with X-WAVE oscillator, sub-oscillator and resonant 4-pole filter, hard sync and pitch link, two-output ULTRA LFO, dark delay, 8-algorithm reverb); built on foma (Felucca platform) with web installer, rescue mode and return to the stock firmware; independent of Dübreq and M-VAVE; documentation in French.
   - [Site](https://pjac1810.github.io/duodrone/) — Project page and web installer.
   - [Code](https://github.com/pjac1810/duodrone) — Source repository.
+- **LAX-32** — GPL-3.0 multitimbral "LA" sound module after the Roland MT-32: 8 melodic parts plus drums driven over MIDI, 128 sounds in General MIDI-like order, 30 percussion sounds, 32 partials, four reverb modes and a 20-character LCD look. Documentation in French.
+  - [Site](https://pjac1810.github.io/lax32/) — Project page and web installer.
+  - [Code](https://github.com/pjac1810/lax32) — Source repository.
+- **ZEUS-80** — GPL-3.0 8-voice analogue-style polysynth module after the Roland MKS-80 (two VCOs, 24 dB filter and two ADSRs per voice, WHOLE/DUAL/SPLIT modes), with arpeggiator and 6-track sequencer from LAX-32. Documentation in French.
+  - [Site](https://pjac1810.github.io/zeus80/) — Project page and web installer.
+  - [Code](https://github.com/pjac1810/zeus80) — Source repository.
+- **TWIN-10** — GPL-3.0 pocket studio after the Korg DS-10: two monophonic synths with patch panel, four drum parts, X/Y pad, effects, 32 sounds, arpeggiator and 6-track sequencer. Documentation in French.
+  - [Site](https://pjac1810.github.io/twin10/) — Project page and web installer.
+  - [Code](https://github.com/pjac1810/twin10) — Source repository.
+- **WAVESCAN** — GPL-3.0 8-voice wavetable synth after the PPG Wave 2.2/2.3, with original wavetables (not PPG ROM copies). Documentation in French.
+  - [Site](https://pjac1810.github.io/wavescan/) — Project page and web installer.
+  - [Code](https://github.com/pjac1810/wavescan) — Source repository.
+- **GRVBOX** — GPL-3.0 groovebox after the Roland MC-303: 8 parts, real-time and step recording (TR-REC), arpeggiator, reverb, delay and chorus. Built on foma; documentation in French.
+  - [Site](https://pjac1810.github.io/grvbox/) — Project page and web installer.
+  - [Code](https://github.com/pjac1810/grvbox) — Source repository.
+- **GRIDLIGHT** — GPL-3.0 16x16 light-grid sequencer after the Yamaha Tenori-On, with 16 layers and the original's six play modes. Built on foma; documentation in French.
+  - [Site](https://pjac1810.github.io/gridlight/) — Project page and web installer.
+  - [Code](https://github.com/pjac1810/gridlight) — Source repository.
+- **BEATPEN** — GPL-3.0 stylus-style beat maker after the Stylophone BEAT: 12 pads, DRUMS and BASS modes, four sound packs, a two-bar layered looper and four patterns. Built on foma; documentation in French.
+  - [Site](https://pjac1810.github.io/beatpen/) — Project page and web installer.
+  - [Code](https://github.com/pjac1810/beatpen) — Source repository.
+- **OCTODRONE** — GPL-3.0 organic 8-voice drone synth after the SOMA Lyra-8 (paired voices, cross-FM, HYPER LFO). Built on foma; documentation in French.
+  - [Site](https://pjac1810.github.io/octodrone/) — Project page and web installer.
+  - [Code](https://github.com/pjac1810/octodrone) — Source repository.
+- **MIAOU** — GPL-3.0 kitty toy keyboard after the Meowsic: five sounds, five rhythms, 20 nursery rhymes and 7 cat songs, with arpeggiator and 6-track sequencer. Documentation in French.
+  - [Site](https://pjac1810.github.io/miaou/) — Project page and web installer.
+  - [Code](https://github.com/pjac1810/miaou) — Source repository.
 - [GLIDER](https://github.com/ttreu/fm1-glider) — Drone instrument firmware (FM1 Open based): white keys latch tones, black keys glide them up or down the scale, with two-oscillator voices, a self-oscillating tape echo, ladder filter, delay, shimmer reverb and a quiet microsound drum track. Beta, tested on one unit by the author; documentation in English and Chinese.
 - [GLITCH](https://github.com/ttreu/fm1-glitch) — Microsound/glitch drum machine firmware (FM1 Open based): fully synthesized clicks, click trains, noise snaps and micro kicks, loops that mutate bar to bar, stutter/ratchet/reverse on the keys; `.fwsc` and HTML installer in the releases. Beta hobby project that runs on a real FM-1.
 - **DRIFT** — Ambient instrument firmware by Fabian Freitag, based on Felucca: two oscillators with three user sample slots, ADSR and resonant filter, assignable LFO, classic/ping-pong/reverse delay, six reverbs, eight voices and a repeating Euclidean generative sequencer (bars, note count, probability, chaos), scale-aware keyboard, patch list with favourites, plus a browser player, USB-MIDI firmware installer and sample uploader. Version 0.9.1.
@@ -705,6 +741,7 @@
 - **FM1-Lab** — Browser-based FM sound-design environment on Felucca's own WebAssembly firmware: instruments of four native FM6 patches, operator, envelope and algorithm editing, with a compatibility bench and test console. Early work; modulation, LFO and FX pages are still to come.
   - [Site](https://albinoiguana.github.io/FM1-Lab/) — Application.
   - [Code](https://github.com/albinoIguana/FM1-Lab) — Source repository.
+- [FM-1 for iPhone](https://github.com/pjac1810/fm1-ios) — Source of an iPhone/iPad app that emulates the FM-1's hardware and runs the unmodified official V15 firmware, with a multitouch front panel and `.fwsc` updates (official, FM1 Open, community). Build it yourself with Xcode, Rust and XcodeGen; documentation in French; no licence declared.
 - [pi32v2-isa](https://github.com/jvitkauskas/pi32v2-isa) — Open reference for JieLi's pi32v2 instruction set (AC791N, used in the FM-1 and SMK-37): a machine-readable instruction table with an assembler, disassembler, linker, and objdump built from it.
 - **FM-1 developer wiki** — Unofficial community reference for people writing custom FM-1 and SMK-37 firmware: the hardware, boot chain and package format, installing and recovering, and how to write firmware.
   - [Site](https://sbegueria.github.io/fm1-dev-wiki/) — Wiki.
