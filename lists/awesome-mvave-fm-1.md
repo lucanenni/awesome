@@ -109,6 +109,9 @@
 - **FM-1 MIDI Processor** — Stand-alone MIDI processor firmware (v0.1.0): monitor, per-port channel and message filters, note/CC/program remaps, event triggers, knob CCs, live keys, clock monitor and 16 patches, all without a computer (TRS MIDI IN and USB to USB MIDI OUT). Built reproducibly by GitHub Actions. No licence declared; check before reuse.
   - [Site](https://midihax.github.io/fm1-midi-processor/html/) — Help guide, with a browser flasher at `/flash.html` (desktop Chrome or Edge).
   - [Code](https://github.com/MidiHax/fm1-midi-processor) — Source repository and releases.
+- **Type P.fm1** — Sound-design firmware by P1Onken: two-part, 4-operator phase-distortion synth (20 voices, feedback on every operator, OPL3/OPZ waveforms, two multimode filters, wavefolder), no sequencer. Built with the umetate framework as its test case; installs with umetate or any `.fwsc` flasher. Licence follows the umetate terms (GPL-3.0 project code); check LICENSING.md.
+  - [Site](https://akirakosaintjust.github.io/type-p-fm1/) — Browser version of the DSP.
+  - [Code](https://github.com/AkirakoSaintJust/type-p-fm1) — Source repository and `type-p-fm1.fwsc`.
 - **Ripple** — MPL-2.0 firmware (v0.4) that runs "droplets" (instruments written in Lua) playing "currents" (sounds written in Faust or C), inspired by monome's norns. In disk mode the FM-1 appears as a 276 KB USB drive called RIPPLE: copy a droplet or current onto it, eject, and it is available with no reflashing. Fifteen built-in droplets (arp, beat, euclid, life, rack, a MIDI controller and more) and extra currents (Plaits-based DX, speech and wavetable) in the releases.
   - [Site](https://charlesvestal.github.io/fm1-ripple/) — Browser demo, installer and manual.
   - [Code](https://github.com/charlesvestal/fm1-ripple) — Source repository and releases.
