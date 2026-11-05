@@ -126,6 +126,20 @@
 - **FM1 DRUM OS** — GPL-3.0 drum sampler and sequencer (v1.0.0): 8 lanes, 55 built-in samples plus 16 user slots, up to 64 steps with swing, microtiming and ratchets, live recording, lane and master effects, and a browser editor for kits, patterns and samples. The author reports saving, custom samples and playback tested on a physical FM-1; back up your projects before updating.
   - [Site](https://skufee.github.io/fm1-drum-os/) — Web editor.
   - [Code](https://github.com/skufee/fm1-drum-os) — Source repository and releases.
+- **Ombak** — GPL-3.0 gamelan-inspired instrument (1.0) by Lunar Eclipse Forge, mostly Balinese and made for meditative atmospheres: you play the core melody, the ensemble weaves around it, and every note shimmers with *ombak* (the beating of two instruments tuned slightly apart). Has a manual and a browser prototype; the author reports a flash test on the FM-1.
+  - [Site](https://madmooneyham.github.io/Ombak/) — Project page and web installer (Chrome).
+  - [Code](https://github.com/MadMooneyham/Ombak) — Source repository and releases.
+- **ReplicantFM1** — GPL-3.0 hard-techno firmware, a fork of Felucca 1.8.1: four tracks with a kick that carries on a phone speaker, drums and hats, driven bass and rumble, 303-style acid lines and offbeat stabs, with per-sound drive, glide and insert effects. Includes a browser editor; back up first.
+  - [Site](https://danimanx.github.io/ReplicantFM1/) — Project page, web installer and editor.
+  - [Code](https://github.com/DanimanX/ReplicantFM1) — Source repository.
+- **MRC Synth** — GPL-3.0 modified Felucca (1.0.0) with its own look (brand colours, boot screen, a drawing per engine and effect), a simpler project model (one autosaved project, 24 saved patterns) and a reworked page layout. Not an official Felucca release; at your own risk.
+  - [Code](https://github.com/JulesMarecaille/mrc-synth) — Source repository and change list.
+- **COQUÍ** — GPL-3.0 Latin and Caribbean groovebox (salsa, bomba, plena, perreo, merengue, cumbia): synthesized congas, bongos, timbales, güiro, clave and cowbell, played by hand or sequenced, with a HUMAN knob. Based on GR!MM 2.0.2; version 0.1 in development, not yet tested on a real FM-1.
+  - [Site](https://saulofilho.github.io/coqui-fm1/) — Style demos, browser emulator and installer.
+  - [Code](https://github.com/saulofilho/coqui-fm1) — Source repository.
+- **OCA-1** — MPL-2.0 ocarina by Charles Vestal on fm1-base: plays one near-pure note at a time so the Nintendo Switch 2 version of Ocarina of Time hears your songs through the console's microphone; songbook with the game's twelve songs, lit keys and an auto-play.
+  - [Site](https://charlesvestal.github.io/fm1-ocarina/) — Project page.
+  - [Code](https://github.com/charlesvestal/fm1-ocarina) — Source repository and v0.9 release.
 - **ARTIHIVE** — GPL-3.0 experimental eight-voice drone and polyphonic synth (2.0.1): DRONE and POLY modes, four interacting FM pairs, modulated delay, distortion, compression, exact-tempo arpeggiator, 16 factory and 8 user presets. Limited testing on physical hardware, and the DISORDER mode flashes the screen (photosensitivity warning).
   - [Code](https://github.com/KHAVld/ARTIHIVE) — Source repository and releases.
 - **Rhizome** — GPL-3.0 ambient firmware (French-language docs) built on Mutable Dreams: an orbital sequencer (Euclidean rhythms and Kepler-style rubato), fourteen voices including six-op FM and string machine, a three-head tape delay, hall reverb, a grain cloud and 30 "Mondes"; CPU use measured on the FM-1. Companion to the author's Monades.
@@ -785,6 +799,8 @@
   - [Site](https://albinoiguana.github.io/FM1-Lab/) — Application.
   - [Code](https://github.com/albinoIguana/FM1-Lab) — Source repository.
 - [FM-1 for iPhone](https://github.com/pjac1810/fm1-ios) — Source of an iPhone/iPad app that emulates the FM-1's hardware and runs the unmodified official V15 firmware, with a multitouch front panel and `.fwsc` updates (official, FM1 Open, community). Build it yourself with Xcode, Rust and XcodeGen; documentation in French; no licence declared.
+- **Jib (fm1-ipad)** — GPL-3.0 iPad and iPhone app that works alongside an FM-1 running SLOOP (2.8.4 with a screen-link patch): shows all four tracks, edits them, shapes sounds, records samples and arranges sections into songs; the FM-1 still makes the sound. Early: the repo's TESTING.md walks through a roughly 30-minute setup, and the GitHub description calls it "Lupe".
+  - [Code](https://github.com/sgerstl/fm1-ipad) — Swift source, patched SLOOP package and testing guide.
 - [FM-1 Relay](https://github.com/Philip-Bos/fm1-relay) — MIT MIDI clock master for up to four FM-1s on any open-source firmware, so they share one tempo and transport. Web app (installable) and native iPad app.
   - [Web app](https://philip-bos.github.io/fm1-relay/) — Run it in the browser.
 - **FM-1 Companion Suite (bit-wmike)** — GPL-3.0 desktop suite for Felucca-family firmware (Melodee, Skiff, SLOOP) and the official one: backups, firmware switching, rescue levels, "is my FM-1 clean?" check and a Studio digital twin; built for Raspberry Pi 5, runs on Debian/Ubuntu, English and German. The author warns that firmware switching, rescue, clean-up and Studio write-back were only run against simulations, with one real update tested on one device. Not the same project as the XOXO Audio Labs Companion.

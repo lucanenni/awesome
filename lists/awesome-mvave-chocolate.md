@@ -27,6 +27,9 @@
 
 ## Unofficial Editors
 
+- **Chocolate Plus custom firmware (dtnprt)** — Modded firmware for the Chocolate Plus (FootCtrlPlus), built by patching the original M-VAVE firmware 012 (checked by SHA-256, no binaries redistributed): shorter footswitch debounce and combo window, short taps no longer dropped, and a custom name/version reply. Flash with SincoOTA with the pedal not paired; at your own risk.
+  - [Site](https://dtnprt.github.io/chocolate/firmware/) — Firmware page and build guide.
+  - [Code](https://github.com/dtnprt/chocolate-plus-re) — Patch/build scripts, changelog and CubeSuite analysis notes.
 - [OpenChocolate](https://github.com/majabojarska/OpenChocolate) — Free, open-source web-based configuration tool for the Chocolate Plus (also known as FC2 / FootCtrl Plus) over Web MIDI SysEx, with no drivers or install: device discovery, configuration read-back, and per-mode views (Program Change banks, per-footswitch CC and latching, advanced custom modes). Runs locally from the repository; no hosted build is published.
 - [zoom-ms-chocolate-midi](https://github.com/nilsjesper/zoom-ms-chocolate-midi) — Generates a CubeSuite preset (`.fcp`) so a Chocolate Plus can control an original Zoom MS-50G directly, toggling effects and the tuner and jumping between patches, with no computer in between (stock 3.10 firmware; MIDISTOMP firmware adds effects 4-6 and knob control).
 - [katana-gen3-50-chocolate-plus](https://github.com/filhodomauro/katana-gen3-50-chocolate-plus) — Portuguese-language configuration for controlling a Boss Katana Gen 3 50 W amp from a Chocolate Plus.
