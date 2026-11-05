@@ -33,6 +33,7 @@
   - [Synth Anatomy coverage](https://synthanatomy.com/2026/10/groove-os-turns-the-m-vave-fm-1-into-an-8-track-groovebox.html) — News article on the release.
 - [Felucca](https://github.com/hugelton/Felucca) — Hügelton Instruments' GPL-3.0 multi-engine synth firmware (v1.0, in field testing): thirteen engines, four tracks, a 64-step sequencer per track with chords/ties/slide/chance, song chaining, chord keys, arpeggiator, modulation matrix, effects, class-compliant USB MIDI plus a USB audio input. Installs from Chrome/Edge over USB via the [web installer](https://hugelton.github.io/Felucca/) (no extra hardware; "Return to official V15" restores the stock firmware) and comes with a [web editor](https://hugelton.github.io/Felucca/webapp/editor/). ([Synth Anatomy coverage](https://synthanatomy.com/2026/10/hugelton-instruments-felucca-custom-m-vave-fm-1-firmware-turns-it-into-a-multi-engine-synth.html), [MATRIXSYNTH](https://www.matrixsynth.com/2026/10/fm-1-custom-firmware-felucca.html))
 - [SLOOP](https://github.com/isod89/sloop-fm1) — 3dSam's free, open-source (GPL-3.0) live groovebox firmware based on Felucca (v2.2, beta): four tracks (three synths plus a drum machine), nine synthesis engines, 68 sounds, 37 drum kits, three user sample slots, punch-in FX, ratchets, note repeat, one-key chords, live song sections A–D, and a web editor. Install from Chrome/Edge with the [web installer](https://isod89.github.io/sloop-fm1/) or the `.fwsc` files in the [releases](https://github.com/isod89/sloop-fm1/releases); recovery from a failed install needs [FM-1-transporter](https://github.com/kurogedelic/FM-1-transporter). ([Synth Anatomy coverage](https://synthanatomy.com/2026/10/3dsam-sloop-custom-firmware-turns-m-vave-fm-1-into-a-4-track-groovebox.html))
+  - [SLOOP Gently](https://github.com/slowphase/sloop-gently) — Free illustrated beginner's handbook for SLOOP 2.8.4 (A4 and iPad mini PDFs, v0.9 preview). Not yet worked through on a physical FM-1; custom licence file.
 - [Melodee](https://github.com/keremimo/melodee) — GPL-3.0 fork of Felucca 1.0 (v0.10) with a DX7-accurate FM6 engine (Dexed-compatible, up to 16 voices, on-device operator pages, DX7 SysEx import), a TR-808 drum kit, USB audio in/out, eight pattern banks per track, improved step editing, and MIDI/panel refinements. Installs from Chrome/Edge via its [web installer](https://keremimo.github.io/melodee/) (with a [web editor](https://keremimo.github.io/melodee/webapp/editor/)); the original firmware can be restored. Projects saved by earlier Melodee versions are not imported.
 - **Melodee (Tess)** — Experimental GPL-3.0 generative-sequencing fork of Melodee (the repository is now named Tessera, the testbed for a standalone generative firmware), with a web installer, web editor, and browser simulator.
   - [Site](https://rastapopolix.github.io/tessera/) — Project page, installer, and editor.
@@ -118,9 +119,38 @@
 - **ECHOFIELD** — Granular sampler firmware: a few seconds of any sound become clouds, sparkles, tape loops and swells, rendered on both cores, with a companion app, browser emulator and flasher; follows MIDI clock since 0.2.9. Code is MIT with MPL-2.0 files from fm1-base and CC0 factory sounds (see LICENSING.md).
   - [Site](https://philip-bos.github.io/echofield-fm1/) — Project page with emulator, flasher and companion app.
   - [Code](https://github.com/Philip-Bos/echofield-fm1) — Source repository and releases.
+  - [Code (SMK-37 port)](https://github.com/Philip-Bos/echofield-smk37) — Port for the SMK-37 Pro / Elite, not yet tested on an SMK-37 (see the SMK-37 list).
 - **Veffbox** — GPL-3.0 resampling sound-design instrument (0.3.2): pick a source (OP4 FM, analog, drums, or a resample as sampler, granular or chop), modulate with 6 LFOs and 3 envelopes, stack up to 8 effects, then RESAMPLE; every resample keeps its recipe in a 64-sound bank with bit-exact rebuild. Not yet: four tracks at once, resamples longer than 1.67 s.
   - [Site](https://galfaroth.github.io/veffbox/) — Project page.
   - [Code](https://github.com/galfaroth/veffbox) — Source repository and releases.
+- **FM1 DRUM OS** — GPL-3.0 drum sampler and sequencer (v1.0.0): 8 lanes, 55 built-in samples plus 16 user slots, up to 64 steps with swing, microtiming and ratchets, live recording, lane and master effects, and a browser editor for kits, patterns and samples. The author reports saving, custom samples and playback tested on a physical FM-1; back up your projects before updating.
+  - [Site](https://skufee.github.io/fm1-drum-os/) — Web editor.
+  - [Code](https://github.com/skufee/fm1-drum-os) — Source repository and releases.
+- **ARTIHIVE** — GPL-3.0 experimental eight-voice drone and polyphonic synth (2.0.1): DRONE and POLY modes, four interacting FM pairs, modulated delay, distortion, compression, exact-tempo arpeggiator, 16 factory and 8 user presets. Limited testing on physical hardware, and the DISORDER mode flashes the screen (photosensitivity warning).
+  - [Code](https://github.com/KHAVld/ARTIHIVE) — Source repository and releases.
+- **Rhizome** — GPL-3.0 ambient firmware (French-language docs) built on Mutable Dreams: an orbital sequencer (Euclidean rhythms and Kepler-style rubato), fourteen voices including six-op FM and string machine, a three-head tape delay, hall reverb, a grain cloud and 30 "Mondes"; CPU use measured on the FM-1. Companion to the author's Monades.
+  - [Site](https://dr-john-8bits.github.io/rhizome/) — Project page with browser simulator and manual.
+  - [Code](https://github.com/Dr-John-8bits/rhizome) — Source repository.
+- **Tack** — GPL-3.0 seven-voice digital drum synth with a step sequencer, using the LXR-02 sound engine (Sonic Potions / Erica Synths) and shipping both as FM-1 firmware and as CLAP, VST3 and Audio Unit plugins. Not affiliated with Erica Synths, Sonic Potions or M-VAVE.
+  - [Site](https://oikoaudio.com/tack/) — Project page, browser trial and FM-1 installer.
+  - [Code](https://github.com/oikoaudio/tack) — Source repository and releases (v0.12.0).
+- **Stamp Composer FM-1 (MPFM1)** — MIT Mario Paint-style composer: 31 stamps on one polyphonic engine, eight layers, a scrolling staff and a song book. Development preview: untested on a physical FM-1, and the Mario Paint sound pack is Nintendo's (a swappable asset pack).
+  - [Site](https://michaelaperry.github.io/MPFM1/) — Project page, browser emulator, installer and manual.
+  - [Code](https://github.com/MichaelAPerry/MPFM1) — Source repository and v0.2-beta release.
+- **FM1 YOGA** — MPL-2.0 sound companion for the final relaxation of a yoga class: guided programs on 174, 396, 432 and 528 Hz with isochronic (speakers) or binaural (headphones) rhythms, breathing noise, singing bowls, a generative ambient garden and a playable handpan, kalimba or chimes; German, English and Sanskrit screens. Relaxation sounds only, no medical claims; use pulsing sounds with caution if prone to seizures.
+  - [Code](https://github.com/michamilz/fm1-yoga) — Source repository and v1.0-rc2 release.
+- **B3 Organ (setBfree-fm1)** — GPL-3.0 Hammond B3 tonewheel organ modelled on setBfree: 91 tonewheels, nine drawbars, key click, vibrato and chorus, percussion, overdrive, reverb, Leslie, and all 110 setBfree programs. Version 0.1, tested on an FM-1 by one person.
+  - [Code](https://github.com/R-Jeb/setBfree-fm1) — Source repository and v0.1 release.
+- **fm1-wave** — MPL-2.0 polyphonic wavetable instrument on fm1-base with waveshaper, sample-as-wavetable mode, slices and granular. Source only, no release yet.
+  - [Code](https://github.com/johnskiller/fm1-wave) — Source repository and specs.
+- **dumbmidi** — GPL-3.0 simple MIDI-controller firmware built with the foma toolkit (keys, octave, USB-MIDI and clock); single commit, and the README is still foma's.
+  - [Code](https://github.com/konsumer/dumbmidi) — Source repository.
+- **Maestro** — GPL-3.0 music-lesson firmware (note reading, rhythm, five-finger melodies, generated sight-reading drills). Scaffold only: the lesson engine and docs are real, but the on-device UI and audio hooks are still integration points.
+  - [Site](https://node56.github.io/fm1-maestro/) — Project page.
+  - [Code](https://github.com/node56/fm1-maestro) — Source repository.
+- **Pocket Poly / DEEP FIELD** — MPL-2.0 repository holding two fm1-base firmwares: Pocket Poly (stereo polysynth with a discovery engine, arpeggiator and Bluetooth MIDI; in development, scaffold) and DEEP FIELD, an ambient drone machine.
+  - [Site](https://wisestwizard.github.io/deepfield/) — Project page.
+  - [Code](https://github.com/WisestWizard/deepfield) — Source repository.
 - **DWNLO** — GPL-3.0 drum machine and synth firmware (0.1-beta): five simultaneous parts (909, 808, 303, 808 Bassline, BLIP) with up to 64 steps each, patterns chained into songs, recordable knob moves, and shared reverb, tape delay and compressor; USB MIDI and audio input. There is no web installer (installs from the command line), and the author warns it is unofficial and at your own risk; a safe mode and `tools/fm1_rescue.sh` (Mac) restore stock firmware.
   - [Site](https://jeffwebb-to.github.io/dwnlo/) — Project page and manual.
   - [Code](https://github.com/jeffwebb-to/dwnlo) — Source repository and 0.1-beta `.fwsc` release.
@@ -564,6 +594,9 @@
 - **Pocket GammaWave (GW-1)** — Dual-core firmware and Web Studio companion to the commercial GammaWave instrument: Solar Hearth, a live FFT spectrogram filter, a voice-mode ribbon, a four-track analog tape, and a 49-genre song generator. The firmware and studio are open source; the main GammaWave product is separate.
   - [Site](https://fvalente.github.io/GammaWave-FM1/) — Project page and web studio.
   - [Code](https://github.com/fvalente/GammaWave-FM1) — Source repository.
+- **Quantum GammaWave (QG-1)** — GPL-3.0 independent fork of Pocket GammaWave: 10-voice polyphony, eight sample-free synthesis engines, punch-in FX, parametric master EQ, 17 themes and a Web Studio with emulator. The repository carries an `AGENTS.md` and an installation safety audit, so it looks AI-assisted; check the audit before flashing.
+  - [Site](https://guillel51.github.io/Quantum-GammaWave/) — Project page and Web Studio.
+  - [Code](https://github.com/Guillel51/Quantum-GammaWave) — Source repository.
 - [FM-1 Felucca-Tutor](https://github.com/wochende/FM-1-Felucca-Tutor) — Interactive step-by-step tutorial firmware built on Felucca that teaches synthesis, sequencing, groove design, and pattern chaining with real-time audio feedback.
 - [fm1-radio](https://github.com/charlesvestal/fm1-radio) — Proof-of-concept internet radio: the FM-1 joins a 2.4 GHz WiFi network and plays stations from Radio Garden's map, with punch-in effects on the keys; rough edges are listed in the README.
 - **CoralFlower** — Chord-instrument firmware after ChoralRoot and Felucca (GPL-3.0), inspired by the Telepathic Instruments Orchid: hold a chord key and every note becomes a chord with a bass underneath, while a pixel flower grows from what you play.
@@ -756,6 +789,9 @@
   - [Web app](https://philip-bos.github.io/fm1-relay/) — Run it in the browser.
 - **FM-1 Companion Suite (bit-wmike)** — GPL-3.0 desktop suite for Felucca-family firmware (Melodee, Skiff, SLOOP) and the official one: backups, firmware switching, rescue levels, "is my FM-1 clean?" check and a Studio digital twin; built for Raspberry Pi 5, runs on Debian/Ubuntu, English and German. The author warns that firmware switching, rescue, clean-up and Studio write-back were only run against simulations, with one real update tested on one device. Not the same project as the XOXO Audio Labs Companion.
   - [Code](https://github.com/bit-wmike/fm1-companion) — Source repository and releases.
+- **Outrigger** — GPL-3.0 beta tool on an ESP32-S3 touchscreen board (Waveshare 1.69" or 3.5") that sits on a powered USB hub so a USB MIDI controller can play the FM-1 without a computer, and switches the FM-1's firmware for you after backing it up. Firmware switching writes to the FM-1: read the beta guide and the won't-boot notes first.
+  - [Site](https://outrigger.music) — Web installer.
+  - [Code](https://github.com/chadthornton/outrigger) — Source repository and beta releases.
 - [FM1-Firmware-VibeCoding-Template](https://github.com/JanSchulten/FM1-Firmware-VibeCoding-Template) — GPL-3.0 repository template for starting your own FM-1 firmware with Claude Code or Codex: an AI-led interview about the instrument, then a firmware built on the Felucca platform. AI-generated output, so test before flashing.
 - [pi32v2-isa](https://github.com/jvitkauskas/pi32v2-isa) — Open reference for JieLi's pi32v2 instruction set (AC791N, used in the FM-1 and SMK-37): a machine-readable instruction table with an assembler, disassembler, linker, and objdump built from it.
 - **FM-1 developer wiki** — Unofficial community reference for people writing custom FM-1 and SMK-37 firmware: the hardware, boot chain and package format, installing and recovering, and how to write firmware.
