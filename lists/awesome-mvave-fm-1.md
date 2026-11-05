@@ -121,6 +121,9 @@
 - **Veffbox** — GPL-3.0 resampling sound-design instrument (0.3.2): pick a source (OP4 FM, analog, drums, or a resample as sampler, granular or chop), modulate with 6 LFOs and 3 envelopes, stack up to 8 effects, then RESAMPLE; every resample keeps its recipe in a 64-sound bank with bit-exact rebuild. Not yet: four tracks at once, resamples longer than 1.67 s.
   - [Site](https://galfaroth.github.io/veffbox/) — Project page.
   - [Code](https://github.com/galfaroth/veffbox) — Source repository and releases.
+- **DWNLO** — GPL-3.0 drum machine and synth firmware (0.1-beta): five simultaneous parts (909, 808, 303, 808 Bassline, BLIP) with up to 64 steps each, patterns chained into songs, recordable knob moves, and shared reverb, tape delay and compressor; USB MIDI and audio input. There is no web installer (installs from the command line), and the author warns it is unofficial and at your own risk; a safe mode and `tools/fm1_rescue.sh` (Mac) restore stock firmware.
+  - [Site](https://jeffwebb-to.github.io/dwnlo/) — Project page and manual.
+  - [Code](https://github.com/jeffwebb-to/dwnlo) — Source repository and 0.1-beta `.fwsc` release.
 - **AQUORA** — Generative "sound sanctuary" firmware: generative instruments, Solfeggio tones, gentle drums, binaural beats and soundscapes. The repository is worked with AI agents (Codex-style session notes), has no licence, ships its packages as split parts, and states the owner verified playback of 0.2.0 only (about 74% CPU); the hosted installer was not verified by the author.
   - [Code](https://github.com/CodingSlapfu/AQUORA) — Repository with release folders and checksums.
 - **Mighty Arp** — MPL-2.0 chance-arpeggiator firmware: 4-op FM and subtractive hybrid with 64 sounds, 32-step sequencer, chords with strum, swing, chorus, ping-pong delay, shimmer reverb and 16 user presets, MIDI and clock in and out.
@@ -496,6 +499,7 @@
   - [Site](https://cotrino.github.io/fm1-betis-mode/) — Project page and emulator.
   - [Code](https://github.com/cotrino/fm1-betis-mode) — Source repository.
 - [Mutable Dreams](https://github.com/kidbee85-beep/mutable-dreams) — Generative firmware by Kid Bunka with six freely assignable voices, 65 biomes, and granular textures, built on Mutable Instruments code (GPL-3.0-only); firmware in the v1.0 release. Its web editor is hosted on a `chatgpt.site` domain, so only the repository is linked here.
+- [mdsmk](https://github.com/konsumer/mdsmk) — GPL-3.0 fork of Mutable Dreams that builds every release in GitHub Actions and adds SMK-37 builds; installs from the browser via mutant.cloud (Chrome or Edge, USB), with a rescue page to return to stock firmware. Instrument, sounds and manual are Kid Bunka's.
 - [Cut-A-Dor](https://github.com/kidbee85-beep/cut-a-dor-release) — "Dirty little beat dojo" rhythm firmware by the same author, with dusty drums and eight recordable punches; repository only, same hosting caveat.
 - [Cat Piano](https://github.com/thefriendlyhedgehog/FM-Cat1) — Novelty firmware where each of the 27 keys plays a real cat meow tuned to its note, with four banks, a pitch-bend knob, a four-track sequencer, an arpeggiator, reverb, and delay.
 - **GATOR** — Macro-oscillator firmware inspired by Mutable Instruments Plaits, with a web installer and manual.
@@ -575,6 +579,7 @@
 - **DriftSeq** — 16-track polymetric master MIDI sequencer: SQ-64-style step workflow with 16 polyphonic tracks, per-track loop lengths that run simultaneously, phase drift shown on screen, and built-in General MIDI monitoring.
   - [Site](https://johnskiller.github.io/driftseq/) — Project page.
   - [Code](https://github.com/johnskiller/driftseq) — Source repository.
+  - [Code (fm1-base port)](https://github.com/johnskiller/driftseq-fm1base) — MPL-2.0 port of DriftSeq on the fm1-base platform (felucca-bsp) with one-finger chords, a SCALE page and a GM/EAS synth; work in progress, with notes written mostly in Chinese.
 - [1971](https://github.com/synthi/fm1-1971) — Generative ambient firmware forked from Melodee 1.3.5.
 - [S1-FM](https://github.com/Qubestar/Saibertin-S-FM) — Experimental MIDI controller and hardware sequencer firmware, used as a development playground for Saibertin S1.
 - **Polly** — Pocket arranger inspired by the Yamaha QY70: a style plays a band of eight instruments steered by the chords you play, with songs made of sections, two melodies, and General MIDI sounds from Sonivox EAS (MIDI in works too, so it doubles as a General MIDI sound module); built on Felucca's platform layer.
@@ -751,6 +756,7 @@
   - [Web app](https://philip-bos.github.io/fm1-relay/) — Run it in the browser.
 - **FM-1 Companion Suite (bit-wmike)** — GPL-3.0 desktop suite for Felucca-family firmware (Melodee, Skiff, SLOOP) and the official one: backups, firmware switching, rescue levels, "is my FM-1 clean?" check and a Studio digital twin; built for Raspberry Pi 5, runs on Debian/Ubuntu, English and German. The author warns that firmware switching, rescue, clean-up and Studio write-back were only run against simulations, with one real update tested on one device. Not the same project as the XOXO Audio Labs Companion.
   - [Code](https://github.com/bit-wmike/fm1-companion) — Source repository and releases.
+- [FM1-Firmware-VibeCoding-Template](https://github.com/JanSchulten/FM1-Firmware-VibeCoding-Template) — GPL-3.0 repository template for starting your own FM-1 firmware with Claude Code or Codex: an AI-led interview about the instrument, then a firmware built on the Felucca platform. AI-generated output, so test before flashing.
 - [pi32v2-isa](https://github.com/jvitkauskas/pi32v2-isa) — Open reference for JieLi's pi32v2 instruction set (AC791N, used in the FM-1 and SMK-37): a machine-readable instruction table with an assembler, disassembler, linker, and objdump built from it.
 - **FM-1 developer wiki** — Unofficial community reference for people writing custom FM-1 and SMK-37 firmware: the hardware, boot chain and package format, installing and recovering, and how to write firmware.
   - [Site](https://sbegueria.github.io/fm1-dev-wiki/) — Wiki.

@@ -36,6 +36,7 @@
   - [Site](https://4t59m4f784-creator.github.io/SMKTRON/) — Project page, simulator and installer.
   - [Code](https://github.com/4t59m4f784-creator/SMKTRON) — Source repository.
 - [smk37-base](https://github.com/fc79/smk37-base) — GPL-3.0 minimal SMK-37 firmware to build your own on: Dinghy for the SMK-37 only (Felucca/SLOOP platform and genkigenki's SMK-37 layer), with update path, USB rescue, USB MIDI/audio, keys, pads, encoders, faders, wheels, LEDs and screen each used once as an example. Installed and checked on one SMK-37 Pro only; Elite and MKE-P37 packages untried.
+- [mdsmk](https://github.com/konsumer/mdsmk) — GPL-3.0 fork of Mutable Dreams (Kid Bunka) built by CI for both the FM-1 and the SMK-37; the web installer at mutant.cloud picks the right package for the connected device, with a rescue page to return to stock firmware.
 - **WORSHIP (worship-smk37)** — GPL-3.0 Felucca fork with the SMK-37 layer for church music (Portuguese documentation): an ambient pad by key, a 16-song setlist and keys-plus-lead routing; the GLOBE button opens the full Felucca synth. The author states it has been tested only in simulation and has not yet run on a real SMK-37; back up first.
   - [Site](https://jefersomusic-del.github.io/worship-smk37/) — Browser simulator.
   - [Code](https://github.com/jefersomusic-del/worship-smk37) — Source repository and `.fwsc` release.
