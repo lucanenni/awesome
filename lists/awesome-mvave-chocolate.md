@@ -34,6 +34,11 @@
 - [PyFootCtrl](https://github.com/varlen/pyfootctrl) — Python companion app for the Chocolate that implements custom behaviours for the footswitch.
 - [altstrument: Chocolate](https://altstrument.org/devices/m-vave-chocolate) — Third-party firmware and tools directory page for the device.
 - [mvave-chocolate-tui](https://github.com/WilsonNet/mvave-chocolate-tui) — Terminal UI for configuring the Chocolate on Linux.
+- [ChocolatePlus (Ableton)](https://github.com/zwass/ChocolatePlus) — Ableton Live 12 control surface script that lets a Chocolate Plus launch clips in Session View (button B is left unassigned); includes a CubeSuite "Advanced custom mode" preset.
+- [TransportCC](https://github.com/cartfisk/TransportCC) — Ableton Live MIDI Remote Script that turns a Chocolate into a transport controller: play, rewind/forward by bar, record, undo, metronome and loop.
+- [cq-bluetooth-controller](https://github.com/btafoya/cq-bluetooth-controller) — Raspberry Pi 3B wireless MIDI bridge that lets a Chocolate Plus control an Allen & Heath CQ-20B mixer, with install and read-only deployment scripts and extensive docs.
+- [Chocolate Plus × REAPER Guitar Rig](https://github.com/Aditosom/ChocolatyPlus-Reaper-Guitar-Rig) — Windows guitar-rig appliance (FastAPI service driving REAPER via loopMIDI and OSC) to switch Neural DSP amps and presets from a Chocolate Plus and a tablet, with crossfade, tuner, stomp mode and looper; no licence declared.
+- [TonexOneController](https://github.com/Builty/TonexOneController) — Apache-2.0 ESP32 controller for the IK Multimedia Tonex One, Tonex Pedal and Valeton GP5; in Bluetooth client mode it uses a Chocolate or Chocolate Plus to switch presets (4 buttons plus bank up/down).
 
 ## Reverse Engineering
 
