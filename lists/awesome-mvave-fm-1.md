@@ -140,6 +140,23 @@
 - **OCA-1** — MPL-2.0 ocarina by Charles Vestal on fm1-base: plays one near-pure note at a time so the Nintendo Switch 2 version of Ocarina of Time hears your songs through the console's microphone; songbook with the game's twelve songs, lit keys and an auto-play.
   - [Site](https://charlesvestal.github.io/fm1-ocarina/) — Project page.
   - [Code](https://github.com/charlesvestal/fm1-ocarina) — Source repository and v0.9 release.
+- **RELAY-16** — MPL-2.0 sequencer-first firmware for the FM-1 and SMK-37 (0.6): makes no sound of its own, sixteen tracks play other instruments (another FM-1 running LOOM-8, a hardware synth, a DAW) over USB, Bluetooth MIDI and, on the SMK-37, the TRS jack. Untested on hardware per its README: keep the stock firmware and M-UPGRADE at hand. Not the same project as FM-1 Relay.
+  - [Site](https://davidpryan.github.io/fm1-relay/) — Web installer for each unit, manual and in-browser firmware.
+  - [Code](https://github.com/davidpryan/fm1-relay) — Source repository and releases.
+- **Rhythmer** — GPL-3.0 six-track groovebox (0.1.0-beta.2) built on JIANT: synthesized drums, nine synth models, 303-style acid generation, playable breakbeats and a browser editor. The beta awaits physical FM-1 revalidation and the reported hardware audio artifacts are not yet confirmed resolved; back up first.
+  - [Site](https://jazzyrhythmer.github.io/Rhythmer/) — Project page and installer.
+  - [Code](https://github.com/JazzyRhythmer/Rhythmer) — Source repository and beta releases.
+- **FM-23** — GPL-3.0 mental tekno / tribe groovebox (0.1, in development): 303 acid bass, Carnac/Moog-style lead and drones and synthesized tribal percussion. The repository carries `AGENTS.md` and `CLAUDE.md`, so it looks AI-assisted.
+  - [Site](https://marcocasanova00.github.io/FM-23/) — Project page.
+  - [Code](https://github.com/MarcoCasanova00/FM-23) — Source repository.
+- **Argo (echoe)** — GPL-3.0 Felucca branch without the samples, adding the SHDRUM engine, three Mini-tone engines and Jiant's drum engine; written with a free LLM, per its description. Web installer with a "Return to official V15" option.
+  - [Site](https://echoe.github.io/argo_fm1/) — Web installer.
+  - [Code](https://github.com/echoe/argo_fm1) — Source repository and releases.
+- **PINK TROMBONE** — GPL-3.0 port of Neil Thapen's Pink Trombone voice synth (glottis and 44-segment vocal tract) as a solo fm1-dock module; v0.1.
+  - [Code](https://github.com/stefanolofsson/pinktrombone-fm1) — Source repository and release.
+- **FM1-Animatek (ATEK303)** — GPL-3.0 Spanish-language hub with an emulator, community firmwares to study, rescue instructions and ATEK303, a 303-style firmware with the Open303 engine on fm1-base (atek303-v1.0). The repository includes a `CLAUDE.md`.
+  - [Site](https://animatek.github.io/FM1-Animatek/) — Project page.
+  - [Code](https://github.com/animatek/FM1-Animatek) — Source repository and release.
 - **ARTIHIVE** — GPL-3.0 experimental eight-voice drone and polyphonic synth (2.0.1): DRONE and POLY modes, four interacting FM pairs, modulated delay, distortion, compression, exact-tempo arpeggiator, 16 factory and 8 user presets. Limited testing on physical hardware, and the DISORDER mode flashes the screen (photosensitivity warning).
   - [Code](https://github.com/KHAVld/ARTIHIVE) — Source repository and releases.
 - **Rhizome** — GPL-3.0 ambient firmware (French-language docs) built on Mutable Dreams: an orbital sequencer (Euclidean rhythms and Kepler-style rubato), fourteen voices including six-op FM and string machine, a three-head tape delay, hall reverb, a grain cloud and 30 "Mondes"; CPU use measured on the FM-1. Companion to the author's Monades.
@@ -368,6 +385,9 @@
 - **Clipper** — Deep synthesizer firmware by SLOOP's author (GPL-3.0, based on Felucca), with browser installer and editor, a quick-start guide in English and French, and editor-protocol docs. Version 1.0 is experimental: it passes its test suite on a computer but has run very little on a real FM-1.
   - [Site](https://isod89.github.io/clipper-fm1/) — Project page and installer.
   - [Code](https://github.com/isod89/clipper-fm1) — Source repository.
+- **SIREN** — GPL-3.0 "rave that writes itself" by SLOOP's author (0.10, experimental), built on Clipper and SLOOP: press PLAY and it writes a whole track (drums, bass, arpeggio, hook, pad, stabs, risers, intro, builds, breaks and drops) in the key and tempo of its style, then moves on to the next. Passes its tests on a computer and is being tested on the FM-1; installers can return to the official firmware, SLOOP or Clipper.
+  - [Site](https://isod89.github.io/siren-fm1/) — Project page and installer.
+  - [Code](https://github.com/isod89/siren-fm1) — Source repository and releases.
 - **LOOM-8** — Pocket groovebox by Charles Vestal: eight coloured instrument tracks on eight synth engines plus a sample player, break slicer, and drum kit, a 64-step sequencer with parameter locks, arp/strum/hold players, "weave" crossing of two patterns, momentary throws, and a conductor track that moves the song through a progression.
   - [Site](https://charlesvestal.github.io/fm1-loom/) — Project page.
   - [Code](https://github.com/charlesvestal/fm1-loom) — Source repository.
@@ -801,6 +821,7 @@
 - [FM-1 for iPhone](https://github.com/pjac1810/fm1-ios) — Source of an iPhone/iPad app that emulates the FM-1's hardware and runs the unmodified official V15 firmware, with a multitouch front panel and `.fwsc` updates (official, FM1 Open, community). Build it yourself with Xcode, Rust and XcodeGen; documentation in French; no licence declared.
 - **Jib (fm1-ipad)** — GPL-3.0 iPad and iPhone app that works alongside an FM-1 running SLOOP (2.8.4 with a screen-link patch): shows all four tracks, edits them, shapes sounds, records samples and arranges sections into songs; the FM-1 still makes the sound. Early: the repo's TESTING.md walks through a roughly 30-minute setup, and the GitHub description calls it "Lupe".
   - [Code](https://github.com/sgerstl/fm1-ipad) — Swift source, patched SLOOP package and testing guide.
+- [FM-1 Mirror](https://github.com/davidpryan/FM1Mirror) — Xcode app that shows the FM-1's 240 x 240 screen live on an iPhone or iPad over USB-C (Core MIDI), for firmware built on fm1-base with the mirror protocol such as LOOM-8; no licence declared.
 - [FM-1 Relay](https://github.com/Philip-Bos/fm1-relay) — MIT MIDI clock master for up to four FM-1s on any open-source firmware, so they share one tempo and transport. Web app (installable) and native iPad app.
   - [Web app](https://philip-bos.github.io/fm1-relay/) — Run it in the browser.
 - **FM-1 Companion Suite (bit-wmike)** — GPL-3.0 desktop suite for Felucca-family firmware (Melodee, Skiff, SLOOP) and the official one: backups, firmware switching, rescue levels, "is my FM-1 clean?" check and a Studio digital twin; built for Raspberry Pi 5, runs on Debian/Ubuntu, English and German. The author warns that firmware switching, rescue, clean-up and Studio write-back were only run against simulations, with one real update tested on one device. Not the same project as the XOXO Audio Labs Companion.
