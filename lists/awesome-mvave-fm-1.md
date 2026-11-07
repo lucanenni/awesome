@@ -146,6 +146,10 @@
 - **Rhythmer** — GPL-3.0 six-track groovebox (0.1.0-beta.2) built on JIANT: synthesized drums, nine synth models, 303-style acid generation, playable breakbeats and a browser editor. The beta awaits physical FM-1 revalidation and the reported hardware audio artifacts are not yet confirmed resolved; back up first.
   - [Site](https://jazzyrhythmer.github.io/Rhythmer/) — Project page and installer.
   - [Code](https://github.com/JazzyRhythmer/Rhythmer) — Source repository and beta releases.
+- **GabberBuddy** — GPL-3.0 non-commercial hack of X0X for experimental noise and gabber: a Style knob on the 909 kit (saturated GAB-S, wavefolded GAB-F), a master section with hard-clip distortion, bit crusher and 3-band EQ. Early: run in a simulator and CI builds, little time on a real FM-1; at your own risk.
+  - [Code](https://github.com/gybe808-dotcom/GabberBuddy) — Source repository.
+- **ANATOMIX VOXINATOR** — MPL-2.0 vocal-processing instrument: a USB microphone in, a pitch-corrected, harmonised, formant-shifted and effected voice out, with a screen showing a reacting cross-section of head and throat. Not yet verified on silicon: the USB microphone capture is tested only against the platform's model and needs a powered hub (the FM-1's USB port drives no VBUS); depends on an open pull request to fm1-base.
+  - [Code](https://github.com/profikid/fm1-anatomix-voxinator) — Source repository.
 - **FM-23** — GPL-3.0 mental tekno / tribe groovebox (0.1, in development): 303 acid bass, Carnac/Moog-style lead and drones and synthesized tribal percussion. The repository carries `AGENTS.md` and `CLAUDE.md`, so it looks AI-assisted.
   - [Site](https://marcocasanova00.github.io/FM-23/) — Project page.
   - [Code](https://github.com/MarcoCasanova00/FM-23) — Source repository.
@@ -242,6 +246,7 @@
 - **AISLING** — Irish ambient drone firmware, a fork of NACHTFAHRT (GPL-3.0-only); browser installer, emulator, manual and cheat sheet.
   - [Site](https://stephencummins.github.io/fm1-aisling/) — Project page, installer, browser emulator and manual.
   - [Code](https://github.com/stephencummins/fm1-aisling) — Source repository and `.fwsc` release.
+  - [Code (SMK-37 Elite port)](https://github.com/stephencummins/smk37-aisling) — Stage 1 port of the same source for the SMK-37 Elite: host-tested only, nothing installable until it has run on an Elite (see the SMK-37 list).
 - **Bass Something 2** — Bass Station II-style monosynth firmware on fm1-base with a manual, presets, SysEx and a randomiser; 0.3.
   - [Site](https://imijes.github.io/bass-something-2/) — Project page.
   - [Code](https://github.com/imijes/bass-something-2) — Source repository and `.fwsc` release.
@@ -810,6 +815,7 @@
 - [fm1-linux-update](https://github.com/fuleo/fm1-linux-update) — Updates the stock firmware from V14 to V15 from Linux over USB-MIDI SysEx, with verification (M-VAVE only ships Windows and macOS updaters); see also the [fm1-guide](https://fuleo.github.io/fm1-guide/) notes.
 - [M-Flasher](https://github.com/jvitkauskas/m-flasher) — Unofficial tool to back up, restore, and reinstall firmware on the FM-1 and SMK-37 Pro / Elite over plain USB using the chip's built-in download mode (so it works even when the installed firmware is broken), and to install the [open bootloader](https://github.com/jvitkauskas/fm1-bootloader); it saves a backup before every write.
 - [m-bootloader](https://github.com/jvitkauskas/m-bootloader) — MIT clean-room open bootloader for the FM-1 and SMK-37 Pro / Elite (JieLi AC791N), plus the small flash loader that M-Flasher runs on the chip to read and write its flash.
+- [m-apps](https://github.com/jvitkauskas/m-apps) — MIT kit and sample apps that run from RAM on the FM-1 and SMK-37 without changing the flash firmware (started from an SD card, over MIDI or with M-Flasher's `run-ram`, 0.9.2 or newer). Early: `hello` and `usbdisk` have run on an FM-1 and an SMK-37, `picker` on an SMK-37 only; no releases, build from source with the pi32v2 LLVM toolchain. The repo includes agent instructions for writing apps with AI.
 - **fm1-base** — MPL-2.0 base and template for building FM-1 firmware on [felucca-bsp](https://github.com/hugelton/felucca-bsp): the platform layer (screen, fonts, panel, LEDs, audio, USB and TRS MIDI, storage, screen reader), a host simulator, a browser emulator that runs the same app, and the build, package, and install tools. Beta: CTL-1 and fm1-radio are built on it, and its platform interface may change before 1.0.
   - [Site](https://charlesvestal.github.io/fm1-base/) — Project page.
   - [Code](https://github.com/charlesvestal/fm1-base) — Source repository.

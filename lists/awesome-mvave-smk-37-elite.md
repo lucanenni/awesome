@@ -40,6 +40,8 @@
 - **ECHOFIELD (SMK-37)** — Granular sampler firmware port for the SMK-37 Pro / Elite: a few seconds of any sound become clouds, sparkles and tape loops, played from keys, pads, faders and wheels. Not tested on an SMK-37 yet (written from community hardware documentation, tested in simulation): back up your flash first. A fence in the flash driver keeps writes away from factory calibration, Bluetooth pairing and stock presets.
   - [Site](https://philip-bos.github.io/echofield-smk37/) — Companion app and flasher.
   - [Code](https://github.com/Philip-Bos/echofield-smk37) — Source repository and notes for testers.
+- [smk37-aisling](https://github.com/stephencummins/smk37-aisling) — GPL-3.0 stage 1 port of the AISLING ambient drone firmware to the SMK-37 Elite (layout read from M-VAVE's V016 firmware; not the Pro or the MKE-P37). Passes its tests on a computer but has not run on an Elite, and the author offers no package until it has been installed, played and removed on one.
+- [m-apps](https://github.com/jvitkauskas/m-apps) — MIT kit and sample apps that run from RAM on the SMK-37 and FM-1 without changing the flash firmware; `hello`, `usbdisk` and the SD-card `picker` have run on an SMK-37. Early, no releases.
 - **WORSHIP (worship-smk37)** — GPL-3.0 Felucca fork with the SMK-37 layer for church music (Portuguese documentation): an ambient pad by key, a 16-song setlist and keys-plus-lead routing; the GLOBE button opens the full Felucca synth. The author states it has been tested only in simulation and has not yet run on a real SMK-37; back up first.
   - [Site](https://jefersomusic-del.github.io/worship-smk37/) — Browser simulator.
   - [Code](https://github.com/jefersomusic-del/worship-smk37) — Source repository and `.fwsc` release.
