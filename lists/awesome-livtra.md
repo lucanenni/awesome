@@ -17,6 +17,7 @@
 - [LIVTRA Music](https://livtramusic.com/) — Official LIVTRA site.
 - [LIVTRA products](https://livtramusic.com/products) — Official product index.
 - [LIVTRA news](https://livtramusic.com/news) — Official news: the VELRIX firmware and desktop apps added NAM A2 support (June 2026), and updates such as AETHER 1.06, CORVEN 1.05, VELRIX 1.05, and ZENITH 1.05 are announced here.
+- [skytuner-ui](https://github.com/LIVTRA-Audio/skytuner-ui) — Official SkyTuner UI Toolkit 1.00 from the `LIVTRA-Audio` GitHub organization, linked from the SKYTUNER firmware release notes in the LIVTRA download center (22 October 2026): a Python toolkit and desktop app for building your own **SKYTUNER** theme (backgrounds, note fonts, meters, header and footer rows, startup animation), with previews and upload over USB and several examples. Windows is the tested platform and it expects the latest SKYTUNER firmware from ToneCommand.
 - [RESONA](https://livtramusic.com/resona) — Official tone-capture technology and desktop app that turns NAM A2 captures into LIVTRA's `.ead`/`.eadl` format for the MOSAIC and NANOCORE; LIVTRA says full RESONA is more accurate than the quick "Flash" import done by dragging an A2 file into ToneCommand (vendor claim).
 - [ToneCommand for Android](https://play.google.com/store/apps/details?id=com.livtra.nanocore) — Android companion app for connecting to NANOCORE, editing presets, managing blocks, and importing/exporting bundles.
 
@@ -59,7 +60,6 @@ Official product pages for every LIVTRA device.
 - **Tonebook** — MIT, Portuguese-language (English version available) browser tool for the NanoCore over Web MIDI (Chrome, Edge or Brave, firmware 1.04 or newer): song-tone presets (Radiohead, Nirvana, Tame Impala and others), live parameter adjustment, naming and saving a preset to the pedal, and AI-generated tones for new songs from a JSON. Independent of LIVTRA; it does not switch the amp or IR (set those on the pedal) and writes only when you confirm Save.
   - [Site](https://patogordo.github.io/Tonebook/) — Live app.
   - [Code](https://github.com/patogordo/Tonebook) — Source repository.
-- [skytuner-ui](https://github.com/LIVTRA-Audio/skytuner-ui) — SkyTuner UI Toolkit 1.00: a Python toolkit and desktop app for building your own **SKYTUNER** theme (backgrounds, note fonts, meters, header and footer rows, startup animation), with previews and upload over USB and several examples; Windows is the tested platform and it expects the latest SKYTUNER firmware from ToneCommand. The `LIVTRA-Audio` GitHub organization was created on 23 October 2026, is unverified, and is not linked from livtramusic.com at the time of writing, so confirm its provenance before uploading anything to your tuner.
 - [LivtraNanocore (Arduino MIDI controller)](https://github.com/Xander-Electronics/LivtraNanocore) — Arduino MIDI controller project for the NANOCORE. Unverified: the repository has no README yet.
 - [JimCommanD](https://github.com/3rud1te/JimCommanD) — Independent, experimental (0.3.1) Intel-Mac controller for the **MOSAIC**: native CoreMIDI app with a simulator and local libraries, built because the inspected ToneCommand builds shipped only Apple Silicon binaries; NAM/IR uploads and firmware updates are unfinished. Its protocol research may also help with the NANOCORE.
 
@@ -94,7 +94,7 @@ Official product pages for every LIVTRA device.
 
 ## Notes
 
-- Independent material is thin for the newer devices (NEXFOOT, SKYTUNER, CORVEN, ZENITH, FLUX, MidiLink, WS15, WS16): mostly official pages and a few forum threads and videos. For the NEXFOOT and SKYTUNER: apart from the skytuner-ui theme toolkit, no editors, firmware projects, or independent reviews were found, so the entries above are mostly the official pages and early forum threads.
+- Independent material is thin for the newer devices (NEXFOOT, SKYTUNER, CORVEN, ZENITH, FLUX, MidiLink, WS15, WS16): mostly official pages and a few forum threads and videos. For the NEXFOOT and SKYTUNER: apart from the official skytuner-ui theme toolkit and the NEXFOOT reverse-engineering notes, no editors, firmware projects, or independent reviews were found, so the entries above are mostly the official pages and early forum threads.
 - Always back up presets before updating firmware or importing third-party files.
 - Verify exact model and firmware compatibility before using a preset or software package.
 - Unofficial mirrors and community resources should be checked against the manufacturer’s documentation.
