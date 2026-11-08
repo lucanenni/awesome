@@ -162,6 +162,15 @@
 - **ENJAMBRE** — GPL-3.0 experimental Felucca-based firmware (Spanish documentation) adding an `ENJAMB` engine where insects act as agents in an orbital / quantum field; the repository holds only the overlay applied to a pinned Felucca commit, built by GitHub Actions, with a web installer on GitHub Pages. No warranty.
   - [Site](https://capitanplaneta80-create.github.io/enjambre-fm1/) — Project page and installer.
   - [Code](https://github.com/capitanplaneta80-create/enjambre-fm1) — Overlay and build workflow.
+- **VEGETAL** — GPL-3.0 experimental Felucca-based firmware (Spanish documentation) by the ENJAMBRE author, with a single `VEGETAL` engine: phyllotaxis, L-system branching growth, tropisms and root/mycorrhiza networks. Same overlay-plus-GitHub-Actions build and web installer; no warranty.
+  - [Site](https://capitanplaneta80-create.github.io/vegetal-fm1/) — Project page and installer.
+  - [Code](https://github.com/capitanplaneta80-create/vegetal-fm1) — Overlay and build workflow.
+- **SATIE-1 (Erik. Evolved.)** — GPL-3.0 beta (0.1.1) by OCKM Studio: ten Satie reductions (Gymnopédies 1–3, Gnossiennes 1–3, Ogives 1–4) played as simplified electronic arrangements in five moods (After Hours, Ibiza Chill, Orbit, Blue Note, Ghost) that evolve while you work; four Home knobs and a built-in guide. The maker tested stock V15 → 0.1.0 → 0.1.1 on a real FM-1; other upgrade paths are untested.
+  - [Code](https://github.com/OCKM-STUDIO/SATIE-1) — Source repository and [releases](https://github.com/OCKM-STUDIO/SATIE-1/releases/tag/v0.1.1-beta) (`.fwsc` and checksums).
+- **Compás** — GPL-3.0 rhythm-section firmware (v1.0, English and Spanish `.fwsc`, Felucca family): a Latin band you cue with repertoire, one-click installer and a browser version.
+  - [Site](https://thebigbeat.app/compas/) — Project page, [installer](https://thebigbeat.app/compas/install/) and browser player.
+  - [Code](https://github.com/TexasRADIO/compas-firmware) — Source repository and [releases](https://github.com/TexasRADIO/compas-firmware/releases).
+- [Agent Deck](https://github.com/kevinelliott/fm-1-agent-deck) — Experimental firmware plus host daemon that turns the FM-1 into a control surface for CLI coding agents (Claude Code, Codex and others): agent states on the key LEDs and screen, blocked agents blink, approve/deny/interrupt from the device (tmux and Herdr backends). Never flashed on hardware yet (the author's unit arrives around December 2026); no licence declared.
 - [fm1-audio-router](https://github.com/maxravedj/fm1-audio-router) — MPL-2.0 firmware (v0.1.1, `.fwsc` in the releases) that turns the FM-1 into a 2-in/2-out 16-bit/44.1 kHz USB audio interface and Bluetooth audio receiver (AAC) with a mixer, a five-band parametric EQ with eight presets, a peak limiter and three visualisers; needs m-bootloader flashed with M-Flasher first.
 - **PINK TROMBONE** — GPL-3.0 port of Neil Thapen's Pink Trombone voice synth (glottis and 44-segment vocal tract) as a solo fm1-dock module; v0.1.
   - [Code](https://github.com/stefanolofsson/pinktrombone-fm1) — Source repository and release.
@@ -936,7 +945,7 @@
 - **Elixir** — The Erica Synths LXR-02 drum machine's sound engine and sequencer ported to the FM-1: six voices on seven tracks and 32 patterns.
   - [Site](https://dmajka.github.io/elixir/) — Project page.
   - [Code](https://github.com/dmajka/elixir) — Source repository.
-- **PERF-1** — Live-performance firmware with ten genres of self-playing music you steer in real time (auto-DJ, drum sequencer, self-answering acid line, DX7-style FM voices, scenes).
+- **PERF-1** — Live-performance firmware with nineteen genres of self-playing music you steer in real time (auto-DJ, drum sequencer, self-answering acid line, DX7-style FM voices, scenes).
   - [Site](https://deamonslinky.github.io/PERF-1/) — Project page.
   - [Code](https://github.com/deamonSLINKY/PERF-1) — Source repository.
 - **K-WASUB** — Modern bass synth for DnB, dub, dubstep, and techno: live wobble, reese, sub, 808, EQ, and a four-sound morph (English, French, Spanish).
