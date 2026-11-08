@@ -59,6 +59,9 @@
 - **AMB-1** — Charles Vestal's generative ambient machine inspired by Brian Eno's *Music for Airports*: breathing voices, bells on tape loops of unequal length, a gliding bass, and quiet Euclidean percussion through tape echo and plate reverb; you pick a piece and scale and tend it as it plays itself.
   - [Site](https://charlesvestal.github.io/fm1-amb/) — Project page.
   - [Code](https://github.com/charlesvestal/fm1-amb) — Source repository.
+- **CORTEX** — MPL-2.0 generative FM firmware forked from AMB-1 with the six-operator FM core of JIANT FM: three DX7-bank voices (pad, bells, bass) play chords that grow by themselves, a tape reel records and replays them, songs load from MIDI files, and a video synth on the screen moves with the music. Browser simulator, English and Portuguese manuals; not affiliated with M-VAVE.
+  - [Site](https://guiatihe333.github.io/cortex/) — Project page, simulator and installer.
+  - [Code](https://github.com/guiatihe333/cortex) — Source repository and [releases](https://github.com/guiatihe333/cortex/releases).
 - **Mocky** — Custom firmware plus web app that shows pictures on the FM-1's 240 × 240 screen, sent over USB from the browser, for checking screen mockups on real hardware.
   - [Site](https://charlesvestal.github.io/fm1-mocky/) — Web app and installer.
   - [Code](https://github.com/charlesvestal/fm1-mocky) — Source repository.
@@ -156,6 +159,10 @@
 - **Argo (echoe)** — GPL-3.0 Felucca branch without the samples, adding the SHDRUM engine, three Mini-tone engines and Jiant's drum engine; written with a free LLM, per its description. Web installer with a "Return to official V15" option.
   - [Site](https://echoe.github.io/argo_fm1/) — Web installer.
   - [Code](https://github.com/echoe/argo_fm1) — Source repository and releases.
+- **ENJAMBRE** — GPL-3.0 experimental Felucca-based firmware (Spanish documentation) adding an `ENJAMB` engine where insects act as agents in an orbital / quantum field; the repository holds only the overlay applied to a pinned Felucca commit, built by GitHub Actions, with a web installer on GitHub Pages. No warranty.
+  - [Site](https://capitanplaneta80-create.github.io/enjambre-fm1/) — Project page and installer.
+  - [Code](https://github.com/capitanplaneta80-create/enjambre-fm1) — Overlay and build workflow.
+- [fm1-audio-router](https://github.com/maxravedj/fm1-audio-router) — MPL-2.0 firmware (v0.1.1, `.fwsc` in the releases) that turns the FM-1 into a 2-in/2-out 16-bit/44.1 kHz USB audio interface and Bluetooth audio receiver (AAC) with a mixer, a five-band parametric EQ with eight presets, a peak limiter and three visualisers; needs m-bootloader flashed with M-Flasher first.
 - **PINK TROMBONE** — GPL-3.0 port of Neil Thapen's Pink Trombone voice synth (glottis and 44-segment vocal tract) as a solo fm1-dock module; v0.1.
   - [Code](https://github.com/stefanolofsson/pinktrombone-fm1) — Source repository and release.
 - **FM1-Animatek (ATEK303)** — GPL-3.0 Spanish-language hub with an emulator, community firmwares to study, rescue instructions and ATEK303, a 303-style firmware with the Open303 engine on fm1-base (atek303-v1.0). The repository includes a `CLAUDE.md`.
@@ -427,6 +434,9 @@
 - **KAWA** — Free pocket tracker for chiptune and IDM (4-bit waves, pulse, noise, FM, sliced breakbeats, ratchets, stutter and glitch), documented in English, French, and Spanish.
   - [Site](https://guizmoh.github.io/Kawa-Tracker-Fm1/) — Project page.
   - [Code](https://github.com/Guizmoh/Kawa-Tracker-Fm1) — Source repository.
+- **OPLBend Tracker** — GPL-3.0 LSDJ-style tracker (song, chain, phrase, instrument, table) on an OPL3-style FM engine (18 voices, eight waveforms, not cycle-accurate), with circuit-bending FX, a drum machine, a looper, USB audio and AdLib Tracker II `.A2M` import/export. v0.4 also ships as a VST3 plugin for the Mac (Apple silicon).
+  - [Site](https://mazmusique.fr/oplbendtracker/) — Web installer and demo.
+  - [Code](https://github.com/AudrenThibault/OPLBend-Tracker) — Source repository and [releases](https://github.com/AudrenThibault/OPLBend-Tracker/releases).
 - **Chipbox** — Chiptune "grovebox" with NES, Game Boy, and Master System sound in three main views.
   - [Site](http://ihavenocluewhatimdoing.com/chipbox/) — Project page.
   - [Code](https://github.com/pbarilla/chipbox) — Source repository.
@@ -502,6 +512,9 @@
   - [Code](https://github.com/Spiralfractalplugins/spiralfm1) — Source repository.
 - **OPLBOX** — Turns the FM-1 into an AdLib: OPL2 emulation that plays the SoundFX Macs Opera songs (the DOS soundtracks of LINEL's games and Eclipse's Stone Age) as FXDRIVER drove a Sound Blaster, now with a tracker editor.
   - [Code](https://github.com/LXXero/oplbox) — Source repository.
+- **JAMTRACK** — Backing-band firmware (MIT app, MPL-2.0 base, v0.2.1): drums, bass, chords and a synth line follow a chord progression you write as numbers (`1maj7 6m7 4maj7 5sus4`) in any key and time signature, in time with your loop pedal, with presets by genre, a browser emulator and a companion app.
+  - [Site](https://philip-bos.github.io/jamtrack-fm1/) — Guide, emulator, flasher and companion app.
+  - [Code](https://github.com/Philip-Bos/jamtrack-fm1) — Source repository and [releases](https://github.com/Philip-Bos/jamtrack-fm1/releases).
 - **MOPE-1** — "A sad wavetable synth and drum machine" with no menus: a glossy pixel jelly in a rainy room is the sound, and the part you are editing opens as a schematic of its envelope, LFO, and filter.
   - [Site](https://slothpallas.github.io/mope-1/) — Project page.
   - [Code](https://github.com/slothpallas/mope-1) — Source repository.
@@ -701,6 +714,7 @@
 - **GHOULBOX** — Felucca fork for dungeon synth, dark ambient, and fantasy music: a cathedral-sized hall reverb, a worn-cassette tape effect, a hurdy-gurdy engine with tunable drones, and 59 sounds behind an old-RPG screen.
   - [Site](https://jasonpersinger.github.io/ghoulbox-fm1-dungeon-synth/) — Project page.
   - [Code](https://github.com/jasonpersinger/ghoulbox-fm1-dungeon-synth) — Source repository.
+- [FIENDBOX](https://github.com/emilystgeist/fiendbox) — GPL-3.0 demon-synth firmware (v0.4), a fork of GHOULBOX and Felucca with ideas from JIANT FM, aimed at old-JRPG dungeon music: five power-on scenes, new patterns and a DREAM page that composes in key. Hobby project tested on one FM-1 only: install at your own risk; `.fwsc` and checksums in the [releases](https://github.com/emilystgeist/fiendbox/releases).
 - **ChoralRoot** — Beta chord instrument inspired by Telepathic Instruments' Orchid, built on Felucca's engines: one hand plays roots while the other shapes chords, with voicings, key and performance modes, a bass line, and a looper.
   - [Site](https://quixotic7.github.io/ChoralRootFM1/) — Project page with installer and emulator.
   - [Code](https://github.com/Quixotic7/ChoralRootFM1) — Source repository.
@@ -820,6 +834,7 @@
   - [Site](https://charlesvestal.github.io/fm1-base/) — Project page.
   - [Code](https://github.com/charlesvestal/fm1-base) — Source repository.
 - [FM-SWITCH](https://github.com/ocean/FM-SWITCH) — iOS app for swapping FM-1 firmwares from a phone over USB-C: it merges the firmware hub's catalogue with fm1-editor.com's list, keeps firmwares on the phone for offline flashing, and bundles M-VAVE's official V15 so you can always go back.
+- [FM-1 Switcher](https://github.com/larkindom/fm1-switcher) — GPL-3.0 static web page (Chrome/Edge, Web MIDI; [live](https://larkindom.github.io/fm1-switcher/)) for one-click firmware swaps from a Mac: a local firmware library, flashing through M-VAVE's unmodified `webupdate.js`, and a project/sample backup that works only on the official FM1 Open firmware. Its own status section says it is untested on hardware.
 - [FM-1 Hub for iPhone](https://github.com/debreczi/fm1firmwarehost) — GPL-3.0 native iPhone app for The Firmware Hub catalogue: browse, install over USB, keep a history of installs, back up and restore the FM-1's state, and return to the official V15. Checks packages against the catalogue (size, SHA-256, identity) before writing.
 - **FM1-Lab** — Browser-based FM sound-design environment on Felucca's own WebAssembly firmware: instruments of four native FM6 patches, operator, envelope and algorithm editing, with a compatibility bench and test console. Early work; modulation, LFO and FX pages are still to come.
   - [Site](https://albinoiguana.github.io/FM1-Lab/) — Application.
@@ -852,6 +867,7 @@
 - [fm1-emulator (Rust)](https://github.com/w0ts/fm1-emulator) — Rust emulator for running FM-1 firmwares without flashing a real device.
 - [fm1-grid](https://github.com/jasonbot/fm1-grid) — Desktop app that runs four emulated FM-1s at once in a 2×2 grid, each with its own firmware and screen.
 - [fm1-playwright](https://github.com/dimmkirr/fm1-playwright) and [setup-fm1-emulator](https://github.com/dimmkirr/setup-fm1-emulator) — Playwright test harness for firmware UI testing on the fm1-emu emulator (encoders, buttons, notes, screenshots, GIFs) and a GitHub Action that sets the emulator up for CI.
+- [synth-firmware](https://github.com/saulofilho/synth-firmware) — Claude Code plugin ([site](https://saulofilho.github.io/synth-firmware/)) packaging the method used for COQUI: skill, subagent, `/firmware-*` commands and a hook that flags chip-rule violations (floats, 64-bit division) for building an FM-1 firmware on the Felucca → SLOOP → GR!MM platform up to a signed Firmware Hub release. AI tooling for firmware authors; no licence declared.
 - [FM1 Editor](https://github.com/alexanderseel/fm1editor) — TypeScript web editor and librarian with separate persistent modes for the FM-1 and a stock Yamaha DX7.
 - [FM-1 Helper](https://grandsummoner.github.io/fm-1-helper/) — Web tool to curate and compile DX7-compatible SysEx banks by drag and drop and send them to the hardware ([source](https://github.com/grandsummoner/fm-1-helper)).
 - [midimonitor_fm1](https://github.com/ignis32/midimonitor_fm1) — MIDI monitor and pass-through firmware in a green-phosphor look: watches notes, CCs, and clock across TRS, USB, USB host, and BLE with filtering.
@@ -1048,9 +1064,11 @@
 - AI-agent skills (Chinese-language, MIT): [Felucca Editor Skill](https://github.com/hunterxiong2026/fm1-felucca-editor-2026) and [SLOOP Editor Skill](https://github.com/hunterxiong2026/fm1-sloop-editor-2026) let an AI agent drive the FM-1 over direct SysEx (Windows) for multi-track arrangement and song playback.
 - [Dexed](https://asb2m10.github.io/dexed/) — The open-source DX7 emulator and editor; the FM-1 accepts its single-parameter SysEx, so you can edit voices live.
 - [FM-1 Bonus Box](https://github.com/pfkellogg/fm1-bonus-box) — ESP32-S3 companion box adding a sustain pedal, a rotary preset browser with a round TFT, a WiFi soundbank manager, and USB MIDI; its [fm1-sustain-footswitch](https://github.com/pfkellogg/fm1-sustain-footswitch) sibling is a simple Arduino board turning a TRS sustain pedal into MIDI CC64.
+- [FM-1 Song Box](https://github.com/raspberrypi66/fm1-songbox) — MIT ESP32-S3 touchscreen box that stores Standard MIDI Files and plays them on the FM-1 over Bluetooth LE MIDI (tempo, transpose, auto-reconnect), plus an endless Lo-fi Generator that composes complete pieces on the ESP32. The box makes no sound itself.
 - [Virtual FM-1](https://github.com/jbschooley/Virtual-FM-1) — GPL-3.0 software FM-1: a standalone app and VST3/AU plugin (macOS, Windows, Linux) that plays the FM-1's FM engine, edits every sound setting, and runs its sequencer and arpeggiator, with two-way preset and pattern sync (single preset or the whole 128-preset library) over USB with the [FM-1+VA firmware](https://baudgirl.com/work/FM-1+VA). Instances can target stock, FM-1+VA, Felucca, or SLOOP (the last two run from their own source); it works as a standalone synth without the hardware.
 - **FM-1 Mirror** — Free GPL-3.0 desktop app (Mac, Windows, Linux; builds in the releases) that shows the FM-1's 1.54" screen enlarged and live on the computer, with high-contrast looks. It installs "Big Screen" firmware, M-VAVE's Open firmware with a screen-out addition (source in the `screen-out` branch of pfkellogg/fm1_open), so the FM-1 does run a modified firmware while you use it.
   - [Code](https://github.com/pfkellogg/fm1-mirror) — Source repository and downloads.
+- [FM-1 Mirror + Spyglass for Android](https://github.com/pfkellogg/fm1-mirror-spyglass-android) — GPL-3.0 Android app (APK in the releases, Android 11+) combining FM-1 Mirror's enlarged live screen over USB or Bluetooth with playing the FM-1 from a USB keyboard and a note "spyglass" showing every note or chord.
 - **RemoteFM1** — GPL-3.0 "firmware for your firmware": the FM-1 sends every key, button, encoder and the MASTER pot to the computer as plain MIDI and shows what the computer sends back on its LEDs and 240×240 screen, so other firmwares (`.fm1core`) run on the computer without installing them. Installer and docs on the site; v0.3.x tested on an FM-1 on 2026-10-28; SMK-37 builds are provided but untested on a unit.
   - [Site](https://remotefm1.com/) — Project page.
   - [Code](https://github.com/quixotic7/RemoteFM1) — Source repository and releases.
@@ -1059,6 +1077,9 @@
   - [Code](https://github.com/xoxoaudiolabs/FM-1-Companion) — Source repository.
 - [FM1-Sampler](https://github.com/ferluht/fm1-sampler) — Android sampler and 8-track audio looper with the FM-1 as hardware front end: the phone does the DSP (MELODIC, ONE-SHOT, LOOPED, KIT/SLICE, GRANULAR and Paulstretch modes, FX, arpeggiator, tape and sidechain), the FM-1 gives keys, encoders, the second screen (drawn via SysEx) and USB audio out. Releases ship the APK, a matching firmware flash page and a workbench; flash the firmware first. No licence declared; check before reuse.
 - [FM-1 Emulator (desktop)](https://github.com/briksquared/fm1-emulator) — Unofficial offline desktop emulator (Windows portable build, macOS arm64/x64 and Linux .deb in the releases) that runs FM-1 firmware with no hardware, from the keyboard, mouse or a MIDI controller.
+- **MF-1** — MIT native macOS emulator of the FM-1 (same panel, screens, engine and MIDI/SysEx behaviour, so patches and librarians work with it; DMG in the releases, Apple silicon and Intel, ad-hoc signed) that also ships the iScream firmware for the FM-1 itself, rendering the same samples as the app.
+  - [Code](https://github.com/IanButterworth/mf-1) — Source repository and [releases](https://github.com/IanButterworth/mf-1/releases).
+- [Atelier Sloop — FM-1 emulator (French)](https://vv7r.github.io/sloop-fm1-emulator/) — GPL-3.0 French-language tutorial site that runs the real SLOOP 2.8.5 firmware in the browser with fm1-emu, with menus, screen, 41 LEDs and audio emulated; sources in the [repository](https://github.com/vv7r/sloop-fm1-emulator). Independent project.
 - [FM-1 Backup & Restore](https://github.com/workeffortwaste/fm1-backup-restore) — Android app (APK in the releases) that takes complete flash snapshots of an FM-1 (firmware, settings, projects, songs) and restores them byte for byte, so you can always return to a known state.
 - [FM-1_Flasher](https://github.com/jedgarpark/FM-1_Flasher) — Portable CircuitPython device with a touchscreen that stores alternative FM-1 firmwares on a microSD card and installs them over USB MIDI SysEx with no computer (about 70 s per install; tested with V15, SLOOP and ChoralRoot).
 - [FM-1 Bootloader check](https://fm-1.drewr.dev/bootloader-check/) — Drew Robinson's note for firmware developers: firmwares on Felucca's update code can trap users who changed their bootloader (m-bootloader, or Open V12/V14's); also the index of his ESTAMPIE, FM-SWITCH and FM1Kit pages ([site](https://fm-1.drewr.dev/)).
