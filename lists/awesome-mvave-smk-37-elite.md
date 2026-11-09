@@ -132,6 +132,7 @@
 - [Heise: MIDI keyboard with DX7 emulation](https://www.heise.de/en/background/MIDI-keyboard-with-DX7-emulation-M-VAVE-SMK-37-Pro-tested-10503740.html) — In-depth hands-on test of the SMK-37 platform.
 - [Equipboard overview](https://equipboard.com/items/m-vave-smk-37-elite) — Specs summary and where-to-buy listing.
 - [The Firmware Hub: SMK-37 Pro](https://thefirmwarehub.com/smk37/) — Catalog page of community firmware for the SMK-37 Pro and Elite.
+- [m-store](https://github.com/jvitkauskas/m-store) — MIT files behind the on-device store for the SMK-37 and FM-1: open-source firmwares mirrored from their authors' tagged GitHub releases with a signed catalogue per model.
 - [Synth Anatomy: Baud Girl SMK-37+VA](https://synthanatomy.com/2026/10/baud-girl-smk-37va-custom-firmware-for-the-m-vave-smk-37-pro-elite-and-variants.html) — Article on the virtual-analog and 8-bit groovebox firmware (beta) for the SMK-37 Pro, Elite and variants.
 - [Synth Anatomy: Obervave](https://synthanatomy.com/2026/10/zvenson-obervave-your-m-vave-fm-1-and-smk-37-pro-elite-are-now-oberheim-like-polysynths.html) — Article on zvenson's Oberheim-style polysynth firmware (beta) for the FM-1 and SMK-37.
 - [MATRIXSYNTH: Skiff 1.4 on the SMK-37 Pro](https://www.matrixsynth.com/2026/10/skiff-14-now-on-m-vave-smk-37-pro-plus.html) — Video of Skiff running on the keyboard.
