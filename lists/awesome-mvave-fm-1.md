@@ -61,6 +61,9 @@
 - **JUNGLE OS** — MPL-2.0 pair of drum & bass live-rig firmwares: BREAK SURGEON (breaks and synthesized drums) and ABYSS ENGINE (neuro bass, sub, stabs and pads), each usable alone or together, sharing clock, scenes, fills and kicks over "JUNGLE LINK"; both have browser emulators.
   - [Site](https://rahelpuest.github.io/jungle-os-fm1/) — Project page and emulators.
   - [Code](https://github.com/rahelpuest/jungle-os-fm1) — Source repository.
+- **Guru-600** — GPL-3.0 Sequential Circuits Prophet-600 emulator firmware (v1.0, by Marc Massé, on Felucca): a P600-style engine (two oscillators with sync, 24 dB filter, Poly-Mod, unison, six voices) with 255 sounds (the 100 factory programs under their real names, 100 community sounds and 55 new ones), a Mac editor and user guides in seven languages; it replaces the stock firmware and can be removed.
+  - [Site](https://marcgoudy.github.io/guru-600/) — Project page and emulator.
+  - [Code](https://github.com/marcgoudy/guru-600) — Source repository and [releases](https://github.com/marcgoudy/guru-600/releases) (`.fwsc`, editor and guides).
 - [keySTEP ONE](https://github.com/dzwerg/keystep-one) — MPL-2.0 community beta (v0.5.42, not an official M-VAVE release; flash at your own risk and back up first): an alternative controller, MIDI router and four-track pattern/song/album arranger with USB and BLE MIDI, built on CTL-1 and fm1-base. The author tested the album-once stop on hardware; `.fwsc` in the [releases](https://github.com/dzwerg/keystep-one/releases).
 - **NOICE VOICE** — GPL-3.0 physical-modelling vocal synthesizer and speech sequencer: a 44-section Kelly-Lochbaum waveguide vocal tract with nasal branching and glottal-pulse modelling, 44 phonemes, a 16-step speech sequencer and a vector vocal-tract display; runs as WebAssembly in the browser.
   - [Site](https://mrjoshida.github.io/noice-voice/) — Web simulator.
