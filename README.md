@@ -12,10 +12,6 @@ Each device has its own list with official downloads/manuals, unofficial editors
 
 - [HeadRush](lists/awesome-headrush.md) — Prime, Core, and Flex Prime
 - [LIVTRA](lists/awesome-livtra.md) — The whole range: NANOCORE and MOSAIC multi-effects, VELRIX, AETHER, CORVEN, ZENITH, NEXFOOT, MidiLink, FLUX, SKYTUNER, WS15/WS16 wireless IEM
-- [M-VAVE BlackBox](lists/awesome-mvave-blackbox.md) — ANN BlackBox multi-effects pedal and USB interface (also supported by OpenPocket with the Donner Pocket X)
-- [M-VAVE Tank-G](lists/awesome-mvave-tank-g.md) — Rechargeable multi-effects pedal with amp models, IR cabinets and 36 presets
-- [M-VAVE Tank Mini](lists/awesome-mvave-tank-mini.md) — Compact guitar/bass multi-effects pedal
-- [M-VAVE Other Products](lists/awesome-mvave-other-products.md) — Tank-B, Pocket AMP, IR Box, SMC-PAD and MK-300
 - [MOOER Prime M2](lists/awesome-mooer-prime-m2.md)
 - [Roger Linn AdrenaLinn III](lists/awesome-roger-linn-adrenalinn-iii.md) — Beat-synced guitar effects processor with amp modeling and a built-in drum machine
 - [Sonicake Pocket Master](lists/awesome-sonicake-pocket-master.md) — Pocket-size amp/effects modeler with NAM and IR support
