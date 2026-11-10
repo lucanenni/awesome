@@ -71,6 +71,7 @@ Official product pages for every LIVTRA device.
 
 - [LIVTRA MOSAIC (VGuitar Forums)](https://www.vguitarforums.com/smf/index.php?topic=40257.0) — Community thread with the firmware 1.10 release notes (new Gate release, Auto Gate sensitivity and release, Motion Wah on FX2, new MOD effects, click fixes) and notes on converting NAM A2 files through RESONA or ToneCommand; it also lists a 1.11 section that could not be confirmed on the official downloads page.
 - [Livtra Velrix – new NAM / IR pedal (VGuitar Forums)](https://www.vguitarforums.com/smf/index.php?topic=39838.0) — Thread on the sibling VELRIX pedal that shares the software ecosystem.
+- [Broke Beats pt1: A £37 Interface & Multi FX (SonicState)](https://sonicstate.com/news/2026/09/16/broke-beats-synth-hardware-on-a-shoestring/) — Short budget write-up (16 September 2026) of the NanoCore (30 amp slots that load RESONA captures, 30 cabinet slots with third-party IR import, delay, modulation and reverb); not a full review.
 - [Livtra Aether Reverb (VGuitar Forums)](https://www.vguitarforums.com/smf/index.php?topic=39965.0) — Thread on the AETHER reverb and its infinite-hold feature.
 - [LIVTRA NANOCORE (VGuitar Forums)](https://www.vguitarforums.com/smf/index.php?topic=39964.0) — Community thread on the NANOCORE.
 - [Aether by Livtra (rockboard PedalPedia)](https://www.rockboard.de/en/pedalPedia/Livtra/Aether/8578186665/) and [Livtra Aether specs (Stompbox Garden)](https://www.stompboxgarden.com/gear/pedal/17841/livtra-aether) — Spec sheets for the AETHER.
