@@ -27,6 +27,7 @@
   - [Web app](https://pocketmaster-cfw.guitar-training-generator.com/app/) — Companion app for backup, restore, and slot management.
   - [NAM converter](https://pocketmaster-cfw.guitar-training-generator.com/nam-converter/) — Converts `.nam` captures for the Clone slots.
   - [CFW 0.9 release notes](https://pocketmaster-cfw.guitar-training-generator.com/releases/0.9/RELEASE_NOTES.html) — What changed in the latest release.
+- [sonicake-pocket-master-linux-flash](https://github.com/miguelespaul/sonicake-pocket-master-linux-flash) — Unofficial Linux tools (Python, no licence declared) to inspect HTFW firmware containers and flash the Pocket Master over its MIDI SysEx protocol, recovered from the official `5868USB.dll`; the uploader dry-runs by default. Experimental: a wrong image or an interrupted upload can brick the pedal, so keep the stock firmware and Sonicake Manager as a fallback.
 - **Molecular** — GPL-3.0 experimental firmware for electroacoustic and acousmatic sound design: each sound is a "molecule", an FM or physical-model generator (66 families) bonded to up to five of 46 effect atoms, drawn at random and set in motion; twelve patch slots, very large high-contrast type. A browser installer (desktop Chrome, Edge or Opera, USB) sends only the application section and needs the pedal on Sonicake firmware 1.3.3; the loader is never written and an interrupted install can be rerun.
   - [Site](https://nzimas.github.io/molecular/) — Manual and browser installer.
   - [Code](https://github.com/nzimas/molecular) — Source repository.
