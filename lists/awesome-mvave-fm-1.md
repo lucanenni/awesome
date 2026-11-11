@@ -914,6 +914,7 @@
   - [Code](https://github.com/chadthornton/outrigger) — Source repository and beta releases.
 - [FM1-Firmware-VibeCoding-Template](https://github.com/JanSchulten/FM1-Firmware-VibeCoding-Template) — GPL-3.0 repository template for starting your own FM-1 firmware with Claude Code or Codex: an AI-led interview about the instrument, then a firmware built on the Felucca platform. AI-generated output, so test before flashing.
 - [pi32v2-isa](https://github.com/jvitkauskas/pi32v2-isa) — Open reference for JieLi's pi32v2 instruction set (AC791N, used in the FM-1 and SMK-37): a machine-readable instruction table with an assembler, disassembler, linker, and objdump built from it.
+- [fm1-backup](https://github.com/jvitkauskas/fm1-backup) — Full 1 MiB flash dump of one FM-1 (stock bootloader and the factory-installed "015" build, read twice and CRC-checked), with a region map and a second unit's dump. The installed `app.bin` differs from every published 015/014/009 package, and the dump includes that unit's settings store. The repository has no licence and contains M-VAVE's firmware, so treat it as reference material only.
 - **FM-1 developer wiki** — Unofficial community reference for people writing custom FM-1 and SMK-37 firmware: the hardware, boot chain and package format, installing and recovering, and how to write firmware.
   - [Site](https://sbegueria.github.io/fm1-dev-wiki/) — Wiki.
   - [Code](https://github.com/sbegueria/fm1-dev-wiki) — Source repository.
