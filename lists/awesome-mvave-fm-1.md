@@ -61,6 +61,9 @@
 - **JUNGLE OS** — MPL-2.0 pair of drum & bass live-rig firmwares: BREAK SURGEON (breaks and synthesized drums) and ABYSS ENGINE (neuro bass, sub, stabs and pads), each usable alone or together, sharing clock, scenes, fills and kicks over "JUNGLE LINK"; both have browser emulators.
   - [Site](https://rahelpuest.github.io/jungle-os-fm1/) — Project page and emulators.
   - [Code](https://github.com/rahelpuest/jungle-os-fm1) — Source repository.
+- **DUB-BOX** — MPL-2.0 dub station firmware (v1.0.4) built on the USB/Bluetooth audio-router firmware: siren, tape echo, DJ filter and isolator on their own pages, with a web page and `.fwsc` in the releases.
+  - [Site](https://altessproduction.github.io/DUB-BOX-FM1/) — Project page.
+  - [Code](https://github.com/altessproduction/dub-box-fm1) — Source repository and [releases](https://github.com/altessproduction/dub-box-fm1/releases).
 - **Guru-600** — GPL-3.0 Sequential Circuits Prophet-600 emulator firmware (v1.0, by Marc Massé, on Felucca): a P600-style engine (two oscillators with sync, 24 dB filter, Poly-Mod, unison, six voices) with 255 sounds (the 100 factory programs under their real names, 100 community sounds and 55 new ones), a Mac editor and user guides in seven languages; it replaces the stock firmware and can be removed.
   - [Site](https://marcgoudy.github.io/guru-600/) — Project page and emulator.
   - [Code](https://github.com/marcgoudy/guru-600) — Source repository and [releases](https://github.com/marcgoudy/guru-600/releases) (`.fwsc`, editor and guides).
@@ -991,6 +994,7 @@
 - **PERF-1** — Live-performance firmware with nineteen genres of self-playing music you steer in real time (auto-DJ, drum sequencer, self-answering acid line, DX7-style FM voices, scenes).
   - [Site](https://deamonslinky.github.io/PERF-1/) — Project page.
   - [Code](https://github.com/deamonSLINKY/PERF-1) — Source repository.
+  - [PERF-1 SMK (beta)](https://deamonslinky.github.io/PERF-1-SMK/) — PERF-1 on the SMK-37 Pro (see also [its repository](https://github.com/deamonSLINKY/PERF-1-SMK)).
 - **K-WASUB** — Modern bass synth for DnB, dub, dubstep, and techno: live wobble, reese, sub, 808, EQ, and a four-sound morph (English, French, Spanish).
   - [Site](https://guizmoh.github.io/K-WASUB_Firmware_for_FM1/) — Project page.
   - [Code](https://github.com/Guizmoh/K-WASUB_Firmware_for_FM1) — Source repository.
@@ -1104,6 +1108,7 @@
 - [ChoralRoot j-6](https://eremansim.github.io/ChoralRootj-6/) — Port of ChoralRoot with the Roland J-6 chord set; the repository states it was written entirely by an AI and has not been tested on real hardware (source: [EremanSim/ChoralRootj-6](https://github.com/EremanSim/ChoralRootj-6)).
 - [M1n1Le55](https://github.com/ZzpsS/M1n1Le55) — Firmware manager and extended control console for the FM-1 on the M5Stack Tab5 touchscreen (Chinese and English documentation).
 - [Harbor](https://github.com/markterm/harbor) — Android app (13 stars) that plays FM-1 firmwares unchanged on phones and tablets using the fm1-emu emulator, via USB and Bluetooth MIDI or from other apps and a computer.
+- [FM1 Droid](https://github.com/criapix/fm1droid) — MIT Android app (Portuguese README) that wraps fm1-emu in a full-screen multitouch panel with low-latency AAudio, USB/BLE MIDI input and persistent flash, running the original M-VAVE firmware and community `.fwsc` packages (installed from the fm1-emu catalogue or imported; no firmware ships in the APK, and SMK-37 packages are refused).
 - [MvaveFM1Unbricker](https://github.com/Quixotic7/MvaveFM1Unbricker) — Script that restores a soft-bricked FM-1 over a plain USB cable with no extra hardware: it uses jl-uboot-tool, takes a verified backup of the whole flash, writes the firmware region at `0x4000`, and checks every byte (procedure confirmed by the r/MVaveFM1 community; read its safety rules first, unofficial).
 - [FM-1 recovery guide with a Raspberry Pi Pico (Spanish)](https://github.com/codeine4563-netizen/fm1-pico-recovery-guia-en-espa-ol-para-uso-de-raspberry-pi-pico-rp2040-) — Unofficial Windows/PowerShell guide (with a PDF) to recover a bricked FM-1 that will not power on using a Raspberry Pi Pico; the author tested it on a single unit.
 - **Slipway** — Windows and Mac app that lists the community's FM-1 firmware (who made it, what it does, when it was released), checks the file, installs it in a click, always keeps a way back to stock V15, and guides recovery even from a black screen.
