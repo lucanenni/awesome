@@ -64,6 +64,11 @@
 - **DUB-BOX** — MPL-2.0 dub station firmware (v1.0.4) built on the USB/Bluetooth audio-router firmware: siren, tape echo, DJ filter and isolator on their own pages, with a web page and `.fwsc` in the releases.
   - [Site](https://altessproduction.github.io/DUB-BOX-FM1/) — Project page.
   - [Code](https://github.com/altessproduction/dub-box-fm1) — Source repository and [releases](https://github.com/altessproduction/dub-box-fm1/releases).
+- **VIRGO (Mario Texture)** — GPL-3.0 gravitational-wave synthesizer firmware (v0.5.1, Italian interface, with an English README): every note is a black-hole merger (inspiral chirp, merge, ring-down) over four real detections at once, with a tunable "detector" and a long shimmer reverb; `.fwsc` (plain and Bluetooth builds) plus a browser editor in the releases. Written with the help of Claude (Anthropic), according to the README.
+  - [Code](https://github.com/mongio/virgo-fm1) — Source repository and [releases](https://github.com/mongio/virgo-fm1/releases/tag/v0.5.1).
+- **Lilliput** — GPL-3.0 no-input-mixer firmware, after Igor Vasiliev's NoInputMixer app: six channels feeding back into themselves through tubes, op-amps, filters, limiters and a seven-slot effect rack, 25 recipes, MIDI CCs and USB audio, with a large-type low-vision screen. New and build-from-source only (no release yet): CPU load on the FM-1 is not yet measured; flashing replaces the stock firmware (rescue mode: hold OCT− at power-on).
+  - [Site](https://nzimas.github.io/lilliput/) — Project page.
+  - [Code](https://github.com/nzimas/lilliput) — Source repository.
 - **Guru-600** — GPL-3.0 Sequential Circuits Prophet-600 emulator firmware (v1.0, by Marc Massé, on Felucca): a P600-style engine (two oscillators with sync, 24 dB filter, Poly-Mod, unison, six voices) with 255 sounds (the 100 factory programs under their real names, 100 community sounds and 55 new ones), a Mac editor and user guides in seven languages; it replaces the stock firmware and can be removed.
   - [Site](https://marcgoudy.github.io/guru-600/) — Project page and emulator.
   - [Code](https://github.com/marcgoudy/guru-600) — Source repository and [releases](https://github.com/marcgoudy/guru-600/releases) (`.fwsc`, editor and guides).
