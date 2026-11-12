@@ -69,6 +69,11 @@
 - **Lilliput** — GPL-3.0 no-input-mixer firmware, after Igor Vasiliev's NoInputMixer app: six channels feeding back into themselves through tubes, op-amps, filters, limiters and a seven-slot effect rack, 25 recipes, MIDI CCs and USB audio, with a large-type low-vision screen. New and build-from-source only (no release yet): CPU load on the FM-1 is not yet measured; flashing replaces the stock firmware (rescue mode: hold OCT− at power-on).
   - [Site](https://nzimas.github.io/lilliput/) — Project page.
   - [Code](https://github.com/nzimas/lilliput) — Source repository.
+- **KRIECHSTROM** — GPL-3.0 dark industrial and EBM firmware (v0.2, by Grigorii Bezborodov), built on the current Felucca with parts of Glitchbox, so it also runs on the newer FM-1 units with the UC25HQ80 flash chip.
+  - [Site](https://xforsa.github.io/kriechstrom/) — Project page.
+  - [Code](https://github.com/Xforsa/kriechstrom) — Source repository and [releases](https://github.com/Xforsa/kriechstrom/releases) (`.fwsc`, source and checksums).
+- **Beat It** — GPL-3.0 SLOOP 2.8.5 derivative (v1.5): drums and two FM engines with a purple theme, a full-screen colour scope, MIDI and experimental Bluetooth MIDI, with a Windows browser installer. Simulator only so far: it has never run on a real FM-1 and the Bluetooth code has never transmitted, so flash at your own risk and back up first.
+  - [Code](https://github.com/epidex/beat-it) — Source repository and [releases](https://github.com/epidex/beat-it/releases).
 - **Guru-600** — GPL-3.0 Sequential Circuits Prophet-600 emulator firmware (v1.0, by Marc Massé, on Felucca): a P600-style engine (two oscillators with sync, 24 dB filter, Poly-Mod, unison, six voices) with 255 sounds (the 100 factory programs under their real names, 100 community sounds and 55 new ones), a Mac editor and user guides in seven languages; it replaces the stock firmware and can be removed.
   - [Site](https://marcgoudy.github.io/guru-600/) — Project page and emulator.
   - [Code](https://github.com/marcgoudy/guru-600) — Source repository and [releases](https://github.com/marcgoudy/guru-600/releases) (`.fwsc`, editor and guides).
@@ -330,6 +335,9 @@
 - **CHOPPAH** — Breakbeat chopper (fm1-base): a break cut into sixteen slices on the white keys, momentary effect pads on the black keys, a generator that rearranges the break as it plays, and ring modulator, hi-pass, flanger, degrader and DJ filter on the output; 0.10.
   - [Site](https://profikid.github.io/fm1-break-choppah/) — Project page.
   - [Code](https://github.com/profikid/fm1-break-choppah) — Source repository and `.fwsc` release.
+- **LOAF BREAKER** — MPL-2.0 hardcore, gabber and breakcore break chopper (v0.263), built on CHOPPAH: a hardcore-oriented rework of its break slicing and effects, with a browser emulator, install page and manual. The repository carries a `CLAUDE.md`, so it looks AI-assisted.
+  - [Site](https://flexor-r.github.io/loaf-breaker/) — Project page, emulator, installer and manual.
+  - [Code](https://github.com/flexor-r/loaf-breaker) — Source repository and [releases](https://github.com/flexor-r/loaf-breaker/releases) (`.fwsc`).
 - **Sill** — Generative 90s eurodance (built on Daurade and Tuna): press PLAY and it writes a song with offbeat basses, piano and supersaw stabs, a hook, a choir and a final key change; ten styles on two sides (CLUB and RADIO).
   - [Site](https://delirioux.github.io/sill/) — Project page.
   - [Code](https://github.com/delirioux/sill) — Source repository.
@@ -888,6 +896,7 @@
   - [Code](https://github.com/seajaysec/fm-static) — Source repository.
 - [fm1-linux-update](https://github.com/fuleo/fm1-linux-update) — Updates the stock firmware from V14 to V15 from Linux over USB-MIDI SysEx, with verification (M-VAVE only ships Windows and macOS updaters); see also the [fm1-guide](https://fuleo.github.io/fm1-guide/) notes.
 - [M-Flasher](https://github.com/jvitkauskas/m-flasher) — Unofficial tool to back up, restore, and reinstall firmware on the FM-1 and SMK-37 Pro / Elite over plain USB using the chip's built-in download mode (so it works even when the installed firmware is broken), and to install the [open bootloader](https://github.com/jvitkauskas/fm1-bootloader); it saves a backup before every write.
+- [synth-rescue (Cardputer ADV)](https://github.com/jvitkauskas/cardputer-synth-rescue) — MIT v0.1.0 unbricker for the FM-1 and SMK-37 using only an M5Stack Cardputer ADV and a USB-C cable: it puts the unit in ROM download mode, backs up the whole 1 MiB flash to the SD card and installs m-bootloader plus a minimal open fm1-base firmware. Early release; it overwrites the whole flash, so keep the backup it makes.
 - [m-bootloader](https://github.com/jvitkauskas/m-bootloader) — MIT clean-room open bootloader for the FM-1 and SMK-37 Pro / Elite (JieLi AC791N), plus the small flash loader that M-Flasher runs on the chip to read and write its flash.
 - [m-apps](https://github.com/jvitkauskas/m-apps) — MIT kit and sample apps that run from RAM on the FM-1 and SMK-37 without changing the flash firmware (started from an SD card, over MIDI or with M-Flasher's `run-ram`, 0.9.2 or newer). Early: `hello` and `usbdisk` have run on an FM-1 and an SMK-37, `picker` on an SMK-37 only; no releases, build from source with the pi32v2 LLVM toolchain. The repo includes agent instructions for writing apps with AI.
 - **fm1-base** — MPL-2.0 base and template for building FM-1 firmware on [felucca-bsp](https://github.com/hugelton/felucca-bsp): the platform layer (screen, fonts, panel, LEDs, audio, USB and TRS MIDI, storage, screen reader), a host simulator, a browser emulator that runs the same app, and the build, package, and install tools. Beta: CTL-1 and fm1-radio are built on it, and its platform interface may change before 1.0.
