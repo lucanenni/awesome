@@ -74,6 +74,30 @@
   - [Code](https://github.com/Xforsa/kriechstrom) — Source repository and [releases](https://github.com/Xforsa/kriechstrom/releases) (`.fwsc`, source and checksums).
 - **Beat It** — GPL-3.0 SLOOP 2.8.5 derivative (v1.5): drums and two FM engines with a purple theme, a full-screen colour scope, MIDI and experimental Bluetooth MIDI, with a Windows browser installer. Simulator only so far: it has never run on a real FM-1 and the Bluetooth code has never transmitted, so flash at your own risk and back up first.
   - [Code](https://github.com/epidex/beat-it) — Source repository and [releases](https://github.com/epidex/beat-it/releases).
+- **MANIFOLD** — MPL-2.0 generative just-intonation firmware (v1.0.3): two layers of moving points wander over a Tonnetz map and every note they pass near sounds, with the rhythm and drums derived from the same motion; nothing is sequenced. Web installer and manual on the site.
+  - [Site](https://stets43.github.io/Manifold/) — Project page, manual and web installer.
+  - [Code](https://github.com/stets43/manifold) — Source repository (the `.fwsc` is in `firmware/`).
+- **BB-BOB (Big Beat Studio)** — GPL-3.0 Western swing groovebox (r34, by TexasRADIO): 50 tunes or generated originals, a steel solo cue and a Then/Now knob that brings in acid bass and drum-machine beats.
+  - [Site](https://thebigbeat.app/bb-bob/about/) — Project page and install guide.
+  - [Code](https://github.com/TexasRADIO/bb-bob-firmware) — Source repository and `.fwsc` release.
+- **dubengine** — GPL-3.0 firmware for two tracks of dub chords (dub techno, minimal, microhouse), with a browser version running the same code and a web installer that can also go back to stock; the device falls back to a safe mode after two failed starts.
+  - [Site](https://marwanfarha.github.io/dubengine/) — Browser version and installer.
+  - [Code](https://github.com/marwanfarha/dubengine) — Source repository.
+- **JIANT LIVE DRUMS** — GPL-3.0 performance firmware (v0.3) by Misha Mashina, modified from JIANT (not an official Juan Jiant release): two 12-pad drum engines, SEQ MIDI mapping, PLAY controls and 32 REC MIDI CC macros, with an emulator and installer. The author reports it flashed and booted on two FM-1 units, from V15 and from original JIANT.
+  - [Site](https://mishamashinamm.github.io/jiant-live-drums/) — Project page, emulator and installer.
+  - [Code](https://github.com/mishamashinamm/jiant-live-drums) — Source repository.
+- **RudimentSeq** — GPL-3.0 modified Felucca (r0.1) in which every track can play a drum rudiment instead of a step pattern, with up to four rudiment lanes; Felucca's installer and editor still work with it.
+  - [Site](https://rudimentseq.com) — Project page.
+  - [Code](https://github.com/rudimentseq/rudimentseq-fm1) — Source repository and [releases](https://github.com/rudimentseq/rudimentseq-fm1/releases) (`.fwsc`).
+- **David Pryan's six sequencer firmwares** — MPL-2.0 family built on fm1-base from a survey of sequencer archetypes, each making its own sound and sending MIDI. All six say they are untested on hardware, have no releases, and are built from source with `build.sh`.
+  - [CANON-4](https://github.com/davidpryan/canon-4) — One phrase, four playheads (multi-playhead).
+  - [TERRACE-8](https://github.com/davidpryan/terrace-8) — Stages that last: pulses, gates, ratchets and slides.
+  - [REGENT-4](https://github.com/davidpryan/regent-4) — Play chords and four parts follow them.
+  - [SPOOL-4](https://github.com/davidpryan/spool-4) — Four loops you record by playing.
+  - [MYCEL-8](https://github.com/davidpryan/mycel-8) — Eight generative parts: Euclidean rhythms and a Turing-style pitch generator.
+  - [LEDGER-4](https://github.com/davidpryan/ledger-4) — Tracker with song, chain, phrase and commands.
+- **WARP-8** — GPL-3.0 drum-machine firmware by David Pryan: a fork of LOOM-8's sequencer, mixer, effects and pages with its synth engines replaced by Hortator's drum models. Passes its simulator tests but has not been run on an FM-1.
+  - [Code](https://github.com/davidpryan/drum-8) — Source repository.
 - [Ferrum (FM1 Tape Loop)](https://github.com/mikeeteevee/ferrum) — Unlicensed firmware concept: a live tape-loop instrument (dubbed pad hits and synth notes replayed with pitch bend, rewind, wow and flutter, a cassette animation), tested on a PC only. The device glue has never been compiled with the JieLi toolchain or run on hardware.
 - **Guru-600** — GPL-3.0 Sequential Circuits Prophet-600 emulator firmware (v1.0, by Marc Massé, on Felucca): a P600-style engine (two oscillators with sync, 24 dB filter, Poly-Mod, unison, six voices) with 255 sounds (the 100 factory programs under their real names, 100 community sounds and 55 new ones), a Mac editor and user guides in seven languages; it replaces the stock firmware and can be removed.
   - [Site](https://marcgoudy.github.io/guru-600/) — Project page and emulator.
