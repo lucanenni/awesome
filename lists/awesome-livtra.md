@@ -62,6 +62,9 @@ Official product pages for every LIVTRA device.
   - [Code](https://github.com/patogordo/Tonebook) — Source repository.
 - [LivtraNanocore (Arduino MIDI controller)](https://github.com/Xander-Electronics/LivtraNanocore) — Arduino MIDI controller project for the NANOCORE. Unverified: the repository has no README yet.
 - [JimCommanD](https://github.com/3rud1te/JimCommanD) — Independent, experimental (0.3.1) Intel-Mac controller for the **MOSAIC**: native CoreMIDI app with a simulator and local libraries, built because the inspected ToneCommand builds shipped only Apple Silicon binaries; NAM/IR uploads and firmware updates are unfinished. Its protocol research may also help with the NANOCORE.
+- **re-nanocore (UniVibe)** — Unlicensed reverse-engineering project for the NANOCORE: firmware package decoding, executable analysis, DSP reconstruction and custom effects in modified application firmware. It ships a browser installer that replaces Velvet Vibrato (MOD 10) with UNIVIBE on firmware 1.10, 1.11 and 1.12 only, backs up the OS partition first and offers a restore. Unofficial: it flashes modified firmware, so keep the backup it makes.
+  - [Site](https://jcuhnoio.github.io/re-nanocore/) — Browser installer.
+  - [Code](https://github.com/jcuhnoio/re-nanocore) — Source repository, tools and findings.
 
 ## Manuals
 
