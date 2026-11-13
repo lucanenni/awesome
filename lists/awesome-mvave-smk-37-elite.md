@@ -64,6 +64,7 @@
   - [Code](https://github.com/genkigenki/Snoop37) — Source repository.
 - [M-Flasher](https://github.com/jvitkauskas/m-flasher) — Back up, restore, and reinstall firmware on the SMK-37 Pro / Elite (and FM-1) over USB download mode, with an open bootloader option and a backup before every write.
 - [synth-rescue (Cardputer ADV)](https://github.com/jvitkauskas/cardputer-synth-rescue) — MIT v0.1.0 unbricker for the FM-1 and SMK-37 using only an M5Stack Cardputer ADV and a USB-C cable: it puts the unit in ROM download mode, backs up the whole 1 MiB flash to the SD card and installs m-bootloader plus a minimal open fm1-base firmware. Early release; it overwrites the whole flash, so keep the backup it makes.
+- [M-Unbricker](https://jvitkauskas.github.io/m-unbricker/) — MIT rescue for a bricked FM-1 or SMK-37 using a second working unit and a USB-C cable, with no dongle and nothing installed on the working unit (step-by-step page for desktop Chrome/Edge, Android Chrome or iOS MIDIWeb). Tested on an FM-1 and an SMK-37 Pro, both ways. [Source](https://github.com/jvitkauskas/m-unbricker).
 - **Biosphere37** — Browser app (connect the keyboard over Web MIDI) that turns the SMK-37 into controls for a blacklight galaxy: the 37 keys play a synth and draw a neon route, the 16 pads fly to six sound worlds and switch effects, and the faders control drive, delay, and reverb. It runs on a computer, not on the keyboard.
   - [Site](https://sunyux.github.io/biosphere37/) — Hosted app.
   - [Code](https://github.com/sunyux/biosphere37) — Source repository.
