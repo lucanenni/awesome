@@ -89,6 +89,9 @@
 - **Clipper Pro** — isod89's own Clipper synth (23 engines, 407 sounds, four macros per sound, effects, arpeggiator, step sequencer, microtuning, MPE, USB audio and MIDI) on the SMK-37, with builds for Pro and Elite (and an MKE variant) and a browser editor; version 1.2, GPL-3.0, French quick-start guides included.
   - [Site](https://isod89.github.io/clipper-pro/) — Project page, browser installer and editor.
   - [Code](https://github.com/isod89/clipper-pro) — Source repository and `.fwsc` releases.
+- **Stallion** — GPL-3.0 deep synthesizer firmware (v1.0.0, by Eberon Limited) for the SMK-37 Pro and the FM-1, grown out of Clipper, SLOOP and Felucca; the SMK-37 package is a separate `.fwsc`, installed from the browser.
+  - [Site](https://eberonltd.github.io/stallion-fm1/) — Browser installer and editor.
+  - [Code](https://github.com/eberonltd/stallion-fm1) — Source repository and [releases](https://github.com/eberonltd/stallion-fm1/releases).
 - **Impressionism** — Generative ambient firmware (Debussy/Ravel-style harmony) that also ships SMK-37, SMK-37 Elite and MKE builds; see the FM-1 list for details.
   - [Site](https://darrenjaworski.github.io/fm-1-impressionism/) — Project page with browser emulator.
   - [Code](https://github.com/darrenjaworski/fm-1-impressionism) — Source repository and `.fwsc` releases.
