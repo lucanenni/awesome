@@ -123,6 +123,9 @@
   - [Code](https://github.com/eberonltd/stallion-fm1) — Source repository and [releases](https://github.com/eberonltd/stallion-fm1/releases) (`.fwsc` for FM-1 and SMK-37 Pro).
 - **FM-1 Open Guitar** — Guitar-strumming firmware layer (b1.6.2) built on M-VAVE's official `fm1_open`: chords on the black keys, single-string plucks, strums and one-bar folk/pop/punk/reggae patterns on the white keys, with a browser demo that the README links (it returned 403 when checked, so it is not linked here). A third-party build, not an M-VAVE release; the GPL licence file carries an added linking permission for the binary SDK.
   - [Code](https://github.com/xmagelonx/fm1-guitar) — Source repository and [releases](https://github.com/xmagelonx/fm1-guitar/releases) (`.fwsc`).
+- **QUARTZ** — GPL-3.0 four-track groovebox firmware on fm1-base with Mutable Instruments Plaits vendored for its voices. No releases: built from source with the JieLi toolchain (`build.sh`), with a host simulator and tests. The repository carries a `CLAUDE.md`, so it looks AI-assisted.
+  - [Site](https://f0nski.github.io/quartz/) — Project page.
+  - [Code](https://github.com/f0nski/quartz) — Source repository.
 - **ObsSynth FM-1** — GPL-3.0 synthesizer firmware (v0.1.0, English and Portuguese docs) built on Hortator's base with a new voice and screen after the ObsSynth desktop instruments, with a WebAssembly simulator running the same C code. Tested by the author on an FM-1, from V15 and from another custom firmware.
   - [Site](https://orianbsilva.github.io/obssynth-fm1/) — Browser simulator and manual.
   - [Code](https://github.com/orianbsilva/obssynth-fm1) — Source repository and [releases](https://github.com/orianbsilva/obssynth-fm1/releases) (`.fwsc`).
