@@ -65,6 +65,7 @@ Official product pages for every LIVTRA device.
 - **re-nanocore (UniVibe)** — Unlicensed reverse-engineering project for the NANOCORE: firmware package decoding, executable analysis, DSP reconstruction and custom effects in modified application firmware. It ships a browser installer that replaces Velvet Vibrato (MOD 10) with UNIVIBE on firmware 1.10, 1.11 and 1.12 only, backs up the OS partition first and offers a restore. Unofficial: it flashes modified firmware, so keep the backup it makes.
   - [Site](https://jcuhnoio.github.io/re-nanocore/) — Browser installer.
   - [Code](https://github.com/jcuhnoio/re-nanocore) — Source repository, tools and findings.
+- [nanocore-toolkit](https://github.com/soficis/nanocore-toolkit) — GPL-3.0 tools and reverse-engineered formats (the NA2L amp-model blob, the 31-byte slot-info, SysEx notes), produced while replacing all 30 AMP slots with NAM A2 Lite captures: a CLI that converts `.nam` to the pedal's blob and uploads and verifies over USB MIDI, read-only and flashing WebUSB pages, and a UniVibe patch for firmware 1.2, a build no other public project covers. It writes to the pedal and flashes modified firmware, so back up first.
 
 ## Manuals
 
