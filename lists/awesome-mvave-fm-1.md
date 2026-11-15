@@ -149,8 +149,14 @@
   - [Code](https://github.com/fenderberg/fm1-sy1) — Source repository.
 - **Juicy** — GPL-3.0 five-track groovebox (v0.1) in the spirit of Fruity Loops: drums, a bass, patterns, a chain and shapeable sounds, made for jamming; the release has packages for the FM-1 and for the SMK-37 and its Elite and MKE variants. The repository carries `AGENTS.md` and `CLAUDE.md`, so it looks AI-assisted.
   - [Code](https://github.com/danielgilbert/juicy) — Source repository and [releases](https://github.com/danielgilbert/juicy/releases) (`.fwsc`).
+- **OrGigs** — GPL-3.0 organ firmware (v1.0) for the FM-1 and the SMK-37 Elite, built on Dinghy (the Felucca/SLOOP platform): three manuals with 84 free-running tone generators, eight organ models (tonewheel and combo to pipe organs and free reeds), drawbars, percussion, rotary, drive, delay and reverb, 16 performance setups, three MIDI zones and Yamaha SEQTRAK control. The licence notes credit the author "with Claude", so it is AI-assisted. A rescue mode (hold OCT− while switching on) and a browser simulator are included.
+  - [Site](https://orgelbobo.github.io/orgigs/) — Web installer, browser simulator and manuals.
+  - [Code](https://github.com/orgelbobo/orgigs) — Source and [releases](https://github.com/orgelbobo/orgigs/releases) (`.fwsc`).
 - **Moonglass** — GPL-3.0 dream pop groovebox beta (v0.3): eight engines tuned for hazy keys, shoegaze leads, choirs and grain clouds, one-finger chord pads and a soft CRT look. The repository holds only a build script and 23 patches to apply on top of SLOOP v2.8.5, with no release, and its recovery paths are untested.
   - [Code](https://github.com/killerboof/moonglass-fm1) — Patches and build script.
+- **HADAL-1** — MPL-2.0 generative dark ambient firmware by Polystellarflow (v1.0.1): fifteen "worlds" of drones, choirs and bells that keep changing by themselves, forty full-screen pictures, playable keys, four save slots and on-screen help for every control. It accepts both flash chips, so it installs on older FM-1s and on those sold since autumn 2026. Installing custom firmware is at your own risk.
+  - [Site](https://sparky480v.github.io/hadal-1/) — Web installer and project page.
+  - [Code](https://github.com/sparky480v/hadal-1) — Source and [releases](https://github.com/sparky480v/hadal-1/releases) (`.fwsc`).
 - **ObsSynth FM-1** — GPL-3.0 synthesizer firmware (v0.1.0, English and Portuguese docs) built on Hortator's base with a new voice and screen after the ObsSynth desktop instruments, with a WebAssembly simulator running the same C code. Tested by the author on an FM-1, from V15 and from another custom firmware.
   - [Site](https://orianbsilva.github.io/obssynth-fm1/) — Browser simulator and manual.
   - [Code](https://github.com/orianbsilva/obssynth-fm1) — Source repository and [releases](https://github.com/orianbsilva/obssynth-fm1/releases) (`.fwsc`).
