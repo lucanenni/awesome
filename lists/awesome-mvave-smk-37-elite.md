@@ -94,6 +94,11 @@
   - [Code](https://github.com/eberonltd/stallion-fm1) — Source repository and [releases](https://github.com/eberonltd/stallion-fm1/releases).
 - **LiveGomezSynth** — GPL-3.0 live-performance firmware for the SMK-37 Pro, based on other community projects: 436 sounds in 16 categories and four-part performances with layers, splits and solos. Never run on a real keyboard (tested only in a browser simulator running the firmware's C code); the repository carries `AGENTS.md`, so it looks AI-assisted. Flash at your own risk.
   - [Code](https://github.com/agomezss/livegomezsynth) — Source repository.
+- **Arctic Scream SMK-37** — GPL-3.0 dark ambient drones and feedback screams (v2.1.1) bringing the FM-1 firmware's whole engine to the SMK-37 Pro, Elite and MKE-P37 with 37 keys, 16 pads, eight knobs, four faders and two wheels. Not yet run on a keyboard, according to the README.
+  - [Site](https://polarpatch.github.io/Arctic-Scream-SMK-37/) — Browser demo.
+  - [Code](https://github.com/polarpatch/arctic-scream-smk-37) — Source repository and [releases](https://github.com/polarpatch/arctic-scream-smk-37/releases) (`.fwsc` per model).
+- **Juicy** — GPL-3.0 five-track groovebox (v0.1) with packages for the SMK-37, the Elite and the MKE as well as the FM-1; the repository carries `AGENTS.md` and `CLAUDE.md`, so it looks AI-assisted.
+  - [Code](https://github.com/danielgilbert/juicy) — Source repository and [releases](https://github.com/danielgilbert/juicy/releases).
 - **Impressionism** — Generative ambient firmware (Debussy/Ravel-style harmony) that also ships SMK-37, SMK-37 Elite and MKE builds; see the FM-1 list for details.
   - [Site](https://darrenjaworski.github.io/fm-1-impressionism/) — Project page with browser emulator.
   - [Code](https://github.com/darrenjaworski/fm-1-impressionism) — Source repository and `.fwsc` releases.

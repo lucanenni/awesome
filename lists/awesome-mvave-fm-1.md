@@ -138,6 +138,19 @@
   - [Code](https://github.com/eldontyrellcorp/mini-grain) — Source repository and [releases](https://github.com/eldontyrellcorp/mini-grain/releases) (`.fwsc`).
 - **STACK** — GPL-3.0 beta (v0.1) rave/dub/acid groovebox in which every track you add brings its own speaker stack; tested only in the simulator and emulator, with the real-FM-1 test pending, so install at your own risk (Spanish and English).
   - [Code](https://github.com/alwaro777/stack-fm1) — Source repository and [releases](https://github.com/alwaro777/stack-fm1/releases) (`.fwsc`).
+- **TRAPSTATION OS** — GPL-3.0 trap and phonk groovebox firmware (v1.0.0.0, English and German docs): booming 808s, DR-660-style percussion, cowbells, dark bells, FM keys and pads and tape colour on the master, with guides and a cheat sheet in the release.
+  - [Site](https://sog-maker.github.io/trapstation-os/) — Project page.
+  - [Code](https://github.com/sog-maker/trapstation-os) — Source repository and [releases](https://github.com/sog-maker/trapstation-os/releases) (`.fwsc`, PDF guides).
+  - [Desktop app](https://github.com/sog-maker/trapstation-desktop) — GPL-3.0 companion app: converts audio files to sample data, loads samples S01–S32 (reading the sample memory first) and more.
+- **Beiwagen** — GPL-3.0 firmware that makes the FM-1 a USB sidecar for the teenage engineering OP-1 Field: the core is tested on an FM-1 with an OP-1 Field (firmware 1.7.3), while the effects on the chosen track are built but not yet tested on an FM-1. The repository carries a `CLAUDE.md`, so it looks AI-assisted.
+  - [Code](https://github.com/dpangerl/beiwagen) — Source repository.
+- **SY1** — MIT polysynth that plays Synth1 (`.sy1`) patches as they are, with every parameter editable on the FM-1, a browser emulator, an installer and a patch manager. The repository carries a `.claude` folder, so it looks AI-assisted.
+  - [Site](https://fenderberg.github.io/fm1-sy1/) — Project page, [emulator](https://fenderberg.github.io/fm1-sy1/emu/) and installer.
+  - [Code](https://github.com/fenderberg/fm1-sy1) — Source repository.
+- **Juicy** — GPL-3.0 five-track groovebox (v0.1) in the spirit of Fruity Loops: drums, a bass, patterns, a chain and shapeable sounds, made for jamming; the release has packages for the FM-1 and for the SMK-37 and its Elite and MKE variants. The repository carries `AGENTS.md` and `CLAUDE.md`, so it looks AI-assisted.
+  - [Code](https://github.com/danielgilbert/juicy) — Source repository and [releases](https://github.com/danielgilbert/juicy/releases) (`.fwsc`).
+- **Moonglass** — GPL-3.0 dream pop groovebox beta (v0.3): eight engines tuned for hazy keys, shoegaze leads, choirs and grain clouds, one-finger chord pads and a soft CRT look. The repository holds only a build script and 23 patches to apply on top of SLOOP v2.8.5, with no release, and its recovery paths are untested.
+  - [Code](https://github.com/killerboof/moonglass-fm1) — Patches and build script.
 - **ObsSynth FM-1** — GPL-3.0 synthesizer firmware (v0.1.0, English and Portuguese docs) built on Hortator's base with a new voice and screen after the ObsSynth desktop instruments, with a WebAssembly simulator running the same C code. Tested by the author on an FM-1, from V15 and from another custom firmware.
   - [Site](https://orianbsilva.github.io/obssynth-fm1/) — Browser simulator and manual.
   - [Code](https://github.com/orianbsilva/obssynth-fm1) — Source repository and [releases](https://github.com/orianbsilva/obssynth-fm1/releases) (`.fwsc`).
