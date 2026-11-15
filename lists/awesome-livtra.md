@@ -66,6 +66,7 @@ Official product pages for every LIVTRA device.
   - [Site](https://jcuhnoio.github.io/re-nanocore/) — Browser installer.
   - [Code](https://github.com/jcuhnoio/re-nanocore) — Source repository, tools and findings.
 - [nanocore-toolkit](https://github.com/soficis/nanocore-toolkit) — GPL-3.0 tools and reverse-engineered formats (the NA2L amp-model blob, the 31-byte slot-info, SysEx notes), produced while replacing all 30 AMP slots with NAM A2 Lite captures: a CLI that converts `.nam` to the pedal's blob and uploads and verifies over USB MIDI, read-only and flashing WebUSB pages, and a UniVibe patch for firmware 1.2, a build no other public project covers. It writes to the pedal and flashes modified firmware, so back up first.
+- [PD101 Sound Modules](https://github.com/k2-k3n/pd101-sound-modules) — Chinese-language set of seven independent effect projects for the LIVTRA Resona Box (Touch Wah, Delay, Echo Room, Pixel Crush, Robot Ring, Steel Resonator, Bloom Swell), each with DSP and UI source, a ResonaLab project manifest, an SDK lock file and release notes. No licence is declared.
 
 ## Manuals
 

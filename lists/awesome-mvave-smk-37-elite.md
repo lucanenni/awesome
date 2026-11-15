@@ -92,6 +92,8 @@
 - **Stallion** — GPL-3.0 deep synthesizer firmware (v1.0.0, by Eberon Limited) for the SMK-37 Pro and the FM-1, grown out of Clipper, SLOOP and Felucca; the SMK-37 package is a separate `.fwsc`, installed from the browser.
   - [Site](https://eberonltd.github.io/stallion-fm1/) — Browser installer and editor.
   - [Code](https://github.com/eberonltd/stallion-fm1) — Source repository and [releases](https://github.com/eberonltd/stallion-fm1/releases).
+- **LiveGomezSynth** — GPL-3.0 live-performance firmware for the SMK-37 Pro, based on other community projects: 436 sounds in 16 categories and four-part performances with layers, splits and solos. Never run on a real keyboard (tested only in a browser simulator running the firmware's C code); the repository carries `AGENTS.md`, so it looks AI-assisted. Flash at your own risk.
+  - [Code](https://github.com/agomezss/livegomezsynth) — Source repository.
 - **Impressionism** — Generative ambient firmware (Debussy/Ravel-style harmony) that also ships SMK-37, SMK-37 Elite and MKE builds; see the FM-1 list for details.
   - [Site](https://darrenjaworski.github.io/fm-1-impressionism/) — Project page with browser emulator.
   - [Code](https://github.com/darrenjaworski/fm-1-impressionism) — Source repository and `.fwsc` releases.
