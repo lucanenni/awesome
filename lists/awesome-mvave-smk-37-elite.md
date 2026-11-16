@@ -100,6 +100,8 @@
 - **Juicy** — GPL-3.0 five-track groovebox (v0.1) with packages for the SMK-37, the Elite and the MKE as well as the FM-1; the repository carries `AGENTS.md` and `CLAUDE.md`, so it looks AI-assisted.
   - [Code](https://github.com/danielgilbert/juicy) — Source repository and [releases](https://github.com/danielgilbert/juicy/releases).
 - **OrGigs** — GPL-3.0 organ firmware (v1.0) with its own SMK-37 Elite package: three manuals with 84 tone generators, eight organ models, drawbars, rotary, effects, 16 performance setups and three MIDI zones. The licence notes credit the author "with Claude", so it is AI-assisted. Manual and installer are on the [project site](https://orgelbobo.github.io/orgigs/); source and `.fwsc` files are in the [repository](https://github.com/orgelbobo/orgigs).
+- **Polly SMK-37 port** — GPL-3.0 port of Charles Vestal's Polly pocket arranger (Yamaha QY70-style styles and a General MIDI band) to the SMK-37 Pro, Elite, MKE-P37 and Starrykey 37 Play, with the firmware, a local web installer, an emulator and a Portuguese (pt-BR) beginner's guide in `smk37-extras/`; the README sends you to genkigenki's unofficial web installer. The commits are co-authored by Claude, so it is AI-assisted.
+  - [Code](https://github.com/sergioblaster/polly-smk37) — Source repository.
 - **Impressionism** — Generative ambient firmware (Debussy/Ravel-style harmony) that also ships SMK-37, SMK-37 Elite and MKE builds; see the FM-1 list for details.
   - [Site](https://darrenjaworski.github.io/fm-1-impressionism/) — Project page with browser emulator.
   - [Code](https://github.com/darrenjaworski/fm-1-impressionism) — Source repository and `.fwsc` releases.
