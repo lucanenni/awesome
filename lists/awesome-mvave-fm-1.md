@@ -1018,6 +1018,16 @@
   - [Site](https://mystic-arcave.github.io/FM-Arcave/) — Project page, browser emulator and web installer.
   - [Code](https://github.com/mystic-arcave/FM-Arcave) — Source repository.
 - [FM-1 Midi-Mania](https://github.com/shan-sherif/fm-1-midi-mania) — GPL-3.0 rhythm-game firmware (v0.9.2) built on Felucca: turn a MIDI song into a chart and play along as notes fall toward the keys, with PERFECT/GREAT/GOOD/MISS scoring and a combo.
+- **Dark Funk Durcal Synt** — GPL-3.0 firmware (v1.8.2) for dark dance music (acid, breaks, jungle, drum'n'bass, rave, IDM), always in key and made to play live; the same project ships a browser groovebox, a one-click web installer, a Mac/Windows VST3/AU plugin and PDF manuals in English and Spanish. Developed with Claude (Claude co-authored commits).
+  - [Site](https://drophlex.github.io/dark-funk-durcal-synt-fm1/) — Project page, browser version, installer and plugin.
+  - [Code](https://github.com/drophlex/dark-funk-durcal-synt-fm1) — Source repository, with `.fwsc` and installers in the releases.
+- **Textura** — GPL-3.0 texture synthesizer (v0.2.8) computed live with no samples: rain, streams, fire, sand and stones, ice, wood, wind, storms, insects and birds, played as clouds of small events from the keys. Developed with Claude (`CLAUDE.md`, `AGENTS.md`, Claude co-authored commits).
+  - [Site](https://leonardomirabal.github.io/textura/) — Project page.
+  - [Code](https://github.com/leonardoMirabal/textura) — Source repository, with `.fwsc` in the releases.
+- **MORSE** — GPL-3.0 pocket Morse code machine (v0.3) built on fm1-base: key on the piano keys and read what you sent, drill presses, flash cards, endless practice, with a web page to send text and back up progress. Developed with Claude (Claude co-authored commits).
+  - [Site](https://daviddwlee84.github.io/fm1-morse/web/) — Web companion (Chrome or Edge, over USB).
+  - [Code](https://github.com/daviddwlee84/fm1-morse) — Source repository, with `.fwsc` in the releases.
+- [FM-1 Snake](https://github.com/gaskb/fm1-snake) — GPL-3.0 Snake game firmware built on Dinghy, with chiptune effects and a high score saved in flash. No release, so you build it yourself.
 
 ## Unofficial Editors and Librarians
 
@@ -1365,6 +1375,7 @@
 - [FM-1 emulator (Rust, AU/VST3)](https://github.com/Spunkmeyer77/FM1-emulator) — MIT emulator by Transistor Labs that runs community firmwares in a browser, on a computer or as an AU/VST3 plugin; v1.5.3 releases for Linux, macOS (`.pkg`) and Windows, plus a PDF user manual. Developed with Claude (Claude co-authored commits).
 - [FM-1 for Android](https://github.com/NaustudentX18/fm1-android) — Sideload APK (arm64, Android 11+) of the `fm1-emu` emulator with a touch panel; opens any `.fwsc`. The repo is only the install page and the APK, not the source, and declares no licence.
 - [Synth Spyglass for Android](https://github.com/pfkellogg/synth-spyglass-android) — MIT Android app (v1.0.3 APK) that floats a see-through window over other apps showing the note or chord, a staff, key velocity and the synth's real waveform, to play the FM-1 from a USB keyboard. Developed with Claude (Claude co-authored commits).
+- [FM-1 Manager](https://github.com/KonradHerman/fm1-manager) — GPL-3.0 unofficial iPhone app source (Swift, CoreMIDI over USB) that runs the FM-1 web installers, which need Web MIDI that iOS Safari lacks, plus a library of firmware and module files, Rigs and Hands. No release, so you build it yourself; the README warns that a cut cable, flat battery or bug can leave the FM-1 in update mode or without firmware. Developed with Claude (Claude co-authored commits).
 
 ## Preset Packs
 
