@@ -198,8 +198,10 @@
   - [Code](https://github.com/DP3OYB/DP3OYB) — Source and [releases](https://github.com/DP3OYB/DP3OYB/releases) (`.fwsc`).
 - **Frostskade-OS** — Dungeon-synth firmware (v0.1.0-dev) based on Ghoulbox/Felucca, with independent track-pattern controls and an expanded song arranger. Only boot, sound and the arranger were confirmed, on one FM-1; the release file is named UNTESTED, UC25HQ80 flash is unsupported and the repository declares no licence of its own (only third-party notices).
   - [Code](https://github.com/frostskadeds/Frostskade-OS) — Source ZIP and [releases](https://github.com/frostskadeds/Frostskade-OS/releases) (`.fwsc`).
-- **OpenLiveSynth** — Early preview (v0.1 "fondations") of a firmware for the FM-1 and SMK-37 with a virtual-analog engine aimed at live use, with an install script and a desktop app. It is an automatic test build, not a release, the README is one line and no licence is declared.
-  - [Code](https://github.com/Tom-Rfid/OpenLiveSynth) — [Preview build](https://github.com/Tom-Rfid/OpenLiveSynth/releases).
+- **OpenLiveSynth** — Live-first groovebox firmware (MIT; preview releases, v0.4 "mod matrix" at the time of writing) built on fm1-base: 4 tracks with loops, CAPTURE, scenes, morph, macros, perform pads and MIDI sync, plus a portable synth engine with a desktop app and an SMK-37 Elite package. Developed with Claude (`CLAUDE.md`, Claude co-authored commits).
+  - [Site](https://tom-rfid.github.io/OpenLive_FM-1/) — Project page.
+  - [Code](https://github.com/Tom-Rfid/OpenLive_FM-1) — FM-1 source repository, with the preview builds and installer scripts.
+  - [Engine and desktop app](https://github.com/Tom-Rfid/OpenLiveSynth) — Portable engine repository.
 - **Bad Gear OS** — Unofficial GPL-3.0 meme firmware built on Felucca: a glitch logo, the Bad Gear intro tune on four tracks, eight pixel-art voice clips and a box-ticking checklist. The voice clips and logo come from AudioPilz's Bad Gear videos, and the README says it is a fan project unrelated to M-VAVE; there is no release, so you build it yourself with Docker.
   - [Code](https://github.com/alibros/badgear-os) — Source repository.
 - **Moonglass** — GPL-3.0 dream pop groovebox beta (v0.3): eight engines tuned for hazy keys, shoegaze leads, choirs and grain clouds, one-finger chord pads and a soft CRT look. The repository holds only a build script and 23 patches to apply on top of SLOOP v2.8.5, with no release, and its recovery paths are untested.
@@ -1008,6 +1010,14 @@
   - [Code](https://github.com/MammothCheese/conductor) — Source repository, with `.fwsc` in the releases.
 - [Bump It](https://github.com/epidex/bump-it) — GPL-3.0 build of SLOOP 2.8.5 with a purple theme, an oscilloscope whose colours follow the sound's frequency and a custom boot screen (v1.1, installer HTML in the releases). **Simulator only:** the README says it has never run on a real FM-1; back up first.
 - [modd](https://github.com/DimmKirr/modd) — GPL-3.0 modular firmware framework for building FM-1 themes and firmware and testing them in the emulator. Has an `AGENTS.md` (AI-assisted). No release yet.
+- **Ruido** — GPL-3.0 four-oscillator Schmitt-trigger drone synthesizer firmware (v0.7.0): 4x-oversampled signal path, one knob per oscillator and three swappable pressure-keyboard models, with an always-on oscilloscope. Has an `AGENTS.md` (AI-assisted).
+  - [Code](https://github.com/miguelhd/ruido) — Source repository, with `.fwsc` in the releases.
+- **SAMSARA** — MPL-2.0 ambient piece (v1.0.0) in the spirit of Brian Eno's *Reflection*, forked from AMB-1: a breathing pad, soft bells and a gliding bass that never repeat and change over hours, through tape echo and plate reverb. Developed with Claude (Claude co-authored commits).
+  - [Code](https://github.com/tomorrowsman/fm1-samsara) — Source repository, with `.fwsc` in the releases.
+- **FM ARCAVE** — GPL-3.0 music game (v0.2) played with the knobs and keys: mend the jukebox with a song of your own, then play three arcade machines. Developed with Claude (Claude co-authored commits).
+  - [Site](https://mystic-arcave.github.io/FM-Arcave/) — Project page, browser emulator and web installer.
+  - [Code](https://github.com/mystic-arcave/FM-Arcave) — Source repository.
+- [FM-1 Midi-Mania](https://github.com/shan-sherif/fm-1-midi-mania) — GPL-3.0 rhythm-game firmware (v0.9.2) built on Felucca: turn a MIDI song into a chart and play along as notes fall toward the keys, with PERFECT/GREAT/GOOD/MISS scoring and a combo.
 
 ## Unofficial Editors and Librarians
 
