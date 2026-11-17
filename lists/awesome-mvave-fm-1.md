@@ -995,6 +995,19 @@
 - [SLICE64-FM](https://jeymadcat-ops.github.io/SLICE64-FM-web/) — 4-track SID / FM / sampler tracker firmware (see its web editor in [Unofficial Editors and Librarians](#unofficial-editors-and-librarians)); the editor requires firmware s1.3 or later.
 - [hardware-supersynth](https://github.com/OwenKirby/hardware-supersynth) — Custom FM-1 firmware based on the author's "supersynth" architecture. Unverified and currently unreachable: it had no README or description when first listed, and the repository now returns 404 (removed, private, or renamed).
 - [FM-1+VA](https://baudgirl.com/work/FM-1+VA) — Custom firmware focused on live performance and quality-of-life features, adding a Virtual Analog engine (BLEP oscillators, Super/Drift, ZDF filter), an editable sequencer with step move/copy, and corrected DX7 patch playback (fixed operator detune, LFO speed, algorithm 4/6 feedback, and velocity-0 note-on handling). Open-source firmware, a preset/pattern manager, and a browser FM/VA editor are listed as coming soon.
+- **POND** — MPL-2.0 generative garden-pond firmware derived from AMB-1 (v0.1.2): it plays itself from power-on, with breathing voices, drops on loops of unequal length, a gliding bass and quiet drips, and rain and thunder screens.
+  - [Code](https://github.com/superxor/amb-pond) — Source repository, with `.fwsc` in the releases.
+- **Vostok FM-1 / Vostok SMK-37** — GPL-3.0 minimal wave, coldwave, post-punk, darkwave and sovietwave firmware for the 6-operator FM engine, shipped for both the FM-1 (pocket model) and the SMK-37 (4 tracks, 16-pad sequencer, fader banks, teaching mode). German README. Developed with Claude (Claude co-authored commits in the history).
+  - [Site](https://g0rst.github.io/VostockFM-1/) — Project page.
+  - [Emulator](https://g0rst.github.io/VostockFM-1/emu/) — Browser emulator.
+  - [Code](https://github.com/g0rst/VostockFM-1) — Source repository.
+- **QUARTET** — GPL-3.0 four-track groovebox (v1.3) that simulates a four-piece band (lead, pads, bass, drums): 40 sounds, ten patterns per instrument, step and live recorders, arpeggiator, pedals and mixer.
+  - [Code](https://github.com/MammothCheese/quartet) — Source repository, with `.fwsc` in the releases.
+- **CONDUCTOR** — GPL-3.0 pocket orchestra (v1.0) with strings, woodwinds, brass and percussion: piano roll, pattern chaining and a hall reverb.
+  - [Site](https://mammothcheese.github.io/conductor/) — Illustrated user guide.
+  - [Code](https://github.com/MammothCheese/conductor) — Source repository, with `.fwsc` in the releases.
+- [Bump It](https://github.com/epidex/bump-it) — GPL-3.0 build of SLOOP 2.8.5 with a purple theme, an oscilloscope whose colours follow the sound's frequency and a custom boot screen (v1.1, installer HTML in the releases). **Simulator only:** the README says it has never run on a real FM-1; back up first.
+- [modd](https://github.com/DimmKirr/modd) — GPL-3.0 modular firmware framework for building FM-1 themes and firmware and testing them in the emulator. Has an `AGENTS.md` (AI-assisted). No release yet.
 
 ## Unofficial Editors and Librarians
 
@@ -1337,6 +1350,11 @@
 - **FM-1 Macropad Patch** — Unofficial patch for the official V15 firmware that makes every button, key, and knob send a USB-MIDI note, so an app on the computer can turn the FM-1 into a macro pad; the repository contains no M-VAVE firmware (you patch your own V15 file).
   - [Site](https://smememe.github.io/fm1-macropad-patch/) — Project page and patcher.
   - [Code](https://github.com/smememe/fm1-macropad-patch) — Source repository.
+- [Felucca Web App](https://github.com/hugelton/Felucca-WebApp) — GPL-3.0 source of Felucca's web installer and editor (Web MIDI over SysEx, nothing sent to a server), published at [hugelton.github.io/Felucca](https://hugelton.github.io/Felucca/); includes the OTA update protocol and a full backup.
+- [FM-1 Flasher & Wi-Fi Hub (Cardputer ADV)](https://github.com/nasonliu/cardputer-fm1-flasher) — MIT firmware (v0.3.0) that turns an M5Stack Cardputer ADV into a standalone flasher: browse The Firmware Hub over Wi-Fi, download `.fwsc` to microSD with SHA-256 check, and flash the FM-1 with no computer. Developed with Claude (Claude co-authored commits).
+- [FM-1 emulator (Rust, AU/VST3)](https://github.com/Spunkmeyer77/FM1-emulator) — MIT emulator by Transistor Labs that runs community firmwares in a browser, on a computer or as an AU/VST3 plugin; v1.5.3 releases for Linux, macOS (`.pkg`) and Windows, plus a PDF user manual. Developed with Claude (Claude co-authored commits).
+- [FM-1 for Android](https://github.com/NaustudentX18/fm1-android) — Sideload APK (arm64, Android 11+) of the `fm1-emu` emulator with a touch panel; opens any `.fwsc`. The repo is only the install page and the APK, not the source, and declares no licence.
+- [Synth Spyglass for Android](https://github.com/pfkellogg/synth-spyglass-android) — MIT Android app (v1.0.3 APK) that floats a see-through window over other apps showing the note or chord, a staff, key velocity and the synth's real waveform, to play the FM-1 from a USB keyboard. Developed with Claude (Claude co-authored commits).
 
 ## Preset Packs
 
