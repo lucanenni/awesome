@@ -108,7 +108,7 @@
   - [Code](https://github.com/g0rst/VostockFM-1) — Source repository.
 - [FMini SMK-37 VST3](https://github.com/kederiku/fmini-smk37-vst3) — GPL-3.0 Windows x64 VST3 instrument (v0.1.0 build 2) based on the FMini-1 SMK-37 browser emulator: it runs the original synth firmware natively and recreates the panel. Independent community port, not an M-VAVE product.
 - [SLOOP 3 for SMK-37](https://github.com/RafaelFunchal/smk37) — GPL-3.0 port of SLOOP 3 (3.3.7) to the SMK-37's keyboard, pads, faders and wheels, with the sampled-piano engine of Erik37, keyboard layers and a split. Untested on a real unit, per the README.
-- [SMK37 Pro Custom](https://github.com/samuelsousaaraujo/smk37-pro-custom) — Experimental firmware based on SMK37 OPEN with MIDI mappings for controlling a Yamaha MODX+. Portuguese README; **not tested on hardware** and it says not to install it yet; licence "LICENSE.md" is non-standard.
+- [SMK37 Pro Custom](https://github.com/samuelsousaaraujo/smk37-pro-custom) — Experimental firmware based on SMK37 OPEN with MIDI mappings for controlling a Yamaha MODX+. Portuguese README; **not tested on hardware** and it says not to install it yet; custom `LICENSE.md` that GitHub does not recognise as a standard licence.
 - **Impressionism** — Generative ambient firmware (Debussy/Ravel-style harmony) that also ships SMK-37, SMK-37 Elite and MKE builds; see the FM-1 list for details.
   - [Site](https://darrenjaworski.github.io/fm-1-impressionism/) — Project page with browser emulator.
   - [Code](https://github.com/darrenjaworski/fm-1-impressionism) — Source repository and `.fwsc` releases.
