@@ -18,6 +18,7 @@
 - [LIVTRA products](https://livtramusic.com/products) — Official product index.
 - [LIVTRA news](https://livtramusic.com/news) — Official news: the VELRIX firmware and desktop apps added NAM A2 support (June 2026), and updates such as AETHER 1.06, CORVEN 1.05, VELRIX 1.05, and ZENITH 1.05 are announced here.
 - [skytuner-ui](https://github.com/LIVTRA-Audio/skytuner-ui) — Official SkyTuner UI Toolkit 1.00 from the `LIVTRA-Audio` GitHub organization, linked from the SKYTUNER firmware release notes in the LIVTRA download center (22 October 2026): a Python toolkit and desktop app for building your own **SKYTUNER** theme (backgrounds, note fonts, meters, header and footer rows, startup animation), with previews and upload over USB and several examples. Windows is the tested platform and it expects the latest SKYTUNER firmware from ToneCommand.
+- [resona-sdk](https://github.com/LIVTRA-Audio/resona-sdk) — GPL-3.0 Resona SDK 1.0.0 from the same `LIVTRA-Audio` GitHub organization: build your own effects (`.rpk`) and whole Apps for the Resona Box in C or C++ with Creator Lab, try them in its Simulator and install over USB. The Box's own firmware, built-in effects (Gate, Comp, Resona, NAM, Cab) and models are not part of the SDK. The repository has an `AGENTS.md` and agent guides, so it is written with AI coding assistants in mind.
 - [RESONA](https://livtramusic.com/resona) — Official tone-capture technology and desktop app that turns NAM A2 captures into LIVTRA's `.ead`/`.eadl` format for the MOSAIC and NANOCORE; LIVTRA says full RESONA is more accurate than the quick "Flash" import done by dragging an A2 file into ToneCommand (vendor claim).
 - [ToneCommand for Android](https://play.google.com/store/apps/details?id=com.livtra.nanocore) — Android companion app for connecting to NANOCORE, editing presets, managing blocks, and importing/exporting bundles.
 
@@ -67,6 +68,20 @@ Official product pages for every LIVTRA device.
   - [Code](https://github.com/jcuhnoio/re-nanocore) — Source repository, tools and findings.
 - [nanocore-toolkit](https://github.com/soficis/nanocore-toolkit) — GPL-3.0 tools and reverse-engineered formats (the NA2L amp-model blob, the 31-byte slot-info, SysEx notes), produced while replacing all 30 AMP slots with NAM A2 Lite captures: a CLI that converts `.nam` to the pedal's blob and uploads and verifies over USB MIDI, read-only and flashing WebUSB pages, and a UniVibe patch for firmware 1.2, a build no other public project covers. It writes to the pedal and flashes modified firmware, so back up first.
 - [PD101 Sound Modules](https://github.com/k2-k3n/pd101-sound-modules) — Chinese-language set of seven independent effect projects for the LIVTRA Resona Box (Touch Wah, Delay, Echo Room, Pixel Crush, Robot Ring, Steel Resonator, Bloom Swell), each with DSP and UI source, a ResonaLab project manifest, an SDK lock file and release notes. No licence is declared.
+- **k2-k3n's Resona Box Apps** — Chinese-language Apps with companion audio packs for the Resona Box, each in its own repository with source and a ready `.rpk` (install the audio pack first, then the App); no licence is declared on any of them:
+  - [Prism Rack](https://github.com/k2-k3n/prism-rack) — Scene-switchable modular guitar rack with Drive, Echo, Gate and Trim.
+  - [Night Rider](https://github.com/k2-k3n/night-rider) — Hold the lower knob to speed a motorbike while the guitar pitch slides to a set interval.
+  - [Mutation](https://github.com/k2-k3n/mutation) — Generates two guitar tones, morphs between them and saves favourites.
+  - [Time Loom](https://github.com/k2-k3n/time-loom) — Captures the last phrase, repeats it in rhythm and lets it scatter on release.
+  - [Gravity](https://github.com/k2-k3n/gravity) — Guitar excites key-tuned resonances; FLOAT sets how long the tail lasts.
+  - [Ghost Note](https://github.com/k2-k3n/ghost-note) — Adds a ghost voice and dark reverb that follow the guitar pitch.
+  - [Hype Dial](https://github.com/k2-k3n/hype-dial) — Two encoders control electronic rhythm layers, genre, Build, Drop and Stutter.
+  - [Creature](https://github.com/k2-k3n/creature) — An on-screen creature opens its mouth with the wah pedal, with adjustable Growl.
+  - [Lucky Tone](https://github.com/k2-k3n/lucky-tone) — A slot machine randomly combines a three-effect chain.
+  - [Meow Box](https://github.com/k2-k3n/meow-box) — A cat on screen meows at the pitch of each string and grows into a lion as you turn the knob.
+  - [Aquarium](https://github.com/k2-k3n/aquarium) — Underwater filter, resonance and echo with a submarine and seascape reacting to the controls.
+  - [Robo Voice](https://github.com/k2-k3n/robo-voice) — Turns playing into a fixed-pitch robot voice with vowel, metal and distortion options.
+  - [Storm Cloud](https://github.com/k2-k3n/storm-cloud) — Playing dynamics drive rain, wind, thunder and spatial reverb.
 
 ## Manuals
 

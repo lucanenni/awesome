@@ -53,6 +53,8 @@
 - [PocketMaster Studio](https://github.com/sadurni/PocketMasterStudio) — Single self-contained HTML app that generates, edits, and packages Pocket Master presets in the browser: 482 artist-inspired presets across 260 songs in three amp sets (modeled, NAM clone, mixed), with the PocketEdit editor embedded.
 - [pocketmaster-presets](https://github.com/privatefound/pocketmaster-presets) — Free collection of Pocket Master presets inspired by well-known artists, with requests for new ones accepted.
 - [Chocotone](https://solispensa.github.io/Chocotone/) — Open-source ESP32/ESP32-S3 MIDI controller configurable from the browser (BLE MIDI and USB MIDI) used with Pocket Master and similar pedals ([source](https://github.com/solispensa/Chocotone)); [PedalPlayground](https://github.com/fede2cr/PedalPlayground) is a CircuitPython Bluetooth controller for Smart Box and similar mini pedalboards.
+- [Pocketmaster_BLE_MIDI_Keypad](https://github.com/hnikolov/Pocketmaster_BLE_MIDI_Keypad) — MIT DIY keypad (ESP32-S3 Super Mini, MPR121 capacitive 3×4 pad, LiPo battery) that controls the Pocket Master over BLE MIDI.
+- [PocketMasterMidi (js-midi)](https://github.com/daniel-dornelles-araujo/PocketMasterMidi) — Quasar/Vue web app that controls MIDI on the Pocket Master; the README is the unedited template and no licence is declared.
 - [Windows 11 firmware fix for Valeton / Hotone / Sonicake](https://cesardamien.github.io/hotone-family-firmware-fix/) — One-click fix for pedals not detected by the app or firmware updates stuck at 0% on Windows 11 ([source](https://github.com/cesardamien/hotone-family-firmware-fix)); see also Sonicake's [official guidance](https://www.sonicake.com/pages/stuck-updating-support).
 
 ## NAM and TONE3000
