@@ -56,6 +56,7 @@
 - [Pocketmaster_BLE_MIDI_Keypad](https://github.com/hnikolov/Pocketmaster_BLE_MIDI_Keypad) — MIT DIY keypad (ESP32-S3 Super Mini, MPR121 capacitive 3×4 pad, LiPo battery) that controls the Pocket Master over BLE MIDI.
 - [PocketMasterMidi (js-midi)](https://github.com/daniel-dornelles-araujo/PocketMasterMidi) — Quasar/Vue web app that controls MIDI on the Pocket Master; the README is the unedited template and no licence is declared.
 - [Windows 11 firmware fix for Valeton / Hotone / Sonicake](https://cesardamien.github.io/hotone-family-firmware-fix/) — One-click fix for pedals not detected by the app or firmware updates stuck at 0% on Windows 11 ([source](https://github.com/cesardamien/hotone-family-firmware-fix)); see also Sonicake's [official guidance](https://www.sonicake.com/pages/stuck-updating-support).
+- [Pocket Master Editor](https://github.com/fgbona/pocket-master-editor) — MIT browser editor over USB MIDI (Chrome, Edge or Opera; Next.js app plus a TypeScript SysEx core package). **Preview (v0.2.0):** reads the edit buffer and live-edits parameters, blocks, models and chain order, with a SysEx log; saving to preset slots is not available yet. Tested on firmware V1.3.3. **AI-assisted** (commit history includes Claude co-authored commits).
 
 ## NAM and TONE3000
 

@@ -1039,6 +1039,7 @@
 - **FM-1 Multiverse** — Collection of 25 audiovisual instrument projects by one author (GPL-3.0-only): 21 source-backed browser editions and 20 FM-1 `.fwsc` packages, with `FIRMWARE-REGISTER.csv` and `SHA256SUMS.txt`. The README says four projects still await matching source and that the author reports physical-device tests while the repository session itself did not repeat them; optional paid downloads and donations support the work.
   - [Site](https://matiasg-rgb.github.io/fm1-multiverse/) — Browser editions and catalog.
   - [Code](https://github.com/matiasg-rgb/fm1-multiverse) — Packages, sources and registers.
+- [FM1 Pocket Tutor](https://github.com/wellingtonsaam/fm1-pocket-tutor) — GPL-3.0 study firmware (v0.1 `.fwsc`, derived from fm1-dock) where the 27 keys light up to show where to play: notes, scales, chords and chord progressions of real songs, guided by a lesson page in Chrome (Web MIDI; Portuguese, English, Spanish) and the FM6 6-operator sound module. Bluetooth MIDI is announced for a later version. **AI-assisted** (commit history includes Claude co-authored commits).
 
 ## Unofficial Editors and Librarians
 
