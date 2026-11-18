@@ -1028,6 +1028,11 @@
   - [Site](https://daviddwlee84.github.io/fm1-morse/web/) — Web companion (Chrome or Edge, over USB).
   - [Code](https://github.com/daviddwlee84/fm1-morse) — Source repository, with `.fwsc` in the releases.
 - [FM-1 Snake](https://github.com/gaskb/fm1-snake) — GPL-3.0 Snake game firmware built on Dinghy, with chiptune effects and a high score saved in flash. No release, so you build it yourself.
+- **KickSide** — GPL-3.0 play-along firmware (v0.10.6, beta): the band plays drums, bass, harmony and melody, you mute one layer and the screen shows what to play (chords, ukulele and bass tab), plus a SYNTH mode with presets. The README says it was developed and tested on one unit and a bad install can leave the FM-1 not starting. Developed with Claude (`CLAUDE.md`, `.claude`, Claude co-authored commits).
+  - [Site](https://kicksidesidekick.com) — Project page.
+  - [Code](https://github.com/kjs4discovery/kicksidesidekick) — Source repository, with `.fwsc` in the releases.
+- [Plissken](https://github.com/dustekin/plissken) — MPL-2.0 live-performance instrument prototype (v0.12 release candidate) built on fm1-base: Juno, piano, Pro-1, guitar, bass, LM-1 drum and CS-50/CS-80 sounds, a live phrase recorder and a visual five-track sequencer with saved-song playback.
+- [h1](https://github.com/jakehandy/h1) — MIT firmware with fourteen full-screen animated instruments drawn in one ink colour. **No release yet:** the README says v0.1.0 ships only after every check has passed on a real FM-1, and not to flash a development build; only a `dist/h1.rfm1` is in the repo.
 
 ## Unofficial Editors and Librarians
 
@@ -1376,6 +1381,7 @@
 - [FM-1 for Android](https://github.com/NaustudentX18/fm1-android) — Sideload APK (arm64, Android 11+) of the `fm1-emu` emulator with a touch panel; opens any `.fwsc`. The repo is only the install page and the APK, not the source, and declares no licence.
 - [Synth Spyglass for Android](https://github.com/pfkellogg/synth-spyglass-android) — MIT Android app (v1.0.3 APK) that floats a see-through window over other apps showing the note or chord, a staff, key velocity and the synth's real waveform, to play the FM-1 from a USB keyboard. Developed with Claude (Claude co-authored commits).
 - [FM-1 Manager](https://github.com/KonradHerman/fm1-manager) — GPL-3.0 unofficial iPhone app source (Swift, CoreMIDI over USB) that runs the FM-1 web installers, which need Web MIDI that iOS Safari lacks, plus a library of firmware and module files, Rigs and Hands. No release, so you build it yourself; the README warns that a cut cable, flat battery or bug can leave the FM-1 in update mode or without firmware. Developed with Claude (Claude co-authored commits).
+- [fm1-zero](https://github.com/Clinteastman/fm1-zero) — GPL-3.0 Python app for the M5Stack CardputerZero (Raspberry Pi CM0): browse The Firmware Hub, download a firmware from its maker, back up the FM-1 and install or restore over USB with no computer. Developed with Claude (Claude co-authored commits).
 
 ## Preset Packs
 
