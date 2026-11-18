@@ -17,6 +17,7 @@
 - [BandBox Solo input/output guide](https://support.jbl.com/us/en/howto/bandbox-solo-input-output-guide-mnjc906jejc-us/000054291.html) — Official support guide to the Solo's connections.
 - [JBL One on the App Store](https://apps.apple.com/us/app/jbl-one/id1610239857) and [on Google Play](https://play.google.com/store/apps/details?id=com.jbl.oneapp) — Official companion app for presets, effect chains, EQ, looper options, and Stem AI settings.
 - [JBL BandBox announcement (Business Wire)](https://secure.businesswire.com/news/home/20260122156056/en/JBL-BandBox-a-Brand-New-AI-Powered-Amp-and-Speaker) — Press release introducing BandBox.
+- [JBL News: BandBox announcement](https://news.jbl.com/en-GB/259716-jbl-bandbox-a-brand-new-ai-powered-amp-and-speaker/) — JBL's own press release introducing the AI-powered practice amp and portable speaker range.
 
 ## Unofficial Tools and Protocol Research
 
@@ -32,6 +33,10 @@
 - [Sound On Sound: JBL BandBox Trio](https://www.soundonsound.com/reviews/jbl-bandbox-trio) — Review noting, among other things, that there is no footswitch jack, so loops are controlled from the panel.
 - [Guitar World: BandBox Trio review](https://www.guitarworld.com/gear/combo-amps/jbl-bandbox-trio-review) — Hands-on review of the Trio.
 - [Guitar World: BandBox Solo review](https://www.guitarworld.com/gear/combo-amps/jbl-bandbox-solo-review) — Hands-on review of the Solo, including how the pitch shifter affects Bluetooth audio only.
+- [CyberShack: JBL BandBox Trio review](https://cybershack.com.au/gadgets-and-stuff/jbl-bandbox-trio-review/) — Review of the Trio as a battery-powered smart speaker combined with a modelling practice amp.
+- [Gizmodo: JBL BandBox Solo review](https://gizmodo.com/jbl-bandbox-solo-review-an-ai-speaker-you-can-actually-love-2000724702) — Review of the Solo and its AI stem feature.
+- [Popular Science: BandBox Trio review](https://www.popsci.com/?p=761656) — Review of the Trio as a guitar amp, party speaker and karaoke machine.
+- [Engadget: JBL made a pair of AI-powered practice amps](https://www.engadget.com/audio/speakers/jbl-made-a-pair-of-ai-powered-practice-amps-221000631.html) — Launch coverage focused on the onboard stem isolation of Bluetooth tracks.
 - [Guitar World: BandBox launch](https://www.guitarworld.com/gear/amps/jbl-bandbox-stem-ai) — Launch coverage of the amp and Stem AI separation.
 - [gearnews.com: BandBox Solo & Trio](https://www.gearnews.com/jbl-bandbox-solo-trio-guitar/) — Overview and impressions of both models.
 - [TechRadar: Stem AI speakers](https://www.techradar.com/audio/wireless-bluetooth-speakers/jbls-new-portable-speakers-have-stem-ai-for-jamming-they-can-remove-any-instrument-or-vocal-from-songs-in-realtime-no-internet-required) — Coverage of on-device instrument and vocal separation without an internet connection.

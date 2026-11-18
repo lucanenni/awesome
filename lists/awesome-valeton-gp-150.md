@@ -10,6 +10,7 @@
 - [NAM and TONE3000](#nam-and-tone3000)
 - [Preset Packs](#preset-packs)
 - [Reverse Engineering](#reverse-engineering)
+- [Community and Reviews](#community-and-reviews)
 - [Mirrors](#mirrors)
 
 ## Official
@@ -54,6 +55,12 @@
 
 - [gp150-htfw](https://github.com/egorcipa8-debug/gp150-htfw) — MIT-licensed notes and tools on the Valeton HTFW firmware container (CRC-16/MODBUS region checksums, LZO1X payload packing), reverse-engineered from GP-150 images.
 - [Valeton-GP180-Rev-Eng](https://github.com/majabojarska/Valeton-GP180-Rev-Eng) — GPL-3.0 notes, resources, and artifacts on reverse engineering the GP-180, which shares the platform family; useful background for the SysEx protocol.
+
+## Community and Reviews
+
+- [Premier Guitar: Valeton GP-150 & GP-180 announcement](https://www.premierguitar.com/news/valeton-gp-150-gp-180) — News on the release of the two multi-effects processors.
+- [Premier Guitar: GP-150 & GP-180 demo](https://www.premierguitar.com/videos/pg-plays/valeton-gp-150-gp-180) — Video by Tom Butwin on what the two units share and where they differ.
+- [Andertons: GP-150 vs. GP-180](https://blog.andertons.co.uk/learn/valeton-gp-150-vs-gp-180) — Where the two fit in Valeton's lineup and which suits you better.
 
 ## Mirrors
 

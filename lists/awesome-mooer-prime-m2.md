@@ -48,6 +48,7 @@
 - [MusicRadar: Prime Minimax M2 review](https://www.musicradar.com/guitars/guitar-pedals/mooer-prime-minimax-m2-intelligent-pedal-review) — Review rating build 4/5 and sound 3.5/5; notes that all tone tweaking (volume, gain, EQ) happens on a phone or tablet, with 194 effect models and 80 presets.
 - [MusicRadar: Prime M2 announcement](https://www.musicradar.com/guitars/mooer-audio-prime-m2-intelligent-pedal) — Launch coverage of the touchscreen pedal.
 - [gearnews: Prime M2, the ultimate jam and busking pedal?](https://www.gearnews.com/mooer-prime-m2-guitar/) — Overview and impressions of the pocket-sized pedal.
+- [Guitar World: Is Mooer's Prime M2 the new compact multi-FX pedal to beat?](https://guitarworld.com/gear/multi-effect-pedals/mooer-prime-m2) — Article on the pedal's tonal options, MIDI and Bluetooth functions and portability.
 - [Premier Guitar: Prime Minimax M2](https://www.premierguitar.com/news/mooer-prime-minimax-m2) — News coverage of the launch.
 - [Guitar Pedal X: Prime Minimax M2](https://www.guitarpedalx.com/news/gpx-blog/mooers-prime-minimax-m2-intelligent-pedal-is-a-cool-bluetooth-app-controlled-multi-fx-with-194-effects-onboard) — Blog post on the Bluetooth app-controlled multi-FX with 194 effects.
 - [W-Distribution: Prime series AI and NAM update](https://www.w-distribution.de/en/news/2026-09-17/MOOER-Prime-Series-AI-and-NAM-Update) — Distributor news on the September 2026 firmware adding MOOER AI and NAM A2 loading.

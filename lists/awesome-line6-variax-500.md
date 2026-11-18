@@ -16,6 +16,7 @@
 - [Line 6 software downloads](https://line6.com/software/) — Official download hub; the original Variax Workbench is listed under Variax hardware (see the notes below on how to find version 1.75).
 - [Variax Workbench FAQs and v1.72 release notes](https://kb.line6.com/variax-workbench-faqs-and-v-1-72-release-notes) — Official knowledge-base article on the original Workbench (also available in the [Line 6 Community archive](https://line6.com/support/page/kb/legacy-products/variax-guitars-bass-workbench/variax-workbench-faqs-and-v-172-release-notes-r307/)).
 - [Line 6 Support](https://line6.com/support/) — Official support portal and community forums, including the first-generation "Variax Guitars / Bass / Workbench" board.
+- [Line 6: Windows 11 compatibility](https://kb.line6.com/windows-11-compatibility) — Official knowledge-base page saying recent Line 6 software and drivers work on Windows 11, with one outlier: Variax not connecting in Workbench through the Variax USB interface.
 
 ## Workbench (legacy)
 
@@ -56,7 +57,7 @@
 
 - The original Workbench (1.75) supports the Variax 300, 500, 600, and 700. **Workbench HD is a different program for the JTV, Standard, and Shuriken guitars** and does not connect to the first-generation guitars; HD 2.0 firmware presets and original patches are not interchangeable.
 - The guitars need a Line 6 USB interface (or a POD/Vetta with a VDI input) to talk to the computer; Line 6 has said there will be no further development of the original Workbench.
-- Compatibility with current Windows and macOS is anecdotal and based on forum reports, mostly several years old; Windows 11 results were not found.
+- Compatibility with current Windows and macOS is anecdotal and based on forum reports, mostly several years old; for Windows 11, Line 6 itself reports that Variax does not connect in Workbench through the USB interface.
 - Many forum threads and attached archives are over a decade old, so some links or downloads may no longer work.
 
 ## Contributing

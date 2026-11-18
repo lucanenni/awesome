@@ -67,6 +67,7 @@
 
 ## Community and Reviews
 
+- [Loopy Pro forum: Pocket Master as an iOS interface for guitar](https://forum.loopypro.com/discussion/comment/1381998/) — Forum post from a user running the Pocket Master as the audio interface of an iPad.
 - [Sonicake Pocket Master — The Gear Forum](https://thegearforum.com/threads/sonicake-pocket-master.9254/) — General discussion thread covering build quality, headphone output, Bluetooth MIDI (working via switchers as of firmware 1.3.3), inconsistent amp-model quality, and the consensus that stock presets are weak out of the box.
 - [Received my Sonicake Pocket Master today. VERY disappointed. — Squier-Talk](https://squier-talk.com/threads/received-my-sonicake-pocket-master-today-very-disappointed.211570/) — Critical user report describing harsh/metallic overdrive and distortion tones and excessive noise requiring a high noise-gate setting; a useful counterpoint to the more positive reviews below.
 - [Sonicake Pocket Master Review — backingtracksverse.com](https://backingtracksverse.com/sonicake-pocket-master-review) — Review praising the built-in battery, Bluetooth app editing, and NAM/IR support, while noting only 5 IR slots (versus 20-50 on some competitors) and no XLR outputs; rated 4.2/5.
