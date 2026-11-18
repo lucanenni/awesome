@@ -1033,6 +1033,12 @@
   - [Code](https://github.com/kjs4discovery/kicksidesidekick) — Source repository, with `.fwsc` in the releases.
 - [Plissken](https://github.com/dustekin/plissken) — MPL-2.0 live-performance instrument prototype (v0.12 release candidate) built on fm1-base: Juno, piano, Pro-1, guitar, bass, LM-1 drum and CS-50/CS-80 sounds, a live phrase recorder and a visual five-track sequencer with saved-song playback.
 - [h1](https://github.com/jakehandy/h1) — MIT firmware with fourteen full-screen animated instruments drawn in one ink colour. **No release yet:** the README says v0.1.0 ships only after every check has passed on a real FM-1, and not to flash a development build; only a `dist/h1.rfm1` is in the repo.
+- **U0U** — Drum machine firmware (GPL-3.0; v0.1 `.fwsc`): the 16 white keys are the 16 steps and the 11 black keys the 11 drums, with a per-step FX engine on the master bus, 9 synthesized kits, per-step timing, roll, chance and pitch, 16 patterns chained into a song, two LFOs, Euclidean rhythms and USB MIDI clock. Young project, the README asks you to keep the official `FM-1.fwsc` to return to; **AI-assisted** (commit history includes Claude co-authored commits).
+  - [Site](https://youlisse.github.io/U0U/) — Browser version running the same code as the instrument, with the installer at `/install/`.
+  - [Code](https://github.com/youlisse/U0U) — Source repository, with the release and `docs/FLASHING.md`.
+- **FM-1 Multiverse** — Collection of 25 audiovisual instrument projects by one author (GPL-3.0-only): 21 source-backed browser editions and 20 FM-1 `.fwsc` packages, with `FIRMWARE-REGISTER.csv` and `SHA256SUMS.txt`. The README says four projects still await matching source and that the author reports physical-device tests while the repository session itself did not repeat them; optional paid downloads and donations support the work.
+  - [Site](https://matiasg-rgb.github.io/fm1-multiverse/) — Browser editions and catalog.
+  - [Code](https://github.com/matiasg-rgb/fm1-multiverse) — Packages, sources and registers.
 
 ## Unofficial Editors and Librarians
 
@@ -1382,6 +1388,8 @@
 - [Synth Spyglass for Android](https://github.com/pfkellogg/synth-spyglass-android) — MIT Android app (v1.0.3 APK) that floats a see-through window over other apps showing the note or chord, a staff, key velocity and the synth's real waveform, to play the FM-1 from a USB keyboard. Developed with Claude (Claude co-authored commits).
 - [FM-1 Manager](https://github.com/KonradHerman/fm1-manager) — GPL-3.0 unofficial iPhone app source (Swift, CoreMIDI over USB) that runs the FM-1 web installers, which need Web MIDI that iOS Safari lacks, plus a library of firmware and module files, Rigs and Hands. No release, so you build it yourself; the README warns that a cut cable, flat battery or bug can leave the FM-1 in update mode or without firmware. Developed with Claude (Claude co-authored commits).
 - [fm1-zero](https://github.com/Clinteastman/fm1-zero) — GPL-3.0 Python app for the M5Stack CardputerZero (Raspberry Pi CM0): browse The Firmware Hub, download a firmware from its maker, back up the FM-1 and install or restore over USB with no computer. Developed with Claude (Claude co-authored commits).
+- [FM-1 Browser Simulator](https://github.com/jakehandy/fm1-browser-simulator) — MIT simulator that runs any FM-1 firmware in a web browser from an `.rfm1` file (240 × 240 screen, sound, 27 keys, encoders, buttons and lights), with a single-file offline build; opens with [h1](https://github.com/jakehandy/h1) loaded. [Live demo](https://jakehandy.github.io/fm1-browser-simulator/).
+- [fm1-chiptest](https://github.com/kidbee85-beep/fm1-chiptest) — MIT command-line tool (v1.0.0 for Linux, macOS and Windows) that tests a custom firmware in emulation on both flash chips found in the FM-1 (Puya P25Q80 and the newer UC25HQ80) before flashing; a firmware that only knows the Puya JEDEC ID treats the newer chip as unknown and its saves stay in RAM. README in English and German.
 
 ## Preset Packs
 
