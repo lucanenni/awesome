@@ -52,6 +52,7 @@
 - [cq-bluetooth-controller](https://github.com/btafoya/cq-bluetooth-controller) — Raspberry Pi 3B wireless MIDI bridge that lets a Chocolate Plus control an Allen & Heath CQ-20B mixer, with install and read-only deployment scripts and extensive docs.
 - [Chocolate Plus × REAPER Guitar Rig](https://github.com/Aditosom/ChocolatyPlus-Reaper-Guitar-Rig) — Windows guitar-rig appliance (FastAPI service driving REAPER via loopMIDI and OSC) to switch Neural DSP amps and presets from a Chocolate Plus and a tablet, with crossfade, tuner, stomp mode and looper; no licence declared.
 - [TonexOneController](https://github.com/Builty/TonexOneController) — Apache-2.0 ESP32 controller for the IK Multimedia Tonex One, Tonex Pedal and Valeton GP5; in Bluetooth client mode it uses a Chocolate or Chocolate Plus to switch presets (4 buttons plus bank up/down).
+- [midilistener](https://github.com/TeoTzeShuen/midilistener) — ESP32-S3 sketch (PlatformIO, no licence declared) that listens to the Chocolate Plus's BLE MIDI broadcasts and drives an 8-LED WS2812B strip, giving per-switch state indicators that the footswitch itself lacks. **AI-assisted** (commit history includes Claude co-authored commits).
 
 ## Reverse Engineering
 
