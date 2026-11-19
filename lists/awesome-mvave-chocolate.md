@@ -53,6 +53,8 @@
 - [Chocolate Plus × REAPER Guitar Rig](https://github.com/Aditosom/ChocolatyPlus-Reaper-Guitar-Rig) — Windows guitar-rig appliance (FastAPI service driving REAPER via loopMIDI and OSC) to switch Neural DSP amps and presets from a Chocolate Plus and a tablet, with crossfade, tuner, stomp mode and looper; no licence declared.
 - [TonexOneController](https://github.com/Builty/TonexOneController) — Apache-2.0 ESP32 controller for the IK Multimedia Tonex One, Tonex Pedal and Valeton GP5; in Bluetooth client mode it uses a Chocolate or Chocolate Plus to switch presets (4 buttons plus bank up/down).
 - [midilistener](https://github.com/TeoTzeShuen/midilistener) — ESP32-S3 sketch (PlatformIO, no licence declared) that listens to the Chocolate Plus's BLE MIDI broadcasts and drives an 8-LED WS2812B strip, giving per-switch state indicators that the footswitch itself lacks. **AI-assisted** (commit history includes Claude co-authored commits).
+- [FootCtrl](https://github.com/ToninoTarsi/FootCtrl) — UWP (Windows) app that forwards the Chocolate's BLE MIDI messages to a loopMIDI virtual port. Repository has no README and no declared licence.
+- [chocolate-midi](https://github.com/jardous/chocolate-midi) — CircuitPython `code.py` for replacing the internals of a dead Chocolate with a Seeed XIAO board; USB MIDI works, BLE is not supported (README, 2025).
 
 ## Reverse Engineering
 

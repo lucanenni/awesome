@@ -37,6 +37,9 @@
 - [Gizmodo: JBL BandBox Solo review](https://gizmodo.com/jbl-bandbox-solo-review-an-ai-speaker-you-can-actually-love-2000724702) — Review of the Solo and its AI stem feature.
 - [Popular Science: BandBox Trio review](https://www.popsci.com/?p=761656) — Review of the Trio as a guitar amp, party speaker and karaoke machine.
 - [Engadget: JBL made a pair of AI-powered practice amps](https://www.engadget.com/audio/speakers/jbl-made-a-pair-of-ai-powered-practice-amps-221000631.html) — Launch coverage focused on the onboard stem isolation of Bluetooth tracks.
+- [SoundGuys: BandBox brings on-device AI stem separation](https://www.soundguys.com/jbl-bandbox-brings-on-device-ai-stem-separation-to-portable-amps-151740/) — Launch coverage of the Solo and Trio and their real-time vocal/instrument separation.
+- [SoundGuys: JBL BandBox Trio review](https://www.soundguys.com/jbl-bandbox-trio-review-ai-powered-guitar-practice-done-right-154284) — Review covering the stem separation, mixer, effects and recording tools.
+- [guitarguitar: BandBox Solo & Trio](https://www.guitarguitar.co.uk/news/143134/) — Retailer video feature on both models.
 - [Guitar World: BandBox launch](https://www.guitarworld.com/gear/amps/jbl-bandbox-stem-ai) — Launch coverage of the amp and Stem AI separation.
 - [gearnews.com: BandBox Solo & Trio](https://www.gearnews.com/jbl-bandbox-solo-trio-guitar/) — Overview and impressions of both models.
 - [TechRadar: Stem AI speakers](https://www.techradar.com/audio/wireless-bluetooth-speakers/jbls-new-portable-speakers-have-stem-ai-for-jamming-they-can-remove-any-instrument-or-vocal-from-songs-in-realtime-no-internet-required) — Coverage of on-device instrument and vocal separation without an internet connection.
