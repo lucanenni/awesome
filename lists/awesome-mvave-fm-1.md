@@ -1066,11 +1066,18 @@
   - [Code](https://github.com/MishaMashinaMM/mashina-fm1-fw) — Source repository.
 - **Clair Piano** — MPL-2.0 physical-modal concert grand piano firmware (v1.0.1 `.fwsc`, `.rfm1` and SHA256SUMS, built on fm1-base): a configurable virtual pianist, Tap Pianist score performance, a one-finger chord keyboard and a 4-slot live song recorder, synthesized in real time with no samples.
   - [Code](https://github.com/tokumine/fm1-claire-piano) — Source repository and signed releases. The README's browser emulator, manual and installer pages redirect to a domain that did not resolve when checked.
-- **fm1-eight** — GPL-3.0 four-track groovebox firmware (909/808 drums, mono and poly synths or sampler per track, 64-step sequencer with 16 patterns, scene grid, 303 pattern generator, mastering chain). **No release;** it installs with fm1-base's `fm1_install.py` over USB-MIDI onto an FM-1 that already runs an fm1-base or Felucca firmware, at your own risk; **AI-assisted** (commit history includes Claude co-authored commits). The README's browser version (groovebox.bongcult.com) did not resolve when checked.
-  - [Code](https://github.com/siddholdenried-del/fm1-eight) — Source repository, with the manual.
-
-## Unofficial Editors and Librarians
-
+- **GhettoMachine** (formerly fm1-eight) — GPL-3.0 four-track groovebox firmware (909/808 drums, mono and poly synths or sampler per track, 64-step sequencer with 16 patterns, scene grid, 303 pattern generator, mastering chain). **No release;** it installs with fm1-base's `fm1_install.py` over USB-MIDI onto an FM-1 that already runs an fm1-base or Felucca firmware, at your own risk; **AI-assisted** (commit history includes Claude co-authored commits).
+  - [Site](https://ghettomachine.bongcult.com) — Browser version (the firmware compiled to WebAssembly) and how-it-works page.
+  - [Code](https://github.com/siddholdenried-del/ghettomachine) — Source repository, with the manual (the old `fm1-eight` name was renamed).
+- **Viber** — GPL-3.0 six-track groovebox firmware for the FM-1 and SMK-37 Pro, based on Skiff and Felucca: wavetable engine, two-page clips mode, on-screen knobs and a master VU meter. v1.0 `.fwsc` in the releases; **AI-assisted** (commit history includes Claude co-authored commits).
+  - [Site](https://ant25fr.github.io/viber/webapp/installer/) — Web installer (WebUSB) that also restores the official firmware; the editor and a browser emulator are linked from the README.
+  - [Code](https://github.com/ant25fr/viber) — Source repository.
+- **A22** — MIT FM workstation firmware (ten synth and drum engines, eight effects, four-track tape, Riff and Shake sequencers), derived from h1 and built on fm1-base. **No release, and the README says it has not been tried on an FM-1 yet** (it only passes the host simulator tests), so install only if you can go back to stock; **AI-assisted** (commit history includes a Claude co-authored commit).
+  - [Code](https://github.com/abektes/a22) — Source repository.
+- **Chordism** — MPL-2.0 chord synth firmware: each key plays a four-voice chord from sixteen chord types, with FM, filter, lo-fi, delay, reverb, an arpeggiator, the Chordism module's 57 sounds and 16 user slots. v0.9 `.fwsc` in the releases.
+  - [Site](https://charlesvestal.github.io/fm1-chordism/) — Project page with the browser emulator.
+  - [Code](https://github.com/charlesvestal/fm1-chordism) — Source repository, with the manual.
+- [FM1-RDX](https://github.com/copych/FM1-RDX) — Prototype port of an ESP32 Reface DX-inspired four-operator FM synth (12 algorithms, 33 voices, source effects, original ESP GUI) with a browser emulator. **A development package with no release and no licence file;** the README says it is not hardware-qualified and makes no claim of Yamaha sound equivalence; many functions (CC map, pitch bend, SysEx, saving, USB audio) are not ported yet.
 - **FM1 Editor & Librarian** — Browser-based voice editor and patch librarian: edits all standard DX7 parameters plus the FM-1's effects chain, manages up to 10 custom banks alongside a catalog of 65 DX7 banks, and transfers patches or full banks over MIDI SysEx. No install required (Web MIDI, Chrome/Edge/Opera/Firefox).
   - [Site](https://fm1-editor.com/) — Live editor and librarian.
   - [Code](https://github.com/benny-sparra/fm1-dx7-patch-importer) — Source repository (also covers backups of all banks, duplicate-patch search, operator-level editing, an effects-chain editor, and `.syx`/`.zip` export; it can also write patches to FM-1+VA).
