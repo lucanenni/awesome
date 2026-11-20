@@ -1061,6 +1061,13 @@
   - [Code](https://github.com/questron5000/poly5) — Source repository.
 - [KEY ASSIST](https://github.com/chathuraed/fm1-key-assist) — Scale lock and one-finger chords built into the stock FM1 Open groovebox (hold SCL 600 ms; root, scale, chord type and key mapping on screen). **Emulator-verified only, never run on a physical FM-1;** no release listed yet and the README still carries placeholder demo links; licence is M-VAVE's GPL-3.0 with a linking exception plus proprietary SDK binaries (see `LICENSE.md` and `THIRD_PARTY.md`).
 - [DR1](https://github.com/kevinsint/dr1) — GPL-3.0 drone instrument firmware (v0.30 `.fwsc`): three voices, each with a chosen style, a free frequency and a link to the voice before it, then a mixer and delay, reverb and compressor. **Early work:** nothing is saved across power cycles, and it is tested on one FM-1 with the Puya P25Q80 flash only; **AI-assisted** (commit history includes Claude co-authored commits).
+- **MASHINA** — GPL-3.0 performance firmware (v0.9, based on JIANT and Felucca) that turns the FM-1 into a six-track sound module for external MIDI keyboards and pads: sounds assigned to MIDI channels, split or layer, live parameter control and project recall, with the song sequencer disabled. Eight shared synthesis voices across the tracks. Install from the web installer; a web editor handles device management and backup, though some recent live controls are not yet editable there.
+  - [Site](https://mishamashinamm.github.io/mashina-fm1-fw/) — Project page, with an emulator, manual and installer.
+  - [Code](https://github.com/MishaMashinaMM/mashina-fm1-fw) — Source repository.
+- **Clair Piano** — MPL-2.0 physical-modal concert grand piano firmware (v1.0.1 `.fwsc`, `.rfm1` and SHA256SUMS, built on fm1-base): a configurable virtual pianist, Tap Pianist score performance, a one-finger chord keyboard and a 4-slot live song recorder, synthesized in real time with no samples.
+  - [Code](https://github.com/tokumine/fm1-claire-piano) — Source repository and signed releases. The README's browser emulator, manual and installer pages redirect to a domain that did not resolve when checked.
+- **fm1-eight** — GPL-3.0 four-track groovebox firmware (909/808 drums, mono and poly synths or sampler per track, 64-step sequencer with 16 patterns, scene grid, 303 pattern generator, mastering chain). **No release;** it installs with fm1-base's `fm1_install.py` over USB-MIDI onto an FM-1 that already runs an fm1-base or Felucca firmware, at your own risk; **AI-assisted** (commit history includes Claude co-authored commits). The README's browser version (groovebox.bongcult.com) did not resolve when checked.
+  - [Code](https://github.com/siddholdenried-del/fm1-eight) — Source repository, with the manual.
 
 ## Unofficial Editors and Librarians
 
@@ -1453,6 +1460,7 @@
 - [KVR Audio FM-1 thread](https://www.kvraudio.com/forum/viewtopic.php?t=632127) — Long-running community thread tracking firmware updates, SysEx editing support, and third-party tools.
 - [Firmware update guide (Medium)](https://medium.com/@shelvindatt02/how-to-update-the-firmware-on-your-m-vave-fm-1-synthesizer-7bc4ea2c3bd5) — Step-by-step walkthrough of the M-UPGRADE SysEx firmware update process.
 - [FM-1 firmware tracker (fwradar.com)](https://fwradar.com/p/m-vave-fm-1) — Firmware version history and changelog tracking for the FM-1.
+- [fm1-rust](https://github.com/fm1-rust/fm1-rust) — Bare-metal Rust board support package for the FM-1 (`fm1` crate: CPU0 of the JieLi AC791N, `embedded-hal` 1.0, no allocator), built on Julius Vitkauskas's `fm1-blink-rust` proof of concept; blink, display and tone examples observed on an FM-1 with M-Bootloader 2.4. Builds firmware with the community pi32v2 toolchain. **AI-assisted** (commit history includes Claude co-authored commits).
 
 ## Community and Reviews
 
