@@ -1,6 +1,6 @@
 # Awesome LIVTRA
 
-> A curated list of official and community resources for the whole LIVTRA range: the NANOCORE and MOSAIC multi-effects pedals (sharing the ToneCommand and RESONA software), the VELRIX amp and cab pedal, the AETHER, CORVEN, and ZENITH effects pedals, the NEXFOOT, MidiLink, and FLUX controllers, the SKYTUNER tuner, and the WS15 and WS16 wireless in-ear systems.
+> A curated list of official and community resources for the whole LIVTRA range: the NANOCORE and MOSAIC multi-effects pedals (sharing the ToneCommand and RESONA software), the TPE-S10 multi-effects with looper and drum machine, the RESONA BOX open amp and cab pedal, the VELRIX amp and cab pedal, the AETHER, CORVEN, and ZENITH effects pedals, the NEXFOOT, MidiLink, and FLUX controllers, the SKYTUNER tuner, and the WS15 and WS16 wireless in-ear systems.
 
 ## Contents
 
@@ -20,6 +20,8 @@
 - [skytuner-ui](https://github.com/LIVTRA-Audio/skytuner-ui) — Official SkyTuner UI Toolkit 1.00 from the `LIVTRA-Audio` GitHub organization, linked from the SKYTUNER firmware release notes in the LIVTRA download center (22 October 2026): a Python toolkit and desktop app for building your own **SKYTUNER** theme (backgrounds, note fonts, meters, header and footer rows, startup animation), with previews and upload over USB and several examples. Windows is the tested platform and it expects the latest SKYTUNER firmware from ToneCommand.
 - [resona-sdk](https://github.com/LIVTRA-Audio/resona-sdk) — GPL-3.0 Resona SDK 1.0.0 from the same `LIVTRA-Audio` GitHub organization: build your own effects (`.rpk`) and whole Apps for the Resona Box in C or C++ with Creator Lab, try them in its Simulator and install over USB. The Box's own firmware, built-in effects (Gate, Comp, Resona, NAM, Cab) and models are not part of the SDK. The repository has an `AGENTS.md` and agent guides, so it is written with AI coding assistants in mind.
 - [RESONA](https://livtramusic.com/resona) — Official tone-capture technology and desktop app that turns NAM A2 captures into LIVTRA's `.ead`/`.eadl` format for the MOSAIC and NANOCORE; LIVTRA says full RESONA is more accurate than the quick "Flash" import done by dragging an A2 file into ToneCommand (vendor claim).
+- [Creator Lab](https://livtramusic.com/creator-lab) — Official hub for the RESONA BOX: browse community Sound Modules (effects) and Apps (screen and knob replacements) and install them to the pedal from Chrome or Edge over USB-C, or make your own in the Creator Lab desktop app.
+- [LIVTRA Tone Library](https://livtramusic.com/tones) — Official community library of amp and pedal captures for compatible LIVTRA devices (guitar, bass, other), with likes, uploads and a beta program for upcoming firmware.
 - [ToneCommand for Android](https://play.google.com/store/apps/details?id=com.livtra.nanocore) — Android companion app for connecting to NANOCORE, editing presets, managing blocks, and importing/exporting bundles.
 
 ## Devices
@@ -30,9 +32,11 @@ Official product pages for every LIVTRA device.
 
 - [LIVTRA NANOCORE product page](https://livtramusic.com/products/nanocore/content-en.html) — Official product information covering effects, RESONA-ready captures, imports, software, and custom themes.
 - [LIVTRA MOSAIC product page](https://livtramusic.com/products/mosaic/content-en.html) — Official page for the MOSAIC mobile multi-effects processor (three metal footswitches, NAM A2 and IR loader), the larger sibling of the NANOCORE that shares its editing software and firmware 1.10 updates.
+- [LIVTRA TPE-S10 product page](https://livtramusic.com/products/tpe-s10) — Official page (marked New) for the battery-powered multi-effects for guitar and bass: ten effect blocks in one chain, 128 presets, 80 amp slots for RESONA OMNI profiles and NAM A2 Lite models, 80 IR slots beside 20 cabinets, a two-track looper (five loops of five minutes each, overdub, undo and redo, bar sync) and a drum machine with 40 songs and 40 kits, plus Synth Mode, USB audio and MIDI. The unofficial `nanocore-cli` README also uses the code TPE-S10 for the NANOCORE, so the naming may overlap; the product index lists it separately.
 
 **Amp & cab, delay, reverb, and modulation pedals**
 
+- [LIVTRA RESONA BOX](https://livtramusic.com/products/resona-box) — Open amp and cab pedal (marked New): five blocks in any order (Gate, Comp, Resona, NAM A2 Lite, Cab), 50 presets, 30 slots each for tones, NAM models and IRs, a 320 × 172 colour screen with two push knobs, 48 kHz USB audio with loopback, Bluetooth audio. Install Sound Modules from the browser, swap the Apps that drive the screen and knobs, or write your own in Creator Lab (C++ SDK); the factory App is always one click away.
 - [LIVTRA VELRIX](https://livtramusic.com/products/velrix) — Amp and cab pedal: three-band preamp with gain and master, 9 preamps and 9 cabinets that can be freely combined, import of NAM neural amp models and third-party IRs (1024/2048 samples), a built-in FX loop, and a USB-C audio interface.
 - [LIVTRA AETHER](https://livtramusic.com/products/aether) — Reverb pedal: nine stereo reverbs (Room, Plate, Hall, Concert Hall, Ambience, Cloud, Spring, Shimmer, Swell), pre-delay, a PARA parameter, infinite hold, DSP or pure-analog bypass, and a USB-C audio interface.
 - [LIVTRA CORVEN](https://livtramusic.com/products/corven) — Delay pedal: nine stereo delays (Digital, Tape, BBD, Duck, Smear, Reverse, Ice, Lofi, Mod), Haas widening with ping-pong, tap tempo with freeze, DSP or analog bypass, and a USB-C audio interface.
