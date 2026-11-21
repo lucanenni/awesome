@@ -84,6 +84,9 @@
 - **SLOOP Pro** — isod89's SLOOP groovebox firmware on the SMK-37 (GPL-3.0).
   - [Site](https://isod89.github.io/sloop-pro/) — Project page.
   - [Code](https://github.com/isod89/sloop-pro) — Source repository.
+- **Mewcoder SMK-37** (formerly sloop-smk37) — GPL-3.0 enhanced SLOOP firmware for the SMK-37 Pro, Elite, MKE-P37 and Starrykey 37 Play, in two flavours: SLOOP 2.8.1 as a 6-channel USB audio interface with punch-in effects, and Mewcoder, SLOOP 2.8.4 with a 20-channel vocoder and Beat Repeat (v0.2 for the Elite). **AI-assisted** (commit history includes Claude co-authored commits); back up the keyboard's flash first, as the README says.
+  - [Site](https://milomeowzers.github.io/mewcoder-smk37/) — Browser installer and editor.
+  - [Code](https://github.com/MiloMeowzers/mewcoder-smk37) — Source repository, with the manual (`SMK37.md`) and the v0.2 release.
 - **Clipper for the SMK-37 Pro** — Unofficial port of isod89's Clipper synth (23 engines, 407 factory sounds) to the SMK-37 Pro.
   - [Site](https://davidozz0.github.io/clipper-smk/) — Project page.
   - [Code](https://github.com/davidozz0/clipper-smk) — Source repository.
