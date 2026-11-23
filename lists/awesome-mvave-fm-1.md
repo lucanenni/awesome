@@ -1103,6 +1103,12 @@
 - **BONBLOOP** — GPL-3.0 SLOOP 2.8.5 derivative that adds a SYNTH MODE (three oscillators with wavetables, reverse, envelopes, LFOs, a filter and a built FX chain) plus chord voicings and more delay times. No release in the repo; **AI-assisted** (commit history includes Claude co-authored commits).
   - [Site](https://bonbap.com.br/bonbloop/) — Browser installer.
   - [Code](https://github.com/henribon/bonbloop) — Source repository.
+- **GABBERKIX** — GPL-3.0 hardcore kick designer by Presethead: three layers (909-style midbody, punch, sub) pressed through clippers, played every beat or from keys and MIDI, with a randomizer, 16 presets, MIDI clock and offline rendering of kicks to audio. Built on fm1-base and Felucca's BSP; the installer can put M-VAVE's firmware back; runs on both flash chip variants. v1.0.0 `.fwsc`; **AI-assisted** (commit history includes Claude co-authored commits).
+  - [Site](https://ejtb76.github.io/gabberkix/) — Browser installer and preset renderer.
+  - [Code](https://github.com/ejtb76/gabberkix) — Source repository.
+- **Telegram 101** — GPL-3.0 firmware with a 101-style lead, a Dillo acid bass and an 808 drum machine; "The Band" plays all three from the keys. Build 857 `.fwsc`; no AI markers found in the repository.
+  - [Site](https://thebigbeat.app/fm1/telegram-101/) — Player guide and browser installer.
+  - [Code](https://github.com/TexasRADIO/telegram-101-fm1-firmware) — Source repository and releases.
 - **FM1 Editor & Librarian** — Browser-based voice editor and patch librarian: edits all standard DX7 parameters plus the FM-1's effects chain, manages up to 10 custom banks alongside a catalog of 65 DX7 banks, and transfers patches or full banks over MIDI SysEx. No install required (Web MIDI, Chrome/Edge/Opera/Firefox).
   - [Site](https://fm1-editor.com/) — Live editor and librarian.
   - [Code](https://github.com/benny-sparra/fm1-dx7-patch-importer) — Source repository (also covers backups of all banks, duplicate-patch search, operator-level editing, an effects-chain editor, and `.syx`/`.zip` export; it can also write patches to FM-1+VA).
