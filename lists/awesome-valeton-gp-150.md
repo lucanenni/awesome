@@ -37,6 +37,7 @@
 - [Gear Review: Valeton GP-150 and GP-180 (Bass Musician Magazine)](https://bassmusicianmagazine.com/2026/04/gear-review-valeton-gp-150-and-gp-180-reviews/amp) — April 2026 review of both models, with the built-in expression pedal as the standout feature.
 - [Windows 11 firmware fix for Valeton / Hotone / Sonicake](https://cesardamien.github.io/hotone-family-firmware-fix/) — One-click fix for pedals not detected by Valeton Suite or firmware updates stuck at 0% on Windows 11 ([source](https://github.com/cesardamien/hotone-family-firmware-fix)).
 - [Valeton Suite English Patch](https://github.com/flameshikari/valeton-suite-en) — Four-byte patch that stops the Android Valeton Suite (V2.0.4 and V2.1.0) from forcing its UI into Chinese when it connects to a Chinese-region pedal; unofficial, so use at your own risk.
+- [valeton-gp150-english](https://github.com/Swadesh1997/valeton-gp150-english) — MIT script that builds an English-menu firmware for Chinese-market GP-150 units from the English text already inside Valeton's V1.1.1 firmware. **Experimental and not yet confirmed on hardware** (the author asks for reports); modified firmware can brick the pedal and void the warranty, so follow `FLASHING.md` and use at your own risk; **AI-assisted** (commit history includes Claude co-authored commits).
 
 ## NAM and TONE3000
 
