@@ -29,6 +29,10 @@
 - **SMKSYNTH** — GPL-3.0 performance firmware for the SMK-37 Pro (v1.0.0; Portuguese and English manuals): marries OberVave's synthesis with the DRUM-X engine from JIANT and adds pad-centred performance features (parts, scenes, layers and splits, sequence recording, favorite sounds with one touch). The author tested it on a SMK-37 Pro; the installer accepts only a Pro on official V016 and refuses the Elite, the MKE-P37, the FM-1 and other firmwares. Browser simulator and backup/restore page on the site.
   - [Site](https://4t59m4f784-creator.github.io/SMKSYNTH/) — Installer, simulator and backup page.
   - [Code](https://github.com/4t59m4f784-creator/SMKSYNTH) — Source repository and releases.
+- **ziviSynthi AKS** — GPL-3.0 16 × 16 pin-matrix synthesizer for the SMK-37 Pro inspired by the EMS Synthi AKS (three oscillators, resonant filter, ring modulation, trapezoid envelope, reverb), built on Felucca, with a browser editor and presets; Portuguese and English READMEs. 3.9.6 pre-release `.fwsc`; **flashing, analog output and Bluetooth not yet validated on the device**.
+  - [Site](https://vicvalentim.github.io/ziviSynthi-AKS/) — Project page.
+  - [Code](https://github.com/vicvalentim/ziviSynthi-AKS) — Source repository and releases.
+- [WASWAN Synth](https://github.com/verner-becker/waswan-synth) — GPL-3.0 web synthesizer and DAW (Portuguese) built on SMKSYNTH's DSP, kept unchanged as a submodule, with AudioWorklet, MIDI learn and playing from the SMK-37 Pro; runs as a local simulator, with a 49-page PDF manual. No release; AGENTS.md in the repository, so it is likely **AI-assisted**.
 - **Skiff** — Six-track groovebox firmware (fourteen synth and drum engines, 64-step sequencer, scenes, browser editor) with a dedicated SMK-37 Pro build since 1.4: the 16 pads become the step grid, the four faders a mixer, MIDI OUT with clock. Same installer picks the keyboard build; the Elite and MKE-P37 builds were reported as not yet tried on hardware.
   - [Site](https://illuminus5.github.io/skiff/) — Project page.
   - [Code](https://github.com/illuminus5/skiff) — Source repository, with SMK37.md install notes.
