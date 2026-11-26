@@ -58,6 +58,7 @@
 - [headrush-cleaner](https://github.com/dfeltrin/headrush-cleaner) — Experimental Node.js utility that finds IRs, amp clones and NAM models not referenced by any rig or saved preset. Deleting unused resources asks for confirmation per category but is permanent with no automatic backup, and compatibility across devices and firmware versions is not guaranteed.
 - [DessAmp Player](https://github.com/appdess/dessamp-player) — MIT source for a player of "conditioned" guitar amp models (macOS, iOS, Windows plug-ins) with capture and training tools, plus DessFire, a native amp for the HeadRush Flex Prime HG12 on firmware 5.2.0.2a405ee. Experimental and developed with Codex: the Flex Prime installation kit, factory audio and artwork are supplied separately and model packages carry no redistribution approval; installing on the pedal is at your own risk.
 - [HeadRush Cleaner](https://github.com/dfeltrin/HeadrushCleaner) — Experimental Node.js utility that finds IRs, amp clones, and NAM models not referenced by any rig or saved block; deleting unused resources needs per-category confirmation and is permanent with no automatic backup, so back up first.
+- [HeadRush Control](https://github.com/jtcornett/headrush-control) — MIT zero-dependency Node.js (22+) client, local LAN bridge, CLI and web UI (desktop editor and performance mode) for the Prime, Core and Flex Prime over Wi-Fi/LAN. v1.1.2.
 
 ## Preset Generators and AI
 

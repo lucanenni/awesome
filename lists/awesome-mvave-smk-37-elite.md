@@ -32,6 +32,10 @@
 - **ziviSynthi AKS** — GPL-3.0 16 × 16 pin-matrix synthesizer for the SMK-37 Pro inspired by the EMS Synthi AKS (three oscillators, resonant filter, ring modulation, trapezoid envelope, reverb), built on Felucca, with a browser editor and presets; Portuguese and English READMEs. 3.9.6 pre-release `.fwsc`; **flashing, analog output and Bluetooth not yet validated on the device**.
   - [Site](https://vicvalentim.github.io/ziviSynthi-AKS/) — Project page.
   - [Code](https://github.com/vicvalentim/ziviSynthi-AKS) — Source repository and releases.
+- **Modular Landscape** — GPL-3.0 firmware by Bungle Society for the SMK-37 Elite and FM-1: a bowed folk guitar recorded by composer Alexis Arakis, with film-music effects; one sound, no banks or menus. SMK-37 Elite 1.0 `.fwsc` in release v1.0; **AI-assisted** (commit history includes Claude co-authored commits).
+  - [Site](https://bunglesociety.github.io/modular-landscape/) — Project page.
+  - [Code](https://github.com/bunglesociety/modular-landscape) — Source repository and releases.
+- [PLUMB](https://github.com/jaak-stjaaques/Plumb) — GPL-3.0 pendulum-wave sequencer firmware with v0.3 `.fwsc` builds for the SMK-37 Pro, Elite and MKE-P37 (and the FM-1). **Not yet tested on real hardware**; **AI-assisted** (commit history includes Claude co-authored commits).
 - [WASWAN Synth](https://github.com/verner-becker/waswan-synth) — GPL-3.0 web synthesizer and DAW (Portuguese) built on SMKSYNTH's DSP, kept unchanged as a submodule, with AudioWorklet, MIDI learn and playing from the SMK-37 Pro; runs as a local simulator, with a 49-page PDF manual. No release; AGENTS.md in the repository, so it is likely **AI-assisted**.
 - **Skiff** — Six-track groovebox firmware (fourteen synth and drum engines, 64-step sequencer, scenes, browser editor) with a dedicated SMK-37 Pro build since 1.4: the 16 pads become the step grid, the four faders a mixer, MIDI OUT with clock. Same installer picks the keyboard build; the Elite and MKE-P37 builds were reported as not yet tried on hardware.
   - [Site](https://illuminus5.github.io/skiff/) — Project page.
