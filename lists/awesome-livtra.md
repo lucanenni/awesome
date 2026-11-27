@@ -87,6 +87,10 @@ Official product pages for every LIVTRA device.
   - [Aquarium](https://github.com/k2-k3n/aquarium) — Underwater filter, resonance and echo with a submarine and seascape reacting to the controls.
   - [Robo Voice](https://github.com/k2-k3n/robo-voice) — Turns playing into a fixed-pitch robot voice with vowel, metal and distortion options.
   - [Storm Cloud](https://github.com/k2-k3n/storm-cloud) — Playing dynamics drive rain, wind, thunder and spatial reverb.
+- **isamutheguitar's Resona Box effects** — GPL-3.0 effects for the Resona Box, each a DSP Sound Module plus a companion Box App with MIDI CC control, built from source with Creator Lab (`resona-lab`, SDK Platform API 1); no releases:
+  - [ITG Aurora Delay](https://github.com/isamutheguitar/Resona-ITG-Aurora-Delay) — Pitch-shift delay with the shifter inside the feedback loop (cascading octave climbs and shimmer tails), v0.5.0.
+  - [ITG Whammy](https://github.com/isamutheguitar/Resona-ITG-Whammy) — Low-latency monophonic pitch bend and dive bomb, ±1 or ±2 octaves, v0.5.0.
+  - [ITG Harmonizer](https://github.com/isamutheguitar/Resona-ITG-Harmonizer) — Diatonic harmonizer in four scales with 32 preset slots and a web preset editor, DSP v1.0.0 and App v1.1.0.
 
 ## Manuals
 
