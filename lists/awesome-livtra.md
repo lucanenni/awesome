@@ -91,6 +91,8 @@ Official product pages for every LIVTRA device.
   - [ITG Aurora Delay](https://github.com/isamutheguitar/Resona-ITG-Aurora-Delay) — Pitch-shift delay with the shifter inside the feedback loop (cascading octave climbs and shimmer tails), v0.5.0.
   - [ITG Whammy](https://github.com/isamutheguitar/Resona-ITG-Whammy) — Low-latency monophonic pitch bend and dive bomb, ±1 or ±2 octaves, v0.5.0.
   - [ITG Harmonizer](https://github.com/isamutheguitar/Resona-ITG-Harmonizer) — Diatonic harmonizer in four scales with 32 preset slots and a web preset editor, DSP v1.0.0 and App v1.1.0.
+  - [ITG Drop](https://github.com/isamutheguitar/Resona-ITG-Drop) — Low-latency polyphonic drop tuning, with an algorithm spec PDF, DSP v0.5.0 and App v0.5.1.
+  - [ITG Chaos Freeze](https://github.com/isamutheguitar/Resona-ITG-Chaos-Freeze) — Polyphonic spectral-freeze sustainer with granular pad and destroy modes, DSP v0.5.0 and App v0.5.1.
 
 ## Manuals
 
